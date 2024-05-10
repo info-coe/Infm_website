@@ -6,7 +6,8 @@ export default function Home(props) {
     console.log(data);
   return (
     <div>
-            <Navigation/>
+      <Navigation/>
+      <div></div>
     </div>
   )
 }
