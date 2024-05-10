@@ -6,7 +6,6 @@ import { Query } from 'react-apollo';
 import DATA_QUERY from './Data/index';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from "./maincomponents/HOME/home";
 import Notfound from "./Notfound";
