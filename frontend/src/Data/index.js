@@ -16,6 +16,10 @@ const DATA_QUERY = gql`
       aboutUsContent3
       aboutUsContent4
       aboutUsContent5
+      aboutUsVisionHeading
+      aboutUsVisionContent
+      aboutUsMissionHeading
+      aboutUsMissionContent
     }
   }
 }

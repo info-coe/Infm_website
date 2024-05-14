@@ -1,9 +1,10 @@
 import React from 'react';
+import CircleImageCard from '../../reusablecomponents/CircleImageCard';
 
 const Services = () => {
     return (
         <div>
-            <h1>Services</h1>
+            <CircleImageCard/>
         </div>
     );
 };

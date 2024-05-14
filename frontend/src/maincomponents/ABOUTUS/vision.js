@@ -1,9 +1,14 @@
 import React from 'react';
+import Zoomin from "../../reusablecomponents/zoomin";
 
-const Vision = () => {
+const Vision = (props) => {
+    const data = props.product;
+    const vision = [data.aboutUsVisionContent]
     return (
         <div>
-            <h1>Vision</h1>
+            <div>
+      <Zoomin heading={data.aboutUsVisionHeading} content={vision} />
+    </div>
         </div>
     );
 };
