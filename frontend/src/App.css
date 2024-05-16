@@ -75,4 +75,9 @@
   transform: rotate(90deg); /* Rotate the icon to 90 degrees */
 }
 
+/*Industrie page gradient*/
+
+.gradient-bg{
+  color: red;
+}
 

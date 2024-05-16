@@ -63,7 +63,8 @@ function App() {
         if (error) return <div>Error Fetching Data</div>;
 
         const res = data.assets[0];
-        // console.log(res.aboutUs.id);
+       const industries=data.assets[1]
+      console.log(industries.industriesEnergyUtilities)
 
         return (
           <>
@@ -78,7 +79,7 @@ function App() {
 
                 <Route
                   path="Airline-Travel-Logistics"
-                  element={<AirlineTravelLogistics />}
+                  element={<AirlineTravelLogistics key={industries.industrie_page.id} product={industries} />}
                 ></Route>
                 <Route
                   path="Banking-Insurance-Services"
@@ -90,7 +91,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Energy-Utilities"
-                  element={<EnergyUtilities />}
+                  element={<EnergyUtilities key={industries.industriesEnergyUtilities.id} product={industries} />}
                 ></Route>
                 <Route
                   path="Healthcare-LifeSciences"
