@@ -74,8 +74,8 @@ function App() {
                 <Route path="/" element={<Home key={res.homeComponent.id} product={res.homeComponent}/>}></Route>
 
                 <Route path="Aboutus" element={<Aboutus key={res.aboutUs.id} product={res.aboutUs}/>}></Route>
-                <Route path="Vision" element={<Vision />}></Route>
-                <Route path="Mission" element={<Mission />}></Route>
+                <Route path="Vision" element={<Vision key={res.aboutUs.id} product={res.aboutUs}/>}></Route>
+                <Route path="Mission" element={<Mission  key={res.aboutUs.id} product={res.aboutUs} />}></Route>
 
                 <Route
                   path="Airline-Travel-Logistics"

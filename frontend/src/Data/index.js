@@ -1,5 +1,6 @@
 import { gql } from "graphql-tag";
 const DATA_QUERY = gql`
+
   {
     assets {
       homeComponent {
@@ -71,6 +72,28 @@ const DATA_QUERY = gql`
         aboutUsContent4
         aboutUsContent5
       }
+
+{
+  assets {
+    homeComponent {
+      carousal1Heading
+      carousal1Content
+      carousal2Heading
+      carousal2Content
+    }
+    aboutUs {
+      id
+      aboutUsHeading
+      aboutUsContent
+      aboutUsContent2
+      aboutUsContent3
+      aboutUsContent4
+      aboutUsContent5
+      aboutUsVisionHeading
+      aboutUsVisionContent
+      aboutUsMissionHeading
+      aboutUsMissionContent
+
     }
   }
 `;
