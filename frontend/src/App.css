@@ -77,8 +77,9 @@
 }
 
 .btnClose.rotate {
-  transform: rotate(90deg); 
+  transform: rotate(90deg); /* Rotate the icon to 90 degrees */
 }
+
 
 /* CustomerRelationshipManagement.css */
 @keyframes ease-in-out-up-down {
