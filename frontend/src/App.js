@@ -79,7 +79,7 @@ function App() {
 
                 <Route
                   path="Airline-Travel-Logistics"
-                  element={<AirlineTravelLogistics key={industries.industrie_page.id} product={industries} />}
+                  element={<AirlineTravelLogistics  />}
                 ></Route>
                 <Route
                   path="Banking-Insurance-Services"
@@ -99,7 +99,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Manufacturing-Automotive"
-                  element={<ManufacturingAutomotive />}
+                  element={<ManufacturingAutomotive  key={industries.industrie_page.id} product={industries}/>}
                 ></Route>
                 <Route path="Media-Telecom" element={<MediaTelecom />}></Route>
 

@@ -9,6 +9,15 @@ const DATA_QUERY = gql`
         carousal2Heading
         carousal2Content
       }
+      aboutUs {
+        id
+        aboutUsHeading
+        aboutUsContent
+        aboutUsContent2
+        aboutUsContent3
+        aboutUsContent4
+        aboutUsContent5
+      }
 
       industrie_page {
         id
@@ -61,39 +70,7 @@ const DATA_QUERY = gql`
           url
         }
       }
-
       url
-      aboutUs {
-        id
-        aboutUsHeading
-        aboutUsContent
-        aboutUsContent2
-        aboutUsContent3
-        aboutUsContent4
-        aboutUsContent5
-      }
-
-{
-  assets {
-    homeComponent {
-      carousal1Heading
-      carousal1Content
-      carousal2Heading
-      carousal2Content
-    }
-    aboutUs {
-      id
-      aboutUsHeading
-      aboutUsContent
-      aboutUsContent2
-      aboutUsContent3
-      aboutUsContent4
-      aboutUsContent5
-      aboutUsVisionHeading
-      aboutUsVisionContent
-      aboutUsMissionHeading
-      aboutUsMissionContent
-
     }
   }
 `;

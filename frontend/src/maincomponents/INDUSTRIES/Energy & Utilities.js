@@ -28,7 +28,7 @@ const EnergyUtilities = ({ product }) => {
   AOS.init({
     offset: 120,
     delay: 1,
-    duration: 2000,
+    duration: 3000,
     once: false,
     mirror: true,
   });
@@ -66,7 +66,7 @@ const EnergyUtilities = ({ product }) => {
         </div>
         <div className="row justify-content-md-center">
           {managementData.map((curr, index) => (
-            <div
+            <div data-aos="flip-left"
               className="col-md-5 m-3 border rounded position-relative"
               key={index}
             >
