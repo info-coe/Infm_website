@@ -18,6 +18,7 @@ const DATA_QUERY = gql`
       carousal7Content
       carousal7Heading
       id
+      homecarouseljson
     }
     aboutUs {
       id

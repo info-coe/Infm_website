@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link} from "react-router-dom";
 
-const InfoLogo = () => {
+const InfoLogo = (props) => {
     return (
         <>
              <Link to="/">
                 <img 
-                src='https://infomericainc.com/Content/images/logo.png' 
+                src={props.logosrc}
                 height="50px"  
                 alt='Logo' 
                 className='infmlogo'

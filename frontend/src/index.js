@@ -5,7 +5,9 @@ import { ApolloProvider } from "react-apollo";
 import ApolloClient from "apollo-boost";
 
 const client = new ApolloClient({
+  // uri: "https://api-ap-south-1.hygraph.com/v2/clvxn4xho09fg07uymjmp5d2l/master"
   uri: "https://api-ap-south-1.hygraph.com/v2/clvxn4xho09fg07uymjmp5d2l/master"
+
 });
 
 console.log(client)
