@@ -65,18 +65,18 @@ function App() {
         if (error) return <div>Error Fetching Data</div>;
 
         const res = data.assets[0];
-       const industries=data.assets[1]
+      //  const industries=data.assets[1]
 
         // console.log(res.aboutUs.id);
-        const nav = data.assets[3]
+        // const nav = data.assets[3]
         // console.log(nav)
-        const res1 = data.assets[2]
+        // const res1 = data.assets[2]
 
         return (
           <>
             <BrowserRouter>
               {/* <Scrolltotop /> */}
-              <Navigation key={nav.navbar.id} product={nav.navbar}/>
+              <Navigation key={res.navbar.id} product={res.navbar}/>
               <Routes>
                 <Route path="/" element={<Home key={res.homeComponent.id} product={res.homeComponent}/>}></Route>
 
@@ -98,7 +98,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Energy-Utilities"
-                  element={<EnergyUtilities key={industries.industriesEnergyUtilities.id} product={industries} />}
+                  element={<EnergyUtilities key={res.industriesEnergyUtilities.id} product={res} />}
                 ></Route>
                 <Route
                   path="Healthcare-LifeSciences"
@@ -106,11 +106,11 @@ function App() {
                 ></Route>
                 <Route
                   path="Manufacturing-Automotive"
-                  element={<ManufacturingAutomotive  key={industries.industrie_page.id} product={industries}/>}
+                  element={<ManufacturingAutomotive  key={res.industrie_page.id} product={res}/>}
                 ></Route>
                 <Route path="Media-Telecom" element={<MediaTelecom />}></Route>
 
-                <Route path="Services" element={<Services key={res1.serviceComponent}  product={res1.serviceComponent}/>}></Route>
+                <Route path="Services" element={<Services key={res.serviceComponent}  product={res.serviceComponent}/>}></Route>
                 <Route
                   path="Application-Services"
                   element={<ApplicationServices />}
@@ -126,12 +126,12 @@ function App() {
                 ></Route>
                 <Route
                   path="CRM"
-                  element={<CustomerRelationshipManagement key={res1.serviceComponent}  product={res1.serviceComponent}/>}
+                  element={<CustomerRelationshipManagement key={res.serviceComponent}  product={res.serviceComponent}/>}
                 ></Route>
                 <Route path="Data-Services" element={<DataServices />}></Route>
                 <Route
                   path="Digital-Transformation-Services"
-                  element={<DigitalTransformationServices key={res1.serviceComponent}  product={res1.serviceComponent} />}
+                  element={<DigitalTransformationServices key={res.serviceComponent}  product={res.serviceComponent} />}
                 ></Route>
                 <Route
                   path="Enterprise-Portal"
@@ -149,7 +149,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Security-Architecture"
-                  element={<SecurityArchitecture />}
+                  element={<SecurityArchitecture key={res.serviceComponent}  product={res.serviceComponent} />}
                 ></Route>
                 <Route
                   path="Software-Sales"

@@ -37,7 +37,7 @@ const AirlineTravelLogistics = ({ product }) => {
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <div>
-          <img src={url} className="w-full" />
+          <img src={url} className="w-full" alt="no-display" />
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
@@ -56,7 +56,7 @@ const AirlineTravelLogistics = ({ product }) => {
               <img
                 src={industriesImage.url}
                 className="w-100"
-                alt="Image"
+                alt="no-display"
                 style={{ height: "500px" }}
               />
               <p
@@ -145,7 +145,7 @@ const AirlineTravelLogistics = ({ product }) => {
             ))}
           </div>
           <div className="" data-aos="zoom-in">
-            <img src={industriesImage12.url} className="img-fluid w-50" />
+            <img src={industriesImage12.url} className="img-fluid w-50" alt="no-display" />
           </div>
           <div data-aos="fade-up">
             {dataServices.map((curr) => (

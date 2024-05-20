@@ -16,6 +16,7 @@ const ManufacturingAutomotive = ({ product }) => {
     managementData,
     technology,
     offerings,
+    soloutionImage,
     industriesImage,
     industriesImage12,
     industriesDetail,
@@ -33,12 +34,12 @@ const ManufacturingAutomotive = ({ product }) => {
   });
   AOS.refresh();
 
-  const { url} = product;
+  // const { url} = product;
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <div>
-          <img src={url} className="w-full"/>
+          <img src={soloutionImage.url} className="w-full" alt="no-display"/>
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
@@ -57,7 +58,7 @@ const ManufacturingAutomotive = ({ product }) => {
               <img
                 src={industriesImage.url}
                 className="w-100"
-                alt="Image"
+                alt="no-display"
                 style={{ height: "500px" }}
               />
               <p
@@ -139,14 +140,14 @@ const ManufacturingAutomotive = ({ product }) => {
           <span style={{ color: "#FF0000" }}> {technology}</span>
           <span style={{ color: " #0f62fe" }}>{offerings}</span>
         </div>
-        <div className="d-flex container text-center pt-5">
+        <div className="d-md-flex container text-center pt-5">
           <div className="" data-aos="fade-up">
             {cloudComputing.map((curr) => (
               <p className="border rounded p-2">{curr.m1}</p>
             ))}
           </div>
           <div className="" data-aos="zoom-in">
-            <img src={industriesImage12.url} className="img-fluid w-50" />
+            <img src={industriesImage12.url} className="img-fluid w-50" alt="no-display" />
           </div>
           <div data-aos="fade-up">
             {dataServices.map((curr) => (

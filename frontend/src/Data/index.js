@@ -115,8 +115,11 @@ const DATA_QUERY = gql`
       serviceCrmServicesData
       serviceDtsContentAndContent
       allServicesData
+      serviceSecurityHeadingAndContent
+      securityImage {
+        url
+      }
     }
-  }
   industrie_page {
     id
     industries1Heading
@@ -136,11 +139,14 @@ const DATA_QUERY = gql`
     industriesImage {
       id
       url
+    }soloutionImage {
+      url
     }
     industriesImage12 {
       id
       url
     }
+
   }
 
   industriesEnergyUtilities {
@@ -167,8 +173,12 @@ const DATA_QUERY = gql`
     industriesImage12 {
       url
     }
+    soloutionImage {
+      url
+    }
   }
   url
+}
 
 }
 `;

@@ -13,9 +13,9 @@ const EnergyUtilities = ({ product }) => {
     industries12Heading,
     industriesText2,
     managementData,
-    industriesImage,
     industriesImage12,
     technology,
+    soloutionImage,
     offerings,
     cloudComputing,
     dataServices,
@@ -39,7 +39,7 @@ const EnergyUtilities = ({ product }) => {
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <div>
-          <img src={industriesImage.url} className="w-full" />
+          <img src={soloutionImage.url} className="w-full"  alt="no-display"/>
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
@@ -80,7 +80,7 @@ const EnergyUtilities = ({ product }) => {
                     border: "2px solid #ccc",
                     borderRadius: "5px",
                   }}
-                  alt="Customized Image"
+                  alt="Customized"
                 />
                </div>
                 <ul className="font-weight-normal">
@@ -167,7 +167,7 @@ const EnergyUtilities = ({ product }) => {
             ))}
           </div>
           <div className="" data-aos="zoom-in">
-            <img src={industriesImage12.url} className="img-fluid w-50" />
+            <img src={industriesImage12.url} className="img-fluid w-50" alt="no-display" />
           </div>
           <div data-aos="fade-up">
             {dataServices.map((curr) => (
