@@ -1,12 +1,12 @@
 import React from 'react'
-import Navigation from '../../reusablecomponents/navbar';
+// import Navigation from '../../reusablecomponents/navbar';
 
 export default function Home(props) {
-    const data = props.product;
-    console.log(data);
+    // const data = props.product;
+    // console.log(data);
   return (
     <div>
-      <Navigation/>
+      {/* <Navigation/> */}
       <div></div>
     </div>
   )

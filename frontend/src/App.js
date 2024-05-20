@@ -54,6 +54,8 @@ import Csr from "./maincomponents/CSR/csr";
 import Careers from "./maincomponents/CAREERS/careers";
 import Hyderabad from "./maincomponents/CAREERS/hyderabad";
 import Bangalore from "./maincomponents/CAREERS/bangalore";
+import Navigation from "./reusablecomponents/navbar";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
@@ -64,11 +66,15 @@ function App() {
 
         const res = data.assets[0];
         // console.log(res.aboutUs.id);
+        const nav = data.assets[3]
+        // console.log(nav)
+        const res1 = data.assets[2]
 
         return (
           <>
             <BrowserRouter>
               {/* <Scrolltotop /> */}
+              <Navigation key={nav.navbar.id} product={nav.navbar}/>
               <Routes>
                 <Route path="/" element={<Home key={res.homeComponent.id} product={res.homeComponent}/>}></Route>
 
@@ -102,7 +108,7 @@ function App() {
                 ></Route>
                 <Route path="Media-Telecom" element={<MediaTelecom />}></Route>
 
-                <Route path="Services" element={<Services />}></Route>
+                <Route path="Services" element={<Services key={res1.serviceComponent}  product={res1.serviceComponent}/>}></Route>
                 <Route
                   path="Application-Services"
                   element={<ApplicationServices />}
@@ -118,12 +124,12 @@ function App() {
                 ></Route>
                 <Route
                   path="CRM"
-                  element={<CustomerRelationshipManagement />}
+                  element={<CustomerRelationshipManagement key={res1.serviceComponent}  product={res1.serviceComponent}/>}
                 ></Route>
                 <Route path="Data-Services" element={<DataServices />}></Route>
                 <Route
                   path="Digital-Transformation-Services"
-                  element={<DigitalTransformationServices />}
+                  element={<DigitalTransformationServices key={res1.serviceComponent}  product={res1.serviceComponent} />}
                 ></Route>
                 <Route
                   path="Enterprise-Portal"

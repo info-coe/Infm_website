@@ -1,7 +1,6 @@
 
 .zoom-in{
   font-size: 16px;
-  /* color: blue; */
   margin: 20px 150px;
 }
 
@@ -15,11 +14,12 @@
   height: 50px;
   border-radius: 30px;
   font-size: 30px;
-  padding: 5px;   
+  padding: 5px;
   background-color: #E8E8E8;
   color: #FE0000;
   cursor: pointer;
   text-align: center;
+  
 }
 #offcanvasRight{
   width: 290px;
@@ -38,20 +38,25 @@
   color: white;
   transition: 0.4s;
 }
-.sidenavbardiv a:hover{
+.sidenavbardiv a:hover, #navbarNavDropdown a:hover{
   color: red;
   transition: 0.4s;
 }
+
 .aboutchilds {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease-out;
+  transition: max-height 0.3s ease-out;
 }
 
 .aboutchilds.show {
-  max-height: 200px; /* Adjust this value according to your content */
+  max-height: 1000px; 
   transition: max-height 0.9s ease-in-out;
 }
+.aboutchilds a{
+  line-height: 15px;
+} 
+
 
 .rotate-down {
   transform: rotate(90deg);
@@ -63,16 +68,28 @@
 }
 .btnClose {
   cursor: pointer;
-  transition: transform 0.3s ease; /* Apply transition to the rotation */
+  transition: transform 0.3s ease; 
 }
 
 .btnClose:hover {
-  color: blue; /* Change background color on hover */
+  color: blue; 
   
 }
 
 .btnClose.rotate {
-  transform: rotate(90deg); /* Rotate the icon to 90 degrees */
+  transform: rotate(90deg); 
 }
 
+/* CustomerRelationshipManagement.css */
+@keyframes ease-in-out-up-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
 
+.animate-image {
+  animation: ease-in-out-up-down 2s infinite;
+}

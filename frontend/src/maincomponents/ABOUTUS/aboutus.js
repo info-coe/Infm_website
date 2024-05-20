@@ -11,9 +11,15 @@ const Aboutus = (props) => {
     data.aboutUsContent5,
   ];
   return (
+    <>
+    <div>
+       <img src={data.aboutUsmainimage.url} width='100%' alt='no-display' className="mainimg img-fluid d-none d-md-block" />
+            <img src={data.aboutUsSubimage.url} alt='no-display' className="sunimg img-fluid d-md-none" />
     <div>
       <Zoomin heading={data.aboutUsHeading} content={content} />
     </div>
+    </div>
+    </>
   );
 };
 
