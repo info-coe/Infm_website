@@ -137,12 +137,16 @@ const DATA_QUERY = gql`
     industriesDetail
     industrieContactText
     industriTodaytext
+    soloutionImage {
+      url
+    }
     industriesImage {
       id
       url
     }soloutionImage {
       url
     }
+
     industriesImage12 {
       id
       url
@@ -167,6 +171,9 @@ const DATA_QUERY = gql`
     industrieContactText
     industriTodaytext
     managementData
+    soloutionImage {
+      url
+    }
 
     industriesImage {
       url
