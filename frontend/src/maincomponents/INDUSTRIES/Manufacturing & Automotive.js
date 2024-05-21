@@ -21,7 +21,7 @@ const ManufacturingAutomotive = ({ product }) => {
     industriesDetail,
     industrieContactText,
     industriTodaytext,
-    soloutionImage,
+    // soloutionImage,
   } = product.industrie_page;
   console.log(industriesText);
 
@@ -40,7 +40,7 @@ const ManufacturingAutomotive = ({ product }) => {
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
-      <div id='enery'>
+        <div id="enery">
           {/* <img
             src={soloutionImage.url}
             alt=""

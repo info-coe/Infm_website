@@ -65,14 +65,14 @@ function App() {
         if (error) return <div>Error Fetching Data</div>;
 
         const res = data.assets[0];
-       const industries=data.assets[1]
+      //  const industries=data.assets[1]
 
         // console.log(res.aboutUs.id);
-        const nav = data.assets[3]
+        // const nav = data.assets[3]
         // console.log(nav)
-        const res1 = data.assets[2]
+        // const res1 = data.assets[2]
 
-
+// healthcareLifeSciences
       console.log()
 
         return (
@@ -93,7 +93,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Banking-Insurance-Services"
-                  element={<BankingInsuranceServices />}
+                  element={<BankingInsuranceServices key={res.bankingAndInsurance.id} product={res}/>}
                 ></Route>
                 <Route
                   path="Consumer-Retail"
@@ -105,14 +105,14 @@ function App() {
                 ></Route>
                 <Route
                   path="Healthcare-LifeSciences"
-                  element={<HealthcareLifeSciences />}
+                  element={<HealthcareLifeSciences  key={res.healthcareLifeSciences.id} product={res}/>}
                 ></Route>
                 <Route
                   path="Manufacturing-Automotive"
                   element={<ManufacturingAutomotive  key={res.industrie_page.id} product={res}/>}
                 ></Route>
                 <Route path="Media-Telecom" element={<MediaTelecom />}></Route>
-
+{/*  */}
                 <Route path="Services" element={<Services key={res.serviceComponent}  product={res.serviceComponent}/>}></Route>
                 <Route
                   path="Application-Services"
