@@ -1,19 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const EnergyUtilities = ({ product }) => {
-  useEffect(() => {
-    AOS.init({
-      offset: 120,
-      delay: 1,
-      duration: 3000,
-      once: false,
-      mirror: true,
-    });
-    AOS.refresh();
-  }, []);
+  AOS.init({
+    offset: 120,
+    delay: 1,
+    duration: 3000,
+    once: true
+  });
 
   const {
     industries1Heading,
@@ -26,7 +22,7 @@ const EnergyUtilities = ({ product }) => {
     managementData,
     industriesImage12,
     technology,
-    soloutionImage,
+    // soloutionImage,
     offerings,
     cloudComputing,
     dataServices,
@@ -39,19 +35,19 @@ const EnergyUtilities = ({ product }) => {
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
-        <div>
-          <img
+        <div >
+          {/* <img
             src={soloutionImage.url}
             alt=""
             className="w-100 mainimg img-fluid d-md-block"
-          />
+          /> */}
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
             <span style={{ color: " #0f62fe " }}>{industries1Heading} </span>
             <span style={{ color: "#FF0000" }}>{industries11Heading}</span>
           </div>
-          <div className="container font-weight-normal fs-5 pb-5">
+          <div className="container font-weight-normal fs-md-5 pb-5">
             <p>{industriesText}</p>
             <p>{industriesText11}</p>
           </div>
@@ -72,7 +68,7 @@ const EnergyUtilities = ({ product }) => {
         <div className="row justify-content-md-center">
           {managementData.map((curr, index) => (
             <div
-              data-aos="flip-left"
+              data-aos="zoom-in"
               className="col-md-5 m-3 border rounded position-relative"
               key={index}
             >
@@ -141,7 +137,7 @@ const EnergyUtilities = ({ product }) => {
               </p>
             ))}
           </div>
-          <div className="col-12 col-md-4" data-aos="zoom-in">
+          <div className="col-12 col-md-4">
             <img
               src={industriesImage12.url}
               className="img-fluid w-50"

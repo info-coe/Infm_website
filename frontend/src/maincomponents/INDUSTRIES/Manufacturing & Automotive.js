@@ -2,7 +2,7 @@ import React from "react";
 import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS for animations
-import Zoomin from "../../reusablecomponents/zoomin";
+// import Zoomin from "../../reusablecomponents/zoomin";
 
 const ManufacturingAutomotive = ({ product }) => {
   const {
@@ -30,7 +30,7 @@ const ManufacturingAutomotive = ({ product }) => {
       offset: 120,
       delay: 1,
       duration: 2000,
-      once: false,
+      once: true,
       mirror: true,
     });
     AOS.refresh();
@@ -40,8 +40,12 @@ const ManufacturingAutomotive = ({ product }) => {
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
-        <div>
-          <img src={soloutionImage.url} className="w-full" alt=""/>
+      <div id='enery'>
+          {/* <img
+            src={soloutionImage.url}
+            alt=""
+            className="w-100 mainimg img-fluid d-md-block"
+          /> */}
         </div>
       </div>
 
@@ -72,7 +76,7 @@ const ManufacturingAutomotive = ({ product }) => {
 
         <div className="col-md-6" data-aos="zoom-in-up">
           <div className="p-4">
-            <p className="fs-5">{industriesText2}</p>
+            <p className="fs-md-5">{industriesText2}</p>
           </div>
         </div>
       </div>
@@ -90,8 +94,8 @@ const ManufacturingAutomotive = ({ product }) => {
             <div
               className="d-md-flex flex-md-row flex-column"
               data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
               {managementData.map((curr) => (
                 <div className="text-white">
@@ -139,13 +143,13 @@ const ManufacturingAutomotive = ({ product }) => {
             </div>
           </div>
         </div>
-        <div className="d-flex container text-center pt-5">
+        <div className="d-flex container text-center pt-5 flex-wrap">
           <div className="" data-aos="fade-up">
             {cloudComputing.map((curr) => (
               <p className="border rounded p-2">{curr.m1}</p>
             ))}
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center" data-aos="zoom-in">
             <img
               src={industriesImage12.url}
               className="img-fluid"

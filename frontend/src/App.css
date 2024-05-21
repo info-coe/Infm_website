@@ -101,3 +101,11 @@ body{
 #industries{
   background-image: url('https://infomericainc.com/Content/images/banner-8.jpg');
 }
+#enery{
+  background-image: url('https://infomericainc.com/Content/images/industries-banner.jpg');
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+}
