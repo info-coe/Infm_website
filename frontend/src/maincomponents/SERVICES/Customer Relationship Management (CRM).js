@@ -5,7 +5,7 @@ import CrmServices from '../../reusablecomponents/CrmServices';
 
 const CustomerRelationshipManagement = (props) => {
   const data = props.product;
-  const contentData = data.serviceCrmHeadingAndContent[0];
+  const contentData = data.servicesAllHeadingAndContent[0];
   const serviceData = data.serviceCrmServicesData
 
   return (

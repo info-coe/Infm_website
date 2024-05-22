@@ -44,6 +44,12 @@ body{
   color: red;
   transition: 0.4s;
 }
+#navbarNavDropdown .dropdown a:hover{
+  color: black;
+}
+#navbarNavDropdown .dropdown a:active{
+  background-color: white;
+}
 
 .aboutchilds {
   max-height: 0;
@@ -109,3 +115,82 @@ body{
   background-position: center;
  
 }
+
+/* Animation to the dropdown menus */
+@keyframes scaleDown {
+  0% {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.dropdown-menu {
+  display: none; 
+  animation: scaleDown 400ms ease-out;
+  transform-origin: top center;
+  background-color: #f8f9fa; 
+  border-radius: 0 !important; 
+  border-top: 3px solid blue !important;
+  outline: none !important;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-menu.show {
+  display: block; 
+}
+
+.dropdown-item {
+  background-color: #f8f9fa;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef;
+}
+
+.dropdown-menu .dropdown-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.dropdown-menu .dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: -61%;
+  margin-top: 0;
+}
+
+/* Dropdown hover line animation */
+ .dropdown-menu li {
+    margin-bottom: 2px;
+}
+.lineAnimation {
+    display: inline-block;
+    color:blue;
+    text-decoration: none;
+}
+.lineAnimation::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: blue;
+    transition: width .9s;
+}
+.lineAnimation:hover::after {
+    width: 100%;
+    transition: width .9s;
+}
+
+/* .marquee{
+  font-size: 55px;
+  color: rgb(235, 230, 230);
+  font-weight: bold;
+} */
