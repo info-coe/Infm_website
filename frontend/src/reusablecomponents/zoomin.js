@@ -14,7 +14,7 @@ const Zoomin = (props) => {
                     <p key={index}>{item}</p>
                 ))}
             </div>
-        </div>
+        </div>  
     );
 };
 

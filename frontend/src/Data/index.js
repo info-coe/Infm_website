@@ -1,4 +1,4 @@
-import {gql} from "graphql-tag";
+import { gql } from "graphql-tag";
 const DATA_QUERY = gql`
 {
   assets {
@@ -18,6 +18,8 @@ const DATA_QUERY = gql`
       carousal7Content
       carousal7Heading
       id
+      homecarouseljson
+      contentslider
     }
     aboutUs {
       id
@@ -112,8 +114,16 @@ const DATA_QUERY = gql`
       dtsImage {
         url
       }
+<<<<<<< HEAD
       serviceCrmServicesData
       allServicesData
+=======
+      
+      serviceCrmServicesData
+      
+      allServicesData
+      servicesAllHeadingAndContent
+>>>>>>> 1f3a6bc444c96228fe18857fea5fae805af29a1d
       securityImage {
         url
       }
@@ -136,50 +146,120 @@ const DATA_QUERY = gql`
     industriesDetail
     industrieContactText
     industriTodaytext
+    soloutionImage {
+      url
+    }
     industriesImage {
       id
       url
     }soloutionImage {
       url
     }
-    industriesImage12 {
+
+        industriesImage12 {
+          id
+          url
+        }
+      }
+
+      industriesEnergyUtilities {
+        id
+        industries1Heading
+        industries11Heading
+        industriesText
+        industriesText11
+        industries1Heading2
+        industries12Heading
+        industriesText2
+        technology
+        offerings
+        cloudComputing
+        dataServices
+        industriesDetail
+        industrieContactText
+        industriTodaytext
+        managementData
+        soloutionImage {
+          url
+        }
+
+        industriesImage {
+          url
+        }
+        industriesImage12 {
+          url
+        }
+        soloutionImage {
+          url
+        }
+      }
+
+      
+      bankingAndInsurance{
+        id
+     industries1Heading
+     industries11Heading
+     industriesText
+     industriesText11
+     industries1Heading2
+     industries12Heading
+     industriesText2
+     technology
+     offerings
+     cloudComputing
+     dataServices
+     industriesDetail
+     industrieContactText
+     industriTodaytext
+     managementData
+     soloutionImage {
+       url
+     }
+ 
+     industriesImage {
+       url
+     }
+     industriesImage12 {
+       url
+     }
+     soloutionImage {
+       url
+     }
+     }
+   
+     healthcareLifeSciences{
       id
+      industries1Heading
+      industries11Heading
+      industriesText
+      industriesText11
+      industries1Heading2
+      industries12Heading
+      industriesText2
+      technology
+      offerings
+      cloudComputing
+      dataServices
+      industriesDetail
+      industrieContactText
+      industriTodaytext
+      managementData
+      soloutionImage {
+        url
+      }
+      industriesImage {
+        url
+      }
+      industriesImage12 {
+        url
+      }
+      soloutionImage {
+        url
+      }
+    }
+    
       url
     }
-
   }
-
-  industriesEnergyUtilities {
-    id
-    industries1Heading
-    industries11Heading
-    industriesText
-    industriesText11
-    industries1Heading2
-    industries12Heading
-    industriesText2
-    technology
-    offerings
-    cloudComputing
-    dataServices
-    industriesDetail
-    industrieContactText
-    industriTodaytext
-    managementData
-
-    industriesImage {
-      url
-    }
-    industriesImage12 {
-      url
-    }
-    soloutionImage {
-      url
-    }
-  }
-  url
-}
-
-}
 `;
 export default DATA_QUERY;

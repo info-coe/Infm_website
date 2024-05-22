@@ -71,16 +71,7 @@ function App() {
         // const nav = data.assets[3]
         // console.log(nav)
         // const res1 = data.assets[2]
-        // const update = {
-        //   homeComponent: { id: res.homeComponent.id, name: res.homeComponent },
-        //   serviceComponent: { id: res.serviceComponent.id, name: res.serviceComponent },
-        
-        // }
-        const update = {
-          homeComponent: { id: res.homeComponent.id, name: res.homeComponent },
-          serviceComponent: { id: res.serviceComponent.id, name: res.serviceComponent },
-        };
-        
+
         return (
           <>
             <BrowserRouter>
@@ -108,7 +99,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Banking-Insurance-Services"
-                  element={<BankingInsuranceServices />}
+                  element={<BankingInsuranceServices key={res.bankingAndInsurance.id} product={res}/>}
                 ></Route>
                 <Route
                   path="Consumer-Retail"
@@ -120,7 +111,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Healthcare-LifeSciences"
-                  element={<HealthcareLifeSciences />}
+                  element={<HealthcareLifeSciences  key={res.healthcareLifeSciences.id} product={res}/>}
                 ></Route>
                 <Route
                   path="Manufacturing-Automotive"
@@ -128,7 +119,7 @@ function App() {
                 ></Route>
                 <Route path="Media-Telecom" element={<MediaTelecom />}></Route>
 
-                <Route path="Services" element={<Services key={res.serviceComponent.id}  product={res.serviceComponent}/>}></Route>
+                <Route path="Services" element={<Services key={res.serviceComponent}  product={res.serviceComponent}/>}></Route>
                 <Route
                   path="Application-Services"
                   element={<ApplicationServices />}
