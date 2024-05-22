@@ -11,8 +11,8 @@ const ModelsPoints = ({ contents }) => {
           <div className="col-md-12">
             <div style={{ margin: '20px ' }}>
               <h5><strong style={{ color: '#030250' }}>{content.mheading}</strong></h5>
-              <p style={{ color: '#030250', fontSize: '18px'}}>{content.mcontent1}</p>
-              <p style={{ color: '#030250', fontSize: '18px'}}>{content.mcontent2}</p>
+              <p style={{ color: '#030250', fontSize: '17px'}}>{content.mcontent1}</p>
+              <p style={{ color: '#030250', fontSize: '17px'}}>{content.mcontent2}</p>
             </div>
           </div>
             <div style={{ margin: '20px '}}>

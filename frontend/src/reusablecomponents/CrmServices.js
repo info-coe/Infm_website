@@ -8,13 +8,13 @@ const CrmServices = ({ serviceData }) => {
           <div className="col-md-12">
             <h3 className='text-primary mb-4'>{service.mainHead}</h3>
             <h5 className='text-danger'>{service.subHead}</h5>
-            <p className='fs-5 text-secondary'><strong>Objective: </strong>{service.objective}</p>
+            <p className='text-secondary' style={{fontSize:'17px'}}><strong>Objective: </strong>{service.objective}</p>
             {service.approach ? (
-              <p className='fs-5 text-secondary'>
+              <p className='text-secondary' style={{fontSize:'17px'}}>
                 <strong>Approach: </strong>{service.approach}
               </p>
             ) : (null)}
-            <p className='fs-5 text-secondary'><strong>Outcome: </strong>{service.outcome}</p>
+            <p className='text-secondary' style={{fontSize:'17px'}}><strong>Outcome: </strong>{service.outcome}</p>
             </div>
         </div>
       ))}

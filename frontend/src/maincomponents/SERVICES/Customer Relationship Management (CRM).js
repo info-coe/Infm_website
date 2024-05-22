@@ -23,7 +23,7 @@ const CustomerRelationshipManagement = (props) => {
       <div className="container mt-5">
         <div className="row align-items-center">
           <div className="col-md-4 mb-3 mb-md-0">
-            <ImageMoving  image={data.serviceCrmImage.url}/>
+            <ImageMoving   image={data.serviceCrmImage.url}/>
           </div>
           <div className="col-md-8">
             <Zoomin2
