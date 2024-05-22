@@ -78,16 +78,8 @@ function App() {
               {/* <Scrolltotop /> */}
               <Navigation key={res.navbar.id} product={res.navbar}/>
               <Routes>
-              <Route
-        path="/"
-        element={
-          <Home
-            key={`${update.serviceComponent.id},${update.homeComponent.id}`}
-            homeComponent={update.homeComponent}
-            serviceComponent={update.serviceComponent}
-          />
-        }
-      />
+              <Route path="/" element={<Home key={res.homeComponent.id} product={res}/>}></Route>
+
 
                 <Route path="Aboutus" element={<Aboutus key={res.aboutUs.id} product={res.aboutUs}/>}></Route>
                 <Route path="Vision" element={<Vision key={res.aboutUs.id} product={res.aboutUs}/>}></Route>

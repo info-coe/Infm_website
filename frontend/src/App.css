@@ -194,3 +194,45 @@ body{
   color: rgb(235, 230, 230);
   font-weight: bold;
 } */
+.btn-with-hover {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* Adjust gap between text and icon */
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: blue; 
+  overflow: hidden; 
+  transition: color 0.3s ease; 
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.btn-with-hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start position for sliding effect */
+  width: 100%;
+  height: 100%;
+  background-color: red; 
+  transition: left 0.4s ease; 
+  z-index: -1; 
+}
+
+.btn-with-hover:hover::before {
+  left: 0; /* End position for sliding effect */
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

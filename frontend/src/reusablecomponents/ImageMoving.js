@@ -7,7 +7,6 @@ function ImageMoving({image}) {
               src={image}
               className="img-fluid animate-image" 
               alt="no-display"
-              width="70%"
             />
     </div>
   )

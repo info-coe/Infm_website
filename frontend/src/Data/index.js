@@ -19,7 +19,12 @@ const DATA_QUERY = gql`
       carousal7Heading
       id
       homecarouseljson
+      homecirclecardimagesdata
       contentslider
+      homeheadingandcontent
+      homesideimage {
+        url
+      }
     }
     aboutUs {
       id
@@ -114,21 +119,14 @@ const DATA_QUERY = gql`
       dtsImage {
         url
       }
-<<<<<<< HEAD
       serviceCrmServicesData
       allServicesData
-=======
-      
-      serviceCrmServicesData
-      
-      allServicesData
-      servicesAllHeadingAndContent
->>>>>>> 1f3a6bc444c96228fe18857fea5fae805af29a1d
       securityImage {
         url
       }
       securityServicesData
       servicesAdvantages
+      serviceHeading
     }
   industrie_page {
     id
