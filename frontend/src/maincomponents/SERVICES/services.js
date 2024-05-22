@@ -3,6 +3,7 @@ import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
 
 const Services = (props) => {
   const data = props.product;
+  
   const cardData = data.servicesData;
 
   return (

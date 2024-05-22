@@ -7,6 +7,8 @@ const Zoomin2 = (props) => {
     // console.log(props.content)
     return (
         <>
+
+        
         <div data-aos="zoom-in" style={{fontSize:'20px'}}>
             <h1 className='text-primary'>{props.heading}</h1>
             <h1 className='text-success'>{props.heading2}</h1>

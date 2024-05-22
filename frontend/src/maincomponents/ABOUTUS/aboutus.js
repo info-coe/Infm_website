@@ -14,7 +14,7 @@ const Aboutus = (props) => {
     <>
     <div>
        <img src={data.aboutUsmainimage.url} width='100%' alt='no-display' className="mainimg img-fluid d-none d-md-block" />
-            <img src={data.aboutUsSubimage.url} alt='no-display' className="sunimg img-fluid d-md-none" />
+            <img src={data.aboutUsSubimage.url} alt='no-display' className="sunimg img-fluid d-md-none w-100" />
     <div>
       <Zoomin heading={data.aboutUsHeading} content={content} />
     </div>
