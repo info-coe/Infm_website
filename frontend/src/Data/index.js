@@ -95,6 +95,7 @@ const DATA_QUERY = gql`
     }
     serviceComponent {
       servicesData
+      servicesAllHeadingAndContent
       serviceMainimage {
         url
       }
@@ -111,14 +112,13 @@ const DATA_QUERY = gql`
       dtsImage {
         url
       }
-      serviceCrmHeadingAndContent
       serviceCrmServicesData
-      serviceDtsContentAndContent
       allServicesData
-      serviceSecurityHeadingAndContent
       securityImage {
         url
       }
+      securityServicesData
+      servicesAdvantages
     }
   industrie_page {
     id

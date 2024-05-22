@@ -2,12 +2,18 @@ import React from 'react';
 import ModelsPoints from '../../reusablecomponents/ModelsPoints';
 import Zoomin2 from '../../reusablecomponents/Zoomin2';
 import CrmServices from '../../reusablecomponents/CrmServices';
+import ImageMoving from '../../reusablecomponents/ImageMoving';
 
 const CustomerRelationshipManagement = (props) => {
   const data = props.product;
-  const contentData = data.serviceCrmHeadingAndContent[0];
+  const contentData = data.servicesAllHeadingAndContent[0];
   const serviceData = data.serviceCrmServicesData
-
+  const crmServicesData = serviceData.map(item => ({
+    mainHead: item.crmmainhead,
+    subHead: item.crmminhead,
+    objective: item.crmcontent1,
+    outcome: item.crmcontent2,
+  }));
   return (
     <>
     <div>
@@ -17,12 +23,7 @@ const CustomerRelationshipManagement = (props) => {
       <div className="container mt-5">
         <div className="row align-items-center">
           <div className="col-md-4 mb-3 mb-md-0">
-            <img
-              src={data.serviceCrmImage.url}
-              className="img-fluid animate-image" 
-              alt="no-display"
-              width="70%"
-            />
+            <ImageMoving  image={data.serviceCrmImage.url}/>
           </div>
           <div className="col-md-8">
             <Zoomin2
@@ -36,7 +37,7 @@ const CustomerRelationshipManagement = (props) => {
           </div>
         </div>
       </div>
-       <CrmServices serviceData={serviceData}/>
+       <CrmServices serviceData={crmServicesData}/>
       <ModelsPoints contents={data} /> 
     </div>
     </>

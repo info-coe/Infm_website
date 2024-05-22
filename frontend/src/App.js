@@ -71,14 +71,32 @@ function App() {
         // const nav = data.assets[3]
         // console.log(nav)
         // const res1 = data.assets[2]
-
+        // const update = {
+        //   homeComponent: { id: res.homeComponent.id, name: res.homeComponent },
+        //   serviceComponent: { id: res.serviceComponent.id, name: res.serviceComponent },
+        
+        // }
+        const update = {
+          homeComponent: { id: res.homeComponent.id, name: res.homeComponent },
+          serviceComponent: { id: res.serviceComponent.id, name: res.serviceComponent },
+        };
+        
         return (
           <>
             <BrowserRouter>
               {/* <Scrolltotop /> */}
               <Navigation key={res.navbar.id} product={res.navbar}/>
               <Routes>
-                <Route path="/" element={<Home key={res.homeComponent.id} product={res.homeComponent}/>}></Route>
+              <Route
+        path="/"
+        element={
+          <Home
+            key={`${update.serviceComponent.id},${update.homeComponent.id}`}
+            homeComponent={update.homeComponent}
+            serviceComponent={update.serviceComponent}
+          />
+        }
+      />
 
                 <Route path="Aboutus" element={<Aboutus key={res.aboutUs.id} product={res.aboutUs}/>}></Route>
                 <Route path="Vision" element={<Vision key={res.aboutUs.id} product={res.aboutUs}/>}></Route>
@@ -110,7 +128,7 @@ function App() {
                 ></Route>
                 <Route path="Media-Telecom" element={<MediaTelecom />}></Route>
 
-                <Route path="Services" element={<Services key={res.serviceComponent}  product={res.serviceComponent}/>}></Route>
+                <Route path="Services" element={<Services key={res.serviceComponent.id}  product={res.serviceComponent}/>}></Route>
                 <Route
                   path="Application-Services"
                   element={<ApplicationServices />}
@@ -126,12 +144,12 @@ function App() {
                 ></Route>
                 <Route
                   path="CRM"
-                  element={<CustomerRelationshipManagement key={res.serviceComponent}  product={res.serviceComponent}/>}
+                  element={<CustomerRelationshipManagement key={res.serviceComponent.id}  product={res.serviceComponent}/>}
                 ></Route>
                 <Route path="Data-Services" element={<DataServices />}></Route>
                 <Route
                   path="Digital-Transformation-Services"
-                  element={<DigitalTransformationServices key={res.serviceComponent}  product={res.serviceComponent} />}
+                  element={<DigitalTransformationServices key={res.serviceComponent.id}  product={res.serviceComponent} />}
                 ></Route>
                 <Route
                   path="Enterprise-Portal"
@@ -149,7 +167,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Security-Architecture"
-                  element={<SecurityArchitecture key={res.serviceComponent}  product={res.serviceComponent} />}
+                  element={<SecurityArchitecture key={res.serviceComponent.id}  product={res.serviceComponent} />}
                 ></Route>
                 <Route
                   path="Software-Sales"
