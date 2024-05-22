@@ -1,9 +1,12 @@
 import React from 'react'
+// import Navigation from '../../reusablecomponents/navbar';
+// import Marquee from '../../reusablecomponents/Marquee';
 import Zoomin2 from '../../reusablecomponents/Zoomin2';
 import ImageMoving from '../../reusablecomponents/ImageMoving';
 import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
 import CircleImageCard from '../../reusablecomponents/CircleImageCard';
 import { circleDatas,content } from './homes';
+import MainSlider from '../../reusablecomponents/MainSlider';
 
 export default function Home(props) {
   const data = props.product.serviceComponent;
@@ -16,7 +19,11 @@ export default function Home(props) {
   const circleData = circleDatas
   return (
     <div>
-    <div className="container mt-5">
+      {/* <Navigation/> */}
+      <div></div>
+      {/* <Marquee  content={data.contentslider} /> */}
+      <MainSlider/>
+      <div className="container mt-5">
             <div className="row align-items-center">
               <div className="col-md-6 mb-3 ">
                 <ImageMoving  image={homeData.image}/>
@@ -63,7 +70,6 @@ export default function Home(props) {
           ))}
         </div>
       </div>
-      </div>
-
+    </div>
   )
 }
