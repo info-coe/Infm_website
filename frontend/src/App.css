@@ -422,10 +422,21 @@ body{
   background-color: #E8E8E8;
   padding: 30px 100px 15px 100px;
 }
-.flexgrowdiv {
-  /* background-color: #f1f1f1; */
-  padding: 20px;
+.nasscom{
+  flex: 23%;
+}
+.keylinks{
   flex: 25%;
+}
+.getintouch{
+  flex: 24%;
+}
+.followus{
+  flex: 18%;
+}
+.flexgrowdiv {
+  padding: 20px;
+  /* flex: 23%; */
 }
 .keylinks li{
   border-bottom: 1px solid rgb(41, 207, 210);
@@ -513,7 +524,7 @@ body{
     padding: 15px;
   }
   .nasscom img{
-    width: 250px;
+    width: 260px;
     height: 50px;
   }
   .testimonial-card {
