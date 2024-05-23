@@ -1,5 +1,6 @@
 body{
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 .zoom-in{
   font-size: 16px;
@@ -86,6 +87,9 @@ body{
 
 .btnClose.rotate {
   transform: rotate(90deg); /* Rotate the icon to 90 degrees */
+}
+.btns-box{
+  margin-left:50px;
 }
 
 
@@ -189,17 +193,11 @@ body{
     transition: width .9s;
 }
 
-/* .marquee{
-  font-size: 55px;
-  color: rgb(235, 230, 230);
-  font-weight: bold;
-} */
-
 .btn-with-hover {
   position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 10px; /* Adjust gap between text and icon */
+  gap: 10px; 
   padding: 8px;
   color: #fff;
   border: 2px solid #fff;
@@ -214,7 +212,7 @@ body{
   content: '';
   position: absolute;
   top: 0;
-  left: -100%; /* Start position for sliding effect */
+  left: -100%; 
   width: 100%;
   height: 100%;
   background-color: red; 
@@ -223,7 +221,7 @@ body{
 }
 
 .btn-with-hover:hover::before {
-  left: 0; /* End position for sliding effect */
+  left: 0; 
 }
 
 @keyframes ripple {
@@ -238,77 +236,20 @@ body{
   }
 }
 
-
-
-/* mainslider css */
-/* .main-slider{
-  /* width: 100%; 
-  height: 85vh;
-  overflow-x: hidden;
-  /* background-color: #edc0c0;
-}
-/* .main-slider.slider-box {
-  position: relative;
-} 
-
-.main-slider .slide {
-  position: relative;
-  height: 75vh;
-}
-
-.main-slider .image-layer {
-  background-size: cover;
-  background-position: center;
-}
-
-.main-slider .img-para {
-  position: absolute;
-  bottom: 0%;
-  right: 10%;
-  color: #ec0909;
-  font-size: 18px;
-  z-index: 9999;
-  letter-spacing: 10px;
-}
-
-.main-slider .content {
-  position: absolute;
-  z-index: 10000;
-  left: 5%;
-  top: 26%;
-}
-
-.main-slider .big-title h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.main-slider .banner-para {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-.main-slider .btns-box .btn-one {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #000;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.main-slider .btns-box .btn-one:hover {
-  background: #333;
-} */
 .image-layer {
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  -webkit-backface-visibility: hidden; 
+  -moz-backface-visibility: hidden; 
+  -ms-backface-visibility: hidden; 
+  backface-visibility: hidden; 
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1; /* Ensure the background image is behind other elements */
+  z-index: -1; 
 }
 
 .slide-img {
@@ -338,7 +279,6 @@ body{
    width: 100%; 
   height: 90vh;
   overflow: hidden;
-   /* background-color: #edc0c0; */
 }
  .main-slider.slider-box {
   position: relative;
@@ -351,8 +291,7 @@ body{
 .main-slider .content {
   position: absolute;
   z-index: 10000;
-  left: 5%;
-  top: 26%;
+  top: 20%; 
 }
 .main-slider .btns-box .btn-one {
   display: inline-block;
@@ -369,12 +308,10 @@ body{
 
 .main-slider .slide .image-layer{
   width: 100%;
-  /* height: auto; */
-  /* object-fit: cover; */
-  animation: zoomIn 8s infinite alternate;
+  animation: zoomInBg 8s infinite alternate;
 }
 
-@keyframes zoomIn {
+@keyframes zoomInBg {
   from {
     transform: scale(1);
   }
@@ -384,20 +321,13 @@ body{
 }
 
 .cap {
-
   position: relative;
-  
   animation-name: move;
-  
   animation-duration: 2s;
-  
   animation-direction: alternate;
-  
   animation-timing-function: ease-in-out;
-  
   animation-iteration-count: infinite;
   font-size: 42px;
-  
   }
   
   @keyframes move {
@@ -407,9 +337,24 @@ body{
   to {left: 10px;}
   
   }
+ 
+.auto-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
 
+.content {
+  text-align: left;
+  margin-left: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  /* Add this to your CSS file or within a <style> tag in your component */
+.hidden {
+  visibility: hidden;
+}
 
 @keyframes zoomIn {
   0% {
@@ -433,22 +378,85 @@ body{
   }
 }
 
-.big-title,
-.banner-para {
-  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
-}
-
-.slick-current .big-title,
-.slick-current .banner-para {
+.cont-zoom-in {
   animation: zoomIn 0.5s ease-out forwards;
+  margin-left: 50px;
+  visibility: visible !important;
 }
 
-.slick-closing .big-title,
-.slick-closing .banner-para {
+.cont-zoom-out {
   animation: zoomOut 0.5s ease-out forwards;
+  visibility: visible !important;
+}
+
+.custom-dots {
+  position: absolute;
+  top:90vh; 
+  left: 50%; 
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.dot {
+  width: 10px; 
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc; 
+  opacity: 0.7;
+  margin: 0 5px; 
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #eb3c3c; 
+  opacity: 1;
+}
+/* footer start */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* text-align: center; */
+  background-color: #E8E8E8;
+  padding: 30px 100px 15px 100px;
+}
+.flexgrowdiv {
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+  flex: 25%;
+}
+.keylinks li{
+  border-bottom: 1px solid rgb(41, 207, 210);
+}
+.nasscom img{
+  width: 290px;
+  height: 50px;
+}
+.followus img{
+  height: 40px;
+  transition: transform 0.8s;
+  cursor: pointer;
+}
+.followus img:hover{
+  transform: rotate(360deg);
+}
+.keylinks a{
+  color: rgb(40, 39, 39);
+}
+.keylinks a:hover{
+  color: rgb(213, 150, 24);
 }
 
 
+/* footer end */
+.testimonial-card {
+  height: 315px;
+  background-color: #E8E8E8;
+  border-radius: 50px 0;
+  margin-bottom: 30px;
+}
 
   @media screen and (max-width:567px){
     .slide-img{
@@ -463,32 +471,55 @@ body{
       font-size: 18px;
     }
     .img-para {
-font-size: 12px;
-bottom: 0%;
-right: 15%;
-color:#fe0000;
-letter-spacing: 6px;
+      font-size: 12px;
+      bottom: 0%;
+      right: 15%;
+      color:#fe0000;
+      letter-spacing: 6px;
     }
     .main-slider{
-     height: 50vh;
+     height: 60vh;
    }
    .main-slider .slide {
-    height: 45vh;
+    height: 50vh;
   }
    .main-slider .content {
-    left: 5%;
-    top: 5%;
+    left: 0;
+    top: 10%;
   }
   .banner-para{
-    font-size: 12px;
+    font-size: 0.9rem;
     line-height: 20px;
     width: 58%;
   }
   .main-slider .btns-box .btn-one {
     padding: 5px 6px;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 0.8rem;
   }
+  .cont-zoom-in {
+    margin-left: 15px;
+  }
+  .btns-box{
+    margin-left:15px;
+  }
+  .custom-dots {
+    top:58vh;
+  }
+  .flexgrowdiv {
+    flex: 100%;
+  }
+  .flex-container {
+    padding: 15px;
+  }
+  .nasscom img{
+    width: 250px;
+    height: 50px;
+  }
+  .testimonial-card {
+    height: 400px;
+  }
+  
   }
   @media screen and (min-width:768px) and (max-width:991px){
     .slide-img{
@@ -503,11 +534,11 @@ letter-spacing: 6px;
       font-size: 22px;
     }
     .img-para {
-font-size: 16px;
-bottom: 6%;
-right: 15%;
-color:#fe0000;
-letter-spacing: 10px;
+      font-size: 16px;
+      bottom: 6%;
+      right: 15%;
+      color:#fe0000;
+      letter-spacing: 10px;
     }
     .main-slider{
      height: 50vh;
@@ -516,7 +547,7 @@ letter-spacing: 10px;
     height: 45vh;
   }
    .main-slider .content {
-    left: 5%;
+    left: 0;
     top: 14%;
   }
   .banner-para{
@@ -529,5 +560,22 @@ letter-spacing: 10px;
     border-radius: 5px;
     font-size: 14px;
   }
+  .cont-zoom-in {
+    margin-left: 30px;
+  }
+  .btns-box{
+    margin-left:30px;
+  }
+  .custom-dots {
+    top:50vh;
+  }
+  .flexgrowdiv {
+    flex: 100%;
+  }
+  .flex-container {
+    padding: 15px;
+  }
   }
 
+  /* #e1f4e5 */
+  /* #053f5e */

@@ -56,6 +56,8 @@ import Hyderabad from "./maincomponents/CAREERS/hyderabad";
 import Bangalore from "./maincomponents/CAREERS/bangalore";
 import Navigation from "./reusablecomponents/navbar";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Footer from "./reusablecomponents/Footer";
+import Scrolltotop from "./reusablecomponents/Scrolltotop";
 
 function App() {
   return (
@@ -75,7 +77,7 @@ function App() {
         return (
           <>
             <BrowserRouter>
-              {/* <Scrolltotop /> */}
+              <Scrolltotop/>
               <Navigation key={res.navbar.id} product={res.navbar}/>
               <Routes>
               <Route path="/" element={<Home key={res.homeComponent.id} product={res}/>}></Route>
@@ -185,6 +187,7 @@ function App() {
 
                 <Route path="*" element={<Notfound />}></Route>
               </Routes>
+              <Footer/>
             </BrowserRouter>
           </>
         );
