@@ -1,13 +1,13 @@
 import React from 'react'
 
-function ImageMoving({image}) {
+function ImageMoving({image,sty}) {
   return (
     <div>
          <img
               src={image}
               className="img-fluid animate-image" 
               alt="no-display"
-              width='70%'
+            
             />
     </div>
   )

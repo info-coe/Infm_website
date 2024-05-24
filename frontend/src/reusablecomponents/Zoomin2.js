@@ -9,10 +9,10 @@ const Zoomin2 = (props) => {
         <>
 
         
-        <div data-aos="zoom-in" style={{fontSize:' 17px'}}>
-            <h2 className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>{props.Mainheading}</h2>
-            <h1 className='text-primary'>{props.heading}</h1>
-            <h1 className='text-danger'>{props.heading2}</h1>
+        <div data-aos="zoom-in" style={{fontSize:' 16px'}}>
+            <h4 className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>{props.Mainheading}</h4>
+            <h2 className='text-primary'>{props.heading}</h2>
+            <h2 className='text-danger'>{props.heading2}</h2>
             <div>
                 {props.content.map((item,index)=>(
                     <p key={index}><strong>{props.s} </strong>{item}</p>

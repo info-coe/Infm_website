@@ -50,7 +50,7 @@ const Navigation = (props) => {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown" onClick={() => handleDropdownClick('industries')} onMouseEnter={() => handleDropdownMouseEnter('industries')} onMouseLeave={() => handleDropdownMouseLeave('industries')}>
-                                <Link className="nav-link" to="" id="industriesDropdown" role="button" aria-expanded="false">
+                                <Link className="nav-link" to="/Industries" id="industriesDropdown" role="button" aria-expanded="false">
                                     {data.industries}
                                 </Link>
                                 <ul className={`dropdown-menu ${dropdownState.industries ? 'show' : ''}`} aria-labelledby="industriesDropdown">
@@ -92,7 +92,7 @@ const Navigation = (props) => {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown" onClick={() => handleDropdownClick('solutions')} onMouseEnter={() => handleDropdownMouseEnter('solutions')} onMouseLeave={() => handleDropdownMouseLeave('solutions')}>
-                                <Link className="nav-link" to="" id="solutionsDropdown" role="button" aria-expanded="false">
+                                <Link className="nav-link" to="/Solutions" id="solutionsDropdown" role="button" aria-expanded="false">
                                     {data.solutions}
                                 </Link>
                                 <ul className={`dropdown-menu ${dropdownState.solutions ? 'show' : ''}`} aria-labelledby="solutionsDropdown">

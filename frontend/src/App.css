@@ -1,11 +1,12 @@
+
 body{
   overflow-y: scroll;
   overflow-x: hidden;
 }
-.zoom-in{
+/* .zoom-in{
   font-size: 16px;
   margin: 20px 150px;
-}
+} */
 
 .zoom-in h1{
   text-align: center;
@@ -468,6 +469,46 @@ body{
   border-radius: 50px 0;
   margin-bottom: 30px;
 }
+.customCard .card{
+  height: 19rem;
+}
+/* Marquee code start */
+.Marquee {
+  /* color: rgb(228, 215, 215); */
+  color: #e6e5e5;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%; 
+  white-space: nowrap; 
+}
+
+.Marquee-content {
+  display: flex;
+  animation: marquee 25s linear infinite running;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Russo One', sans-serif !important;
+}
+
+.Marquee-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em; 
+  transition: all 0.7s ease;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-40%);
+  }
+}
+/* Marquee code end */
 
   @media screen and (max-width:567px){
     .slide-img{
@@ -530,6 +571,11 @@ body{
   .testimonial-card {
     height: 400px;
   }
+  .customCard .card{
+    min-height: 17rem;
+    height: auto;
+    width: 19rem;
+  }
   
   }
   @media screen and (min-width:768px) and (max-width:991px){
@@ -586,7 +632,12 @@ body{
   .flex-container {
     padding: 15px;
   }
+  .customCard .card{
+    min-height: 21rem;
+    height: auto;
+  }
   }
 
   /* #e1f4e5 */
   /* #053f5e */
+

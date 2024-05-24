@@ -7,9 +7,9 @@ const Mission = (props) => {
     return (
         <>
         <div>
-            <img src={data.aboutUsVisionMainImage.url} width='100%' alt='no-display' className="mainimg img-fluid d-none d-md-block" />
-            <img src={data.aboutUsVisionSubImage.url} alt='no-display' className="sunimg img-fluid d-md-none" />
-        <div>
+            <img src={data.aboutUsVisionMainImage.url} height="250" width="100%" alt='no-display' className=" d-none d-md-block" style={{objectFit:"cover"}} />
+            <img src={data.aboutUsVisionSubImage.url} alt='no-display' className=" d-md-none" />
+        <div className='pt-5 pb-5 mt-md-5 mb-md-5'>
       <Zoomin heading={data.aboutUsMissionHeading} content={mission} />
 
         </div>
