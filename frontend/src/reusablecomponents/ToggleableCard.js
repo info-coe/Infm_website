@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-function ToggleableCard({ title, content,initiallyExpanded }) {
+
+function ToggleableCard({ title, content,initiallyExpanded, icon }) {
     const [showAdditionalContent, setShowAdditionalContent] = useState(initiallyExpanded);
     console.log(title)
   const toggleAdditionalContent = () => {
@@ -13,12 +14,12 @@ function ToggleableCard({ title, content,initiallyExpanded }) {
       <div className="card m-3" style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
         <div className="card-body">
           <div>
-            <h2 className="fs-5">
-              <span 
+            <h2 className="fs-6">
+            <span 
                 onClick={toggleAdditionalContent} 
                 style={{ cursor: 'pointer', color: 'blue' }}
               >
-                {title}
+               <span className='fs-6'><i className={icon}></i> </span>{title}
               </span>
             </h2>
           </div>

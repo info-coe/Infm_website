@@ -14,6 +14,7 @@ import Aboutus from "./maincomponents/ABOUTUS/aboutus";
 import Vision from "./maincomponents/ABOUTUS/vision";
 import Mission from "./maincomponents/ABOUTUS/mission";
 
+import Industries from "./maincomponents/INDUSTRIES/Industries";
 import AirlineTravelLogistics from "./maincomponents/INDUSTRIES/Airline & Travel & Logistics";
 import BankingInsuranceServices from "./maincomponents/INDUSTRIES/Banking & Insurance Services";
 import ConsumerRetail from "./maincomponents/INDUSTRIES/Consumer & Retail";
@@ -38,6 +39,7 @@ import MicrosoftCloudServices from "./maincomponents/SERVICES/Microsoft Cloud Se
 import SecurityArchitecture from "./maincomponents/SERVICES/Security Architecture";
 import SoftwareSales from "./maincomponents/SERVICES/Software Sales";
 
+import Solutions from "./maincomponents/SOLUTIONS/Solutions";
 import BusinessProcessManagement from "./maincomponents/SOLUTIONS/Business Process Management";
 import CRM from "./maincomponents/SOLUTIONS/CRM";
 import DevOps from "./maincomponents/SOLUTIONS/DevOps";
@@ -80,13 +82,14 @@ function App() {
               <Scrolltotop/>
               <Navigation key={res.navbar.id} product={res.navbar}/>
               <Routes>
-              <Route path="/" element={<Home key={res.homeComponent.id} product={res}/>}></Route>
+              <Route path="/" exact element={<Home key={res.homeComponent.id} product={res}/>}></Route>
 
 
                 <Route path="Aboutus" element={<Aboutus key={res.aboutUs.id} product={res.aboutUs}/>}></Route>
                 <Route path="Vision" element={<Vision key={res.aboutUs.id} product={res.aboutUs}/>}></Route>
                 <Route path="Mission" element={<Mission  key={res.aboutUs.id} product={res.aboutUs} />}></Route>
 
+                <Route path="Industries" element={<Industries/>}></Route>
                 <Route
                   path="Airline-Travel-Logistics"
                   element={<AirlineTravelLogistics  />}
@@ -159,6 +162,7 @@ function App() {
                   element={<SoftwareSales />}
                 ></Route>
 
+                <Route path="Solutions" element={<Solutions/>}></Route>
                 <Route
                   path="Business-Process-Management"
                   element={<BusinessProcessManagement />}
