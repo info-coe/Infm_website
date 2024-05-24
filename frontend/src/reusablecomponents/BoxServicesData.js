@@ -10,7 +10,8 @@ const BoxServicesData = ({ allservices }) => {
             border: "1px solid #eee",
             marginBottom: "30px",
             borderBottom: "8px solid #FE0000",
-            height: '220px'
+            height: 'auto'
+
         },
         heading: {
             fontSize: "19px",
@@ -28,7 +29,7 @@ const BoxServicesData = ({ allservices }) => {
             <div className="container mt-3">
                 <h1 className="text-primary text-center mb-4">{allservices[0].Mainheading}</h1>
                 <div className="row justify-content-center">
-                    {allservices.slice(0,5).map((service, index) => (
+                    {allservices.map((service, index) => (
                         <div
                             key={index}
                             className={`col-md-4 mb-4`}
