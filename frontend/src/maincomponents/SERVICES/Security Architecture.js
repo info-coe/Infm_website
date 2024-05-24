@@ -31,7 +31,7 @@ const SecurityArchitecture = () => {
             <img src={secImage} width="85%" alt='no-display'/>
         </div>
         <CrmServices serviceData={securityServicesData}/>
-        <ModelsPoints contents={modelData} />
+        {/* <ModelsPoints contents={modelData} /> */}
 
         </div>
     );
