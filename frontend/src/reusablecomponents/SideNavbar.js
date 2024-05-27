@@ -34,7 +34,7 @@ const SideNavbar = (props) => {
                     {/* Industries section */}
                     <div>
                         <div className="d-flex justify-content-between align-items-center" onClick={() => toggleChilds('industries')}>
-                            <li className="text-decoration-none fw-bold">{data.industries}</li>
+                            <li data-bs-dismiss="offcanvas" className="text-decoration-none fw-bold"><Link to="/Industries" className='text-decoration-none'>{data.industries}</Link></li>
                             <i className={`bi bi-caret-right-square fs-5 ${showChilds.industries ? 'rotate-down rotate' : 'rotate-down'}`} style={{cursor:"pointer"}}></i>
                         </div>
                         <hr />
@@ -109,7 +109,7 @@ const SideNavbar = (props) => {
                     {/* Solutions section */}
                     <div>
                         <div className="d-flex justify-content-between align-items-center" onClick={() => toggleChilds('solutions')}>
-                            <li className="text-decoration-none fw-bold">{data.solutions}</li>
+                            <li data-bs-dismiss="offcanvas" className="text-decoration-none fw-bold"><Link to="/Solutions" className='text-decoration-none'>{data.solutions}</Link></li>
                             <i className={`bi bi-caret-right-square fs-5 ${showChilds.solutions ? 'rotate-down rotate' : 'rotate-down'}`} style={{cursor:"pointer"}}></i>
                         </div>
                         <hr />

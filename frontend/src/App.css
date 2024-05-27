@@ -470,7 +470,8 @@ body{
   margin-bottom: 30px;
 }
 .customCard .card{
-  height: 19rem;
+  min-height: 19rem;
+  height: auto;
 }
 /* Marquee code start */
 .Marquee {

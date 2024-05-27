@@ -1,0 +1,321 @@
+[
+  {
+    "content" : [
+    {"hbtn": "More Details",
+    "hhead1": "Business Growth Through",
+    "hhead2": "Innovative Approaches",
+    "hbtnicon": "fa fa-angle-right",
+    "hcontent": "Established in 1998, Infomerica, Inc. is a renowned Global Systems Integrator focusing on ERP/ BPM/Cloud/Mobile/SOA/API/Digital transformation Technologies. We are a Minority Certified Business, with our headquarters situated in Cary, NC – USA. For over twenty-five years, Infomerica has been instrumental in aiding a myriad of large and mid-sized businesses in transitioning their IT to a Service-Oriented Architecture, involving IT Transformation Initiatives and the deployment of SAP/Oracle ERP Systems.",
+    "hmainhead": "About Us",
+    "hstrongcontent": "Who We Are:",
+    "image":"https://ap-south-1.graphassets.com/clvxn4yf50als07pm6z557c23/clwhirpr60naa07o2aqzr19qd"
+  }
+]
+  },
+  {
+    "circleDatas" : [
+
+      {
+          "color": "#0088cc",
+          "image": "https://www.infomericainc.com/Content/images/g1.gif",
+          "title": "Thought Leadership"
+        },
+        {
+          "color": "#E36159",
+          "image": "https://www.infomericainc.com/Content/images/g3.gif",
+          "title": "Excellence"
+        },
+        {
+          "color": "#030250",
+          "image": "https://www.infomericainc.com/Content/images/g2.gif",
+          "title": "Innovation"
+        },
+        {
+          "color": "#2BAAB1",
+          "image": "https://www.infomericainc.com/Content/images/g5.gif",
+          "title": "Customer-Centric"
+        },
+        {
+          "color": "#000000",
+          "image": "https://www.infomericainc.com/Content/images/g4.gif",
+          "title": "Cost-Effective"
+        }
+    ]
+  },
+  {
+    "testimonialsData" : [
+      {
+        "clientName": "A Healthcare Customer",
+        "testimonial": "I would like to take a moment to say a big THANK YOU to Infomerica for the great work and support you have been providing me, especially the last couple of months where the job openings had to be filled in ASAP. I have been very happy with the qualifications and diverse experience.",
+        "image": "https://www.infomericainc.com/Content/images/HC.png"
+      },
+      {
+        "clientName": "Fortune 100 client",
+        "testimonial": "I would like to take this opportunity to Congratulate Infomerica on the great work that you have done. It was not easy to run a Program Increment planning over 4 days with 150+ people comprising different stakeholders like Business, Demand team, Delivery team and so on.",
+        "image": "https://www.infomericainc.com/Content/images/F100.png"
+      },
+      {
+        "clientName": "Fortune 500 client",
+        "testimonial": "We would like to express our sincere appreciation towards Infomerica team’s dedication in delivering the project against tough deadlines. Infomerica team is relentlessly working, and team is reliable, friendly. We are appreciative of team’s assistance and commitment.",
+        "image": "https://www.infomericainc.com/Content/images/F500.png"
+      },
+      {
+        "clientName": "A Logistics Client",
+        "testimonial": "I wanted to thank Infomerica team for the continued support. The team has been remarkable with understanding and implementing our requirements with very quick turnaround. Our success was largely due to the knowledge, experience, and professionalism of the Infomerica team. Thank you for a job well done.",
+        "image": "https://www.infomericainc.com/Content/images/LG.png"
+      }
+    ]
+  },
+  {
+    "NavbarData":[
+      {
+        "home":"HOME  ",
+        "aboutus":"ABOUTUS",
+        "vision":"Vision",
+        "mission":"Mission",
+        "industries":"INDUSTRIES",
+        "manufacturingAutomotive":"Manufacturing & Automotive",
+        "energyUtilities":"Energy & Utilities",
+        "bankingInsuranceServices":"Banking & Insurance Services",
+        "healthcareLifeSciences":"Healthcare & Life Sciences",
+        "mediaTelecom":"Media & Telecom",
+        "airlineTravelLogistics":"Airline / Travel / Logistics",
+        "consumerRetail":"Consumer & Retail",
+        "services":"SERVICES",
+        "crm":"Customer Relationship Management (CRM)",
+        "digitalTransformationServices":"Digital Transformation Services",
+        "securityArchitecture":"Security Architecture",
+        "applicationServices":"Application Services",
+        "cloud":"Cloud",
+        "cloudServices":"Cloud Services",
+        "awsServices":"AWS Services",
+        "microsoftCloudServices":"Microsoft Cloud Services",
+        "microsoft365":"Microsoft 365",
+        "dataServices":"Data Services",
+        "internetOfThings":"Internet Of Things",
+        "businessAssuranceTesting":"Business Assurance & Testing",
+        "enterprisePortal":"Enterprise Portal",
+        "freePocPot":"Free POC & POT",
+        "softwareSales":"Software Sales",
+        "solutions":"SOLUTIONS",
+        "roboticAutomationProcess":"Robotic Automation Process",
+        "oracleCloud":"Oracle Cloud",
+        "sap":"SAP",
+        "solutionsCrm":"CRM",
+        "mobility":"Mobility",
+        "businessProcessManagement":"Business Process Management",
+        "devops":"DevOps",
+        "serviceOrientedArchitecture":"Service Oriented Architecture",
+        "contactus":"CONTACT US",
+        "csr":"CSR",
+        "careers":"CAREERS",
+        "hyderabad":"Hyderabad",
+        "bangalore":"Bangalore",
+        "logo":"https://infomericainc.com/Content/images/logo.png"
+      }
+    ]
+  },
+  {
+    "MainSlider":[
+      {
+        "rightmindset":"THE RIGHT MIND SET",
+        "contactus":"Contact Us",
+        "moredetails":"More Details",
+        "contentslider":"WE STRIVE FOR YOUR BUSINESS GROWTH THROUGH INNOVATIVE APPROACHES."
+      },
+      {
+       "slides": [
+          {
+              "image": "https://infomericainc.com/Content/images/bg-1.jpg",
+              "imgSrc": "https://infomericainc.com/Content/images/Innovative%20Solutions.png",
+              "title": "Innovative,Solutions",
+              "description": "Our teams of experts are <span style='background:#fe0000;padding:0px 10px;color:#fff'> dedicated to continuous learning and exploration, </span>enabling us to develop and implement groundbreaking solutions that drive transformation and create value."
+          },
+          {
+              "image": "https://infomericainc.com/Content/images/bg-1.jpg",
+              "imgSrc": "https://infomericainc.com/Content/images/Cutting%20Edge%20Technology.png",
+              "title": "Cutting-Edge,Technologies",
+              "description": "We harness the <span style='background:#fe0000;padding:0px 10px;color:#fff'> power of the latest, most advanced technologies </span>to provide solutions that are scalable, adaptable, and future-ready, keeping you ahead in the ever-evolving digital landscape."
+          },
+          {
+              "image": "https://infomericainc.com/Content/images/bg-1.jpg",
+              "imgSrc": "https://infomericainc.com/Content/images/Sustaibale%20&%20Ethical%20Practices.png",
+              "title": "Sustainable and,Ethical Practices",
+              "description": "We are devoted to maintaining the highest standards of ethics and sustainability, ensuring our operations are <span style='background:#fe0000;padding:0px 10px;color:#fff'> transparent, responsible, and environmentally friendly.</span>"
+          },
+          {
+              "image": "https://infomericainc.com/Content/images/bg-1.jpg",
+              "imgSrc": "https://infomericainc.com/Content/images/MicrosoftTeams-image.png",
+              "title": "Trusted,Partners",
+              "description": "Our success is also determined by <span style='background:#fe0000;padding:0px 10px;color:#fff'>trusted partners</span> we associate with which helps us to serve our clients faster and efficiently through engagement of our partners productivel"
+          },
+          {
+              "image": "https://infomericainc.com/Content/images/bg2.jpg",
+              "imgSrc": "https://infomericainc.com/Content/images/Group%20Coordination.png",
+              "title": "Group,Co-ordination",
+              "description": "Infomerica imbibes a practice of <span style='background:#fe0000;padding:0px 10px;color:#fff'>collective work culture</span> in order to achieve success and also adopts diverse workforce setup helping to amalgamate various thoughts and ideas"
+          },
+          {
+              "image": "https://infomericainc.com/Content/images/bg-1.jpg",
+              "imgSrc": "https://infomericainc.com/Content/images/Industry%20Leading%20Expertise.png",
+              "title": "Industry-Leading,Expertise",
+              "description": "With 25 of experience, we have cultivated <span style='background:#fe0000;padding:0px 10px;color:#fff'>unparalleled knowledge and skills</span> to deliver innovative and reliable solutions that align with industry standards and exceed expectations"
+          },
+          {
+              "image": "https://infomericainc.com/Content/images/bg2.jpg",
+              "imgSrc": "https://infomericainc.com/Content/images/Discover%20A%20Career%203.png",
+              "title": "Discover a Career You'll,Cherish",
+              "description": "At Infomerica, Inc., we lay a <span style='background:#fe0000;padding:0px 10px;color:#fff'>robust foundation for aspiring individuals</span> to carve their careers and mold their future. As a technologically advanced company, we cultivate an uplifting and vibrant environment where emerging talent can bloom and evolve..."
+          }
+      ]
+      }
+    ]
+  },
+  {
+    "innovativeApproachesData":[
+      {
+        "title" : "Industry-Leading Expertise",
+        "description" : "With 25 of experience, we have cultivated unparalleled knowledge and skills to deliver innovative and reliable solutions that align with industry standards and exceed expectations."
+    },
+    {
+        "title" : "Innovative Solutions",
+        "description" : "Our teams of experts are dedicated to continuous learning and exploration, enabling us to develop and implement groundbreaking solutions that drive transformation and create value."
+    },
+    {
+        "title" : "Cutting-Edge Technologies",
+        "description" : "We harness the power of the latest, most advanced technologies to provide solutions that are scalable, adaptable, and future-ready, keeping you ahead in the ever-evolving digital landscape."
+    },
+    {
+        "title" : "Customer-Centric Approach",
+        "description" : "Our commitment to your success is unwavering. We prioritize your needs, offering bespoke solutions and continuous support to address your unique challenges and achieve your specific goals."
+    },
+    {
+        "title" : "Sustainable and Ethical Practices",
+        "description" : "We are devoted to maintaining the highest standards of ethics and sustainability, ensuring our operations are transparent, responsible, and environmentally friendly."
+    },
+    {
+        "title" : "Cost-Effective Offerings",
+        "description" : "We provide competitive pricing and flexible engagement models to maximize your ROI and deliver unparalleled value without compromising on quality."
+    }
+    ]
+  },
+  {
+    "solutionOfferingsData":[
+      {
+        "icon":"fa fa-gear fa-lg",
+        "title":"SAP",
+        "content":"Designing a solution and implementation requires a deep domain knowledge on the customer industry, in general and operations in specific, to meet both stated and implied needs. Consultants of Infomerica have performed critical functions in the every domain",
+        "more":" ... More Details"
+      },
+      {
+          "icon":"fa fa-cloud fa-lg",
+          "title":" Oracle Cloud Services",
+          "content":"Innovate, manage, automate and propel your digital transformation journey leveraging our consulting and implementation services for Oracle-based solutions",
+          "more":" ... More Details"
+  
+        },
+        {
+          "icon":"fa fa-robot fa-2x",
+          "title":"Robotic Automation Process",
+          "content":"Robotic Process Automation (RPA) empowers organizations to streamline tedious, repetitive activities across various applications and systems. Whether it's front office transactions or intricate back office procedures, RPA stands as a versatile solution to automate any labor-intensive",
+          "more":" ... More Details"
+  
+        },
+        {
+          "icon":"fa fa-solid fa-up-right-from-square fa-lg",
+          "title":"DevOps",
+          "content":"In a world driven by continuous innovation and rapid development, embrace the power of DevOps with Infomerica! We provide state-of-the-art DevOps solutions designed to bridge the gap between development and operations, accelerating your delivery pipeline and enhancing overall productivity",
+          "more":" ... More Details"
+  
+        },
+        {
+          "icon":"fa fa-mobile fa-lg",
+          "title":"Mobility",
+          "content":"In a world driven by connectivity and immediate access, our Mobility Solutions stand out as a beacon of innovation and reliability. We specialize in providing comprehensive mobility solutions designed to empower businesses",
+          "more":" ... More Details"
+  
+        },
+        {
+          "title":"Discover a Career You'll Cherish",
+          "content":"At Infomerica, Inc., we lay a robust foundation for aspiring individuals to carve their careers and mold their future. As a technologically advanced company, we cultivate an uplifting and vibrant environment where emerging talent can bloom and evolve",
+          "more":" ... More Details"
+  
+        }
+    ]
+  },
+  {
+    "whychooseus":[
+      {
+        "why":"Why",
+        "chooseus":"Choose Us",
+        "choosepara":"We strive for your business growth through innovative approaches",
+        "chooseh3":"A few good reasons...",
+        "solutionoff":"Solution Offerings"
+      }
+    ]
+  },
+  {
+    "BusinessPartners":[
+      {
+        "businessh2":"Business Partners"
+      },
+      {
+        "logos":[
+          "https://infomericainc.com/Content/images/AWS%20Partner.png",
+          "https://infomericainc.com/Content/images/IBM.jpg",
+          "https://infomericainc.com/Content/images/microsoft.jpg",
+          "https://infomericainc.com/Content/images/oracle.jpg",
+          "https://infomericainc.com/Content/images/sap.jpg",
+          "https://infomericainc.com/Content/images/sales.jpg",
+          "https://infomericainc.com/Content/images/uipath.jpg",
+          "https://infomericainc.com/Content/images/Mulesoft.jpg",
+          "https://infomericainc.com/Content/images/appian.jpg",
+          "https://infomericainc.com/Content/images/anywhere.jpg",
+          "https://infomericainc.com/Content/images/cisco.jpg",
+          "https://infomericainc.com/Content/images/techdata.jpg",
+          "https://infomericainc.com/Content/images/pp.jpg",
+          "https://infomericainc.com/Content/images/veeam.jpg",
+          "https://infomericainc.com/Content/images/blueprism.jpg",
+          "https://infomericainc.com/Content/images/talend.jpg",
+          "https://infomericainc.com/Content/images/solarwinds.jpg",
+          "https://infomericainc.com/Content/images/redhat.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "FooterData":[
+      {
+      "logofooter":"https://infomericainc.com/Content/images/logo-footer.png",
+      "footerpara":"Infomerica is a Software Development and Systems Integration company, one of the fastest growing companies that is committed to help our customers grow and move forward in every aspect of their business.",
+      "keylinksh5":"Key Links",
+      "aboutus":"About Us",
+      "services":"Services",
+      "solutions":"Solutions",
+      "csr":"CSR",
+      "careers":"Careers",
+      "contactus":"Contact Us",
+      "getintouchh5":"Get in touch",
+      "getinp1":"Infomerica - USA, UK, India",
+      "getinp2":"info@infomericainc.com",
+      "followush5":"Follow Us",
+      "facebooklogo":"https://infomericainc.com/Content/images/facebook.jpg",
+      "youtubelogo":"https://infomericainc.com/Content/images/youtube.png",
+      "linkedinlogo":"https://infomericainc.com/Content/images/linkedin.png",
+      "copyright":"Copyright © 2023 ",
+      "infomerica":"Infomerica",
+      "reserved":"All Rights Reserved.",
+      "terms":"Terms",
+      "privacypolicy":"Privacy Policy",
+      "join":"|"
+      }
+    ]
+  }
+ 
+]
+
+
+
+  
+  
+  

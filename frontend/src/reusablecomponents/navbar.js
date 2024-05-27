@@ -3,9 +3,12 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import InfoLogo from './Infologo';
 import SideNavbar from './SideNavbar';
+import  HomeContent  from '../maincomponents/HOME/homeContent.json';
+
 
 const Navigation = (props) => {
-    const data = props.product;
+    // const data = props.product;
+    const data = HomeContent[3].NavbarData[0]
     const [isRotated, setIsRotated] = useState(false);
     const [dropdownState, setDropdownState] = useState({ aboutus: false, industries: false, services: false, cloud: false, solutions:false, careers:false });
 
@@ -32,7 +35,7 @@ const Navigation = (props) => {
                     <div className="d-flex align-items-center gap-4 ps-lg-5 ms-lg-5 ps-2">
                         <span className='toggle' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i className="bi bi-text-left"></i></span>
                         <div className="d-none d-lg-block"> {/* Hide on smaller screens */}
-                            <InfoLogo logosrc={data.logo.url} />
+                            <InfoLogo logosrc={data.logo} />
                         </div>
                     </div>
                     <div className="collapse navbar-collapse d-flex justify-content-center d-none d-lg-block" id="navbarNavDropdown">
@@ -130,7 +133,7 @@ const Navigation = (props) => {
             {/* Offcanvas start */}
             <div className="offcanvas slide offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div className="offcanvas-header d-flex justify-content-between">
-                    <InfoLogo logosrc={data.logo.url} />
+                    <InfoLogo logosrc={data.logo} />
                     <i
                         className={`bi bi-x-circle-fill fs-3 btnClose ${isRotated ? 'rotate' : ''}`}
                         data-bs-dismiss="offcanvas"
