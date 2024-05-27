@@ -78,7 +78,7 @@ function App() {
 
         return (
           <>
-            <BrowserRouter>
+            <BrowserRouter basename="Infm_website">
               <Scrolltotop/>
               <Navigation key={res.navbar.id} product={res.navbar}/>
               <Routes>
