@@ -80,7 +80,7 @@ function App() {
           <>
             <BrowserRouter basename="Infm_website">
               <Scrolltotop/>
-              <Navigation key={res.navbar.id} product={res.navbar}/>
+              <Navigation />
               <Routes>
               <Route path="/" exact element={<Home key={res.homeComponent.id} product={res}/>}></Route>
 

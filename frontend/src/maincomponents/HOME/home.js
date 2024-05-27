@@ -3,11 +3,11 @@ import Zoomin2 from '../../reusablecomponents/Zoomin2';
 import ImageMoving from '../../reusablecomponents/ImageMoving';
 import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
 import CircleImageCard from '../../reusablecomponents/CircleImageCard';
-import { circleDatas, content } from './homeContent';
+import  HomeContent  from './homeContent.json';
+import serviceContent from "../SERVICES/ServicesComponent.json"
 import MainSlider from '../../reusablecomponents/MainSlider';
 import Testimonials from '../../reusablecomponents/Testimonials';
 import Card from '../../reusablecomponents/Card';
-import { innovativeApproachesData, solutionOfferingsData } from './payrollProcess';
 import ToggleableCard from '../../reusablecomponents/ToggleableCard';
 import SlideRight from '../../reusablecomponents/SlideRight';
 import SlideLeft from '../../reusablecomponents/SlideLeft';
@@ -16,15 +16,21 @@ import Marquee from '../../reusablecomponents/Marquee';
 
 export default function Home(props) {
   const data = props.product.serviceComponent;
-  const data1 = props.product.homeComponent;
-  const cardData = data.servicesData;
-  const homeData = content[0]
-  const circleData = circleDatas
+  // const data1 = props.product.homeComponent;
+  const cardData = serviceContent[0].ServicesData
+  const homeData = HomeContent[0].content[0];
+  const circleData = HomeContent[1].circleDatas
+  const MainSlideData= HomeContent[4].MainSlider
+  const innovativeApproachesData = HomeContent[5].innovativeApproachesData
+  const solutionOfferingsData = HomeContent[6].solutionOfferingsData
+  const whychooseus= HomeContent[7].whychooseus[0]
+  const businesspartners= HomeContent[8].BusinessPartners
+  // console.log(businesspartners)
 
   return (
     <div>
-      <MainSlider />
-      <Marquee content={data1.contentslider}/>
+      <MainSlider MainSlideData={MainSlideData}/>
+      <Marquee content={MainSlideData[0].contentslider}/>
       <div className="container mt-5">
         <div className="row align-items-center">
           <div className="col-md-6 mb-3 ">
@@ -55,17 +61,15 @@ export default function Home(props) {
           />
         ))}
       </div>
-     
-     
     
       <div className='mt-2 mb-4'>
-      <Marquee content={data1.contentslider}/>
+      <Marquee content={MainSlideData[0].contentslider}/>
       </div>
       <div>
         <div className='ps-lg-5 ms-lg-5 ms-md-5 ms-3 mt-5'>
-      <h1 className='text-primary'>Why <span className='text-danger'>Choose Us</span></h1>
-      <p className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>We strive for your business growth through innovative approaches</p>
-      <h3 className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>A few good reasons...
+      <h1 className='text-primary'>{whychooseus.why}<span className='text-danger'> {whychooseus.chooseus}</span></h1>
+      <p className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>{whychooseus.choosepara}</p>
+      <h3 className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>{whychooseus.chooseh3}
    </h3>
    </div>
    <div className='container'>
@@ -90,7 +94,7 @@ export default function Home(props) {
         <div className='col-lg-4 col-xxl-4'>
           <SlideLeft data={
             <div className='mt-3'>
-              <h3 className='text-secondary' style={{ fontFamily: "'Lobster', cursive" }}>Solution Offerings</h3>
+              <h3 className='text-secondary' style={{ fontFamily: "'Lobster', cursive" }}>{whychooseus.solutionoff}</h3>
               {solutionOfferingsData.map((item, index) => (
                 <ToggleableCard
                   key={index}
@@ -107,7 +111,7 @@ export default function Home(props) {
     </div>
      
       </div>
-      <PartnerLogos/>
+      <PartnerLogos businesspartners={businesspartners}/>
       <h1 className="text-center text-danger mt-5"><i>{data.serviceHeading}</i></h1>
       <div className="container">
         <div className="row justify-content-center" style={{ marginTop: '80px' }}>

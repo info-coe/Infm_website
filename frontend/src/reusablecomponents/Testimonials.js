@@ -1,8 +1,8 @@
 import React from 'react';
-import { testimonialsData } from '../maincomponents/HOME/homeContent';
+import  HomeContent  from '../maincomponents/HOME/homeContent.json';
 
 const Testimonials = () => {
-  const chunkedData = testimonialsData.reduce((result, value, index, array) => {
+  const chunkedData = HomeContent[2].testimonialsData.reduce((result, value, index, array) => {
     if (index % 2 === 0) result.push(array.slice(index, index + 2));
     return result;
   }, []);
