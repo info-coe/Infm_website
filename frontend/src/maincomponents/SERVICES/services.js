@@ -1,26 +1,28 @@
 import React from 'react';
 import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
+import serviceContent from './ServicesComponent.json'
 
-const Services = (props) => {
-  const data = props.product;
-  
-  const cardData = data.servicesData;
+const Services = () => {
+  // const data = props.product;
+  const cardData = serviceContent[0].ServicesData
+ const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceMainimage
+ const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceSubimage
 
   return (
     <div>
       <img
-        src={data.serviceMainimage.url}
+        src={serviceMainimage}
         width="100%"
         alt="Main Service"
         className="mainimg img-fluid d-none d-md-block"
       />
       <img
-        src={data.serviceSubimage.url}
+        src={serviceSubimage}
         alt="Sub Service"
         className="sunimg img-fluid d-md-none w-100"
       />
 
-      <h1 className="text-center">{data.serviceHeading}</h1>
+      <h1 className="text-center">{serviceContent[1].ServicesAllHeadingAndContent[0].serviceHeading}</h1>
       <div className="container">
         <div className="row justify-content-center" style={{ marginTop: '90px' }}>
           {cardData.map((data, index) => (

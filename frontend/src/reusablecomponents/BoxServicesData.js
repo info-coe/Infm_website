@@ -1,4 +1,5 @@
-const BoxServicesData = ({ allservices }) => {
+const BoxServicesData = ({ allservices ,textColor}) => {
+    console.log(allservices)
     const styles = {
         box: {
             padding: "30px 10px",
@@ -11,23 +12,29 @@ const BoxServicesData = ({ allservices }) => {
             marginBottom: "30px",
             borderBottom: "8px solid #FE0000",
             height: 'auto'
-
         },
         heading: {
             fontSize: "19px",
-            textAlign: 'center'
+            textAlign: 'center',
+            color:"#FE0000"
         },
         content: {
-            padding: '15px 0px',
-            whiteSpace: 'pre-wrap',
-            margin: 0 // Remove any default margin
+            textAlign: "justify"
+        },
+        paragraph: {
+            marginBottom: "1em" // Add spacing between paragraphs
+        },
+        Mainhead :{
+            color:textColor,
+            textAlign:"center",
+            marginBottom:'30px'
         }
     };
 
     return (
         <>
             <div className="container mt-3">
-                <h1 className="text-primary text-center mb-4">{allservices[0].Mainheading}</h1>
+                <h1 style={styles.Mainhead}>{allservices[0].Mainhead}</h1>
                 <div className="row justify-content-center">
                     {allservices.map((service, index) => (
                         <div
@@ -35,8 +42,12 @@ const BoxServicesData = ({ allservices }) => {
                             className={`col-md-4 mb-4`}
                         >
                             <div style={styles.box}>
-                                <h2 style={styles.heading}>{service.sheading}</h2>
-                                <p style={styles.content}>{service.scontent}</p>
+                                <h2 style={styles.heading} className="pb-3">{service.Subhead}</h2>
+                                <div  style={styles.content}>
+                                    {service.Content.map((paragraph, idx) => (
+                                        <p key={idx} style={styles.paragraph}>{paragraph}</p> 
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     ))}

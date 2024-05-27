@@ -1,18 +1,18 @@
 import React from 'react';
-import {SecurityServicesData,ServicesAllHeadingAndContent} from './ServicesContent'
+import {} from './ServicesContent'
 import ModelsPoints from '../../reusablecomponents/ModelsPoints';
 import CrmServices from '../../reusablecomponents/CrmServices';
 import NoZoomin from '../../reusablecomponents/NoZoomin';
+import serviceContent from './ServicesComponent.json'
 
 
-const SecurityArchitecture = (props) => {
-    const secuirtyData = ServicesAllHeadingAndContent[2]
-    const data = props.product;
-    const serviceMainimage = ServicesAllHeadingAndContent[0].serviceMainimage
-    const serviceSubimage  = ServicesAllHeadingAndContent[0].serviceSubimage
-    const secImage = ServicesAllHeadingAndContent[2].secImage
-
-    const securityServicesData = SecurityServicesData.map(item => ({
+const SecurityArchitecture = () => {
+    const secuirtyData = serviceContent[1].ServicesAllHeadingAndContent[2]
+    const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceMainimage
+    const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceSubimage
+    const secImage = serviceContent[1].ServicesAllHeadingAndContent[2].secImage
+    const data = serviceContent[3].ServiceCmsModelsData
+    const securityServicesData = serviceContent[6].SecurityServicesData.map(item => ({
         mainHead: item.secmainhead,
         subHead: item.secminhead,
         objective: item.seccontent1,
