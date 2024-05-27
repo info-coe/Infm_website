@@ -1,13 +1,13 @@
 import React from 'react';
-import {SecurityServicesData,ServiceCmsModelsData,ServicesAllHeadingAndContent} from './ServicesContent'
+import {SecurityServicesData,ServicesAllHeadingAndContent} from './ServicesContent'
 import ModelsPoints from '../../reusablecomponents/ModelsPoints';
 import CrmServices from '../../reusablecomponents/CrmServices';
 import NoZoomin from '../../reusablecomponents/NoZoomin';
 
 
-const SecurityArchitecture = () => {
+const SecurityArchitecture = (props) => {
     const secuirtyData = ServicesAllHeadingAndContent[2]
-    const modelData = ServiceCmsModelsData
+    const data = props.product;
     const serviceMainimage = ServicesAllHeadingAndContent[0].serviceMainimage
     const serviceSubimage  = ServicesAllHeadingAndContent[0].serviceSubimage
     const secImage = ServicesAllHeadingAndContent[2].secImage
@@ -31,7 +31,7 @@ const SecurityArchitecture = () => {
             <img src={secImage} width="85%" alt='no-display'/>
         </div>
         <CrmServices serviceData={securityServicesData}/>
-        <ModelsPoints contents={modelData} />
+        <ModelsPoints contents={data} />
 
         </div>
     );

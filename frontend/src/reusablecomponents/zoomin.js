@@ -8,7 +8,7 @@ const Zoomin = (props) => {
     return (
         <div data-aos="zoom-in" className='container zoom-in'>
             <h1 className='text-primary'>{props.heading}</h1>
-            <h1>{props.heading2}</h1>
+            <h1 className='text-danger'>{props.heading2}</h1>
             <div>
                 {props.content.map((item,index)=>(
                     <p key={index}>{item}</p>

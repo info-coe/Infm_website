@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ImageMoving({image,sty}) {
+function ImageMoving({image}) {
   return (
     <div>
          <img
