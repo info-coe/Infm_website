@@ -6,20 +6,20 @@ const Zoomin = (props) => {
     Aos.init();
     console.log(props.content)
     return (
-<<<<<<< Updated upstream
+        <>
         <div data-aos="zoom-in" className='container zoom-in'>
             <h1 className='text-primary'>{props.heading}</h1>
-=======
         <div data-aos="zoom-in" data-aos-duration="2000" className='container zoom-in'>
             <h1 className='text-primary'>{props.heading1}</h1>
->>>>>>> Stashed changes
             <h1 className='text-danger'>{props.heading2}</h1>
             <div>
                 {props.content.map((item,index)=>(
                     <p key={index}>{item}</p>
                 ))}
             </div>
-        </div>  
+        </div> 
+        </div> 
+        </>
     );
 };
 
