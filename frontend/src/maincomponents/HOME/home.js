@@ -72,7 +72,43 @@ export default function Home(props) {
       <h3 className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>{whychooseus.chooseh3}
    </h3>
    </div>
-   
+   <div className='container'>
+      <div className='row'>
+        <div className='col-lg-8 col-xxl-8'>
+          <SlideRight data={
+            <div className="mt-2 mb-2 ">
+              <div className='row '>
+                {innovativeApproachesData.map((item, index) => (
+                  <div key={index} className="col-12 col-md-4 col-lg-4 mb-3 d-flex flex-wrap justify-content-center">
+                    <Card
+                      logo={item.logo}
+                      title={item.title}
+                      description={item.description}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          } />
+        </div>
+        <div className='col-lg-4 col-xxl-4'>
+          <SlideLeft data={
+            <div className='mt-3'>
+              <h3 className='text-secondary' style={{ fontFamily: "'Lobster', cursive" }}>{whychooseus.solutionoff}</h3>
+              {solutionOfferingsData.map((item, index) => (
+                <ToggleableCard
+                  key={index}
+                  icon={item.icon}
+                  title={item.title}
+                  content={item.content}
+                  initiallyExpanded={index === solutionOfferingsData.length - 1}
+                />
+              ))}
+            </div>
+          } />
+        </div>
+      </div>
+    </div>
      
       </div>
       <PartnerLogos businesspartners={businesspartners}/>
@@ -95,49 +131,7 @@ export default function Home(props) {
         </div>
       </div>
       <div>
-        <div style={{margin:'20px 110px'}}>
-      <h1 className='text-primary'>Why <span className='text-danger'>Choose Us</span></h1>
-      <p className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>We strive for your business growth through innovative approaches</p>
-      <h3 className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>A few good reasons...
-   </h3>
-   </div>
-   <div className='container'>
-      <div className='row'>
-        <div className='col-md-8'>
-          <SlideRight data={
-            <div className="mt-2 mb-2 ">
-              <div className='row'>
-                {innovativeApproachesData.map((item, index) => (
-                  <div key={index} className="col-12 col-md-4 mb-3">
-                    <Card
-                      logo={item.logo}
-                      title={item.title}
-                      description={item.description}
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
-          } />
-        </div>
-        <div className='col-md-4'>
-          <SlideLeft data={
-            <div className='mt-3'>
-              <h3 className='text-secondary' style={{ fontFamily: "'Lobster', cursive" }}>Solution Offerings</h3>
-              {solutionOfferingsData.map((item, index) => (
-                <ToggleableCard
-                  key={index}
-                  icon={item.icon}
-                  title={item.title}
-                  content={item.content}
-                  initiallyExpanded={index === solutionOfferingsData.length - 1}
-                />
-              ))}
-            </div>
-          } />
-        </div>
-      </div>
-    </div>
+       
       </div>
       <Testimonials/>
 
