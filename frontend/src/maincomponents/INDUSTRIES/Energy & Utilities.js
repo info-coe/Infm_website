@@ -38,11 +38,7 @@ const EnergyUtilities = ({ product }) => {
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <div id="enery">
-          {/* <img
-            src={soloutionImage.url}
-            alt=""
-            className="w-100 mainimg img-fluid d-md-block"
-          /> */}
+         
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">

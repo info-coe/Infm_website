@@ -55,7 +55,7 @@ const PartnerLogos = ({businesspartners}) => {
         <div className='col-4 col-md-4 col-lg-4 d-flex align-items-center justify-content-center'>
         <h2 className='text-white'>{businesspartners[0].businessh2}</h2>
         </div>
-        <div className="container bg-light p-3 col-8 col-md-8 col-lg-8">
+        <div className="container bg-white p-3 col-8 col-md-8 col-lg-8">
          
             <section className="customer-logos slider">
                 <Slider {...settings} pauseOnHover={false}>

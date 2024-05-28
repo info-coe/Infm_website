@@ -1,0 +1,98 @@
+[
+    {
+        "industriesmainimage":"https://infomericainc.com/Content/images/industries-banner.jpg",
+        "industriesSubimage":"https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+        "mediaHead":"Media And",
+        "telecomHead":"Telecom",
+        "mediapara1":"In the transformative sectors of Media & Telecom, Infomerica,Inc emerges as a leading solution provider, seamlessly integrating innovative technologies to cater to the intricate and diverse needs of the industry. Our rich experience and deep industry insights enable us to create and deliver unparalleled solutions, elevating user experience, boosting operational efficacy, and driving digital evolution.",
+        "mediapara2":"Choosing Infomerica,Inc as your partner in the Media & Telecom sector means embracing innovative, high-quality solutions underpinned by cutting-edge technologies. We foster a collaborative approach, working meticulously with our clients to unravel industry challenges, uncover novel opportunities, and transform visions into reality in the constantly evolving Media & Telecom sectors.",
+        "solution":"Solution",
+        "offerings":"Offerings",
+        "solutionpara":"We strive for your business growth through innovative approaches",
+        "cloudnetwork":"https://infomericainc.com/Content/images/cloud-network.gif",
+        "computer":"https://infomericainc.com/Content/images/computer.gif",
+        "connection":"https://infomericainc.com/Content/images/connection.gif",
+        "rocket":"https://infomericainc.com/Content/images/rocket.gif",
+        "servicesmainbulb":"https://infomericainc.com/Content/images/services-main1.png",
+        "technology":"Technology",
+        "manufacturing":"Manufacturing",
+        "automotive":"And Automotive",
+        "manufacturingpara":"Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers. Therefore the auto industry is consistently challenged to find new ways to reach individual consumers with the right vehicle and right offer at the right time, while retaining and increasing the market, as well as using their assets to become profitable."
+        
+    },
+    {
+        "mediatelsoloff1":[
+            {
+             "name":"Content Delivery Networks",
+             "p1":"We design resilient and scalable content delivery networks to ensure uninterrupted and high-quality media streaming, addressing the demand for instant content access and superior user experience..",
+             "url":"https://infomericainc.com/Content/images/connection.gif"
+            },
+            {
+                "name":"Customer Management Systems",
+                "p1":"Our comprehensive customer management solutions empower Telecom operators to enhance customer interactions, resolve issues promptly, and implement personalized engagement strategies.",
+                "url":"https://infomericainc.com/Content/images/cloud-network.gif"
+            },
+            {
+                "name":"Billing & Revenue Management",
+                "p1":"We offer robust and flexible billing and revenue management solutions, optimizing revenue streams and facilitating transparent and accurate invoicing.",
+                "url":"https://infomericainc.com/Content/images/computer.gif"
+            },
+            {
+                "name":"Operational Analytics",
+                "p1":"We harness the power of data analytics and Artificial Intelligence to facilitate informed decision-making processes, predictive maintenance, and continuous operational improvements.",
+                "url":"https://infomericainc.com/Content/images/rocket.gif"
+            },
+            {
+                "name":"Revenue Management",
+                "p1":"We construct dynamic and adaptable pricing models and inventory management systems. These solutions are devised to optimize revenue growth and adjust efficiently to market demands and fluctuations.",
+                "url":"https://infomericainc.com/Content/images/rocket.gif"
+            }
+        ]
+    },
+    {
+        "mediacloudcomp":[
+            {
+                "m1":"Cloud Computing"
+            },
+            {
+                "m1":"5G & IoT Integration"
+            },
+            {
+                "m1":"Artificial Intelligence and Machine Learning"
+            },
+            {
+                "m1":"Blockchain Technology"
+            },
+            {
+                "m1":"Cybersecurity Solutions"
+            },
+            {
+                "m1":"Electronic Data Interchange [EDI]"
+            }
+            
+        ],
+        "mediadataservices":[
+            {
+                "m2":"Data Services"
+            },
+            {
+                "m2":"CRM / ERP"
+            },
+            {
+                "m2":"IT Consulting Services"
+            },
+            {
+                "m2":"Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
+            },
+            {
+                "m2":"Application Development & Support"
+            },
+            {
+                "m2":"Infrastructure Management & Platform Upgrades"
+            },
+            {
+                "m2":"Reseller of leading software Software"
+            }
+        ]
+    }
+]

@@ -5,7 +5,7 @@ function RoundedImageCard({ title, description, icon }) {
     card: {
       width: '300px',
       height: 'auto',
-      background: '#053f5e',
+      background: '#030250',
       borderRadius: '10px',
       position: 'relative',
       padding: '20px'
@@ -14,7 +14,7 @@ function RoundedImageCard({ title, description, icon }) {
       width: '100px',
       height: '100px',
       zIndex: '1',
-      background: '#e1f4e5',
+      background: '#0f62fe',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
@@ -30,7 +30,7 @@ function RoundedImageCard({ title, description, icon }) {
     },
     iconImage: {
       fontSize: '34px',
-      // color: '#fff'
+      color: '#fff'
     }
   };
 

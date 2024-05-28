@@ -13,7 +13,7 @@ const TechnologyOfferings = ({dataServices,cloudComputing,industriesImage12}) =>
           </div>
           <div className="col-12 col-md-4">
             <img
-              src={industriesImage12.url}
+              src={industriesImage12}
               className="img-fluid w-50"
               alt=""
             />

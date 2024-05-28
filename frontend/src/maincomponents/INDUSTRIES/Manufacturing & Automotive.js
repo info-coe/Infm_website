@@ -2,12 +2,14 @@ import React from "react";
 import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS for animations
+import IndustriesContent from "../INDUSTRIES/industriesContent.json"
 // import Zoomin from "../../reusablecomponents/zoomin";
 
-const ManufacturingAutomotive = ({ product }) => {
+const ManufacturingAutomotive = ({product}) => {
+  const data=IndustriesContent[0]
   const {
-    industries1Heading,
-    industries11Heading,
+    // industries1Heading,
+    // industries11Heading,
     industriesText,
     industries1Heading2,
     industries12Heading,
@@ -40,13 +42,8 @@ const ManufacturingAutomotive = ({ product }) => {
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
-        <div id="enery">
-          {/* <img
-            src={soloutionImage.url}
-            alt=""
-            className="w-100 mainimg img-fluid d-md-block"
-          /> */}
-        </div>
+      <img src={data.industriesmainimage} height="250" width="100%" alt='no-display' className=" d-none d-md-block" style={{objectFit:"cover"}} />
+            <img src={data.industriesSubimage} alt='no-display' className=" d-md-none" />
       </div>
 
       {/* Heading and Text */}
@@ -54,10 +51,10 @@ const ManufacturingAutomotive = ({ product }) => {
         <div className="col-md-12">
           <div data-aos="fade-down">
             <div className="text-center p-4 fs-1">
-              {industries1Heading}{" "}
-              <span style={{ color: "#FF0000" }}>{industries11Heading}</span>
+              {data.manufacturing}{" "}
+              <span style={{ color: "#FF0000" }}>{data.automotive}</span>
             </div>
-            <div className="container pb-5">{industriesText}</div>
+            <div className="container pb-5">{data.manufacturingpara}</div>
           </div>
         </div>
       </div>
