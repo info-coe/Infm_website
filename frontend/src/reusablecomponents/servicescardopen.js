@@ -65,7 +65,7 @@ function ServicesCardOpen({ title, description, icon }) {
     }
 
     .card-container:hover .card .icon {
-      left: -100px;
+      left: -30%;
     }
 
     .card-container .card .slide::after {

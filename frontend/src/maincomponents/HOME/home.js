@@ -133,11 +133,7 @@ export default function Home(props) {
           ))}
         </div>
       </div>
-<<<<<<< Updated upstream
       <div>
-       
-=======
-     
       <h1 className="text-center text-danger mt-5">{data.serviceHeading}</h1>
       <div className="container">
         <div className="row justify-content-center" style={{ marginTop: '80px' }}>
@@ -175,13 +171,12 @@ export default function Home(props) {
             </div>
           ))}
         </div>
->>>>>>> Stashed changes
       </div>
 
 
 
       <Testimonials/>
-
+</div>
     </div>
   )
 }
