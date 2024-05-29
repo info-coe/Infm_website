@@ -17,7 +17,18 @@
         "technology":"Technology",
         "manufacturing":"Manufacturing",
         "automotive":"And Automotive",
-        "manufacturingpara":"Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers. Therefore the auto industry is consistently challenged to find new ways to reach individual consumers with the right vehicle and right offer at the right time, while retaining and increasing the market, as well as using their assets to become profitable."
+        "manufacturingpara":"Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers. Therefore the auto industry is consistently challenged to find new ways to reach individual consumers with the right vehicle and right offer at the right time, while retaining and increasing the market, as well as using their assets to become profitable.",
+        "energy": "Energy",
+        "utility": "And Uitility",
+        "solution_para": "We strive for your business growth through innovative approaches",
+        "banking": "Banking And",
+        "insurance": "Insurance",
+        "health": "Unlocking Innovation in",
+        "sciences": "Healthcare and Life Sciences",
+        "air": "Airline, Travel And",
+        "logistics": "Logistics",
+        "customer": "Consumer And ",
+        "retail": "Retail"
     },
     {
         "mediatelsoloff1": [
@@ -438,6 +449,32 @@
             },
             {
                 "m2":"Reseller of leading software Software"
+            }
+        ],
+        "health_Cloud_Computing": [
+            {
+                "m1": "Mobile Health Applications"
+            },
+            {
+                "m1": "Cloud-Based Solutions"
+            },
+            {
+                "m1": "Internet of Things (IoT)"
+            },
+            {
+                "m1": "Advanced Analytics & AI"
+            },
+            {
+                "m1": "Blockchain in Healthcare"
+            },
+            {
+                "m1": "Cybersecurity Solutions"
+            },
+            {
+                "m1": "Internet of Medical Things (IoMT)"
+            },
+            {
+                "m1": "Internet of Pharmaceutical Things(IoMT)"
             }
         ]
     },
