@@ -32,7 +32,9 @@ function ServicesCardOpen({ title, description, icon }) {
     .card-container .card .icon .icon-list{
       font-size: 80px;
       color: #fff;
-      transition: 0.8s;
+      transform: scale(1);
+      transition: transform 0.8s ease-in-out;
+
     }
 
     .card-container .card .slide {
