@@ -8,16 +8,16 @@ import serviceContent from './ServicesComponent.json'
 const CustomerRelationshipManagement = () => {
   const contentData = serviceContent[1].ServicesAllHeadingAndContent[0];
   const serviceData = serviceContent[2].ServiceCrmServicesData
-  const data = serviceContent[3].ServiceCmsModelsData
+  const crmModelPointsData = serviceContent[3].ServiceCmsModelsData
   const crmServicesData = serviceData.map(item => ({
     mainHead: item.crmmainhead,
     subHead: item.crmminhead,
     objective: item.crmcontent1,
     outcome: item.crmcontent2,
   }));
-  const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceMainimage
- const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceSubimage
- const serviceCrmImage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceCrmImage
+  const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicebannerimage
+ const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicemobileimage
+ const serviceCrmImage =serviceContent[1].ServicesAllHeadingAndContent[0].servicecrmImage
 
   return (
     <>
@@ -32,18 +32,18 @@ const CustomerRelationshipManagement = () => {
           </div>
           <div className="col-md-8">
             <Zoomin2
-              heading={contentData.cmshead1}
-              heading2={contentData.cmshead2}
+              heading={contentData.crmMainheading}
+              heading2={contentData.fosteringsubheading}
               content={[
-                contentData.cmscontent1,
-                contentData.cmscontent2,
+                contentData.fosteringcontent1,
+                contentData.fosteringcontent2,
               ]}
             />
           </div>
         </div>
       </div>
        <CrmServices serviceData={crmServicesData}/>
-      <ModelsPoints contents={data} /> 
+      <ModelsPoints contents={crmModelPointsData} /> 
     </div>
     </>
   );

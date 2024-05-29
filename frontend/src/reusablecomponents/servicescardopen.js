@@ -70,8 +70,6 @@ function ServicesCardOpen({ title, description, icon }) {
       left: -30%;
     }
 
-    
-
     .card-container .card .slide .content {
       text-align: center;
       color: #414141;
