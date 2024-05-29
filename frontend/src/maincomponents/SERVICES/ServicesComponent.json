@@ -67,35 +67,42 @@
 {
   "ServicesAllHeadingAndContent" :[
       {
-        "cmshead1": "Customer Relationship Management:",
-        "cmshead2": "Fostering Enhanced Customer Relations",
-        "cmscontent1": "Customer Relationship Management (CRM) signifies the strategies and processes that businesses leverage to oversee and refine customer interactions, with the ultimate aim of augmenting customer relations. Achieving a harmonious relationship between a business and its clientele involves the integration of optimal practices and avant-garde technologies to align organizational processes with customer relationship aspirations. Infomerica stands out as a beacon of experience and proficiency in rolling out CRM solutions across diverse industries, empowered by our partnerships with industry stalwarts like IBM, Microsoft, and Oracle. We are poised to deliver products and services that aptly fulfill customer requirements.",
-        "cmscontent2": "Strategic Alliances with product, tool & technology vendors.",
-        "serviceMainimage":"https://www.infomericainc.com/Content/images/services-banner.jpg",
-        "serviceSubimage":"https://www.infomericainc.com/Content/images/services-banner-mobile.jpg",
-        "serviceCrmImage":"https://www.infomericainc.com/Content/images/shutterstock_143086633.jpg",
+        "crmMainheading": "Customer Relationship Management:",
+        "fosteringsubheading": "Fostering Enhanced Customer Relations",
+        "fosteringcontent1": "Customer Relationship Management (CRM) signifies the strategies and processes that businesses leverage to oversee and refine customer interactions, with the ultimate aim of augmenting customer relations. Achieving a harmonious relationship between a business and its clientele involves the integration of optimal practices and avant-garde technologies to align organizational processes with customer relationship aspirations. Infomerica stands out as a beacon of experience and proficiency in rolling out CRM solutions across diverse industries, empowered by our partnerships with industry stalwarts like IBM, Microsoft, and Oracle. We are poised to deliver products and services that aptly fulfill customer requirements.",
+        "fosteringcontent2": "Strategic Alliances with product, tool & technology vendors.",
+        "servicebannerimage":"https://www.infomericainc.com/Content/images/services-banner.jpg",
+        "servicemobileimage":"https://www.infomericainc.com/Content/images/services-banner-mobile.jpg",
+        "servicecrmImage":"https://www.infomericainc.com/Content/images/shutterstock_143086633.jpg",
         "serviceHeading":"Services"
       },
       {
-        "dtshead": "Unleash the Power of Digital: Infomerica's Digital Transformation Services!",
-        "dtscontent": "In a world that’s rapidly evolving, staying ahead means embracing change. At Infomerica,Inc, we specialize in navigating businesses through their digital journeys, unlocking unprecedented value and capabilities. Our Digital Transformation Services are designed to redefine the way you operate and deliver, making your business more resilient, agile, and innovative.",
-        "dtsImage":"https://www.infomericainc.com/Content/images/Digital%20Transformation%20services.jpg"
+        "digitalunleashheading": "Unleash the Power of Digital: Infomerica's Digital Transformation Services!",
+        "digitalunleashpara": "In a world that’s rapidly evolving, staying ahead means embracing change. At Infomerica,Inc, we specialize in navigating businesses through their digital journeys, unlocking unprecedented value and capabilities. Our Digital Transformation Services are designed to redefine the way you operate and deliver, making your business more resilient, agile, and innovative.",
+        "digitalImage":"https://www.infomericainc.com/Content/images/Digital%20Transformation%20services.jpg"
       },
       {
-        "sechead1": "Advanced Security Architecture Services:",
-        "sechead2": "Constructing Resilient Defenses in the Cloud and Beyond!",
-        "seccontent1": "In today's interconnected world, where cyber threats are relentless, achieving robust Security Architecture, especially within cloud environments, is paramount. We provide sophisticated Security Architecture Services, extending our reach into the cloud, to offer holistic defense strategies, advanced methodologies, and a layered approach to protect sensitive data, systems, and applications from sophisticated threats and vulnerabilities.",
-        "seccontent2": "Strategic Alliances with product, tool & technology vendors.",
-        "seccontent3": "With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI].",
-        "secImage":"https://www.infomericainc.com/Content/images/SecurityArchitecture.png"
+        "advancedmainheading": "Advanced Security Architecture Services:",
+        "constructingheading": "Constructing Resilient Defenses in the Cloud and Beyond!",
+        "constructingcontent1": "In today's interconnected world, where cyber threats are relentless, achieving robust Security Architecture, especially within cloud environments, is paramount. We provide sophisticated Security Architecture Services, extending our reach into the cloud, to offer holistic defense strategies, advanced methodologies, and a layered approach to protect sensitive data, systems, and applications from sophisticated threats and vulnerabilities.",
+        "constructingcontent2": "Strategic Alliances with product, tool & technology vendors.",
+        "constructingcontent3": "With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI].",
+        "securityarchitectureImage":"https://www.infomericainc.com/Content/images/SecurityArchitecture.png"
       },
       {
-        "apphead1": "Revolutionizing The IT Landscape With",
-        "apphead2": "Innovative Application Services!",
-        "appcontent1": "In today’s dynamic and ever-evolving digital landscape, the role of application services is pivotal in ensuring seamless business operations and enhanced user experiences.",
-        "appcontent2": "Infomerica's Application services encompass a myriad of capabilities designed to strategize, develop, and manage a spectrum of applications catering to diverse business needs.",
-        "appcontent3":"Our approach to application services is holistic, addressing every aspect of application lifecycle management, and our commitment is to enable our clients to focus on their core business areas while we take care of their application landscape.",
-        "appcontent4":"Our seasoned team of specialists harbors extensive experience and profound industry insights, empowering your business to transcend conventional boundaries and achieve its aspirations."
+        "revolutionizingmainheading": "Revolutionizing The IT Landscape With",
+        "innovativeheading": "Innovative Application Services!",
+        "innovativecontent1": "In today’s dynamic and ever-evolving digital landscape, the role of application services is pivotal in ensuring seamless business operations and enhanced user experiences.",
+        "innovativecontent2": "Infomerica's Application services encompass a myriad of capabilities designed to strategize, develop, and manage a spectrum of applications catering to diverse business needs.",
+        "innovativecontent3":"Our approach to application services is holistic, addressing every aspect of application lifecycle management, and our commitment is to enable our clients to focus on their core business areas while we take care of their application landscape.",
+        "innovativecontent4":"Our seasoned team of specialists harbors extensive experience and profound industry insights, empowering your business to transcend conventional boundaries and achieve its aspirations."
+      },
+      {
+        "welcomemainheading":"Welcome to Infomerica,Inc - Where the Cloud Meets Innovation!",
+        "welcomecontent":"Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At [Your Company Name], we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
+        "unveilheading":"Unveil the Power of Cloud with Infomerica,Inc!",
+        "unveilcontent":"Through our cutting-edge Cloud Services, we help you harness the full potential of the cloud, ensuring optimal flexibility, security, and performance. Our services are designed to align with your unique business objectives, enabling you to overcome challenges and seize opportunities in the evolving digital landscape.",
+        "cloudplatformmigrationprocessImage":"https://www.infomericainc.com/Content/images/3_stage_cloud_platform_migration_process.png"
       }
     ]
 },
@@ -149,6 +156,16 @@
     "point3": "  Expertise & Experience - Leverage our extensive industry knowledge and experience to navigate your automation journey with confidence and ease.",
     "advanicon": "fa fa-check",
     "Advanheading": "The Infomerica Advantage"
+  },
+  {
+    "point1": "  Pioneering Solutions - Crafted with precision and a forward-thinking approach, our services are the epitome of innovative excellence, propelling your business to new heights.",
+    "point2": " Unsurpassable Security - Navigate the digital world with peace of mind, with our robust security frameworks ensuring the integrity and confidentiality of your valuable data.",
+    "point3": "  Scalability & Flexibility - Adapt and grow with ease, leveraging scalable and flexible solutions that evolve with your changing needs and ambitions.",
+    "point4":"Strategic Insights - Gain valuable insights and foresight through our advanced analytics and intelligence, guiding your strategic decisions and plans.",
+    "advanicon": "fa fa-check",
+    "Advanheading": "Why Choose Infomerica,Inc for Cloud Services?",
+    "advantageimage1":"https://www.infomericainc.com/Content/images/AWS%20Partner.png",
+    "advantageimage2":"https://www.infomericainc.com/Content/images/Microsoft%20Gold%20Partner.png"
   }
 ]
 },
@@ -214,7 +231,7 @@
 
 },
 {
-"ApplicatonServicesData":[
+"ComprehensiveApplicationServicesData":[
   {
     "appcontent1": "Expertise in various development platforms, from standard Microsoft .NET and J2EE to custom applications integrated with ERP/CRM systems.",
     "appcontent2":"Proficiency in building applications utilizing both Open Source and Commercial Software, leveraging internal and external APIs.",
