@@ -70,15 +70,7 @@ function ServicesCardOpen({ title, description, icon }) {
       left: -30%;
     }
 
-    .card-container .card .slide::after {
-      content: "";
-      position: absolute;
-      width: 30px;
-      height: 4px;
-      bottom: 15px;
-      left: calc(50% - 15px);
-      background: #2c73df;
-    }
+    
 
     .card-container .card .slide .content {
       text-align: center;
