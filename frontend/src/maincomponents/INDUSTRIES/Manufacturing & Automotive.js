@@ -2,30 +2,30 @@ import React from "react";
 import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS for animations
-import IndustriesContent from "../INDUSTRIES/industriesContent.json"
+import IndustriesContent from "../INDUSTRIES/industriesContent.json";
 // import Zoomin from "../../reusablecomponents/zoomin";
 
-const ManufacturingAutomotive = ({product}) => {
-  const data=IndustriesContent[0]
+const ManufacturingAutomotive = () => {
   const {
-    // industries1Heading,
-    // industries11Heading,
-    industriesText,
-    industries1Heading2,
-    industries12Heading,
-    industriesText2,
-    cloudComputing,
-    dataServices,
-    managementData,
-    technology,
+    industriesmainimage,
+    industriesSubimage,
+    automotive,
+    manufacturing,
+    solution,
     offerings,
-    industriesImage12,
-    industriesDetail,
-    industrieContactText,
-    industriTodaytext,
-    // soloutionImage,
-  } = product.industrie_page;
-  console.log(industriesText);
+    technology,
+    servicesmainbulb,
+  } = IndustriesContent[0];
+  const {
+    man_auto_para,
+    man_auto_para_sub,
+    man_auto_detail,
+    man_auto_contact,
+    man_auto_today,
+  } = IndustriesContent[3];
+  const { man_auto_ManagementData } = IndustriesContent[4];
+  const { man_auto_Cloud_Computing, man_auto_Data_Services } =
+    IndustriesContent[5];
 
   React.useEffect(() => {
     AOS.init({
@@ -42,8 +42,18 @@ const ManufacturingAutomotive = ({product}) => {
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
-      <img src={data.industriesmainimage} height="250" width="100%" alt='no-display' className=" d-none d-md-block" style={{objectFit:"cover"}} />
-            <img src={data.industriesSubimage} alt='no-display' className=" d-md-none" />
+        <img
+          src={industriesmainimage}
+          height="250"
+          alt="no-display"
+          className="responsive-image d-none d-md-block"
+          style={{ objectFit: "cover" }}
+        />
+        <img
+          src={industriesSubimage}
+          alt="no-display"
+          className="responsive-image d-md-none"
+        />
       </div>
 
       {/* Heading and Text */}
@@ -51,10 +61,10 @@ const ManufacturingAutomotive = ({product}) => {
         <div className="col-md-12">
           <div data-aos="fade-down">
             <div className="text-center p-4 fs-1">
-              {data.manufacturing}{" "}
-              <span style={{ color: "#FF0000" }}>{data.automotive}</span>
+              {manufacturing}{" "}
+              <span style={{ color: "#FF0000" }}>{automotive}</span>
             </div>
-            <div className="container pb-5">{data.manufacturingpara}</div>
+            <div className="container pb-5">{man_auto_para}</div>
           </div>
         </div>
       </div>
@@ -65,15 +75,14 @@ const ManufacturingAutomotive = ({product}) => {
         <div className="col-md-6 d-flex align-items-center justify-content-center text-center">
           <div className="p-4">
             <h2 className="fs-1">
-              {industries1Heading2}
-              <span style={{ color: "#FF0000" }}>{industries12Heading}</span>
+              {solution} <span style={{ color: "#FF0000" }}>{offerings}</span>
             </h2>
           </div>
         </div>
 
         <div className="col-md-6" data-aos="zoom-in-up">
           <div className="p-4">
-            <p className="fs-md-5">{industriesText2}</p>
+            <p className="fs-md-5">{man_auto_para_sub}</p>
           </div>
         </div>
       </div>
@@ -94,7 +103,7 @@ const ManufacturingAutomotive = ({product}) => {
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              {managementData.map((curr) => (
+              {man_auto_ManagementData.map((curr) => (
                 <div className="text-white">
                   <ul className="font-weight-normal">
                     <li className="list-group-item fs-5">{curr.name}</li>
@@ -142,20 +151,20 @@ const ManufacturingAutomotive = ({product}) => {
         </div>
         <div className="d-flex container text-center pt-5 flex-wrap">
           <div className="" data-aos="fade-up">
-            {cloudComputing.map((curr) => (
+            {man_auto_Cloud_Computing.map((curr) => (
               <p className="border rounded p-2">{curr.m1}</p>
             ))}
           </div>
           <div className="col-md-4 text-center" data-aos="zoom-in">
             <img
-              src={industriesImage12.url}
+              src={servicesmainbulb}
               className="img-fluid"
               alt=""
               style={{ maxWidth: "60%", height: "auto" }}
             />
           </div>
           <div className="col-md-4" data-aos="fade-up">
-            {dataServices.map((curr, index) => (
+            {man_auto_Data_Services.map((curr, index) => (
               <p key={index} className="border rounded p-2 mb-2">
                 {curr.m2}
               </p>
@@ -169,9 +178,9 @@ const ManufacturingAutomotive = ({product}) => {
         <div className="col-md-12">
           <div className="container pt-5">
             <p>
-              {industriesDetail},
-              <span style={{ color: "#FF0000" }}>{industrieContactText}</span>
-              {industriTodaytext}
+              {man_auto_detail},
+              <span style={{ color: "#FF0000" }}>{man_auto_contact} </span>
+              {man_auto_today}
             </p>
           </div>
         </div>

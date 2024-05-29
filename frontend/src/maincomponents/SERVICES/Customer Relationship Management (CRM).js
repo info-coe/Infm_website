@@ -49,4 +49,4 @@ const CustomerRelationshipManagement = () => {
   );
 };
 
-export default CustomerRelationshipManagement;
+export default CustomerRelationshipManagement

@@ -5,8 +5,8 @@ import serviceContent from './ServicesComponent.json'
 const Services = () => {
   // const data = props.product;
   const cardData = serviceContent[0].ServicesData
- const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceMainimage
- const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].serviceSubimage
+ const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicebannerimage
+ const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicemobileimage
 
   return (
     <div>
