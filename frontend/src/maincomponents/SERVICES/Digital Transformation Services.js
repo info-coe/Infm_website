@@ -37,7 +37,7 @@ const DigitalTransformationServices = () => {
               image={advantagesData.img}
               />
 
-            <BoxServicesData allservices={dtsServicesData} textColor="#0f62fe"/>
+            <BoxServicesData allservices={dtsServicesData} textColor="#0f62fe" textcenter="center"/>
             <ModelsPoints contents={data} />
         </div>
         </>

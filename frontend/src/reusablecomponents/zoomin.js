@@ -1,25 +1,41 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
 const Zoomin = (props) => {
-    Aos.init();
-    console.log(props.content)
-    return (
-        <>
-        <div data-aos="zoom-in" className='container zoom-in'>
-            <h1 className='text-primary'>{props.heading}</h1>
-        <div data-aos="zoom-in" data-aos-duration="2000" className='container zoom-in'>
-            <h1 className='text-primary'>{props.heading1}</h1>
-            <h1 className='text-danger'>{props.heading2}</h1>
-            <div>
-                {props.content.map((item,index)=>(
-                    <p key={index}>{item}</p>
+    useEffect(() => {
+        Aos.init();
+    }, []);
+    
+    if (props.sections) {
+        // Render multiple sections
+        return (
+            <div className='container zoom-in' data-aos="zoom-in">
+                <h2 className='text-primary '>{props.heading}</h2>
+                {props.sections.map((section) => (
+                    <div >
+                        <h2 className='text-danger'>{section.heading}</h2>
+                        <p>{section.content}</p>
+                    </div>
                 ))}
             </div>
-        </div> 
-        </div> 
-        </>
+        );
+    }
+
+    // Render single content structure
+    return (
+        <div className='container zoom-in' data-aos="zoom-in">
+            <h1 className='text-primary'>{props.heading}</h1>
+            <div data-aos="zoom-in" data-aos-duration="2000" className='container zoom-in'>
+                <h1 className='text-primary'>{props.heading1}</h1>
+                <h1 className='text-danger'>{props.heading2}</h1>
+                <div>
+                    {props.content.map((item, index) => (
+                        <p key={index}>{item}</p>
+                    ))}
+                </div>
+            </div>
+        </div>
     );
 };
 
