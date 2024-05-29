@@ -263,5 +263,41 @@
     "appsubhead": "Application Support"
   }
 ]
+},
+{
+  "ComprehensiveCloudServicesData":[
+    {
+      "cloudcontent1": "Cloud Consulting & Strategy",
+      "cloudcontent2":"Roadmap Development",
+      "cloudcontent3":"Cloud Readiness Assessments",
+      "cloudsubhead": "Cloud Consulting & Strategy",
+      "cloudmainhead": "Our Comprehensive Cloud Service Portfolio Includes:",
+      "cloudicon":"fa fa-check"
+    },
+    {
+      "cloudcontent1": "Seamless Migrations",
+      "cloudcontent2":"Efficient Implementations",
+      "cloudcontent3":"Post-Migration Support",
+      "cloudsubhead": "Cloud Migration & Implementation"
+    },
+    {
+      "cloudcontent1": "24/7 Monitoring",
+      "cloudcontent2":"Proactive Optimization",
+      "cloudcontent3":"Issue Resolution",
+      "cloudsubhead": "Cloud Management & Optimization"
+    },
+    {
+      "cloudcontent1": "Security Assessments",
+      "cloudcontent2":"Proactive Optimization",
+      "cloudcontent3":"Threat Mitigation",
+      "cloudsubhead": "Cloud Security & Compliance"
+    },
+    {
+      "cloudcontent1": "Data Integration",
+      "cloudcontent2": "Analytical Modelling",
+      "cloudcontent3":"Real-Time Insights",
+      "cloudsubhead": "Advanced Cloud Analytics"
+    }
+  ] 
 }
 ]

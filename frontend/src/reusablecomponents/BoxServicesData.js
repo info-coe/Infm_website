@@ -1,5 +1,4 @@
-const BoxServicesData = ({ allservices ,textColor}) => {
-    console.log(allservices)
+const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => {
     const styles = {
         box: {
             padding: "30px 10px",
@@ -26,8 +25,9 @@ const BoxServicesData = ({ allservices ,textColor}) => {
         },
         Mainhead :{
             color:textColor,
-            textAlign:"center",
-            marginBottom:'30px'
+            textAlign:textcenter,
+            marginBottom:'30px',
+            fontSize:textsize
         }
     };
 
@@ -45,7 +45,9 @@ const BoxServicesData = ({ allservices ,textColor}) => {
                                 <h2 style={styles.heading} className="pb-3">{service.Subhead}</h2>
                                 <div  style={styles.content}>
                                     {service.Content.map((paragraph, idx) => (
-                                        <p key={idx} style={styles.paragraph}>{paragraph}</p> 
+                                        <>
+                                        <p key={idx} style={styles.paragraph}><span className="me-2"><i className={icon}/></span>{paragraph}</p> 
+                                   </>
                                     ))}
                                 </div>
                             </div>

@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 
 function ToggleableCard({ title, content,initiallyExpanded, icon }) {
     const [showAdditionalContent, setShowAdditionalContent] = useState(initiallyExpanded);
-    console.log(title)
   const toggleAdditionalContent = () => {
     setShowAdditionalContent(!showAdditionalContent);
   };
