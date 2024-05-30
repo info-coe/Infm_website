@@ -75,13 +75,10 @@ function ServicesCardOpen({ title, description, icon }) {
       color: #414141;
     }
 
-    .card-container .card .slide .content h3 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
+    
 
     .card-container .card .slide .content p {
-      font-size: 16px;
+      font-size: 14px;
       margin: 0;
     }
   `;
@@ -97,7 +94,7 @@ function ServicesCardOpen({ title, description, icon }) {
         </div>
         <div className="slide">
           <div className="content">
-            <h3>{title}</h3>
+            <h6>{title}</h6>
             <p>{description}</p>
           </div>
         </div>

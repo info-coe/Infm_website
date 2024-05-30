@@ -14,7 +14,7 @@ const Zoomin = (props) => {
                 <h2 className='text-primary '>{props.heading}</h2>
                 {props.sections.map((section) => (
                     <div >
-                        <h2 className='text-danger'>{section.heading}</h2>
+                        <h2 className='text-danger' style={{fontSize:props.textsize}}>{section.heading}</h2>
                         <p>{section.content}</p>
                     </div>
                 ))}

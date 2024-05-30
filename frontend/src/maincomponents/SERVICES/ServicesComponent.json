@@ -102,7 +102,22 @@
         "welcomecontent":"Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At [Your Company Name], we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
         "unveilheading":"Unveil the Power of Cloud with Infomerica,Inc!",
         "unveilcontent":"Through our cutting-edge Cloud Services, we help you harness the full potential of the cloud, ensuring optimal flexibility, security, and performance. Our services are designed to align with your unique business objectives, enabling you to overcome challenges and seize opportunities in the evolving digital landscape.",
-        "cloudplatformmigrationprocessImage":"https://www.infomericainc.com/Content/images/3_stage_cloud_platform_migration_process.png"
+        "cloudplatformmigrationprocessImage":"https://www.infomericainc.com/Content/images/3_stage_cloud_platform_migration_process.png",
+        "transformmainheading":"Transform with Infomerica,Inc - Your Cloud Companion!",
+        "transformcontent1":"Our mission is to be your trusted partner in your cloud journey, enabling you to innovate, transform, and excel. Together, we’ll explore the infinite possibilities of the cloud, turning your visions into reality and positioning your business as a leader in the digital age..",
+        "transformcontent2":"For more details or to discuss your specific needs,",
+        "transformcontact":"Contact Us",
+        "transformtoday":"today!",
+        "transcontactlink":"/Contact"
+      },
+      {
+        "unveilfuturemainheading":"Unveil the Future with Our AWS Services: A Symphony of Innovation, Scalability, and Excellence!",
+        "unveilfuturecontent":"Welcome to Infomerica,Inc, where your visions meet execution. As an AWS Select Consulting Partner, we are adept at molding the sophisticated architecture of AWS services to offer transformative solutions, designed meticulously to suit your distinctive business paradigms.",
+        "navigatingheading":"Navigating the Digital Elysium with AWS!",
+        "navigatingcontent":"Delve deeper into the transformative power of AWS with us! Our spectrum of AWS services is broad and versatile, covering a myriad of domains such as Cloud Migration, Advanced Analytics, DevOps, and Security Compliance. Our focal point is to infuse innovation, fortify security, and instigate scalable solutions that bolster your operational fortitude and business growth.",
+        "innovatemainheading":"Innovate, Transform, and Excel with AWS!",
+        "innovatecontent":"Engage with us to elevate your journey in the cloud. We stand by you from conceptualization to realization, delivering a seamless experience and ensuring your enterprise’s strategic alignment with the evolving digital epoch. Embrace the future with unparalleled innovation, agility, and resilience with Infomerica,Inc as your beacon in the AWS landscape...",
+        "innovateimage":"https://www.infomericainc.com/Content/images/AWS%20Partner.png"
       }
     ]
 },
