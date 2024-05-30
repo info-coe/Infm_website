@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS for animations
 import IndustriesContent from "../INDUSTRIES/industriesContent.json";
-// import Zoomin from "../../reusablecomponents/zoomin";
+import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
 
 const ManufacturingAutomotive = () => {
   const {
@@ -68,7 +68,6 @@ const ManufacturingAutomotive = () => {
           </div>
         </div>
       </div>
-      {/* <Zoomin heading={industries1Heading} content={[industriesText]} /> */}
 
       {/* Dual Column Content */}
       <div className="row" id="industries">
@@ -149,28 +148,12 @@ const ManufacturingAutomotive = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex container text-center pt-5 flex-wrap">
-          <div className="" data-aos="fade-up">
-            {man_auto_Cloud_Computing.map((curr) => (
-              <p className="border rounded p-2">{curr.m1}</p>
-            ))}
-          </div>
-          <div className="col-md-4 text-center" data-aos="zoom-in">
-            <img
-              src={servicesmainbulb}
-              className="img-fluid"
-              alt=""
-              style={{ maxWidth: "60%", height: "auto" }}
-            />
-          </div>
-          <div className="col-md-4" data-aos="fade-up">
-            {man_auto_Data_Services.map((curr, index) => (
-              <p key={index} className="border rounded p-2 mb-2">
-                {curr.m2}
-              </p>
-            ))}
-          </div>
-        </div>
+
+        <TechnologyOfferings
+          cloudComputing={man_auto_Cloud_Computing}
+          industriesImage12={servicesmainbulb}
+          dataServices={man_auto_Data_Services}
+        />
       </div>
 
       {/* Industries Detail */}
