@@ -20,7 +20,7 @@ const ApplicationServices = () => {
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
         <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
         <div className='mt-5'>
-        <Zoomin heading={applicationData.revolutionizingmainheading} heading2={applicationData.innovativeheading} content={[applicationData.innovativecontent1,applicationData.innovativecontent2,applicationData.innovativecontent3,applicationData.innovativecontent4]}/>
+        <Zoomin heading={applicationData.revolutionizingmainheading} heading2={applicationData.innovativeheading} content={[applicationData.innovativecontent1,applicationData.innovativecontent2,applicationData.innovativecontent3,applicationData.appcontent4]}/>
         </div>
         <BoxServicesData allservices={appServicesData} textColor="#FE0000"/ >
         <ModelsPoints contents={data} />

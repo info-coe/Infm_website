@@ -1,23 +1,23 @@
 [
     {
-        "industriesmainimage": "https://infomericainc.com/Content/images/industries-banner.jpg",
-        "industriesSubimage": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
-        "mediaHead": "Media And",
-        "telecomHead": "Telecom",
-        "mediapara1": "In the transformative sectors of Media & Telecom, Infomerica,Inc emerges as a leading solution provider, seamlessly integrating innovative technologies to cater to the intricate and diverse needs of the industry. Our rich experience and deep industry insights enable us to create and deliver unparalleled solutions, elevating user experience, boosting operational efficacy, and driving digital evolution.",
-        "mediapara2": "Choosing Infomerica,Inc as your partner in the Media & Telecom sector means embracing innovative, high-quality solutions underpinned by cutting-edge technologies. We foster a collaborative approach, working meticulously with our clients to unravel industry challenges, uncover novel opportunities, and transform visions into reality in the constantly evolving Media & Telecom sectors.",
-        "solution": "Solution",
-        "offerings": "Offerings",
-        "solutionpara": "We strive for your business growth through innovative approaches",
-        "cloudnetwork": "https://infomericainc.com/Content/images/cloud-network.gif",
-        "computer": "https://infomericainc.com/Content/images/computer.gif",
-        "connection": "https://infomericainc.com/Content/images/connection.gif",
-        "rocket": "https://infomericainc.com/Content/images/rocket.gif",
-        "servicesmainbulb": "https://infomericainc.com/Content/images/services-main1.png",
-        "technology": "Technology",
-        "manufacturing": "Manufacturing",
-        "automotive": "And Automotive",
-        "manufacturingpara": "Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers. Therefore the auto industry is consistently challenged to find new ways to reach individual consumers with the right vehicle and right offer at the right time, while retaining and increasing the market, as well as using their assets to become profitable.",
+        "industriesmainimage":"https://infomericainc.com/Content/images/industries-banner.jpg",
+        "industriesSubimage":"https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+        "mediaHead":"Media And",
+        "telecomHead":"Telecom",
+        "mediapara1":"In the transformative sectors of Media & Telecom, Infomerica,Inc emerges as a leading solution provider, seamlessly integrating innovative technologies to cater to the intricate and diverse needs of the industry. Our rich experience and deep industry insights enable us to create and deliver unparalleled solutions, elevating user experience, boosting operational efficacy, and driving digital evolution.",
+        "mediapara2":"Choosing Infomerica,Inc as your partner in the Media & Telecom sector means embracing innovative, high-quality solutions underpinned by cutting-edge technologies. We foster a collaborative approach, working meticulously with our clients to unravel industry challenges, uncover novel opportunities, and transform visions into reality in the constantly evolving Media & Telecom sectors.",
+        "solution":"Solution",
+        "offerings":"Offerings",
+        "solutionpara":"We strive for your business growth through innovative approaches",
+        "cloudnetwork":"https://infomericainc.com/Content/images/cloud-network.gif",
+        "computer":"https://infomericainc.com/Content/images/computer.gif",
+        "connection":"https://infomericainc.com/Content/images/connection.gif",
+        "rocket":"https://infomericainc.com/Content/images/rocket.gif",
+        "servicesmainbulb":"https://infomericainc.com/Content/images/services-main1.png",
+        "technology":"Technology",
+        "manufacturing":"Manufacturing",
+        "automotive":"And Automotive",
+        "manufacturingpara":"Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers. Therefore the auto industry is consistently challenged to find new ways to reach individual consumers with the right vehicle and right offer at the right time, while retaining and increasing the market, as well as using their assets to become profitable.",
         "energy": "Energy",
         "utility": "And Uitility",
         "solution_para": "We strive for your business growth through innovative approaches",
@@ -448,7 +448,7 @@
                 "m2": "Infrastructure Management & Platform Upgrades"
             },
             {
-                "m2": "Reseller of leading software Software"
+                "m2":"Reseller of leading software Software"
             }
         ],
         "health_Cloud_Computing": [
@@ -475,6 +475,70 @@
             },
             {
                 "m1": "Internet of Pharmaceutical Things(IoMT)"
+            }
+        ]
+    },
+    {
+        "industriesSolutionOfferings":[
+            {
+                "solutionHead":"Solution Offerings",
+                "icon":"bi bi-send",
+                "list":[
+                        "Product Management",
+                        "Supply Chain Management",
+                        "Sales and Marketing",
+                        "After Sales Service"
+                ]
+            },
+            {
+                "solutionHead":"Technology Offerings",
+                "icon":"bi bi-send",
+                "list":[
+                        "Reseller of leading software",
+                        "IT Consulting Services",
+                        "Web Services",
+                        "Platform Upgrades"
+                ]
+               
+            }
+        ]
+    },
+    {
+        "IndustriesSideContent":[
+            {
+                "h1":"Manufacturing",
+                "h2":"& Automotive",
+                "p1":"Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers.",
+                "readmore":"Read More",
+                "route":"/Manufacturing-Automotive"
+            },
+            {
+                "h1":"Banking &",
+                "h2":"Insurance Services",
+                "p1":"Infomerica helps retail banks shift their focus from their products to their customers by offering solutions tailored for the needs and goals of their most valuable customers and high potential value prospects.",
+                "readmore":"Read More",
+                "route":"/Banking-Insurance-Services"
+            },
+            {
+                "h1":"Healthcare &",
+                "h2":"Life Sciences",
+                "p1":"Healthcare payers, providers and pharmaceutical organizations must continue leveraging technology to automate their businesses for greater efficiency and effectiveness.",
+                "readmore":"Read More",
+                "route":"/Healthcare-LifeSciences"
+            },
+            {
+                "h1":"Media &",
+                "h2":"Telecom",
+                "p1":"Media Groups, Telecom Operators, Internet Players, Publishing Companies, And Cable Television, VoIP, Satellite, Wireless Providers Are All Competing For The Time Of People.",
+                "readmore":"Read More",
+                "route":"/Media-Telecom"
+            },
+            {
+                "h1":"Airline / Travel /",
+                "h2":"Logistics",
+                "p1":"It is a known fact that more than two-thirds of the planet is covered by water and that more than 80% of all finished goods and raw materials traded globally is shipped through sea.",
+                "readmore":"Read More",
+                "route":"/Airline-Travel-Logistics"
             }
         ]
     }

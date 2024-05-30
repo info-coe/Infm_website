@@ -9,7 +9,7 @@ const Footer = () => {
         <>
         <div className='flex-container'>
             <div className='nasscom flexgrowdiv'>
-                <img src={data.logofooter} alt="logo" width="290" height="50" style={{objectFit:"cover"}}></img>
+                <img src={data.logofooter} alt="logo" style={{objectFit:"contain"}}></img>
                 <p>{data.footerpara}</p>
             </div>
             <div className='keylinks flexgrowdiv'>
