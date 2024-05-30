@@ -10,7 +10,12 @@ const MainSlider = ({MainSlideData}) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [animating, setAnimating] = useState(false);
     const sliderRef = useRef(null);
-    const slides= MainSlideData[1].slides
+    const slides= MainSlideData.map(item => item.slides).filter(Boolean).reduce((acc, curr) => acc.concat(curr), []);
+    // MainSlideData.map(item => item.slides).filter(Boolean)
+    // MainSlideData.filter((item) => (item.hasOwnProperty('slides') && item.map(item1=>item1)))
+    // console.log(slides);
+    // console.log(MainSlideData[1].slides);
+    // MainSlideData[1].slides
     
     const settings = {
         dots: false,

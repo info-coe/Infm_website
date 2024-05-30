@@ -3,7 +3,7 @@ import Zoomin2 from '../../reusablecomponents/Zoomin2';
 import ImageMoving from '../../reusablecomponents/ImageMoving';
 import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
 import CircleImageCard from '../../reusablecomponents/CircleImageCard';
-import  HomeContent  from './homeContent.json';
+// import  HomeContent  from './homeContent.json';
 import serviceContent from "../SERVICES/ServicesComponent.json"
 import MainSlider from '../../reusablecomponents/MainSlider';
 import Testimonials from '../../reusablecomponents/Testimonials';
@@ -17,9 +17,13 @@ import Servicecardflip from '../../reusablecomponents/servicecardflip';
 import ServicesCardOpen from '../../reusablecomponents/servicescardopen';
 
 export default function Home(props) {
-  const data = props.product.serviceComponent;
+  // console.log(props)
+  const data = props.product.ServicesComponent;
+  const HomeContent = JSON.parse(props.product.homeContent.Content);
+
   // const data1 = props.product.homeComponent;
-  const cardData = serviceContent[0].ServicesData
+  const cardData = serviceContent.map(item => item.ServicesData).filter(Boolean).reduce((acc, curr) => acc.concat(curr), []);
+  // serviceContent[0].ServicesData
   const homeData = HomeContent[0].content[0];
   const circleData = HomeContent[1].circleDatas
   const MainSlideData= HomeContent[4].MainSlider
