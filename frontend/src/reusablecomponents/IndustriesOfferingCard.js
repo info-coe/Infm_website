@@ -1,7 +1,7 @@
 import React from 'react';
 
 const IndustriesOfferingCard = ({solutionofferingData}) => {
-    console.log(solutionofferingData)
+    // console.log(solutionofferingData)
     const styles = `
     .card {
         position: relative;

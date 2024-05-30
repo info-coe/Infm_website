@@ -11,8 +11,8 @@ const Mission = () => {
     return (
         <>
         <div>
-            <img src={data[0].missionmainimage} height="250" width="100%" alt='no-display' className=" d-none d-md-block" style={{objectFit:"cover"}} />
-            <img src={data[0].missionSubimage} alt='no-display' className=" d-md-none" />
+            <img src={data[0].missionmainimage} height="250" width="100%" alt='no-display' className="responsive-image d-none d-md-block" style={{objectFit:"cover"}} />
+            <img src={data[0].missionSubimage} alt='no-display' className="responsive-image d-md-none" />
         <div className='pt-5 pb-5 mt-md-5 mb-md-5'>
       <AboutZoomin heading1={data[0].missionHeading1} heading2={data[0].missionHeading2} content={content} />
 

@@ -143,7 +143,7 @@ const ManufacturingAutomotive = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="text-center p-4 fs-1" data-aos="zoom-in">
-              <span style={{ color: "#FF0000" }}> {technology}</span>
+              <span style={{ color: "#FF0000" }}> {technology}</span>&nbsp;
               <span style={{ color: " #0f62fe" }}>{offerings}</span>
             </div>
           </div>

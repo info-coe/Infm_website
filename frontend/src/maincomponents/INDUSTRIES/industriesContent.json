@@ -28,7 +28,8 @@
         "air": "Airline, Travel And",
         "logistics": "Logistics",
         "customer": "Consumer And ",
-        "retail": "Retail"
+        "retail": "Retail",
+        "industriesMediatelecomBg":"https://infomericainc.com/Content/images/banner-8.jpg"
     },
     {
         "mediatelsoloff1": [
@@ -480,6 +481,7 @@
     },
     {
         "industriesSolutionOfferings":[
+        [
             {
                 "solutionHead":"Solution Offerings",
                 "icon":"bi bi-send",
@@ -501,6 +503,105 @@
                 ]
                
             }
+        ],
+        [
+            {
+                "solutionHead":"Solution Offerings",
+                "icon":"bi bi-send",
+                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
+                "list":[
+                        "Our Financial Focuses",
+                        "Retail Banking",
+                        "Investment Management",
+                        "Capital Markets"
+                ]
+            },
+            {
+                "solutionHead":"Technology Offerings",
+                "icon":"bi bi-send",
+                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
+                "list":[
+                        "Enterprise Resource Planning",
+                        "Data Warehouse",
+                        "Content/Records Management",
+                        "Master Data Management"
+                ]
+               
+            }
+        ],
+        [
+            {
+                "solutionHead":"Solution Offerings",
+                "icon":"bi bi-send",
+                "list":[
+                        "Hospital Information System",
+                        "Multi-Specialty Modules",
+                        "Validation Services",
+                        "Sales and Marketing"
+                ]
+            },
+            {
+                "solutionHead":"Technology Offerings",
+                "icon":"bi bi-send",
+                "list":[
+                        "Platform Upgrades",
+                        "Software Development",
+                        "E-Commerce Development",
+                        "Master Data Management"
+                ]
+               
+            }
+        ],
+        [
+            {
+                "solutionHead":"Solution Offerings",
+                "icon":"bi bi-send",
+                "color":"#0f62fe",
+                "list":[
+                        "Revenue Assurance",
+                        "Inventory Management",
+                        "Service Provisioning",
+                        "Enterprise Applications"
+                ]
+            },
+            {
+                "solutionHead":"Technology Offerings",
+                "icon":"bi bi-send",
+                "color":"#FE0000",
+                "list":[
+                        "Electronic Data Interchange",
+                        " Data Warehouse",
+                        "Infrastructure Management",
+                        "Records Management"
+                ]
+               
+            }
+        ],
+        [
+            {
+                "solutionHead":"Solution Offerings",
+                "icon":"bi bi-send",
+                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
+                "list":[
+                        "Technical Operations",
+                        "Transportation Planning",
+                        "Loyalty Management",
+                        "Online Presence & Portals"
+                ]
+            },
+            {
+                "solutionHead":"Technology Offerings",
+                "icon":"bi bi-send",
+                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
+                "list":[
+                        "Reseller of leading software",
+                        "Enterprise Portals",
+                        "Web Services",
+                        "E-Commerce Development"
+                ]
+               
+            }
+        ]
         ]
     },
     {

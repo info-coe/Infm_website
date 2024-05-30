@@ -27,15 +27,14 @@ const MediaTelecom = () => {
         <img
           src={data.industriesmainimage}
           height="250"
-          width="100%"
           alt="no-display"
-          className=" d-none d-md-block"
+          className="responsive-image d-none d-md-block"
           style={{ objectFit: "cover" }}
         />
         <img
           src={data.industriesSubimage}
           alt="no-display"
-          className=" d-md-none"
+          className="responsive-image d-md-none"
         />
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">

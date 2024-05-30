@@ -2,12 +2,14 @@ import React from 'react';
 import IndustriesContent from "../INDUSTRIES/industriesContent.json";
 import IndustriesOfferingCard from '../../reusablecomponents/IndustriesOfferingCard';
 import IndustriesSideContent from '../../reusablecomponents/IndustriesSideContent';
-import CardBulb from '../../reusablecomponents/CardBulb';
+import CardBulb from '../../reusablecomponents/IndustriesCardBulb';
+import IndustriesBorderMovingCard from '../../reusablecomponents/IndustriesBorderMovingCard';
 
 const Industries = () => {
     const data = IndustriesContent[0];
     const solutionofferingData = IndustriesContent[6].industriesSolutionOfferings;
-    const manufacturindSideContent = IndustriesContent[7].IndustriesSideContent[0];
+    // const solutionofferingBulbData = IndustriesContent[6].industriesSolutionOfferings[1];
+    const manufacturindSideContent = IndustriesContent[7].IndustriesSideContent;
     // console.log(solutionofferingData)
     const styles = `
    
@@ -27,17 +29,63 @@ const Industries = () => {
             <style>{styles}</style>
             <img src={data.industriesmainimage} height="250" alt='no-display' className="responsive-image d-none d-md-block" style={{ objectFit: "cover" }} />
             <img src={data.industriesSubimage} alt='no-display' className="responsive-image d-md-none" />
-            <div className='container d-md-flex flex-wrap gap-5 align-items-center'>
-              
+            <div className='container d-md-flex flex-wrap gap-5 align-items-center' style={{marginTop:"100px", marginBottom:'100px'}}>
                 <div className='col-lg-6 d-md-flex gap-4'>
-                <IndustriesOfferingCard solutionofferingData={solutionofferingData}/>
+                <IndustriesOfferingCard solutionofferingData={solutionofferingData[0]}/>
                 </div>
                
                 <div className='col-lg-4 ps-3 paragraph-div'>
-                   <IndustriesSideContent data={manufacturindSideContent}/>
+                   <IndustriesSideContent data={manufacturindSideContent[0]}/>
                 </div>
             </div>
-            <CardBulb/>
+           <div className='container'>
+           <hr style={{height:"2px", background: 'linear-gradient(90deg, rgba(0,125,255,1) 10%, rgba(230,22,22,1) 100%)'}}/>
+           </div>
+            <div className='container d-md-flex flex-wrap gap-5 align-items-center' style={{marginTop:"100px", marginBottom:'100px'}}>
+                <div className='col-lg-4 ps-3 paragraph-div'>
+                   <IndustriesSideContent data={manufacturindSideContent[1]}/>
+                </div>
+                <div className='col-lg-6 d-md-flex gap-4'>
+                <CardBulb solutionofferingData={solutionofferingData[1]}/>
+                </div> 
+            </div>
+            <div className='container'>
+           <hr style={{height:"2px", background: 'linear-gradient(90deg, rgba(0,125,255,1) 10%, rgba(230,22,22,1) 100%)'}}/>
+           </div>
+
+            <div className='container d-md-flex flex-wrap gap-5 align-items-center' style={{marginTop:"100px", marginBottom:'100px'}}>
+                <div className='col-lg-6 d-md-flex gap-4'>
+                <IndustriesOfferingCard solutionofferingData={solutionofferingData[2]}/>
+                </div>
+               
+                <div className='col-lg-4 ps-3 paragraph-div'>
+                   <IndustriesSideContent data={manufacturindSideContent[2]}/>
+                </div>
+            </div>
+           
+
+            <div style={{backgroundImage: `url(${data.industriesMediatelecomBg})`, backgroundSize: 'cover', padding:"10px" ,marginTop:"100px", marginBottom:'100px'}}>
+            <div className='container d-md-flex flex-wrap gap-5 align-items-center' style={{marginTop:"100px", marginBottom:'100px' }}>
+
+                <div className='col-lg-4 ps-3 paragraph-div'>
+                   <IndustriesSideContent data={manufacturindSideContent[3]}/>
+                </div>
+                <div className='col-lg-6 d-md-flex gap-4'>
+                <IndustriesBorderMovingCard solutionofferingData={solutionofferingData[3]}/>
+                </div>
+            </div>
+            </div>
+           
+
+            <div className='container d-md-flex flex-wrap gap-5 align-items-center' style={{marginTop:"100px", marginBottom:'100px'}}>
+                <div className='col-lg-6 d-md-flex gap-4'>
+                <CardBulb solutionofferingData={solutionofferingData[4]}/>
+                </div> 
+                <div className='col-lg-4 ps-3 paragraph-div'>
+                   <IndustriesSideContent data={manufacturindSideContent[4]}/>
+                </div>
+            </div>
+            
         </>
     );
 };

@@ -1,8 +1,9 @@
 import React from "react";
-import AboutusContent from "../ABOUTUS/aboutusContent.json"
+// import AboutusContent from "../ABOUTUS/aboutusContent.json"
 import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 
-const Aboutus = () => {
+const Aboutus = (props) => {
+  const AboutusContent = JSON.parse(props.product.aboutusContent.Content);
   const data= AboutusContent
   console.log(data)
   // const data = props.product;
@@ -16,8 +17,8 @@ const Aboutus = () => {
   return (
     <>
     <div>
-       <img src={data[0].aboutUsmainimage} width='100%' alt='no-display' className="mainimg img-fluid d-none d-md-block" />
-       <img src={data[0].aboutUsSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100" />
+       <img src={data[0].aboutUsmainimage} height="250" alt='no-display' className="responsive-image d-none d-md-block" style={{ objectFit: "cover" }} />
+       <img src={data[0].aboutUsSubimage} alt='no-display' className="responsive-image d-md-none" />
     <div className="mt-5 mb-5">
       <AboutZoomin heading1={data[0].aboutUsHeading1} heading2={data[0].aboutUsHeading2} content={content} />
     </div>
