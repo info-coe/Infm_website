@@ -118,6 +118,20 @@
         "innovatemainheading":"Innovate, Transform, and Excel with AWS!",
         "innovatecontent":"Engage with us to elevate your journey in the cloud. We stand by you from conceptualization to realization, delivering a seamless experience and ensuring your enterprise’s strategic alignment with the evolving digital epoch. Embrace the future with unparalleled innovation, agility, and resilience with Infomerica,Inc as your beacon in the AWS landscape...",
         "innovateimage":"https://www.infomericainc.com/Content/images/AWS%20Partner.png"
+      },
+      {
+        "microsoftcloudmainheading":"Welcome to Infomerica,Inc – Your Gateway to Microsoft Cloud Excellence!",
+        "microsoftcloudcontent":"As a distinguished AWS Select Consulting Partner, we extend our vast expertise and insights to navigate you seamlessly through the realms of Microsoft Cloud Services. Our commitment is to orchestrate transformative cloud experiences that empower your business to innovate, evolve, and flourish in the dynamic digital ecosystem.",
+        "elevateheading":"Elevate Your Enterprise with Infomerica,Inc",
+        "elevatecontent":"We specialize in leveraging Microsoft Cloud solutions to drive agility, efficiency, and resilience within your enterprise. Our meticulously designed services pave the way for enhanced operational excellence, enriched user experiences, and accelerated growth trajectories.",
+        "trustedmicrosoftmainheading":"Transform Your Journey with Infomerica – Your Trusted Microsoft Cloud Partner!",
+        "trustedmicrosoftcontent":"Our mission is to catalyze your success in the digital era through transformative Microsoft Cloud Services. Together, we’ll unravel new possibilities, orchestrate digital symphonies, and chart your course to uncharted territories of opportunities.",
+        "trustedmicrosoftimage":"https://www.infomericainc.com/Content/images/Microsoft%20Gold%20Partner.png",
+        "trustedcontent2":"For more details or to discuss your specific needs,",
+        "trustedcontact":"Contact Us",
+        "trustedtoday":"today!",
+        "trustedcontactlink":"/Contact"
+        
       }
     ]
 },
@@ -158,7 +172,10 @@
     "mheading": "Delivery Models",
     "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
     "mcontent2": "With our proven onsite/offshore delivery model, CRM Services is a cost-effective approach to highest return on your investments[ROI].",
-    "mcontent3": "For more details or to discuss your specific needs, Contact Us today!",
+    "mcontent3": "For more details or to discuss your specific needs,",
+    "mcontact":"Contact Us",
+    "mtoday":"today!",
+    "mcontactlink":"/Contact",
     "image":"https://www.infomericainc.com/Content/images/point.gif"
   }
 ]
@@ -312,6 +329,83 @@
       "cloudcontent2": "Analytical Modelling",
       "cloudcontent3":"Real-Time Insights",
       "cloudsubhead": "Advanced Cloud Analytics"
+    }
+  ] 
+},
+{
+  "ExtensiveAWSServicesData":[
+    {
+      "awscontent1": "Seamless Migration",
+      "awscontent2":" Minimal Downtime",
+      "awscontent3":"Risk Mitigation Strategies",
+      "awscontent4":"Post-Migration Support",
+      "awssubhead": "AWS Cloud Migration",
+      "awsmainhead": "Our Extensive AWS Service Portfolio",
+      "awsicon":"fa fa-check"
+    },
+    {
+      "awscontent1": "24/7 Monitoring & Management",
+      "awscontent2":"Proactive Issue Resolution",
+      "awscontent3":"Regular Optimization Checks",
+      "awscontent4":"Detailed Reporting",
+      "awssubhead": "AWS Managed Services"
+    },
+    {
+      "awscontent1": "Real-Time Data Processing",
+      "awscontent2":"Advanced Analytical Models",
+      "awscontent3":"Insight-Driven Decision-Making",
+      "awscontent4":"Scalable Storage Solutions",
+      "awssubhead": "Data Lakes & Advanced Analytics"
+    },
+    {
+      "awscontent1": "Continuous Integration & Delivery",
+      "awscontent2":"Automated Testing",
+      "awscontent3":"Infrastructure as Code",
+      "awscontent4":" Agile Transformation",
+      "awssubhead": "DevOps & Application Modernization"
+    },
+    {
+      "awscontent1": "Regulatory Compliance",
+      "awscontent2": "Threat Intelligence",
+      "awscontent3":"Security Assessments",
+      "awscontent4":"Compliance Monitoring",
+      "awssubhead": "AWS Security & Compliance"
+    }
+  ] 
+},
+{
+  "HolisticMicrosoftServicesData":[
+    {
+      "microcontent1": "Strategy Formulation",
+      "microcontent2":" Solution Architecture",
+      "microcontent3":"Roadmap Development",
+      "microsubhead": "Microsoft Cloud Consulting",
+      "micromainhead": "Our Holistic Microsoft Cloud Service Offerings Include",
+      "microicon":"fa fa-check"
+    },
+    {
+      "microcontent1": "Seamless Transition",
+      "microcontent2":"Strategic Implementations",
+      "microcontent3":"Post-Migration Support",
+      "microsubhead": "Migration & Deployment"
+    },
+    {
+      "microcontent1": "Continuous Monitoring",
+      "microcontent2":"Proactive Optimization",
+      "microcontent3":"Issue Remediation",
+      "microsubhead": "Optimization & Management"
+    },
+    {
+      "microcontent1": "Risk Assessments",
+      "microcontent2":"Compliance Assurance",
+      "microcontent3":"Threat Mitigation",
+      "microsubhead": "Security & Compliance Management"
+    },
+    {
+      "microcontent1": "Data Integration & Visualization",
+      "microcontent2": "Predictive Analytics",
+      "microcontent3":"Business Intelligence Solutions",
+      "microsubhead": "Advanced Analytics & Intelligence"
     }
   ] 
 }

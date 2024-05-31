@@ -35,11 +35,11 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
         <>
             <div className="container mt-3">
                 <h1 style={styles.Mainhead}>{allservices[0].Mainhead}</h1>
-                <div className="row justify-content-center">
+                <div className="row justify-content-center ">
                     {allservices.map((service, index) => (
                         <div
                             key={index}
-                            className={`col-md-4 mb-4`}
+                            className={`col-md-4 mt-3`}
                         >
                             <div style={styles.box}>
                                 <h2 style={styles.heading} className="pb-3">{service.Subhead}</h2>

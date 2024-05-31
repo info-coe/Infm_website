@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ModelsPoints = ({ contents }) => {
   const content = contents[0];
@@ -28,7 +29,10 @@ const ModelsPoints = ({ contents }) => {
                 <li className="d-flex align-items-center" style={{color:'#0f62fe'}}><img src={mimage } width="3%" alt='no' />{content.p7}</li>
               </ul>
             </div>
-            <p  style={{fontSize:'18px',color: '#030250'}}><span className='m-md-4'>{content.mcontent3}</span>
+            <p  style={{fontSize:'18px',color: '#030250'}}><span className='m-md-4'>{content.mcontent3}
+            <Link to={content.mcontactlink} className='text-decoration-none'>
+             <span className='p-1 text-danger'>{content.mcontact}</span>
+            </Link>{content.mtoday}</span>
               <div style={{borderBottom:"9px solid #FE0000 "}}></div>
             </p>
           </div>
