@@ -23,14 +23,14 @@ const Careers = () => {
         alt="CareersMobile"
         className="img-fluid d-md-none w-100"
       />
-      <div className='container'>
+      <div className='p-lg-5 p-1 m-1'>
         <h2 className='text-primary pt-5 pb-3'>{data.Careers}</h2>
         <p className='pb-4' style={{fontSize:"18px"}}>{data.CareersDescription}</p>
         <div className='d-md-flex flex-wrap gap-4 justify-content-center mb-5'>
         <CareersSlideContent data={CareersContent[1].careersSlides}/>
         </div>
         <h2 className='mb-5'><span className='text-primary'>{data.Current}</span><span className='text-danger'>{data.Openings}</span></h2>
-       <div className='d-md-flex flex-wrap gap-4 justify-content-center mb-5'>
+       <div className='d-md-flex flex-wrap gap-lg-4 gap-md-2 justify-content-center mb-5'>
        <CareersCurrentopeningsCard data={CareersContent[2].currentopenings}/>
        </div>
       </div>

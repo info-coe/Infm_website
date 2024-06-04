@@ -42,7 +42,8 @@
                 "head":"Software QA Engineer",
                 "p1":"Test software systems for quality assurance purposes; design test plans and procedures for software systems; document software defects and report to developers; perform regression testing and negative testing; implement fixes for software defects.",
                 "p2":"Position requires Bachelors/equivalent in CS, Engineering or related field and 5 years of IT experience including White Box Testing, Black Box Testing, Load Testing, Test Planning, Test Execution, Selenium WebDriver, Cypress.io, Postman Pro, Newman, SOAP UI, Karate DSL, BDD, Cucumber, TestNG, JSON, XML, QTP, Java, Oracle SQL, Jenkins, Git, AWS, JavaScript, VBScript, Groovy, MongoDB, Waterfall Delivery, Agile SCRUM, Azure DevOps, Rally, Atlassian JIRA, ALM, IntelliJ Idea, VS Code, and Azure. Position requires travel / relocation to various unanticipated U.S. locations.",
-                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513"
+                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
+                "moredetails":"More Details"
             },
             {
                 "list":[
@@ -55,7 +56,8 @@
                 "head":"Sr. Mechanical Engineer",
                 "p1":"Perform engineering duties in planning, testing the mechanically functioning equipment. Improve reliability of Gensets, through testing and analyzing the structural and dynamic vibrations. Research and recommend mechanical stiffness changes to meet requirements of structural reliability. Analyze test data and recommend structural changes to avoid early failures, with data analysis tools.",
                 "p2":"Position requires Master’s / equivalent in Engineering and 6 months of experience including cDAQ (TestSystems), eDAQ (SOMAT), LMS for Data Acquisition, DATK, n-code, understanding of MER and ET-186, strain DAQ, Modal Testing (MEscope), Torsional Vibrational testing, Flow testing, Proximity-probes, Megger testing, Coupling Test, Battery/Alternator Load Test, Gas Train Pressure test, CANape and CANalyzer for ECU calibration. Position requires travel/relocation to various unanticipated U.S. locations.",
-                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513"
+                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
+                "moredetails":"More Details"
             },
             {
                 "list":[
@@ -69,7 +71,8 @@
                 "head":"Sr. Systems Analyst",
                 "p1":"Test, maintain, and monitor computer program products and systems, including coordinating the installation of computer programs and systems. Troubleshoot program and software security system malfunctions to restore normal functioning. Expand and modify software system products to serve new purposes and improve work flow. Document, revise, and develop software system procedures and test procedures. Use the computer in the analysis and solution of business, software problems.",
                 "p2":"Position requires Master’s / equivalent in CS, CIS, Information Systems Security, or related field and coursework in Telecommunications Network Security, Access Control, Application Security, Cryptography, Physical Security, Operations Security, and Security Architecture and Design. Position requires travel / relocation to various unanticipated U.S. locations.",
-                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513"
+                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
+                "moredetails":"More Details"
             }
            
         ]
