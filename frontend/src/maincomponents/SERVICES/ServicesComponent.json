@@ -132,6 +132,22 @@
         "trustedtoday":"today!",
         "trustedcontactlink":"/Contact"
         
+      },
+      {
+        "microsofttransformmainheading":"Transform Your Business with",
+        "microsofttransformsubheading":"Microsoft 365!",
+        "microsofttransformcontent1":"Microsoft 365 combines the robustness of Windows 10, the versatility of Office 365, and the management and security features suitable for businesses. It aims to augment collaboration, mobility, and intelligence, providing a seamless environment for organizations to deploy robust and innovative solutions.",
+        "microsofttransformcontent2":"Microsoft Power Platform empowers organizations to analyze data, build solutions, automate processes, and create virtual agents. It combines the robust power of Power BI, Power Apps, Power Automate, and Power Virtual Agents to foster innovation across your organization by enabling actionable insights and robust automation",
+        "microsoftpractimage":"https://www.infomericainc.com/Content/images/practi_enter.jpg",
+        "microsoftpoint1":"Microsoft Teams",
+        "microsoftpoint2":"SharePoint Online",
+        "microsoftpoint3":"OneDrive for Business",
+        "microsoftpoint4":"Power Apps",
+        "microsoftpoint5":"Power Automate",
+        "microsoftpoint6":"Power Virtual Agents",
+        "microsoftpoint7":"Power BI",
+        "microsofticon":"bi bi-send"
+
       }
     ]
 },
@@ -408,5 +424,95 @@
       "microsubhead": "Advanced Analytics & Intelligence"
     }
   ] 
+},
+ {
+  "micro_Data_Services": [
+    {
+        "m2": "Power BI"
+    },
+    {
+        "m2": "Executive dashboards"
+    },
+    {
+        "m2": "MyAnalytics"
+    },
+    {
+        "m2": "PowerApps"
+    },
+    {
+        "m2": "Power Automate"
+    },
+    {
+        "m2": "Intune"
+    },
+    {
+        "m2":"Endpoint Manager"
+    },
+    {
+      "m2":"Exchange Online"
+  },
+  {
+    "m2":"Yammer"
+},
+{
+  "m2":"Microsoft 365 Education & Mentoring (Onsite, Offsite, Online)"
 }
+
+],
+"micro_Cloud_Computing": [
+    {
+        "m1": "Business Value Assessment        "
+    },
+    {
+        "m1": "Proof of Concept (PoC)"
+    },
+    {
+        "m1": "Proof of Technologies (POTs)"
+    },
+    {
+        "m1": "Office Apps"
+    },
+    {
+        "m1": "Microsoft Teams"
+    },
+    {
+        "m1": "SharePoint Online"
+    },
+    {
+        "m1": "Advanced Threat Protection"
+    },
+    {
+      "m1": "Data Loss Prevention"
+  },
+    {
+        "m1": "Compliance Managert"
+    },
+    {
+      "m1": "OneDrive for Business"
+  },
+  {
+    "m1": "Azure AD Integration"
+}
+]
+ },
+ {
+  "man_auto_ManagementData": [
+    {
+        "m1": "Experience seamless migration and deployment with minimized disruptions and ensured data integrity, allowing your team to embrace Microsoft 365 effortlessly.",
+        "name": "Deployment & Migration"
+    },
+    {
+        "m1": "Utilize tools like Microsoft Teams. SharePoint Online, OneDrive for Business, Microsoft Power Platform (Power BI, Power Apps, Power",
+        "name": " Collaboration & Productivity Solutions "
+    },
+    {
+        "m1": "Marketing",
+        "name": "Channel Management"
+    },
+    {
+        "m1": "Parts Inventory Tracking",
+        "name": "After Sales Service"
+    }
+]
+ }
 ]
