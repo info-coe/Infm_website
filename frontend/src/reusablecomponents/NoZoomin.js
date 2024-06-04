@@ -6,7 +6,7 @@ const NoZoomin = (props) => {
     <div className='container'>
       <div className='d-md-flex '>
       <div style={{marginTop:'55px'}}>
-      <h1 className='text-primary' style={{ fontSize: props.textsize, }}>{props.heading}</h1>
+      <h1 className='text-primary' style={{ fontSize: props.textsize, textAlign: props.textPosition}}>{props.heading}</h1>
       <h1 className='text-danger' style={{ marginTop: props.texttop }}>{props.heading2}</h1>
         {props.content.map((item, index) => (
           <p key={index} >

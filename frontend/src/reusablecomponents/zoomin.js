@@ -24,9 +24,9 @@ const Zoomin = (props) => {
 
     // Render single content structure
     return (
-        <div className='container zoom-in' data-aos="zoom-in">
+        <div className='container zoom-in' data-aos="zoom-in" data-aos-duration="2000">
             <h1 className='text-primary'>{props.heading}</h1>
-            <div data-aos="zoom-in" data-aos-duration="2000" className='container zoom-in'>
+            <div className='container zoom-in'>
                 <h1 className='text-primary'>{props.heading1}</h1>
                 <h1 className='text-danger'>{props.heading2}</h1>
                 <div>

@@ -1,0 +1,37 @@
+[   
+    {
+        "solutionsMainBanner": "https://www.infomericainc.com/Content/images/solutions-banner.jpg"
+    },
+    {
+        "Robotic_Automation_Process":{
+            "RAP_heading" : "Unlock Automation Excellence With Robotic Process Automation!",
+            "RAP_content1" : "Robotic Process Automation (RPA) empowers organizations to streamline tedious, repetitive activities across various applications and systems. Whether it's front office transactions or intricate back office procedures, RPA stands as a versatile solution to automate any labor-intensive or rule-driven process. By replacing intricate integration techniques with user-friendly configuration and minimal scripting, RPA not only reduces costs and elevates efficiency but also enhances compliance.",
+            "RAP_content2" : "At Infomerica, Inc, we specialize in transforming your operational landscape by automating complex, repetitive, and manual tasks with RPA. With our solutions, you can deploy your Virtual Workforce for automation, allowing your human team to concentrate on high-value tasks, ultimately fulfilling the requirements of your customers, employees, and partners more effectively.",
+            "RAP_RPA" : {
+                "heading" : "Infomerica's RPA Advantage",
+                "point1" : "  Innovative Solutions - Stay ahead of the curve with our cutting-edge, innovative RPA solutions, driving operational excellence and competitive advantage.",
+                "point2" : "  Customer-Centric Approach - Your business is unique, and so are our solutions. Experience bespoke RPA services meticulously designed to align with your objectives and challenges.",
+                "point3" : "  Expertise & Experience - Leverage our extensive industry knowledge and experience to navigate your automation journey with confidence and ease.",
+                "icon" : "fa fa-check"
+            },
+            "RAP_APPROACH" : {
+                "heading" : "Our Approach",
+                "content" : "Embarking on an RPA initiative is a meticulous process, where every step—from recognizing the need for automation to choosing the appropriate process—is pivotal. For maximizing the outcomes of your RPA journey, fostering open dialogues is essential to comprehensively evaluate processes, technology, and human elements collectively. This holistic approach transforms complex processes, elevating efficiency and delivering substantial business value to your organization."
+            },
+            "DigitalServicesData":[
+                {
+                  "dtscontent": "Start your RPA voyage with a thorough analysis of your manual operations and workflows. Our 'Rapid Innovation Prototyping Service' (RIPS) methodology, pioneered by Miracles, helps ascertain both the technical viability and business significance of your endeavor.",
+                  "dtssubhead": "Assessment"
+                },
+                {
+                  "dtscontent": "Having identified and validated the processes, embark on creating your inaugural bot. Select a process of medium complexity yet high value. This acts as a testament, underscoring the success and potential of your RPA program.",
+                  "dtssubhead": "Adapt"
+                },
+                {
+                  "dtscontent": "Post the development and deployment of your initial bots, you'll be adept with the RPA platform. This mastery paves the way to broaden the automation spectrum across your business, instilling governance mechanisms and amplifying your ROI. The expansion phase should be supplemented by integrating more automation standards and best practices",
+                  "dtssubhead": "Scale"
+                }
+              ]
+        }
+    }
+]

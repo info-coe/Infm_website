@@ -123,10 +123,10 @@ function App() {
                 <Route path="Vision" element={<Vision product={s3objects}/>}></Route>
                 <Route path="Mission" element={<Mission product={s3objects} />}></Route>
 
-                <Route path="Industries" element={<Industries/>}></Route>
+                <Route path="Industries" element={<Industries product={s3objects}/>}></Route>
                 <Route
                   path="Airline-Travel-Logistics"
-                  element={<AirlineTravelLogistics  />}
+                  element={<AirlineTravelLogistics product={s3objects}  />}
                 ></Route>
                 <Route
                   path="Banking-Insurance-Services"
@@ -134,7 +134,7 @@ function App() {
                 ></Route>
                 <Route
                   path="Consumer-Retail"
-                  element={<ConsumerRetail />}
+                  element={<ConsumerRetail product={s3objects} />}
                 ></Route>
                 <Route
                   path="Energy-Utilities"
@@ -148,44 +148,44 @@ function App() {
                   path="Manufacturing-Automotive"
                   element={<ManufacturingAutomotive product={s3objects}/>}
                 ></Route>
-                <Route path="Media-Telecom" element={<MediaTelecom />}></Route>
+                <Route path="Media-Telecom" element={<MediaTelecom product={s3objects} />}></Route>
 
                 <Route path="Services" element={<Services product={s3objects}/>}></Route>
                 <Route
                   path="Application-Services"
-                  element={<ApplicationServices />}
+                  element={<ApplicationServices product={s3objects} />}
                 ></Route>
-                <Route path="AWS-Services" element={<AWSServices />}></Route>
+                <Route path="AWS-Services" element={<AWSServices product={s3objects} />}></Route>
                 <Route
                   path="Testing-QA-Services"
-                  element={<BusinessAssuranceTesting />}
+                  element={<BusinessAssuranceTesting product={s3objects} />}
                 ></Route>
                 <Route
                   path="Cloud-Services"
-                  element={<CloudServices />}
+                  element={<CloudServices product={s3objects} />}
                 ></Route>
                 <Route
                   path="CRM"
                   element={<CustomerRelationshipManagement product={s3objects}/>}
                 ></Route>
-                <Route path="Data-Services" element={<DataServices />}></Route>
+                <Route path="Data-Services" element={<DataServices product={s3objects} />}></Route>
                 <Route
                   path="Digital-Transformation-Services"
                   element={<DigitalTransformationServices product={s3objects} />}
                 ></Route>
                 <Route
                   path="Enterprise-Portal"
-                  element={<EnterprisePortal />}
+                  element={<EnterprisePortal product={s3objects} />}
                 ></Route>
-                <Route path="Free-POC-POT" element={<FreePOCPOT />}></Route>
+                <Route path="Free-POC-POT" element={<FreePOCPOT product={s3objects} />}></Route>
                 <Route
                   path="Internet-Of-Things"
-                  element={<InternetOfThings />}
+                  element={<InternetOfThings product={s3objects} />}
                 ></Route>
-                <Route path="Microsoft365" element={<Microsoft365 />}></Route>
+                <Route path="Microsoft365" element={<Microsoft365 product={s3objects} />}></Route>
                 <Route
                   path="Microsoft-Cloud-Services"
-                  element={<MicrosoftCloudServices />}
+                  element={<MicrosoftCloudServices product={s3objects} />}
                 ></Route>
                 <Route
                   path="Security-Architecture"
@@ -193,35 +193,35 @@ function App() {
                 ></Route>
                 <Route
                   path="Software-Sales"
-                  element={<SoftwareSales />}
+                  element={<SoftwareSales product={s3objects} />}
                 ></Route>
 
-                <Route path="Solutions" element={<Solutions/>}></Route>
+                <Route path="Solutions" element={<Solutions product={s3objects}/>}></Route>
                 <Route
                   path="Business-Process-Management"
-                  element={<BusinessProcessManagement />}
+                  element={<BusinessProcessManagement product={s3objects} />}
                 ></Route>
-                <Route path="CRM" element={<CRM />}></Route>
-                <Route path="DevOps" element={<DevOps />}></Route>
-                <Route path="Mobility" element={<Mobility />}></Route>
-                <Route path="Oracle-Cloud" element={<OracleCloud />}></Route>
+                <Route path="CRM" element={<CRM product={s3objects} />}></Route>
+                <Route path="DevOps" element={<DevOps product={s3objects} />}></Route>
+                <Route path="Mobility" element={<Mobility product={s3objects} />}></Route>
+                <Route path="Oracle-Cloud" element={<OracleCloud product={s3objects} />}></Route>
                 <Route
                   path="Robotic-Automation-Process"
-                  element={<RoboticAutomationProcess />}
+                  element={<RoboticAutomationProcess product={s3objects} />}
                 ></Route>
-                <Route path="SAP" element={<SAP />}></Route>
+                <Route path="SAP" element={<SAP product={s3objects} />}></Route>
                 <Route
                   path="Service-Oriented-Architecture"
-                  element={<ServiceOrientedArchitecture />}
+                  element={<ServiceOrientedArchitecture product={s3objects} />}
                 ></Route>
 
-                <Route path="Contact" element={<Contactus />}></Route>
+                <Route path="Contact" element={<Contactus product={s3objects} />}></Route>
 
-                <Route path="CSR" element={<Csr />}></Route>
+                <Route path="CSR" element={<Csr product={s3objects} />}></Route>
 
-                <Route path="Careers" element={<Careers />}></Route>
-                <Route path="Careers-Hyd" element={<Hyderabad />}></Route>
-                <Route path="Careers-Bangalore" element={<Bangalore />}></Route>
+                <Route path="Careers" element={<Careers product={s3objects} />}></Route>
+                <Route path="Careers-Hyd" element={<Hyderabad product={s3objects} />}></Route>
+                <Route path="Careers-Bangalore" element={<Bangalore product={s3objects} />}></Route>
 
                 <Route path="*" element={<Notfound />}></Route>
               </Routes>

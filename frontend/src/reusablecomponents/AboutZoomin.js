@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 const AboutZoomin = (props) => {
     Aos.init();
-    console.log(props.content)
+    // console.log(props.content)
     return (
         <div data-aos="zoom-in" data-aos-duration="2000" className='container zoom-in'>
             <h1><span className='text-primary'>{props.heading1}</span> <span className='text-danger'>{props.heading2}</span></h1>
