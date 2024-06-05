@@ -33,5 +33,34 @@
                 }
               ]
         }
+    },
+    {
+      "oracle_cloud" : {
+        "OC_heading1":"Oracle ",
+        "OC_heading2":"Cloud Services",
+        "OC_content1":"Innovate, manage, automate and propel your digital transformation journey leveraging our consulting and implementation services for Oracle-based solutions.",
+        "OC_content2":"We craft our implementation strategies with flexibility at the forefront, ensuring they are meticulously tailored to accommodate the distinct needs of each client, irrespective of their scale or developmental stage.",
+        "Oracle_Enterprise": [
+          {
+              "m1": "  Financials",
+              "m2": "   Procurement (Indirect)",
+              "m3": "  Supply Chain & Manufacturing",
+              "m4": "  Revenue Management",
+              "m5": "  Risk Management & Compliance",
+              "url": "https://infomericainc.com/Content/images/connection.gif",
+              "name": "Oracle Enterprise Resource Planning (ERP) Cloud"
+          },
+          {
+              "m1": "  Planning",
+              "m2": "  Profitability and Cost Management",
+              "m3": "  Financial Consolidation and Close",
+              "m4": "  Enterprise Data Management",
+              "m5": "  Account Reconciliation",
+              "m6": "  Tax Reporting",
+              "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+              "name": "Oracle Enterprise Performance Management (EPM) Cloud"
+          }
+        ]
+      }
     }
 ]

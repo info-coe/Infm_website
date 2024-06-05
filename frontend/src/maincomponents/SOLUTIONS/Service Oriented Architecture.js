@@ -1,4 +1,5 @@
 import React from 'react';
+import SolutionData from "./solutionscontent.json";
 import ModelsPoints from '../../reusablecomponents/ModelsPoints';
 
 const ServiceOrientedArchitecture = (props) => {
@@ -7,6 +8,11 @@ const ServiceOrientedArchitecture = (props) => {
     const crmModelPointsData = serviceContent[3].ServiceCmsModelsData;
     return (
         <div>
+                  <img
+        src={SolutionData[0].solutionsMainBanner}
+        width="100%"
+        alt="Main Solution"
+      ></img>
             <h1>Service Oriented Architecture</h1>
             <ModelsPoints contents={crmModelPointsData} /> 
         </div>
