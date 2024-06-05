@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import React from 'react';
 import SolutionData from "./solutionscontent.json";
 
@@ -14,16 +13,5 @@ const Solutions = () => {
             <h1>Solutions Page</h1>
         </>
     );
-=======
-import React from "react";
-
-const Solutions = () => {
-  return (
-    <>
-      <h1>Solutions Page</h1>
-    </>
-  );
->>>>>>> Stashed changes
-};
-
+}
 export default Solutions;
