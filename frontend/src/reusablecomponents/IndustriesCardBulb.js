@@ -20,7 +20,7 @@ const CardBulb = ({solutionofferingData}) => {
         transform: scale(1.3);
         transition: 1s;
         color:#0f62fe;
-    }
+    }   
 
     .fa-icon-image {
         transform: scale(1);

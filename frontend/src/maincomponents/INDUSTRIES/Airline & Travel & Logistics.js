@@ -1,7 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
+// import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
 import industriesContent from "./industriesContent.json";
 const AirlineTravelLogistics = () => {
