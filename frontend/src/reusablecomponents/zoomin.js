@@ -10,7 +10,7 @@ const Zoomin = (props) => {
     if (props.sections) {
         // Render multiple sections
         return (
-            <div className='container zoom-in' data-aos="zoom-in">
+            <div className='container zoom-in' data-aos="zoom-in" data-aos-duration="2000">
                 <h2 className='text-primary '>{props.heading}</h2>
                 {props.sections.map((section) => (
                     <div >
@@ -26,7 +26,7 @@ const Zoomin = (props) => {
     return (
         <div className='container zoom-in' data-aos="zoom-in" data-aos-duration="2000">
             <h1 className='text-primary'>{props.heading}</h1>
-            <div className='container zoom-in'>
+            <div>
                 <h1 className='text-primary'>{props.heading1}</h1>
                 <h1 className='text-danger'>{props.heading2}</h1>
                 <div>

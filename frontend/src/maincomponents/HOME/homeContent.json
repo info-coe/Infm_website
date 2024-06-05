@@ -205,40 +205,45 @@
         "icon":"fa fa-gear fa-lg",
         "title":"SAP",
         "content":"Designing a solution and implementation requires a deep domain knowledge on the customer industry, in general and operations in specific, to meet both stated and implied needs. Consultants of Infomerica have performed critical functions in the every domain",
-        "more":" ... More Details"
+        "more":" ... More Details",
+        "cardlink":"/SAP"
       },
       {
           "icon":"fa fa-cloud fa-lg",
           "title":" Oracle Cloud Services",
           "content":"Innovate, manage, automate and propel your digital transformation journey leveraging our consulting and implementation services for Oracle-based solutions",
-          "more":" ... More Details"
-  
+          "more":" ... More Details",
+          "cardlink":"/Oracle-Cloud"
         },
         {
           "icon":"fa fa-robot fa-2x",
           "title":"Robotic Automation Process",
           "content":"Robotic Process Automation (RPA) empowers organizations to streamline tedious, repetitive activities across various applications and systems. Whether it's front office transactions or intricate back office procedures, RPA stands as a versatile solution to automate any labor-intensive",
-          "more":" ... More Details"
+          "more":" ... More Details",
+          "cardlink":"/Robotic-Automation-Process"
   
         },
         {
           "icon":"fa fa-solid fa-up-right-from-square fa-lg",
           "title":"DevOps",
           "content":"In a world driven by continuous innovation and rapid development, embrace the power of DevOps with Infomerica! We provide state-of-the-art DevOps solutions designed to bridge the gap between development and operations, accelerating your delivery pipeline and enhancing overall productivity",
-          "more":" ... More Details"
+          "more":" ... More Details",
+          "cardlink":"/DevOps"
   
         },
         {
           "icon":"fa fa-mobile fa-lg",
           "title":"Mobility",
           "content":"In a world driven by connectivity and immediate access, our Mobility Solutions stand out as a beacon of innovation and reliability. We specialize in providing comprehensive mobility solutions designed to empower businesses",
-          "more":" ... More Details"
+          "more":" ... More Details",
+          "cardlink":"/Mobility"
   
         },
         {
           "title":"Discover a Career You'll Cherish",
           "content":"At Infomerica, Inc., we lay a robust foundation for aspiring individuals to carve their careers and mold their future. As a technologically advanced company, we cultivate an uplifting and vibrant environment where emerging talent can bloom and evolve",
-          "more":" ... More Details"
+          "more":" ... More Details",
+          "cardlink":"/Careers"
   
         }
     ]

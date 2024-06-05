@@ -108,6 +108,8 @@ export default function Home(props) {
                   title={item.title}
                   content={item.content}
                   initiallyExpanded={index === solutionOfferingsData.length - 1}
+                  more={item.more}
+                  cardlink={item.cardlink}
                 />
               ))}
             </div>

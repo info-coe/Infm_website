@@ -10,7 +10,8 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
             border: "1px solid #eee",
             marginBottom: "30px",
             borderBottom: "8px solid #FE0000",
-            height: 'auto'
+            height: 'auto',
+            minHeight:'300px'
         },
         heading: {
             fontSize: "19px",

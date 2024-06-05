@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
-function ToggleableCard({ title, content,initiallyExpanded, icon }) {
+function ToggleableCard({ title, content,initiallyExpanded, icon,more ,cardlink}) {
     const [showAdditionalContent, setShowAdditionalContent] = useState(initiallyExpanded);
   const toggleAdditionalContent = () => {
     setShowAdditionalContent(!showAdditionalContent);
@@ -24,7 +25,10 @@ function ToggleableCard({ title, content,initiallyExpanded, icon }) {
           </div>
           {showAdditionalContent && (
             <div style={{ marginTop: '20px' }}>
-              {content}
+              {content} 
+              <Link to={cardlink} className="text-decoration-none">
+                <span className='text-primary'>{more}</span>
+              </Link>
             </div>
           )}
         </div>
