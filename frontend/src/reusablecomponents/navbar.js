@@ -90,6 +90,7 @@ const Navigation = (props) => {
                                     <li><Link to="/Internet-Of-Things" className="dropdown-item lineAnimation">{data.internetOfThings}</Link></li>
                                     <li><Link to="/Testing-QA-Services" className="dropdown-item lineAnimation">{data.businessAssuranceTesting}</Link></li>
                                     <li><Link to="/Enterprise-Portal" className="dropdown-item lineAnimation">{data.enterprisePortal}</Link></li>
+                                    <li><Link to="/Service-Oriented-Architecture" className="dropdown-item lineAnimation">{data.serviceOrientedArchitecture}</Link></li>
                                     <li><Link to="/Free-POC-POT" className="dropdown-item lineAnimation">{data.freePocPot}</Link></li>
                                     <li><Link to="/Software-Sales" className="dropdown-item lineAnimation">{data.softwareSales}</Link></li>
                                 </ul>

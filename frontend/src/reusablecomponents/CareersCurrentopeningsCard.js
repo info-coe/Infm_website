@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import { Link } from "react-router-dom";
 
-const TruncatedParagraph = ({ text, limit = 22 }) => {
+const TruncatedParagraph = ({ text, limit = 50 }) => {
     const [truncatedText, setTruncatedText] = useState(text);
   
     useEffect(() => {
@@ -14,7 +14,8 @@ const TruncatedParagraph = ({ text, limit = 22 }) => {
     }, [text, limit]);
   
     return (
-      <p className='ps-3 pe-3'>{truncatedText}</p>
+    //   <p className='ps-3 pe-3'>{truncatedText}</p>
+      <p className='ps-3 pe-3' dangerouslySetInnerHTML={{ __html: truncatedText }} />
     );
   };
 
@@ -30,7 +31,7 @@ const CareersCurrentopeningsCard = ({data}) => {
     const styles=`
     .openingscard{
         width:30%;
-        border-bottom:8px solid red;
+        border-bottom:8px solid red !important;
     }
     .card-footer{
         background:none !important;
@@ -53,15 +54,15 @@ const CareersCurrentopeningsCard = ({data}) => {
         <>
         <style>{styles}</style>
         {data.map((item,i)=>(
-            <div className='card openingscard'>
+            <div className='card border-2 openingscard' data-aos={item.aos} data-aos-once="true" data-aos-duration="1500">
                <div className='card-body'>
                <div className='d-flex flex-wrap'>
                 {item.list.map((li,j)=>(
                     <span className='border p-1 m-1' key={j}>{li}</span>
                 ))}
                 </div>
-                <h6 className='text-center text-danger p-2'>{item.head}</h6>
-                <TruncatedParagraph text={item.p1} limit={22} /> 
+                <h6 className='text-center text-danger p-2 mt-3'>{item.head}</h6>
+                <TruncatedParagraph text={item.p1} limit={item.limit} /> 
                </div>
                 <div className='card-footer text-center'>
                 <button type="button" onClick={()=>handleClick(i)} className='btn btn-primary' data-bs-toggle="modal" data-bs-target="#staticBackdrop">{item.moredetails}</button>
@@ -88,9 +89,10 @@ const CareersCurrentopeningsCard = ({data}) => {
                 ))}
                 </div>
                 <h6 className='text-center text-danger p-2 mt-4'>{modalData.head}</h6>
-                <p className='p-2 mt-3'>{modalData.p1}</p>
-                <p className='p-2 mt-4'>{modalData.p2}</p>
-                <p className='p-2 mt-4'>{modalData.p3}</p>
+                <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p1 }} />
+                <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p2 }} />
+                <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p3 }} />
+                <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p4 }} />
                </div>
         }
             </div>

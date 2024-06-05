@@ -1,9 +1,9 @@
 import React from 'react';
 import CareersContent from "../CAREERS/careersContent.json"
-import { SolutionOfferings } from '../../reusablecomponents/SolutionOfferings';
 import CareersSlideContent from '../../reusablecomponents/CareersSlideContent';
 import Aos from 'aos';
 import "aos/dist/aos.css"
+import { Link } from "react-router-dom";
 import CareersCurrentopeningsCard from '../../reusablecomponents/CareersCurrentopeningsCard';
 
 const Careers = () => {
@@ -32,6 +32,14 @@ const Careers = () => {
         <h2 className='mb-5'><span className='text-primary'>{data.Current}</span><span className='text-danger'>{data.Openings}</span></h2>
        <div className='d-md-flex flex-wrap gap-lg-4 gap-md-2 justify-content-center mb-5'>
        <CareersCurrentopeningsCard data={CareersContent[2].currentopenings}/>
+       </div>
+       <div className='d-md-flex justify-content-evenly p-2'>
+       <div className='text-center'>
+       <Link to="/Careers-Hyd" className='btn btn-primary mt-2 mb-2'>{data.HyderabadOpenings}</Link>
+       </div>
+       <div className='text-center'>
+       <Link to="/Careers-Bangalore" className='btn btn-primary mt-2 mb-2'>{data.BangaloreOpenings}</Link>
+       </div>
        </div>
       </div>
         </>
