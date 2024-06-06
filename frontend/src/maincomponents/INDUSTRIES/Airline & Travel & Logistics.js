@@ -42,18 +42,18 @@ const AirlineTravelLogistics = () => {
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <div>
+         
           <img
-            src={industriesmainimage}
-            height="250"
-            alt="no-display"
-            className="responsive-image d-none d-md-block"
-            style={{ objectFit: "cover" }}
-          />
-          <img
-            src={industriesSubimage}
-            alt="no-display"
-            className="responsive-image d-md-none"
-          />
+        src={industriesmainimage}
+        width="100%"
+        alt="Main Industries"
+        className="img-fluid d-none d-md-block"
+      />
+      <img
+        src={industriesSubimage}
+        alt="Sub Industries"
+        className="img-fluid d-md-none w-100"
+      />
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">

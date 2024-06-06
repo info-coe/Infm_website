@@ -1,6 +1,8 @@
 import React from 'react';
-import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
+// import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
 import serviceContent from './ServicesComponent.json'
+import ServicesCardOpen from '../../reusablecomponents/servicescardopen';
+
 
 const Services = () => {
   // const data = props.product;
@@ -23,15 +25,16 @@ const Services = () => {
       />
 
       <h1 className="text-center">{serviceContent[1].ServicesAllHeadingAndContent[0].serviceHeading}</h1>
+      {/* <h1 className="text-center text-danger mt-5">{serviceContent[0].serviceHeading}</h1> */}
       <div className="container">
-        <div className="row justify-content-center" style={{ marginTop: '90px' }}>
+        <div className="row justify-content-center" style={{ marginTop: '80px' }}>
           {cardData.map((data, index) => (
             <div
               key={index}
               className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
               style={{ marginBottom: '80px' }}
             >
-              <RoundedImageCard
+              <ServicesCardOpen
                 title={data[`t${index + 1}`]} // Use template literal to access dynamic property names
                 description={data[`Des${index + 1}`]} // Similarly, for description
                 icon={data[`icon${index + 1}`]} //

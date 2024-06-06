@@ -1,7 +1,7 @@
 import React from 'react'
 import Zoomin2 from '../../reusablecomponents/Zoomin2';
 import ImageMoving from '../../reusablecomponents/ImageMoving';
-import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
+// import RoundedImageCard from '../../reusablecomponents/RoundedImageCard';
 import CircleImageCard from '../../reusablecomponents/CircleImageCard';
 // import  HomeContent  from './homeContent.json';
 import serviceContent from "../SERVICES/ServicesComponent.json"
@@ -13,7 +13,7 @@ import SlideRight from '../../reusablecomponents/SlideRight';
 import SlideLeft from '../../reusablecomponents/SlideLeft';
 import PartnerLogos from '../../reusablecomponents/PartnersLogoSlide';
 import Marquee from '../../reusablecomponents/Marquee';
-import Servicecardflip from '../../reusablecomponents/servicecardflip';
+// import Servicecardflip from '../../reusablecomponents/servicecardflip';
 import ServicesCardOpen from '../../reusablecomponents/servicescardopen';
 
 export default function Home(props) {
@@ -122,29 +122,14 @@ export default function Home(props) {
       <PartnerLogos businesspartners={businesspartners}/>
 
       <h1 className="text-center text-danger mt-5">{data.serviceHeading}</h1>
-      <div className="container">
-        <div className="row justify-content-center" style={{ marginTop: '80px' }}>
-          {cardData.map((data, index) => (
-            <div
-              key={index}
-              className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
-              style={{ marginBottom: '80px' }}
-            >
-              <RoundedImageCard
-                title={data[`t${index + 1}`]} // Use template literal to access dynamic property names
-                description={data[`Des${index + 1}`]} // Similarly, for description
-                icon={data[`icon${index + 1}`]} //
-              />
-            </div>
-          ))}
-        </div>
-      </div>      <div>
+     
+      <div>
 
       <div>
        
      
 
-      <h1 className="text-center text-danger mt-5">{data.serviceHeading}</h1>
+      <h1 className="text-center text-danger mt-5">{cardData[0].serviceHeading}</h1>
       <div className="container">
         <div className="row justify-content-center" style={{ marginTop: '80px' }}>
           {cardData.map((data, index) => (
@@ -162,32 +147,6 @@ export default function Home(props) {
           ))}
         </div>
       </div>
-
-
-      <h1 className="text-center text-danger mt-5">{data.serviceHeading}</h1>
-     <div className="container">
-        <div className="row justify-content-center" style={{ marginTop: '80px' }}>
-          {cardData.map((data, index) => (
-            <div
-              key={index}
-              className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
-              style={{ marginBottom: '60px' }}
-            >
-              <Servicecardflip
-                title={data[`t${index + 1}`]} // Use template literal to access dynamic property names
-                description={data[`Des${index + 1}`]} // Similarly, for description
-                icon={data[`icon${index + 1}`]} //
-              />
-            </div>
-          ))}
-        </div>
-
-
-
-
-      </div>
-
-
 
       <Testimonials/>
 </div>

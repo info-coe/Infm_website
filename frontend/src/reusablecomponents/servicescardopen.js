@@ -30,7 +30,7 @@ function ServicesCardOpen({ title, description, icon }) {
     }
 
     .card-container .card .icon .icon-list{
-      font-size: 80px;
+      font-size: 60px;
       color: #fff;
       transform: scale(1);
       transition: transform 0.8s ease-in-out;
@@ -65,9 +65,12 @@ function ServicesCardOpen({ title, description, icon }) {
     .card-container:hover .card .icon .icon-list {
       font-size: 40px;
     }
+    .card-container:hover .invisibletext{
+      display:none;
+    }
 
     .card-container:hover .card .icon {
-      left: -30%;
+      left: -55%;
     }
 
     .card-container .card .slide .content {
@@ -89,7 +92,13 @@ function ServicesCardOpen({ title, description, icon }) {
       <div className="card ">
         <div className="icon">
           <span className='icon-list'>
+           
+           <div className='d-flex justify-content-between align-items-center'>
+          <div style={{width:"130px"}}>
+          <h6 className='invisibletext'>{title}</h6>
+          </div>
             <i className={icon}></i>
+           </div>
           </span>
         </div>
         <div className="slide">

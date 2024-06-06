@@ -61,6 +61,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Footer from "./reusablecomponents/Footer";
 import Scrolltotop from "./reusablecomponents/Scrolltotop";
 import axios from "axios"
+import Scrolltotopbtn from "./reusablecomponents/Scrolltotopbutton";
 
 function App() {
   // return (
@@ -226,6 +227,7 @@ function App() {
                 <Route path="*" element={<Notfound />}></Route>
               </Routes>
               <Footer/>
+              <Scrolltotopbtn/>
             </BrowserRouter>) : (
               <div>Fetching data...</div>
             )

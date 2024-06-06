@@ -17,8 +17,9 @@ const Aboutus = (props) => {
   return (
     <>
     <div>
-       <img src={data[0].aboutUsmainimage} height="250" alt='no-display' className="responsive-image d-none d-md-block" style={{ objectFit: "cover" }} />
-       <img src={data[0].aboutUsSubimage} alt='no-display' className="responsive-image d-md-none" />
+       <img src={data[0].aboutUsmainimage}  width="100%" alt='no-display' className="img-fluid d-none d-md-block"  />
+       <img src={data[0].aboutUsSubimage} alt='no-display' className="img-fluid d-md-none w-100" />
+       
     <div className="mt-5 mb-5">
       <AboutZoomin heading1={data[0].aboutUsHeading1} heading2={data[0].aboutUsHeading2} content={content} />
     </div>

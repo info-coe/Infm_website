@@ -27,8 +27,9 @@ const Industries = () => {
     return (
         <>
             <style>{styles}</style>
-            <img src={data.industriesmainimage} height="250" alt='no-display' className="responsive-image d-none d-md-block" style={{ objectFit: "cover" }} />
-            <img src={data.industriesSubimage} alt='no-display' className="responsive-image d-md-none" />
+            <img src={data.industriesmainimage}  alt='Main Industries' className="img-fluid d-none d-md-block"  />
+            <img src={data.industriesSubimage} alt='Sub Industries' className="img-fluid d-md-none w-100" />
+            
             <div className='container d-md-flex flex-wrap gap-5 align-items-center' style={{marginTop:"100px", marginBottom:'100px'}}>
                 <div className='col-lg-6 d-md-flex gap-4'>
                 <IndustriesOfferingCard solutionofferingData={solutionofferingData[0]}/>

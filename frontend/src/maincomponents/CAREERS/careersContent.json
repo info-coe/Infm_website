@@ -8,7 +8,16 @@
         "Openings":"Openings",
         "HyderabadOpenings":"Hyderabad Openings",
         "BangaloreOpenings":"Bangalore Openings",
-        "currentopeningsBg":"https://infomericainc.in/Content/images/tech.jpg"
+        "currentopeningsBg":"https://infomericainc.in/Content/images/tech.jpg",
+        "formoredetailsmailuson":"For more details please Mail Us on",
+        "mail":"info@infomericainc.com",
+        "slno":"#",
+        "Jobtype":"Job Type",
+        "Location":"Location",
+        "JobName":"Job Name",
+        "Skills":"Skills",
+        "ExpYears":"Exp(Years)",
+        "NoOfPositions":"No Of Positions"
     },
     {
         "careersSlides":[
@@ -202,6 +211,54 @@
                 "limit":"50"
             }
            
+        ]
+    },
+    {
+        "hyderabadOpenings":[
+            {
+                "slno":"1",
+                "jobtype":"https://infomericainc.in/Content/images/new.gif",
+                "Location":"Hyderabad",
+                "JobName":"Graphic Designer",
+                "Skills":"C#.Net,Asp.Net, Ms Sql Server",
+                "Experience":"4-5",
+                "NoofPositions":"5",
+                "sendresume":"Send Resume"
+            },
+            {
+                "slno":"2",
+                "jobtype":"https://infomericainc.in/Content/images/new.gif",
+                "Location":"Hyderabad",
+                "JobName":"Sr. UI developer/ React developer",
+                "Skills":"ReactJS, TypeScript, Javascript, jQUery, HTML 5, CSS",
+                "Experience":"2-4",
+                "NoofPositions":"3",
+                "sendresume":"Send Resume"
+            }
+        ]
+    },
+    {
+        "bangaloreOpenings":[
+            {
+                "slno":"1",
+                "jobtype":"https://infomericainc.in/Content/images/new.gif",
+                "Location":"Bangalore",
+                "JobName":".Net Developer",
+                "Skills":".Asp.Net, C#.Net Asp.net Mvc, Sql Server",
+                "Experience":"2-3",
+                "NoofPositions":"8",
+                "sendresume":"Send Resume"
+            },
+            {
+                "slno":"2",
+                "jobtype":"https://infomericainc.in/Content/images/new.gif",
+                "Location":"Bangalore",
+                "JobName":"Sr. Systems Analyst",
+                "Skills":"Master’s / equivalent in CS, CIS, Information Systems Security,Cryptography",
+                "Experience":"2-4",
+                "NoofPositions":"3",
+                "sendresume":"Send Resume"
+            }
         ]
     }
 ]

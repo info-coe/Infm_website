@@ -510,6 +510,55 @@ body{
   }
 }
 /* Marquee code end */
+/* scroll bar css start*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 6px; 
+}
+::-webkit-scrollbar-track {
+  background: #dad7d7;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+/* scroll bar css end*/
+
+/* scroll to top button code start */
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 45px;
+  right: 25px;
+  background-color: rgb(102, 102, 247);
+  opacity:0.8;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 7px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+    background-color: #73b1f4;
+    color: #fff;
+  }
+}
+
+.scroll-to-top.visible {
+  display: block;
+}
+/* scroll to top button code end */
 
   @media screen and (max-width:567px){
     .slide-img{
@@ -570,7 +619,7 @@ body{
     height: 50px;
   }
   .testimonial-card {
-    height: 400px;
+    height: auto;
   }
   .customCard .card{
     min-height: 17rem;

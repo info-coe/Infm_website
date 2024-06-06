@@ -24,18 +24,8 @@ const MediaTelecom = () => {
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
-        <img
-          src={data.industriesmainimage}
-          height="250"
-          alt="no-display"
-          className="responsive-image d-none d-md-block"
-          style={{ objectFit: "cover" }}
-        />
-        <img
-          src={data.industriesSubimage}
-          alt="no-display"
-          className="responsive-image d-md-none"
-        />
+      <img src={data.industriesmainimage}  alt='Main Industries' className="img-fluid d-none d-md-block"  />
+            <img src={data.industriesSubimage} alt='Sub Industries' className="img-fluid d-md-none w-100" />
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
             <span style={{ color: " #0f62fe " }}>{data.mediaHead} </span>
