@@ -1,97 +1,185 @@
-[   
-    {
-        "solutionsMainBanner": "https://www.infomericainc.com/Content/images/solutions-banner.jpg"
-    },
-    {
-        "Robotic_Automation_Process":{
-            "RAP_heading" : "Unlock Automation Excellence With Robotic Process Automation!",
-            "RAP_content1" : "Robotic Process Automation (RPA) empowers organizations to streamline tedious, repetitive activities across various applications and systems. Whether it's front office transactions or intricate back office procedures, RPA stands as a versatile solution to automate any labor-intensive or rule-driven process. By replacing intricate integration techniques with user-friendly configuration and minimal scripting, RPA not only reduces costs and elevates efficiency but also enhances compliance.",
-            "RAP_content2" : "At Infomerica, Inc, we specialize in transforming your operational landscape by automating complex, repetitive, and manual tasks with RPA. With our solutions, you can deploy your Virtual Workforce for automation, allowing your human team to concentrate on high-value tasks, ultimately fulfilling the requirements of your customers, employees, and partners more effectively.",
-            "RAP_RPA" : {
-                "heading" : "Infomerica's RPA Advantage",
-                "point1" : "  Innovative Solutions - Stay ahead of the curve with our cutting-edge, innovative RPA solutions, driving operational excellence and competitive advantage.",
-                "point2" : "  Customer-Centric Approach - Your business is unique, and so are our solutions. Experience bespoke RPA services meticulously designed to align with your objectives and challenges.",
-                "point3" : "  Expertise & Experience - Leverage our extensive industry knowledge and experience to navigate your automation journey with confidence and ease.",
-                "icon" : "fa fa-check"
-            },
-            "RAP_APPROACH" : {
-                "heading" : "Our Approach",
-                "content" : "Embarking on an RPA initiative is a meticulous process, where every step—from recognizing the need for automation to choosing the appropriate process—is pivotal. For maximizing the outcomes of your RPA journey, fostering open dialogues is essential to comprehensively evaluate processes, technology, and human elements collectively. This holistic approach transforms complex processes, elevating efficiency and delivering substantial business value to your organization."
-            },
-            "DigitalServicesData":[
-                {
-                  "dtscontent": "Start your RPA voyage with a thorough analysis of your manual operations and workflows. Our 'Rapid Innovation Prototyping Service' (RIPS) methodology, pioneered by Miracles, helps ascertain both the technical viability and business significance of your endeavor.",
-                  "dtssubhead": "Assessment"
-                },
-                {
-                  "dtscontent": "Having identified and validated the processes, embark on creating your inaugural bot. Select a process of medium complexity yet high value. This acts as a testament, underscoring the success and potential of your RPA program.",
-                  "dtssubhead": "Adapt"
-                },
-                {
-                  "dtscontent": "Post the development and deployment of your initial bots, you'll be adept with the RPA platform. This mastery paves the way to broaden the automation spectrum across your business, instilling governance mechanisms and amplifying your ROI. The expansion phase should be supplemented by integrating more automation standards and best practices",
-                  "dtssubhead": "Scale"
-                }
-              ]
+[
+  {
+    "solutionsMainBanner": "https://www.infomericainc.com/Content/images/solutions-banner.jpg"
+  },
+  {
+    "Robotic_Automation_Process": {
+      "RAP_heading": "Unlock Automation Excellence With Robotic Process Automation!",
+      "RAP_content1": "Robotic Process Automation (RPA) empowers organizations to streamline tedious, repetitive activities across various applications and systems. Whether it's front office transactions or intricate back office procedures, RPA stands as a versatile solution to automate any labor-intensive or rule-driven process. By replacing intricate integration techniques with user-friendly configuration and minimal scripting, RPA not only reduces costs and elevates efficiency but also enhances compliance.",
+      "RAP_content2": "At Infomerica, Inc, we specialize in transforming your operational landscape by automating complex, repetitive, and manual tasks with RPA. With our solutions, you can deploy your Virtual Workforce for automation, allowing your human team to concentrate on high-value tasks, ultimately fulfilling the requirements of your customers, employees, and partners more effectively.",
+      "RAP_RPA": {
+        "heading": "Infomerica's RPA Advantage",
+        "point1": "  Innovative Solutions - Stay ahead of the curve with our cutting-edge, innovative RPA solutions, driving operational excellence and competitive advantage.",
+        "point2": "  Customer-Centric Approach - Your business is unique, and so are our solutions. Experience bespoke RPA services meticulously designed to align with your objectives and challenges.",
+        "point3": "  Expertise & Experience - Leverage our extensive industry knowledge and experience to navigate your automation journey with confidence and ease.",
+        "icon": "fa fa-check"
+      },
+      "RAP_APPROACH": {
+        "heading": "Our Approach",
+        "content": "Embarking on an RPA initiative is a meticulous process, where every step—from recognizing the need for automation to choosing the appropriate process—is pivotal. For maximizing the outcomes of your RPA journey, fostering open dialogues is essential to comprehensively evaluate processes, technology, and human elements collectively. This holistic approach transforms complex processes, elevating efficiency and delivering substantial business value to your organization."
+      },
+      "DigitalServicesData": [
+        {
+          "dtscontent": "Start your RPA voyage with a thorough analysis of your manual operations and workflows. Our 'Rapid Innovation Prototyping Service' (RIPS) methodology, pioneered by Miracles, helps ascertain both the technical viability and business significance of your endeavor.",
+          "dtssubhead": "Assessment"
+        },
+        {
+          "dtscontent": "Having identified and validated the processes, embark on creating your inaugural bot. Select a process of medium complexity yet high value. This acts as a testament, underscoring the success and potential of your RPA program.",
+          "dtssubhead": "Adapt"
+        },
+        {
+          "dtscontent": "Post the development and deployment of your initial bots, you'll be adept with the RPA platform. This mastery paves the way to broaden the automation spectrum across your business, instilling governance mechanisms and amplifying your ROI. The expansion phase should be supplemented by integrating more automation standards and best practices",
+          "dtssubhead": "Scale"
         }
-    },
-    {
-      "oracle_cloud" : {
-        "OC_heading1":"Oracle ",
-        "OC_heading2":"Cloud Services",
-        "OC_content1":"Innovate, manage, automate and propel your digital transformation journey leveraging our consulting and implementation services for Oracle-based solutions.",
-        "OC_content2":"We craft our implementation strategies with flexibility at the forefront, ensuring they are meticulously tailored to accommodate the distinct needs of each client, irrespective of their scale or developmental stage.",
-        "Oracle_Enterprise": [
-          {
-              "m1": "  Financials",
-              "m2": "   Procurement (Indirect)",
-              "m3": "  Supply Chain & Manufacturing",
-              "m4": "  Revenue Management",
-              "m5": "  Risk Management & Compliance",
-              "url": "https://infomericainc.com/Content/images/connection.gif",
-              "name": "Oracle Enterprise Resource Planning (ERP) Cloud"
-          },
-          {
-              "m1": "  Planning",
-              "m2": "  Profitability and Cost Management",
-              "m3": "  Financial Consolidation and Close",
-              "m4": "  Enterprise Data Management",
-              "m5": "  Account Reconciliation",
-              "m6": "  Tax Reporting",
-              "url": "https://infomericainc.com/Content/images/cloud-network.gif",
-              "name": "Oracle Enterprise Performance Management (EPM) Cloud"
-          }
-        ],
-        "ETE_Oracle_Cloud_Services":"We provide end-to-end Oracle Cloud services that can help you at any stage of your digital transformation and solution implementation journey.",
-        "ETE_Oracle_Cloud_Slides":[
-          {
-              "url":"https://www.infomericainc.com/Content/images/ora_Consulting.png",
-              "m1":"Our comprehensive and varied integration experience helps us provide solutions that deliver results swiftly at a much lower cost, with proper control and better resource utilization. We also offer transformation services on Oracle forms and reports with on-time delivery of projects and zero defects. This includes tailor-made services like upgrades, enhancements, end-to-end transformation, new application development and maintenance, and more.",
-              "aos":"none"
-          },
-          {
-              "url":"https://www.infomericainc.com/Content/images/Intergatio_Legacy.png",
-              "m1":"Our Oracle experts can help you optimize and prioritize your investments in Oracle solutions while assessing future scalability. We offer comprehensive methodology-based implementation and customization services to go live as per a well-planned schedule. Our services include Oracle Database, Fusion Middleware, Business Intelligence (BI), Oracle WebLogic Server, Migration and Maintenance, Enterprise Applications, and more.",
-              "aos":"none"
-          },
-          {
-              "url":"https://www.infomericainc.com/Content/images/ora_Integration.png",
-              "m1":"We provide 24/7 support service for Oracle database, applications, systems, and network infrastructure in an onsite/offshore model that includes first-level application usage support, production support, functionality analysis, Oracle problem reporting and tracking, outsourcing services, remote infra management, systems management and cloud management.",
-              "aos":"none"
-          },
-          {
-              "url":"https://www.infomericainc.com/Content/images/ora_maintencepng.png",
-              "m1":"Our team ensures the development of an Oracle cloud architecture tailored specifically to your organization’s unique goals and objectives and a complete road map to deploy and migrate business applications and databases, establishing integration between the on- premises environment and Oracle cloud solutions. Our Oracle consulting services include security audit, capacity planning, architecture design support, testing and performance tuning, HA configuration, and more.",
-              "aos":"none"
-          }
-        ]
-      }
-    },
-    {
-      "SAP":{
-        "SAP_heading1":"Infomerica Inc Is A Proud Member Of ",
-        "SAP_heading2":"SAP SE's Partner Ecosystem",
-        "SAP_content1":"Designing a solution and implementation requires a deep domain knowledge on the customer industry, in general and operations in specific, to meet both stated and implied needs. Consultants of Infomerica have performed critical functions in the every domain, resulting in the key operational experience which constitutes to be an integral part of how we walk your shoes.",
-        "SAP_content2":"Leveraging a robust Cloud practice, Infomerica,Inc stands in a distinctive position to harness the capabilities of IBM Cloud, AWS, or AZURE cloud for expedited deployment and accelerated realization of ROI."
-      }
+      ]
     }
+  },
+  {
+    "oracle_cloud": {
+      "OC_heading1": "Oracle ",
+      "OC_heading2": "Cloud Services",
+      "OC_content1": "Innovate, manage, automate and propel your digital transformation journey leveraging our consulting and implementation services for Oracle-based solutions.",
+      "OC_content2": "We craft our implementation strategies with flexibility at the forefront, ensuring they are meticulously tailored to accommodate the distinct needs of each client, irrespective of their scale or developmental stage.",
+      "Oracle_Enterprise": [
+        {
+          "m1": "  Financials",
+          "m2": "   Procurement (Indirect)",
+          "m3": "  Supply Chain & Manufacturing",
+          "m4": "  Revenue Management",
+          "m5": "  Risk Management & Compliance",
+          "url": "https://infomericainc.com/Content/images/connection.gif",
+          "name": "Oracle Enterprise Resource Planning (ERP) Cloud"
+        },
+        {
+          "m1": "  Planning",
+          "m2": "  Profitability and Cost Management",
+          "m3": "  Financial Consolidation and Close",
+          "m4": "  Enterprise Data Management",
+          "m5": "  Account Reconciliation",
+          "m6": "  Tax Reporting",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "name": "Oracle Enterprise Performance Management (EPM) Cloud"
+        }
+      ],
+      "ETE_Oracle_Cloud_Services": "We provide end-to-end Oracle Cloud services that can help you at any stage of your digital transformation and solution implementation journey.",
+      "ETE_Oracle_Cloud_Slides": [
+        {
+          "url": "https://www.infomericainc.com/Content/images/ora_Consulting.png",
+          "m1": "Our comprehensive and varied integration experience helps us provide solutions that deliver results swiftly at a much lower cost, with proper control and better resource utilization. We also offer transformation services on Oracle forms and reports with on-time delivery of projects and zero defects. This includes tailor-made services like upgrades, enhancements, end-to-end transformation, new application development and maintenance, and more.",
+          "aos": "none"
+        },
+        {
+          "url": "https://www.infomericainc.com/Content/images/Intergatio_Legacy.png",
+          "m1": "Our Oracle experts can help you optimize and prioritize your investments in Oracle solutions while assessing future scalability. We offer comprehensive methodology-based implementation and customization services to go live as per a well-planned schedule. Our services include Oracle Database, Fusion Middleware, Business Intelligence (BI), Oracle WebLogic Server, Migration and Maintenance, Enterprise Applications, and more.",
+          "aos": "none"
+        },
+        {
+          "url": "https://www.infomericainc.com/Content/images/ora_Integration.png",
+          "m1": "We provide 24/7 support service for Oracle database, applications, systems, and network infrastructure in an onsite/offshore model that includes first-level application usage support, production support, functionality analysis, Oracle problem reporting and tracking, outsourcing services, remote infra management, systems management and cloud management.",
+          "aos": "none"
+        },
+        {
+          "url": "https://www.infomericainc.com/Content/images/ora_maintencepng.png",
+          "m1": "Our team ensures the development of an Oracle cloud architecture tailored specifically to your organization’s unique goals and objectives and a complete road map to deploy and migrate business applications and databases, establishing integration between the on- premises environment and Oracle cloud solutions. Our Oracle consulting services include security audit, capacity planning, architecture design support, testing and performance tuning, HA configuration, and more.",
+          "aos": "none"
+        }
+      ]
+    }
+  },
+  {
+    "SAP": {
+      "SAP_heading1": "Infomerica Inc Is A Proud Member Of ",
+      "SAP_heading2": "SAP SE's Partner Ecosystem",
+      "SAP_content1": "Designing a solution and implementation requires a deep domain knowledge on the customer industry, in general and operations in specific, to meet both stated and implied needs. Consultants of Infomerica have performed critical functions in the every domain, resulting in the key operational experience which constitutes to be an integral part of how we walk your shoes.",
+      "SAP_content2": "Leveraging a robust Cloud practice, Infomerica,Inc stands in a distinctive position to harness the capabilities of IBM Cloud, AWS, or AZURE cloud for expedited deployment and accelerated realization of ROI.",
+      "SAP_Portfolio_Image": "https://www.infomericainc.com/Content/images/sap.png",
+      "SAP_Services_Portfolio_Heading": "Our SAP Services Portfolio",
+      "SAP_Services_Portfolio": [
+        {
+          "icon": "fa-solid fa-people-roof fa-xl",
+          "title": "  Managed Services",
+          "content": "Infomerica manages mission-critical applications for some of the world’s most successful companies. We proactively identify and resolve issues before they affect users resulting in greater availability and stability of business operations."
+        },
+        {
+          "icon": "fa fa-cogs",
+          "title": "    Digital Services",
+          "content": "The migration of consumers from traditional to digital media brings with it a major shift in technology spending. We help our clients reduce exposure to risk and protect brand equity and reputation."
+        },
+        {
+          "icon": "fa-solid fa-truck-fast",
+          "title": "   Migration/Upgrades",
+          "content": "Infomerica can help you to determine whether on-prem or cloud option is the best approach. As a proud SAP partner, we bring experience, knowledge and the tools required for the migration."
+        },
+        {
+          "icon": "fa-solid fa-magnifying-glass",
+          "title": "   Maturity Assessment",
+          "content": "Infomerica can help to assess your SAP systems based on a Maturity Assessment framework. This will provide a greater visibility towards how well the resources are aligned with your organization’s goals."
+        },
+        {
+          "icon": "fa-solid fa-circle-user",
+          "title": "   Business Consulting",
+          "content": "Mobility. Cloud computing. Big data, we help clients to quickly turn these advances into competitive advantages, you need an IT consulting partner with innovative solutions, well-defined strategies and deep domain expertise."
+        },
+        {
+          "icon": "fa-brands fa-github",
+          "title": "   Implementation & Solutioning",
+          "content": "Infomerica’s expertise helps clients implement their SAP solution faster and help manage unexpected organizational challenges at a lower cost. Our domain experts work hard to to develop solutions to support your long-term objectives."
+        }
+      ],
+      "SAP_Focus_Offering_Heading": "Our Focus Offerings",
+      "SAP_Focus_Offering": [
+        {
+          "icon": "fa-brands fa-think-peaks",
+          "title": "  User Experience Value Enhancement",
+          "content": "Improving the user experience of SAP applications goes beyond the look and feel. Maximizing efficiency, simplifying multi-screen toggling, ease of accessing business content for effective decision making lie at the core of our how we help our clients adopt Fiori 2.0."
+        },
+        {
+          "icon": "fa-solid fa-users-gear",
+          "title": "   Customer Engagement & Commerce Suite",
+          "content": "The SAP hybris omni-channel commerce solution helps organizations target and engage with customers better, in an individualized and consistent manner - across every channel, every time.",
+          "content2": "We can help you to Accelerate your digital transformation journey - Our CEC CoE experts blend deep business process expertise with technology expertise, specializing in integration of Hybris with SAP ECC and VE. We offer the below services to our customers in the customer engagement & commerce suite arena"
+        },
+        {
+          "icon": "fa-solid fa-life-ring",
+          "title": "  Product Lifecycle Management",
+          "content": "Time to market is a key competitive edge in today’s connected business environment. Accelerating new product introduction, reducing compliance risks, and forming a closed-loop innovation network with customers and vendor-partners require agile applications which seamless connect the PLM and ERP. SAP Visual Enterprise offers 3D visualization in an integrated solution environment which automates the translation and unification of CAD data, Product metadata, and Enterprise business data from nonSAP PLMs. The solution helps manufacturing organizations reduce assembly rework, improve the quality of an initial assembly, eliminate mistakes in customer part order."
+        },
+        {
+          "icon": "fa-solid fa-building-columns",
+          "title": "  Financial Consulting",
+          "content": "In a global economy, and financial professionals must meet the challenges of both. Experienced SAP FI professionals in Infomerica Inc’s SAP Practice have been providing solutions for some myriad scenarios over the past 10 years."
+        },
+        {
+          "icon": "fa-solid fa-magnifying-glass-chart",
+          "title": "   Enterprise Asset Management",
+          "content": "Our certified SAP EAM consultants understand that asset operations and maintenance assure that our clients technicians who service and operate assets to ensure maximum uptime, are constantly mobile and often work in hazardous situations. Their safety and productivity are essential and require companies to have the right systems and processes in place.",
+          "content2":"That’s why we developed an SAP Certified Mobile Application to perform all plant maintenance related business functions like notification / work order processing, work order confirmation, material reservations, work clearance management, permits, search bill of material and stock overview. The mobile application is device-agnostic and can be deployed on iOS, Android, Windows tablets and phones.",
+          "content3": "Another HANA Cloud Platform app we’ve developed helps with a single point of access for all details pertaining to functional location- ibase structure including open/completed notifications & service orders, measurement points & measurement documents, on a single screen. Plant Maintenance technicians, supervisors, planners, Customer Service executives & managers greatly benefit from this decision making aid."
+        },
+        {
+          "icon": "fa-solid fa-database",
+          "title": "   S/4 HANA Migration & Adoption",
+          "content": "S/4 HANA is fast becoming the core platform for our clients in their digital transformation agenda. While migrating unlocks significant business value, there are always concerns regarding the options for migration that will suit the specific needs of each organization. Since there is no one-size-fits-all approach, our experts provide an unbiased roadmap recommendation, post a rigorous assessment."
+        },
+        {
+          "icon": "fa-solid fa-chart-simple",
+          "title": "   SAP Analytics & Data Service",
+          "content": "Big data unlocks hidden opportunities and insights. Infomerica turns technology into business outcomes by delivering information management, business intelligence and analytic solutions under a unified approach."
+        },
+        {
+          "icon": "fa-solid fa-street-view",
+          "title": "    Localization & Taxation Consulting",
+          "content": "In the age of globalization, businesses need to adapt to regional specifics, including regulatory requirements, languages, and unique business practices. SAP, as a world-leading ERP solution, offers localization and taxation capabilities, ensuring businesses are compliant with local legal requirements and can function efficiently in diverse environments."
+        },
+        {
+          "icon": "fa-solid fa-warehouse",
+          "title": "   SCM / Logistics Execution",
+          "content": "You can't make logistical decisions in a vacuum. Transportation problems can cascade like dominoes and impact your warehouse planning. Your warehouse plan changes your inventory plan. Changing inventory plans complicate your transportation selections-and everything impacts labor and billing.",
+          "content2":"Infomerica Supply Chain Execution team lets you make logistics decisions in context, so that you always know the consequences of every action and can make better choices. We leverage the connective power of the SAP Suite to seamlessly connect your logistics decisions to your financial systems, manufacturing systems, and all the other technologies that make your business more efficient.",
+          "content3": "SAP Extended Warehouse Management (EWM) offers you flexible, automated support with processing various goods movement and managing stock in your warehouse. The system supports you with planned and efficient processing of all logistics processes in your warehouse complex.",
+          "content4": "SAP Transportation Management (SAP TM) supports you in all activities connected with the physical transportation of goods from one location to another. Create forwarding orders to ordering parties, Transfer orders and deliveries from an ERP system, Create freight bookings, plan the transportation and select carriers, Tender transportation services, Dispatch and monitor the transportation, Calculate the transportation charges for both the ordering party and the supplier side, Consider foreign trade and dangerous goods regulations."
+        }
+      ]
+    }
+  }
 ]
