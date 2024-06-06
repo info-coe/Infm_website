@@ -60,7 +60,38 @@
               "url": "https://infomericainc.com/Content/images/cloud-network.gif",
               "name": "Oracle Enterprise Performance Management (EPM) Cloud"
           }
+        ],
+        "ETE_Oracle_Cloud_Services":"We provide end-to-end Oracle Cloud services that can help you at any stage of your digital transformation and solution implementation journey.",
+        "ETE_Oracle_Cloud_Slides":[
+          {
+              "url":"https://www.infomericainc.com/Content/images/ora_Consulting.png",
+              "m1":"Our comprehensive and varied integration experience helps us provide solutions that deliver results swiftly at a much lower cost, with proper control and better resource utilization. We also offer transformation services on Oracle forms and reports with on-time delivery of projects and zero defects. This includes tailor-made services like upgrades, enhancements, end-to-end transformation, new application development and maintenance, and more.",
+              "aos":"none"
+          },
+          {
+              "url":"https://www.infomericainc.com/Content/images/Intergatio_Legacy.png",
+              "m1":"Our Oracle experts can help you optimize and prioritize your investments in Oracle solutions while assessing future scalability. We offer comprehensive methodology-based implementation and customization services to go live as per a well-planned schedule. Our services include Oracle Database, Fusion Middleware, Business Intelligence (BI), Oracle WebLogic Server, Migration and Maintenance, Enterprise Applications, and more.",
+              "aos":"none"
+          },
+          {
+              "url":"https://www.infomericainc.com/Content/images/ora_Integration.png",
+              "m1":"We provide 24/7 support service for Oracle database, applications, systems, and network infrastructure in an onsite/offshore model that includes first-level application usage support, production support, functionality analysis, Oracle problem reporting and tracking, outsourcing services, remote infra management, systems management and cloud management.",
+              "aos":"none"
+          },
+          {
+              "url":"https://www.infomericainc.com/Content/images/ora_maintencepng.png",
+              "m1":"Our team ensures the development of an Oracle cloud architecture tailored specifically to your organization’s unique goals and objectives and a complete road map to deploy and migrate business applications and databases, establishing integration between the on- premises environment and Oracle cloud solutions. Our Oracle consulting services include security audit, capacity planning, architecture design support, testing and performance tuning, HA configuration, and more.",
+              "aos":"none"
+          }
         ]
+      }
+    },
+    {
+      "SAP":{
+        "SAP_heading1":"Infomerica Inc Is A Proud Member Of ",
+        "SAP_heading2":"SAP SE's Partner Ecosystem",
+        "SAP_content1":"Designing a solution and implementation requires a deep domain knowledge on the customer industry, in general and operations in specific, to meet both stated and implied needs. Consultants of Infomerica have performed critical functions in the every domain, resulting in the key operational experience which constitutes to be an integral part of how we walk your shoes.",
+        "SAP_content2":"Leveraging a robust Cloud practice, Infomerica,Inc stands in a distinctive position to harness the capabilities of IBM Cloud, AWS, or AZURE cloud for expedited deployment and accelerated realization of ROI."
       }
     }
 ]

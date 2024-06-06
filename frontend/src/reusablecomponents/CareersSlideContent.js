@@ -20,7 +20,7 @@ const CareersSlideContent = ({data}) => {
         <style>{styles}</style>
         {data.map((item,i)=>(
             <div className='card slidecontentcard p-4' data-aos={item.aos} data-aos-once="true" data-aos-duration="1300">
-            <img src={item.url} width="60" height="60" alt="gificons" />
+            <img src={item.url} width={item.width} height={item.height} alt="gificons" />
             <p>{item.m1}</p>
             </div>
         ))}

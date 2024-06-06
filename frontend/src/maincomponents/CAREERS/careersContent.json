@@ -15,22 +15,30 @@
             {
                 "url":"https://infomericainc.com/Content/images/connection.gif",
                 "m1":"Infomerica also believes that our strength and success lies in our employees and our asset is our employees. Our business environment is dynamic by a high degree of competition and rapid technological advances. Success in a dynamic and high degree of competition situation demands that we continuously challenge ourselves to higher levels of individual and collective performance. To enable high degree of performance, we aim to provide an enabling and positive environment that will motivate our employees.",
-                "aos":"slide-right"
+                "aos":"slide-right",
+                "width":60,
+                "height":60
             },
             {
                 "url":"https://infomericainc.com/Content/images/cloud-network.gif",
                 "m1":"We also believe in continuous education of our associates and strive to provide the best training facilities that will keep us apart from our competitors in our field. At Infomerica we treat each person with respect and fairness, and afford ample opportunity for individual growth in Infomerica.",
-                "aos":"slide-left"
+                "aos":"slide-left",
+                "width":60,
+                "height":60
             },
             {
                 "url":"https://infomericainc.com/Content/images/computer.gif",
                 "m1":"We always look for hiring talented people. We employ people of exceptional creativity, expertise, and determination who work closely with one another and with our customers. We pursue technical growth and market diversification to increase value for our customers and opportunity for our employees.",
-                "aos":"slide-right"
+                "aos":"slide-right",
+                "width":60,
+                "height":60
             },
             {
                 "url":"https://infomericainc.com/Content/images/rocket.gif",
                 "m1":"If you are interested please send your resume in word format and we promise you that we will respond if your skill fits our ongoing requirements. Also remember that at Infomerica we protect and respect the privacy and confidentiality, hence would not disclose to the public.",
-                "aos":"slide-left"
+                "aos":"slide-left",
+                "width":60,
+                "height":60
             }
         ]
     },

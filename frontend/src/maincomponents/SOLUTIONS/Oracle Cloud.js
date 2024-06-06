@@ -3,6 +3,7 @@ import SolutionData from "./solutionscontent.json";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
+import CareersSlideContent from "../../reusablecomponents/CareersSlideContent";
 
 const OracleCloud = (props) => {
   const serviceContent = JSON.parse(props.product.ServicesComponent.Content);
@@ -24,6 +25,10 @@ const OracleCloud = (props) => {
         />
       </div>
       <SolutionOfferings managementData={oracleCloudData.Oracle_Enterprise} />
+      <h4 className="text-danger container p-5">{oracleCloudData.ETE_Oracle_Cloud_Services}</h4>
+      <div className='d-md-flex flex-wrap gap-4 justify-content-center m-5 mt-0'>
+        <CareersSlideContent data={oracleCloudData.ETE_Oracle_Cloud_Slides}/>
+      </div>
       <ModelsPoints contents={crmModelPointsData} />
     </div>
   );

@@ -8,6 +8,7 @@ export const SolutionOfferings = ({ managementData }) => {
         {managementData.map((curr, index) => (
           <div
             data-aos="zoom-in"
+            data-aos-once="true"
             className="col-md-5 m-3 border rounded position-relative"
             key={index}
           >
@@ -18,7 +19,7 @@ export const SolutionOfferings = ({ managementData }) => {
                   className="img-fluid"
                   style={{
                     width: "10%",
-                    border: "2px solid #ccc",
+                    // border: "2px solid #ccc",
                     borderRadius: "5px",
                   }}
                   alt="Customized_Image"
