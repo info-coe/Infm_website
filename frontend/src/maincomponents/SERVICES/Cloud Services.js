@@ -39,14 +39,14 @@ const CloudServices = () => {
             <img src={cloudImage} width="75%" alt='no-display'/>
         </div>
     <div className='mt-5'>
-         <AdvantagesServices heading={advantagesData.Advanheading} icon={advantagesData.advanicon} advantagesData={[
-              advantagesData.point1,
-              advantagesData.point2,
-              advantagesData.point3,
-              advantagesData.point4,
+         <AdvantagesServices heading={advantagesData.cloudServiceAdvanHeading} icon={advantagesData.cloudServiceAdvanIcon} advantagesData={[
+              advantagesData.cloudServiceAdvanPoint1,
+              advantagesData.cloudServiceAdvanPoint2,
+              advantagesData.cloudServiceAdvanPoint3,
+              advantagesData.cloudServiceAdvanPoint4,
               ]}
-              image1={advantagesData.advantageimage1}
-              image2={advantagesData.advantageimage2}
+              image1={advantagesData.cloudServiceAdvantageimage1}
+              image2={advantagesData.cloudServiceAdvantageimage2}
               />
       </div>
         </div>

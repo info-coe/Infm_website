@@ -29,12 +29,11 @@ const DigitalTransformationServices = () => {
         <div>
             <img src={dtsImage} width="100%" alt='no-display'/>
         </div>
-         <AdvantagesServices heading={advantagesData.Advanheading} icon={advantagesData.advanicon} advantagesData={[
-              advantagesData.point1,
-              advantagesData.point2,
-              advantagesData.point3,
+         <AdvantagesServices heading={advantagesData.digitalServiceAdvanHeading} icon={advantagesData.digitalServiceAdvanIcon} advantagesData={[
+              advantagesData.digitalServiceAdvanPoint1,
+              advantagesData.digitalServiceAdvanPoint2,
+              advantagesData.digitalServiceAdvanPoint3,
               ]}
-              image={advantagesData.img}
               />
 
             <BoxServicesData allservices={dtsServicesData} textColor="#0f62fe" textcenter="center"/>

@@ -2,7 +2,7 @@
   {
     "ServicesData": [
       {
-        "t1": "Customer Relationship Management",
+        "t1": "CRM",
         "Des1": "Fostering Enhanced Customer Relations.",
         "icon1": "fa fa-users",
         "serviceHeading": "Services"
@@ -55,7 +55,7 @@
       {
         "t11": "Free POC & POT",
         "Des11": "Empowering clients' competitive advantage.",
-        "icon11": "fa-solid fa-lightbulb fa-beat"
+        "icon11": "fa-solid fa-lightbulb"
       },
       {
         "t12": "Software Sales",
@@ -158,7 +158,9 @@
         "iotServiceHeading":"IoT Services: Enabling a Smart, Connected Future",
         "iotServiceContent":"In today’s dynamic digital epoch, IoT (Internet of Things) stands at the forefront of technological evolution, shaping an interconnected universe where information is the prime asset. At Infomerica,Inc, we craft exemplary IoT solutions, paving the path for intelligent and informed decision-making and creating enhanced value for your enterprise.        ",
         "iotRevolutionizeHeading":"Revolutionize Your Enterprise with Infomerica,Inc!",
-        "iotRevolutionizeContent":"Our IoT services are meticulously designed to empower your business with the essence of connectivity and intelligence. We amalgamate cutting-edge technology with deep industry insights to render solutions that are not just revolutionary but are also scalable and secure."
+        "iotRevolutionizeContent":"Our IoT services are meticulously designed to empower your business with the essence of connectivity and intelligence. We amalgamate cutting-edge technology with deep industry insights to render solutions that are not just revolutionary but are also scalable and secure.",
+        "iotEmbarkHeading":"Embark on Your IoT Journey with Infomerica !",
+        "iotEmbarkContent":"Foster an environment of innovation, efficiency, and intelligent operation with our avant-garde IoT services. Let’s unravel the potential of a connected ecosystem and redefine the way your business interacts with the world."
       }
     ]
   },
@@ -211,21 +213,30 @@
   {
     "ServicesAdvantages": [
       {
-        "point1": "  Innovative Solutions - Stay ahead of the curve with our cutting-edge, innovative RPA solutions, driving operational excellence and competitive advantage.",
-        "point2": "  Customer-Centric Approach - Your business is unique, and so are our solutions. Experience bespoke RPA services meticulously designed to align with your objectives and challenges.",
-        "point3": "  Expertise & Experience - Leverage our extensive industry knowledge and experience to navigate your automation journey with confidence and ease.",
-        "advanicon": "fa fa-check",
-        "Advanheading": "The Infomerica Advantage"
+        "digitalServiceAdvanPoint1": "  Innovative Solutions - Stay ahead of the curve with our cutting-edge, innovative RPA solutions, driving operational excellence and competitive advantage.",
+        "digitalServiceAdvanPoint2": "  Customer-Centric Approach - Your business is unique, and so are our solutions. Experience bespoke RPA services meticulously designed to align with your objectives and challenges.",
+        "digitalServiceAdvanPoint3": "  Expertise & Experience - Leverage our extensive industry knowledge and experience to navigate your automation journey with confidence and ease.",
+        "digitalServiceAdvanIcon": "fa fa-check",
+        "digitalServiceAdvanHeading": "The Infomerica Advantage"
       },
       {
-        "point1": "  Pioneering Solutions - Crafted with precision and a forward-thinking approach, our services are the epitome of innovative excellence, propelling your business to new heights.",
-        "point2": " Unsurpassable Security - Navigate the digital world with peace of mind, with our robust security frameworks ensuring the integrity and confidentiality of your valuable data.",
-        "point3": "  Scalability & Flexibility - Adapt and grow with ease, leveraging scalable and flexible solutions that evolve with your changing needs and ambitions.",
-        "point4": "Strategic Insights - Gain valuable insights and foresight through our advanced analytics and intelligence, guiding your strategic decisions and plans.",
-        "advanicon": "fa fa-check",
-        "Advanheading": "Why Choose Infomerica,Inc for Cloud Services?",
-        "advantageimage1": "https://www.infomericainc.com/Content/images/AWS%20Partner.png",
-        "advantageimage2": "https://www.infomericainc.com/Content/images/Microsoft%20Gold%20Partner.png"
+        "cloudServiceAdvanPoint1": "  Pioneering Solutions - Crafted with precision and a forward-thinking approach, our services are the epitome of innovative excellence, propelling your business to new heights.",
+        "cloudServiceAdvanPoint2": " Unsurpassable Security - Navigate the digital world with peace of mind, with our robust security frameworks ensuring the integrity and confidentiality of your valuable data.",
+        "cloudServiceAdvanPoint3": "  Scalability & Flexibility - Adapt and grow with ease, leveraging scalable and flexible solutions that evolve with your changing needs and ambitions.",
+        "cloudServiceAdvanPoint4": "Strategic Insights - Gain valuable insights and foresight through our advanced analytics and intelligence, guiding your strategic decisions and plans.",
+        "cloudServiceAdvanIcon": "fa fa-check",
+        "cloudServiceAdvanHeading": "Why Choose Infomerica,Inc for Cloud Services?",
+        "cloudServiceAdvantageimage1": "https://www.infomericainc.com/Content/images/AWS%20Partner.png",
+        "cloudServiceAdvantageimage2": "https://www.infomericainc.com/Content/images/Microsoft%20Gold%20Partner.png"
+      },
+      {
+        "iotServiceAdvanPoint1":"Innovative Excellence: Discover groundbreaking IoT solutions that drive operational efficiency and open doors to new business possibilities.",
+        "iotServiceAdvanPoint2":"Secure and Scalable: Leverage IoT solutions that are inherently secure, scalable, and tailored to align with your business objectives.",
+        "iotServiceAdvanPoint3":" Expertise-Driven Approach: Gain from our extensive industry knowledge and technical prowess in IoT to transcend conventional boundaries.",
+        "iotServiceAdvanPoint4":"Customer-Centric Solutions: Benefit from solutions that are crafted keeping in mind the diverse needs and challenges of your enterprise.",
+        "iotServiceAdvanIcon":"fa fa-check",
+        "iotServiceAdvanHeading":"Why Opt for Infomerica,Inc for IoT Services?"
+
       }
     ]
   },
@@ -407,7 +418,7 @@
         "microcontent2": " Solution Architecture",
         "microcontent3": "Roadmap Development",
         "microsubhead": "Microsoft Cloud Consulting",
-        "micromainhead": "Our Holistic Microsoft Cloud Service Offerings Include",
+        "iotmainhead": "Our Holistic Microsoft Cloud Service Offerings Include",
         "microicon": "fa fa-check"
       },
       {
@@ -568,6 +579,43 @@
         "p1": "Low-code no-code platform that lays the foundation for high value ERP/CRM solutions and new experiences with emerging tools rapidly."
       }
     ]
-  }
+  },
+  
+    {
+      "ComprehensiveIoTServicesData": [
+        {
+          "iotcontent1": "Identifying Opportunities",
+          "iotcontent2": "Architecting Solutions",
+          "iotcontent3": "Developing Roadmaps",
+          "iotsubhead": "IoT Consultation & Strategy Development",
+          "iotmainhead": "Our Comprehensive IoT Service Offerings Include",
+          "ioticon": "fa fa-check"
+        },
+        {
+          "iotcontent1": "Deploying Solutions",
+          "iotcontent2": "Integrating Technologies",
+          "iotcontent3": "Enabling Interoperability",
+          "iotsubhead": "IoT Implementation & Integration"
+        },
+        {
+          "iotcontent1": "Harnessing Data",
+          "iotcontent2": "Generating Insights",
+          "iotcontent3": "Informing Decisions",
+          "iotsubhead": "IoT Data Analytics & Intelligence"
+        },
+        {
+          "iotcontent1": "Securing Assets",
+          "iotcontent2": "Managing Risks",
+          "iotcontent3": "Ensuring Compliance",
+          "iotsubhead": "IoT Security & Compliance Management"
+        },
+        {
+          "iotcontent1": "Managing Devices",
+          "iotcontent2": "Optimizing Applications",
+          "iotcontent3": "Enhancing Experiences",
+          "iotsubhead": "IoT Device & Application Management"
+        }
+      ]
+    }
 
 ]
