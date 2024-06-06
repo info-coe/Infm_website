@@ -18,11 +18,11 @@ const ApplicationServices = () => {
     return (
         <div>
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
-        <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
+        <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"/>
         <div className='mt-5'>
-        <Zoomin heading={applicationData.revolutionizingmainheading} heading2={applicationData.innovativeheading} content={[applicationData.innovativecontent1,applicationData.innovativecontent2,applicationData.innovativecontent3,applicationData.appcontent4]}/>
+        <Zoomin heading={applicationData.applicationRevolutionizingHeading} heading2={applicationData.applicationInnovativeHeading} content={[applicationData.applicationInnovativeContent1,applicationData.applicationInnovativeContent2,applicationData.applicationInnovativeContent3,applicationData.applicationInnovativeContent4]}/>
         </div>
-        <BoxServicesData allservices={appServicesData} textColor="#FE0000"/ >
+        <BoxServicesData allservices={appServicesData} textColor="#FE0000"/>
         <ModelsPoints contents={data} />
         </div>
     );

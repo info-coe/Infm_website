@@ -24,7 +24,7 @@ const DigitalTransformationServices = () => {
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
         <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
         <div className='mt-5'>
-        <Zoomin heading={digitalData.digitalunleashheading} content={[digitalData.digitalunleashpara]}/>
+        <Zoomin heading={digitalData.digitalUnleashHeading} content={[digitalData.digitalUnleashContent]}/>
         </div>
         <div>
             <img src={dtsImage} width="100%" alt='no-display'/>

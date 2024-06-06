@@ -67,85 +67,85 @@
   {
     "ServicesAllHeadingAndContent": [
       {
-        "crmMainheading": "Customer Relationship Management:",
-        "fosteringsubheading": "Fostering Enhanced Customer Relations",
-        "fosteringcontent1": "Customer Relationship Management (CRM) signifies the strategies and processes that businesses leverage to oversee and refine customer interactions, with the ultimate aim of augmenting customer relations. Achieving a harmonious relationship between a business and its clientele involves the integration of optimal practices and avant-garde technologies to align organizational processes with customer relationship aspirations. Infomerica stands out as a beacon of experience and proficiency in rolling out CRM solutions across diverse industries, empowered by our partnerships with industry stalwarts like IBM, Microsoft, and Oracle. We are poised to deliver products and services that aptly fulfill customer requirements.",
-        "fosteringcontent2": "Strategic Alliances with product, tool & technology vendors.",
+        "crmMainHeading": "Customer Relationship Management:",
+        "crmFosteringHeading": "Fostering Enhanced Customer Relations",
+        "crmFosteringContent1": "Customer Relationship Management (CRM) signifies the strategies and processes that businesses leverage to oversee and refine customer interactions, with the ultimate aim of augmenting customer relations. Achieving a harmonious relationship between a business and its clientele involves the integration of optimal practices and avant-garde technologies to align organizational processes with customer relationship aspirations. Infomerica stands out as a beacon of experience and proficiency in rolling out CRM solutions across diverse industries, empowered by our partnerships with industry stalwarts like IBM, Microsoft, and Oracle. We are poised to deliver products and services that aptly fulfill customer requirements.",
+        "crmFosteringContent2": "Strategic Alliances with product, tool & technology vendors.",
         "servicebannerimage": "https://www.infomericainc.com/Content/images/services-banner.jpg",
         "servicemobileimage": "https://www.infomericainc.com/Content/images/services-banner-mobile.jpg",
         "servicecrmImage": "https://www.infomericainc.com/Content/images/shutterstock_143086633.jpg",
         "serviceHeading": "Services"
       },
       {
-        "digitalunleashheading": "Unleash the Power of Digital: Infomerica's Digital Transformation Services!",
-        "digitalunleashpara": "In a world that’s rapidly evolving, staying ahead means embracing change. At Infomerica,Inc, we specialize in navigating businesses through their digital journeys, unlocking unprecedented value and capabilities. Our Digital Transformation Services are designed to redefine the way you operate and deliver, making your business more resilient, agile, and innovative.",
+        "digitalUnleashHeading": "Unleash the Power of Digital: Infomerica's Digital Transformation Services!",
+        "digitalUnleashContent": "In a world that’s rapidly evolving, staying ahead means embracing change. At Infomerica,Inc, we specialize in navigating businesses through their digital journeys, unlocking unprecedented value and capabilities. Our Digital Transformation Services are designed to redefine the way you operate and deliver, making your business more resilient, agile, and innovative.",
         "digitalImage": "https://www.infomericainc.com/Content/images/Digital%20Transformation%20services.jpg"
       },
       {
-        "advancedmainheading": "Advanced Security Architecture Services:",
-        "constructingheading": "Constructing Resilient Defenses in the Cloud and Beyond!",
-        "constructingcontent1": "In today's interconnected world, where cyber threats are relentless, achieving robust Security Architecture, especially within cloud environments, is paramount. We provide sophisticated Security Architecture Services, extending our reach into the cloud, to offer holistic defense strategies, advanced methodologies, and a layered approach to protect sensitive data, systems, and applications from sophisticated threats and vulnerabilities.",
-        "constructingcontent2": "Strategic Alliances with product, tool & technology vendors.",
-        "constructingcontent3": "With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI].",
+        "securityAdvancedHeading": "Advanced Security Architecture Services:",
+        "securityConstructingHeading": "Constructing Resilient Defenses in the Cloud and Beyond!",
+        "securityConstructingContent1": "In today's interconnected world, where cyber threats are relentless, achieving robust Security Architecture, especially within cloud environments, is paramount. We provide sophisticated Security Architecture Services, extending our reach into the cloud, to offer holistic defense strategies, advanced methodologies, and a layered approach to protect sensitive data, systems, and applications from sophisticated threats and vulnerabilities.",
+        "securityConstructingContent2": "Strategic Alliances with product, tool & technology vendors.",
+        "securityConstructingContent3": "With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI].",
         "securityarchitectureImage": "https://www.infomericainc.com/Content/images/SecurityArchitecture.png"
       },
       {
-        "revolutionizingmainheading": "Revolutionizing The IT Landscape With",
-        "innovativeheading": "Innovative Application Services!",
-        "innovativecontent1": "In today’s dynamic and ever-evolving digital landscape, the role of application services is pivotal in ensuring seamless business operations and enhanced user experiences.",
-        "innovativecontent2": "Infomerica's Application services encompass a myriad of capabilities designed to strategize, develop, and manage a spectrum of applications catering to diverse business needs.",
-        "innovativecontent3": "Our approach to application services is holistic, addressing every aspect of application lifecycle management, and our commitment is to enable our clients to focus on their core business areas while we take care of their application landscape.",
-        "innovativecontent4": "Our seasoned team of specialists harbors extensive experience and profound industry insights, empowering your business to transcend conventional boundaries and achieve its aspirations."
+        "applicationRevolutionizingHeading": "Revolutionizing The IT Landscape With",
+        "applicationInnovativeHeading": "Innovative Application Services!",
+        "applicationInnovativeContent1": "In today’s dynamic and ever-evolving digital landscape, the role of application services is pivotal in ensuring seamless business operations and enhanced user experiences.",
+        "applicationInnovativeContent2": "Infomerica's Application services encompass a myriad of capabilities designed to strategize, develop, and manage a spectrum of applications catering to diverse business needs.",
+        "applicationInnovativeContent3": "Our approach to application services is holistic, addressing every aspect of application lifecycle management, and our commitment is to enable our clients to focus on their core business areas while we take care of their application landscape.",
+        "applicationInnovativeContent4": "Our seasoned team of specialists harbors extensive experience and profound industry insights, empowering your business to transcend conventional boundaries and achieve its aspirations."
       },
       {
-        "welcomemainheading": "Welcome to Infomerica,Inc - Where the Cloud Meets Innovation!",
-        "welcomecontent": "Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At [Your Company Name], we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
-        "unveilheading": "Unveil the Power of Cloud with Infomerica,Inc!",
-        "unveilcontent": "Through our cutting-edge Cloud Services, we help you harness the full potential of the cloud, ensuring optimal flexibility, security, and performance. Our services are designed to align with your unique business objectives, enabling you to overcome challenges and seize opportunities in the evolving digital landscape.",
-        "cloudplatformmigrationprocessImage": "https://www.infomericainc.com/Content/images/3_stage_cloud_platform_migration_process.png",
-        "transformmainheading": "Transform with Infomerica,Inc - Your Cloud Companion!",
-        "transformcontent1": "Our mission is to be your trusted partner in your cloud journey, enabling you to innovate, transform, and excel. Together, we’ll explore the infinite possibilities of the cloud, turning your visions into reality and positioning your business as a leader in the digital age..",
-        "transformcontent2": "For more details or to discuss your specific needs,",
-        "transformcontact": "Contact Us",
-        "transformtoday": "today!",
-        "transcontactlink": "/Contact"
+        "cloudWelcomeHeading": "Welcome to Infomerica,Inc - Where the Cloud Meets Innovation!",
+        "cloudWelcomeContent": "Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At [Your Company Name], we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
+        "cloudUnveilHeading": "Unveil the Power of Cloud with Infomerica,Inc!",
+        "cloudUnveilContent": "Through our cutting-edge Cloud Services, we help you harness the full potential of the cloud, ensuring optimal flexibility, security, and performance. Our services are designed to align with your unique business objectives, enabling you to overcome challenges and seize opportunities in the evolving digital landscape.",
+        "cloudPlatformMigrationImage": "https://www.infomericainc.com/Content/images/3_stage_cloud_platform_migration_process.png",
+        "cloudTransformHeading": "Transform with Infomerica,Inc - Your Cloud Companion!",
+        "cloudTransformContent1": "Our mission is to be your trusted partner in your cloud journey, enabling you to innovate, transform, and excel. Together, we’ll explore the infinite possibilities of the cloud, turning your visions into reality and positioning your business as a leader in the digital age..",
+        "cloudTransformContent2": "For more details or to discuss your specific needs,",
+        "cloudTransformContact": "Contact Us",
+        "cloudTransformtoday": "today!",
+        "cloudTransContactLink": "/Contact"
       },
       {
-        "unveilfuturemainheading": "Unveil the Future with Our AWS Services: A Symphony of Innovation, Scalability, and Excellence!",
-        "unveilfuturecontent": "Welcome to Infomerica,Inc, where your visions meet execution. As an AWS Select Consulting Partner, we are adept at molding the sophisticated architecture of AWS services to offer transformative solutions, designed meticulously to suit your distinctive business paradigms.",
-        "navigatingheading": "Navigating the Digital Elysium with AWS!",
-        "navigatingcontent": "Delve deeper into the transformative power of AWS with us! Our spectrum of AWS services is broad and versatile, covering a myriad of domains such as Cloud Migration, Advanced Analytics, DevOps, and Security Compliance. Our focal point is to infuse innovation, fortify security, and instigate scalable solutions that bolster your operational fortitude and business growth.",
-        "innovatemainheading": "Innovate, Transform, and Excel with AWS!",
-        "innovatecontent": "Engage with us to elevate your journey in the cloud. We stand by you from conceptualization to realization, delivering a seamless experience and ensuring your enterprise’s strategic alignment with the evolving digital epoch. Embrace the future with unparalleled innovation, agility, and resilience with Infomerica,Inc as your beacon in the AWS landscape...",
-        "innovateimage": "https://www.infomericainc.com/Content/images/AWS%20Partner.png"
+        "awsUnveilFutureHeading": "Unveil the Future with Our AWS Services: A Symphony of Innovation, Scalability, and Excellence!",
+        "awsUnveilFutureContent": "Welcome to Infomerica,Inc, where your visions meet execution. As an AWS Select Consulting Partner, we are adept at molding the sophisticated architecture of AWS services to offer transformative solutions, designed meticulously to suit your distinctive business paradigms.",
+        "awsNavigatingHeading": "Navigating the Digital Elysium with AWS!",
+        "awsNavigatingContent": "Delve deeper into the transformative power of AWS with us! Our spectrum of AWS services is broad and versatile, covering a myriad of domains such as Cloud Migration, Advanced Analytics, DevOps, and Security Compliance. Our focal point is to infuse innovation, fortify security, and instigate scalable solutions that bolster your operational fortitude and business growth.",
+        "awsInnovateHeading": "Innovate, Transform, and Excel with AWS!",
+        "awsInnovateContent": "Engage with us to elevate your journey in the cloud. We stand by you from conceptualization to realization, delivering a seamless experience and ensuring your enterprise’s strategic alignment with the evolving digital epoch. Embrace the future with unparalleled innovation, agility, and resilience with Infomerica,Inc as your beacon in the AWS landscape...",
+        "awsInnovateImage": "https://www.infomericainc.com/Content/images/AWS%20Partner.png"
       },
       {
-        "microsoftcloudmainheading": "Welcome to Infomerica,Inc – Your Gateway to Microsoft Cloud Excellence!",
-        "microsoftcloudcontent": "As a distinguished AWS Select Consulting Partner, we extend our vast expertise and insights to navigate you seamlessly through the realms of Microsoft Cloud Services. Our commitment is to orchestrate transformative cloud experiences that empower your business to innovate, evolve, and flourish in the dynamic digital ecosystem.",
-        "elevateheading": "Elevate Your Enterprise with Infomerica,Inc",
-        "elevatecontent": "We specialize in leveraging Microsoft Cloud solutions to drive agility, efficiency, and resilience within your enterprise. Our meticulously designed services pave the way for enhanced operational excellence, enriched user experiences, and accelerated growth trajectories.",
-        "trustedmicrosoftmainheading": "Transform Your Journey with Infomerica – Your Trusted Microsoft Cloud Partner!",
-        "trustedmicrosoftcontent": "Our mission is to catalyze your success in the digital era through transformative Microsoft Cloud Services. Together, we’ll unravel new possibilities, orchestrate digital symphonies, and chart your course to uncharted territories of opportunities.",
-        "trustedmicrosoftimage": "https://www.infomericainc.com/Content/images/Microsoft%20Gold%20Partner.png",
-        "trustedcontent2": "For more details or to discuss your specific needs,",
-        "trustedcontact": "Contact Us",
-        "trustedtoday": "today!",
-        "trustedcontactlink": "/Contact"
+        "microsoftCloudHeading": "Welcome to Infomerica,Inc – Your Gateway to Microsoft Cloud Excellence!",
+        "microsoftCloudContent": "As a distinguished AWS Select Consulting Partner, we extend our vast expertise and insights to navigate you seamlessly through the realms of Microsoft Cloud Services. Our commitment is to orchestrate transformative cloud experiences that empower your business to innovate, evolve, and flourish in the dynamic digital ecosystem.",
+        "microsoftElevateHeading": "Elevate Your Enterprise with Infomerica,Inc",
+        "microsoftElevateContent": "We specialize in leveraging Microsoft Cloud solutions to drive agility, efficiency, and resilience within your enterprise. Our meticulously designed services pave the way for enhanced operational excellence, enriched user experiences, and accelerated growth trajectories.",
+        "microsoftTrustedHeading": "Transform Your Journey with Infomerica – Your Trusted Microsoft Cloud Partner!",
+        "microsoftTrustedContent1": "Our mission is to catalyze your success in the digital era through transformative Microsoft Cloud Services. Together, we’ll unravel new possibilities, orchestrate digital symphonies, and chart your course to uncharted territories of opportunities.",
+        "microsoftTrustedImage": "https://www.infomericainc.com/Content/images/Microsoft%20Gold%20Partner.png",
+        "microsoftTrustedContent2": "For more details or to discuss your specific needs,",
+        "microsoftTrustedContact": "Contact Us",
+        "microsoftTrustedToday": "today!",
+        "microsoftTrustedContactLink": "/Contact"
       },
       {
-        "microsofttransformmainheading": "Transform Your Business with",
-        "microsofttransformsubheading": "Microsoft 365!",
-        "microsofttransformcontent1": "Microsoft 365 combines the robustness of Windows 10, the versatility of Office 365, and the management and security features suitable for businesses. It aims to augment collaboration, mobility, and intelligence, providing a seamless environment for organizations to deploy robust and innovative solutions.",
-        "microsofttransformcontent2": "Microsoft Power Platform empowers organizations to analyze data, build solutions, automate processes, and create virtual agents. It combines the robust power of Power BI, Power Apps, Power Automate, and Power Virtual Agents to foster innovation across your organization by enabling actionable insights and robust automation",
-        "microsoftpractimage": "https://www.infomericainc.com/Content/images/practi_enter.jpg",
-        "microsoftpoint1": "Microsoft Teams",
-        "microsoftpoint2": "SharePoint Online",
-        "microsoftpoint3": "OneDrive for Business",
-        "microsoftpoint4": "Power Apps",
-        "microsoftpoint5": "Power Automate",
-        "microsoftpoint6": "Power Virtual Agents",
-        "microsoftpoint7": "Power BI",
-        "microsofticon": "bi bi-send"
+        "microsoftTransformHeading": "Transform Your Business with",
+        "microsoftHeading": "Microsoft 365!",
+        "microsoftTransformContent1": "Microsoft 365 combines the robustness of Windows 10, the versatility of Office 365, and the management and security features suitable for businesses. It aims to augment collaboration, mobility, and intelligence, providing a seamless environment for organizations to deploy robust and innovative solutions.",
+        "microsoftTransformContent2": "Microsoft Power Platform empowers organizations to analyze data, build solutions, automate processes, and create virtual agents. It combines the robust power of Power BI, Power Apps, Power Automate, and Power Virtual Agents to foster innovation across your organization by enabling actionable insights and robust automation",
+        "microsoftPractImage": "https://www.infomericainc.com/Content/images/practi_enter.jpg",
+        "microsoftPoint1": "Microsoft Teams",
+        "microsoftPoint2": "SharePoint Online",
+        "microsoftPoint3": "OneDrive for Business",
+        "microsoftPoint4": "Power Apps",
+        "microsoftPoint5": "Power Automate",
+        "microsoftPoint6": "Power Virtual Agents",
+        "microsoftPoint7": "Power BI",
+        "microsoftIcon": "bi bi-send"
       },
       {
         "dataServicesHeading": "Empowering Your Business through Intelligent Data Services",
@@ -153,6 +153,12 @@
         "dataServices_sub_Content": "The Data Life Cycle is a series of steps carried out to mine information from raw data - a navigation tool for facilitating users in discovering recommendations on how to effectively work with their data across all stages of the data life cycle.",
         "dataSer_image": "https://infomericainc.com/Content/images/Data%20Life%20Cycle.png",
         "dataSer_sub_image": "https://infomericainc.com/Content/images/mdm.png"
+      },
+      {
+        "iotServiceHeading":"IoT Services: Enabling a Smart, Connected Future",
+        "iotServiceContent":"In today’s dynamic digital epoch, IoT (Internet of Things) stands at the forefront of technological evolution, shaping an interconnected universe where information is the prime asset. At Infomerica,Inc, we craft exemplary IoT solutions, paving the path for intelligent and informed decision-making and creating enhanced value for your enterprise.        ",
+        "iotRevolutionizeHeading":"Revolutionize Your Enterprise with Infomerica,Inc!",
+        "iotRevolutionizeContent":"Our IoT services are meticulously designed to empower your business with the essence of connectivity and intelligence. We amalgamate cutting-edge technology with deep industry insights to render solutions that are not just revolutionary but are also scalable and secure."
       }
     ]
   },

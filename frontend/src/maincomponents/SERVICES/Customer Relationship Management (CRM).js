@@ -32,11 +32,11 @@ const CustomerRelationshipManagement = () => {
           </div>
           <div className="col-md-8">
             <Zoomin2
-              heading={contentData.crmMainheading}
-              heading2={contentData.fosteringsubheading}
+              heading={contentData.crmMainHeading}
+              heading2={contentData.crmFosteringHeading}
               content={[
-                contentData.fosteringcontent1,
-                contentData.fosteringcontent2,
+                contentData.crmFosteringContent1,
+                contentData.crmFosteringContent2,
               ]}
             />
           </div>

@@ -9,11 +9,11 @@ const MicrosoftCloudServices = () => {
     const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicemobileimage
     const sections = [
         {
-            content: microsoftData.microsoftcloudcontent
+            content: microsoftData.microsoftCloudContent
         },
         {
-            heading: microsoftData.elevateheading,
-            content: microsoftData.elevatecontent
+            heading: microsoftData.microsoftElevateHeading,
+            content: microsoftData.microsoftElevateContent
         }
     ];
     const microServiceData= serviceContent[10].HolisticMicrosoftServicesData
@@ -29,12 +29,12 @@ const MicrosoftCloudServices = () => {
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
         <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
         <div className='mt-5'>
-        <Zoomin heading={microsoftData.microsoftcloudmainheading} sections={sections} textsize="25px"/>
+        <Zoomin heading={microsoftData.microsoftCloudHeading} sections={sections} textsize="25px"/>
         </div>
 
         <div className='mt-5'>
         <BoxServicesData allservices={microServicesData} textColor="#0f62fe" textsize='25px'  icon={microServiceData[0].microicon}/>
-         <NoZoomin heading={microsoftData.trustedmicrosoftmainheading} textsize='25px' texttop="20px" content={[microsoftData.trustedmicrosoftcontent,microsoftData.trustedcontent2]} image={microsoftData.trustedmicrosoftimage} contact={microsoftData.trustedcontact} today={microsoftData.trustedtoday} link={microsoftData.trustedcontactlink}/>
+         <NoZoomin heading={microsoftData.microsoftTrustedHeading} textsize='25px' texttop="20px" content={[microsoftData.microsoftTrustedContent1,microsoftData.microsoftTrustedContent2]} image={microsoftData.microsoftTrustedImage} contact={microsoftData.microsoftTrustedContact} today={microsoftData.microsoftTrustedToday} link={microsoftData.microsoftTrustedContactLink}/>
         </div>
         </div>
 

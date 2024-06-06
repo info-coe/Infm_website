@@ -11,11 +11,11 @@ const AWSServices = () => {
     const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicemobileimage
     const sections = [
         {
-            content: awsData.unveilfuturecontent
+            content: awsData.awsUnveilFutureContent
         },
         {
-            heading: awsData.navigatingheading,
-            content: awsData.navigatingcontent
+            heading: awsData.awsNavigatingHeading,
+            content: awsData.awsNavigatingContent
         }
     ];
     const awsServiceData= serviceContent[9].ExtensiveAWSServicesData
@@ -33,10 +33,10 @@ const AWSServices = () => {
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
         <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
         <div className='mt-5'>
-        <Zoomin heading={awsData.unveilfuturemainheading} sections={sections} textsize="25px"/>
+        <Zoomin heading={awsData.awsUnveilFutureHeading} sections={sections} textsize="25px"/>
         </div>
         <BoxServicesData allservices={awsServicesData} textColor="#0f62fe" textsize='25px'  icon={awsServiceData[0].awsicon} />
-         <NoZoomin heading={awsData.innovatemainheading} textsize='25px' texttop="20px" content={[awsData.innovatecontent]} image={awsData.innovateimage}/>
+         <NoZoomin heading={awsData.awsInnovateHeading} textsize='25px' texttop="20px" content={[awsData.awsInnovateContent]} image={awsData.awsInnovateImage}/>
          <ModelsPoints contents={crmModelPointsData} /> 
          </div>
 

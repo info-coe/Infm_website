@@ -24,7 +24,7 @@ const SecurityArchitecture = () => {
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
         <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
         <div className='mt-5'>
-        <NoZoomin heading={secuirtyData.advancedmainheading} heading2={secuirtyData.constructingheading} content={[secuirtyData.constructingcontent1,secuirtyData.constructingcontent2,secuirtyData.constructingcontent3]}/>
+        <NoZoomin heading={secuirtyData.securityAdvancedHeading} heading2={secuirtyData.securityConstructingHeading} content={[secuirtyData.securityConstructingContent1,secuirtyData.securityConstructingContent2,secuirtyData.securityConstructingContent3]}/>
        
         </div>
         <div className='text-center'>
