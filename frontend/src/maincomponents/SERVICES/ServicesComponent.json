@@ -155,12 +155,14 @@
         "dataSer_sub_image": "https://infomericainc.com/Content/images/mdm.png"
       },
       {
-        "iotServiceHeading":"IoT Services: Enabling a Smart, Connected Future",
-        "iotServiceContent":"In today’s dynamic digital epoch, IoT (Internet of Things) stands at the forefront of technological evolution, shaping an interconnected universe where information is the prime asset. At Infomerica,Inc, we craft exemplary IoT solutions, paving the path for intelligent and informed decision-making and creating enhanced value for your enterprise.        ",
-        "iotRevolutionizeHeading":"Revolutionize Your Enterprise with Infomerica,Inc!",
-        "iotRevolutionizeContent":"Our IoT services are meticulously designed to empower your business with the essence of connectivity and intelligence. We amalgamate cutting-edge technology with deep industry insights to render solutions that are not just revolutionary but are also scalable and secure.",
-        "iotEmbarkHeading":"Embark on Your IoT Journey with Infomerica !",
-        "iotEmbarkContent":"Foster an environment of innovation, efficiency, and intelligent operation with our avant-garde IoT services. Let’s unravel the potential of a connected ecosystem and redefine the way your business interacts with the world."
+
+        "iotServiceHeading": "IoT Services: Enabling a Smart, Connected Future",
+        "iotServiceContent": "In today’s dynamic digital epoch, IoT (Internet of Things) stands at the forefront of technological evolution, shaping an interconnected universe where information is the prime asset. At Infomerica,Inc, we craft exemplary IoT solutions, paving the path for intelligent and informed decision-making and creating enhanced value for your enterprise.        ",
+        "iotRevolutionizeHeading": "Revolutionize Your Enterprise with Infomerica,Inc!",
+        "iotRevolutionizeContent": "Our IoT services are meticulously designed to empower your business with the essence of connectivity and intelligence. We amalgamate cutting-edge technology with deep industry insights to render solutions that are not just revolutionary but are also scalable and secure.",
+        "iotEmbarkHeading": "Embark on Your IoT Journey with Infomerica !",
+        "iotEmbarkContent": "Foster an environment of innovation, efficiency, and intelligent operation with our avant-garde IoT services. Let’s unravel the potential of a connected ecosystem and redefine the way your business interacts with the world."
+
       }
     ]
   },
@@ -230,13 +232,12 @@
         "cloudServiceAdvantageimage2": "https://www.infomericainc.com/Content/images/Microsoft%20Gold%20Partner.png"
       },
       {
-        "iotServiceAdvanPoint1":"Innovative Excellence: Discover groundbreaking IoT solutions that drive operational efficiency and open doors to new business possibilities.",
-        "iotServiceAdvanPoint2":"Secure and Scalable: Leverage IoT solutions that are inherently secure, scalable, and tailored to align with your business objectives.",
-        "iotServiceAdvanPoint3":" Expertise-Driven Approach: Gain from our extensive industry knowledge and technical prowess in IoT to transcend conventional boundaries.",
-        "iotServiceAdvanPoint4":"Customer-Centric Solutions: Benefit from solutions that are crafted keeping in mind the diverse needs and challenges of your enterprise.",
-        "iotServiceAdvanIcon":"fa fa-check",
-        "iotServiceAdvanHeading":"Why Opt for Infomerica,Inc for IoT Services?"
-
+        "iotServiceAdvanPoint1": "Innovative Excellence: Discover groundbreaking IoT solutions that drive operational efficiency and open doors to new business possibilities.",
+        "iotServiceAdvanPoint2": "Secure and Scalable: Leverage IoT solutions that are inherently secure, scalable, and tailored to align with your business objectives.",
+        "iotServiceAdvanPoint3": " Expertise-Driven Approach: Gain from our extensive industry knowledge and technical prowess in IoT to transcend conventional boundaries.",
+        "iotServiceAdvanPoint4": "Customer-Centric Solutions: Benefit from solutions that are crafted keeping in mind the diverse needs and challenges of your enterprise.",
+        "iotServiceAdvanIcon": "fa fa-check",
+        "iotServiceAdvanHeading": "Why Opt for Infomerica,Inc for IoT Services?"
       }
     ]
   },
@@ -517,7 +518,6 @@
     ]
   },
   {
-
     "micro_auto_ManagementData": [
       {
         "m1": "Experience seamless migration and deployment with minimized disruptions and ensured data integrity, allowing your team to embrace Microsoft 365 effortlessly.",
@@ -578,44 +578,95 @@
         "name": "Integrated Data Platform (ERP & non-ERP)",
         "p1": "Low-code no-code platform that lays the foundation for high value ERP/CRM solutions and new experiences with emerging tools rapidly."
       }
+    ],
+    "dataAnalist": [
+      {
+        "name": "Data Analytics & Intelligence",
+        "url": "https://infomericainc.com/Content/images/connection.gif",
+        "p1": "Data platform that fully integrates disparate databases, analytics, and governance.Unlock actionable insights and boost your decision-making with our cutting-edge data analytics and intelligence solutions.",
+        "sub_name": "Products We Support :",
+        "sub_p1": "Tableau, Power BI, QlikView/Qlik Sense, Google Analytics, Domo, Cognos, MicroStrategy, Business Objects, OBIEE, Oracle Apex, kibana"
+      },
+      {
+        "name": "Data Integration & Migration",
+        "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+        "p1": "Seamless data consolidation and migration, ensuring data accuracy, consistency, and availability across platforms.",
+        "sub_name": "Products We Support :",
+        "sub_p1": "Apache NiFi,Talend, Microsoft SQL Server Integration Services (SSIS),Informatica PowerCenter,DataStage, Flume, Sqoop, MapReduce,MuleSoft Anypoint Platform, Apache Kafka",
+        "sub_p11": "AWS Database Migration Service,Oracle Data Service Integrator,SAP Data Services,Azure Data Factory,Google Cloud Dataflow"
+      },
+      {
+        "name": "Data Management & Governance",
+        "url": "https://infomericainc.com/Content/images/computer.gif",
+        "p1": "Enhance your data quality and management with our robust governance strategies, ensuring compliance and security.",
+        "sub_name": "Products We Support :",
+        "sub_p1": "Collibra,Alation,SAP Master Data Governance,IBM InfoSphere Information Server,Varonis,Symantec Data Loss Prevention."
+      },
+      {
+        "name": "Advanced Analytics",
+        "url": "https://infomericainc.com/Content/images/computer.gif",
+        "p1": "Unearth hidden insights, predict future trends, and unveil transformative opportunities",
+        "sub_name": "Products We Support :",
+        "h1": " Predictive Modeling",
+        "h2": "Machine Learning & AI",
+        "h3": "Natural Language Processing",
+        "h4": "Data Science (R,Python,TensorFlow)",
+        "h5": "Statistical Analysis",
+        "h6": "Quantitative Analysis",
+        "sub_p1": "SAS Advanced Analytics,IBM SPSS,RapidMiner,Oracle Advanced Analytics,H2O.ai,Microsoft Azure Machine Learning Studio,Google Cloud AutoML"
+      }
+    ],
+    "BigData": [
+      {
+        "name": "Big Data Solution",
+        "url": "https://infomericainc.com/Content/images/computer.gif",
+        "p": "Harness the power of Big Data with our innovative solutions, tailored to meet your unique business needs and objectives.",
+        "sub_Name": "Products We Support :",
+        "sub_p": "Apache Hadoop,Apache Spark,Cloudera,Horton Works,Amazon Web Services (AWS) Big Data Solutions,Microsoft Azure Synapse Analytics,Google Cloud BigQuery,Snowflake,SAS Big Data Analytics,Databricks,MongoDB,Splunk"
+      },
+      {
+        "name": "Data Warehousing",
+        "url": "https://infomericainc.com/Content/images/computer.gif",
+        "p": "We provide robust, scalable, and secure data warehousing services that transform your organizational data into powerful insights, driving informed decision-making, enhancing operational efficiency, and fueling innovation..",
+        "sub_Name": "Products We Support :",
+        "sub_p": "Amazon Redshift,Oracle Exadata,IBM Db2 ,SAP BW/4HANA,Teradata,SQL Server,Sybase,Mongo DB,mysql."
+      }
     ]
   },
-  
-    {
-      "ComprehensiveIoTServicesData": [
-        {
-          "iotcontent1": "Identifying Opportunities",
-          "iotcontent2": "Architecting Solutions",
-          "iotcontent3": "Developing Roadmaps",
-          "iotsubhead": "IoT Consultation & Strategy Development",
-          "iotmainhead": "Our Comprehensive IoT Service Offerings Include",
-          "ioticon": "fa fa-check"
-        },
-        {
-          "iotcontent1": "Deploying Solutions",
-          "iotcontent2": "Integrating Technologies",
-          "iotcontent3": "Enabling Interoperability",
-          "iotsubhead": "IoT Implementation & Integration"
-        },
-        {
-          "iotcontent1": "Harnessing Data",
-          "iotcontent2": "Generating Insights",
-          "iotcontent3": "Informing Decisions",
-          "iotsubhead": "IoT Data Analytics & Intelligence"
-        },
-        {
-          "iotcontent1": "Securing Assets",
-          "iotcontent2": "Managing Risks",
-          "iotcontent3": "Ensuring Compliance",
-          "iotsubhead": "IoT Security & Compliance Management"
-        },
-        {
-          "iotcontent1": "Managing Devices",
-          "iotcontent2": "Optimizing Applications",
-          "iotcontent3": "Enhancing Experiences",
-          "iotsubhead": "IoT Device & Application Management"
-        }
-      ]
-    }
-
+  {
+    "ComprehensiveIoTServicesData": [
+      {
+        "iotcontent1": "Identifying Opportunities",
+        "iotcontent2": "Architecting Solutions",
+        "iotcontent3": "Developing Roadmaps",
+        "iotsubhead": "IoT Consultation & Strategy Development",
+        "iotmainhead": "Our Comprehensive IoT Service Offerings Include",
+        "ioticon": "fa fa-check"
+      },
+      {
+        "iotcontent1": "Deploying Solutions",
+        "iotcontent2": "Integrating Technologies",
+        "iotcontent3": "Enabling Interoperability",
+        "iotsubhead": "IoT Implementation & Integration"
+      },
+      {
+        "iotcontent1": "Harnessing Data",
+        "iotcontent2": "Generating Insights",
+        "iotcontent3": "Informing Decisions",
+        "iotsubhead": "IoT Data Analytics & Intelligence"
+      },
+      {
+        "iotcontent1": "Securing Assets",
+        "iotcontent2": "Managing Risks",
+        "iotcontent3": "Ensuring Compliance",
+        "iotsubhead": "IoT Security & Compliance Management"
+      },
+      {
+        "iotcontent1": "Managing Devices",
+        "iotcontent2": "Optimizing Applications",
+        "iotcontent3": "Enhancing Experiences",
+        "iotsubhead": "IoT Device & Application Management"
+      }
+    ]
+  }
 ]
