@@ -11,7 +11,7 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
             marginBottom: "30px",
             borderBottom: "8px solid #FE0000",
             height: 'auto',
-            minHeight:'300px'
+            minHeight:'260px'
         },
         heading: {
             fontSize: "19px",
@@ -36,7 +36,7 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
         <>
             <div className="container mt-3">
                 <h1 style={styles.Mainhead}>{allservices[0].Mainhead}</h1>
-                <div className="row justify-content-center ">
+                <div className="d-flex flex-wrap row justify-content-center">
                     {allservices.map((service, index) => (
                         <div
                             key={index}

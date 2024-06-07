@@ -153,7 +153,7 @@
           "icon": "fa-solid fa-magnifying-glass-chart",
           "title": "   Enterprise Asset Management",
           "content": "Our certified SAP EAM consultants understand that asset operations and maintenance assure that our clients technicians who service and operate assets to ensure maximum uptime, are constantly mobile and often work in hazardous situations. Their safety and productivity are essential and require companies to have the right systems and processes in place.",
-          "content2":"That’s why we developed an SAP Certified Mobile Application to perform all plant maintenance related business functions like notification / work order processing, work order confirmation, material reservations, work clearance management, permits, search bill of material and stock overview. The mobile application is device-agnostic and can be deployed on iOS, Android, Windows tablets and phones.",
+          "content2": "That’s why we developed an SAP Certified Mobile Application to perform all plant maintenance related business functions like notification / work order processing, work order confirmation, material reservations, work clearance management, permits, search bill of material and stock overview. The mobile application is device-agnostic and can be deployed on iOS, Android, Windows tablets and phones.",
           "content3": "Another HANA Cloud Platform app we’ve developed helps with a single point of access for all details pertaining to functional location- ibase structure including open/completed notifications & service orders, measurement points & measurement documents, on a single screen. Plant Maintenance technicians, supervisors, planners, Customer Service executives & managers greatly benefit from this decision making aid."
         },
         {
@@ -175,11 +175,101 @@
           "icon": "fa-solid fa-warehouse",
           "title": "   SCM / Logistics Execution",
           "content": "You can't make logistical decisions in a vacuum. Transportation problems can cascade like dominoes and impact your warehouse planning. Your warehouse plan changes your inventory plan. Changing inventory plans complicate your transportation selections-and everything impacts labor and billing.",
-          "content2":"Infomerica Supply Chain Execution team lets you make logistics decisions in context, so that you always know the consequences of every action and can make better choices. We leverage the connective power of the SAP Suite to seamlessly connect your logistics decisions to your financial systems, manufacturing systems, and all the other technologies that make your business more efficient.",
+          "content2": "Infomerica Supply Chain Execution team lets you make logistics decisions in context, so that you always know the consequences of every action and can make better choices. We leverage the connective power of the SAP Suite to seamlessly connect your logistics decisions to your financial systems, manufacturing systems, and all the other technologies that make your business more efficient.",
           "content3": "SAP Extended Warehouse Management (EWM) offers you flexible, automated support with processing various goods movement and managing stock in your warehouse. The system supports you with planned and efficient processing of all logistics processes in your warehouse complex.",
           "content4": "SAP Transportation Management (SAP TM) supports you in all activities connected with the physical transportation of goods from one location to another. Create forwarding orders to ordering parties, Transfer orders and deliveries from an ERP system, Create freight bookings, plan the transportation and select carriers, Tender transportation services, Dispatch and monitor the transportation, Calculate the transportation charges for both the ordering party and the supplier side, Consider foreign trade and dangerous goods regulations."
         }
       ]
+    }
+  },
+  {
+    "DEVOPS": {
+      "DEVOPS_Heading1": "Unleash Agile Excellence with Our Premier DevOps Solutions!",
+      "DEVOPS_Heading2": "Welcome to Seamless Collaboration and Elevated Innovation!",
+      "DEVOPS_Content1": "In a world driven by continuous innovation and rapid development, embrace the power of DevOps with Infomerica! We provide state-of-the-art DevOps solutions designed to bridge the gap between development and operations, accelerating your delivery pipeline and enhancing overall productivity.",
+      "DEVOPS_Content2": "we leverage our extensive experience and innovative approaches to deliver customized DevOps solutions designed to align with your business objectives. Our commitment is to cultivate a high-performing IT landscape, enabling you to achieve your business goals and innovate continually.",
+      "DEVOPS_Services_Heading": "Our Comprehensive DevOps Services",
+      "DEVOPS_agile_devops_process_Image":"https://www.infomericainc.com/Content/images/agile_devops_process_devops_application_life_cycle_management.png",
+      "DEVOPS_stages_of_devops_flow_Image":"https://www.infomericainc.com/Content/images/stages_of_devops_flow_devops_continuous_integration_deployment_process_flow.png",
+      "DEVOPS_Services_Data": [
+        {
+          "appcontent": "Dive deep into your existing processes, identifying opportunities for enhancement, and craft a holistic strategy to integrate DevOps methodologies into your business, driving agility and efficiency.",
+          "appsubhead": "DevOps Consulting & Strategy Formulation"
+        },
+        {
+          "appcontent": "Accelerate your software delivery with seamless integration and robust deployment mechanisms, ensuring faster time-to-market and optimal resource utilization",
+          "appsubhead": "Continuous Integration & Deployment (CI/CD)"
+        },
+        {
+          "appcontent": "Revolutionize your IT infrastructure with state-of-the-art automation tools and sophisticated configuration management, enhancing reliability and operational efficiency.",
+          "appsubhead": "Configuration & Automation Management"
+        },
+        {
+          "appcontent": "Embrace the power of containerization and orchestration to manage, scale, and maintain your applications with unmatched precision and ease..",
+          "appsubhead": "Containerization & Orchestration with Docker & Kubernetes"
+        },
+        {
+          "appcontent": "Gain unparalleled insights into your applications’ performance and user interactions with advanced monitoring and logging solutions, enabling proactive issue resolution and enhanced user satisfaction.",
+          "appsubhead": "Comprehensive Monitoring & Logging"
+        },
+        {
+          "appcontent": "Integrate security seamlessly into your DevOps processes, ensuring your applications are secure, compliant, and resilient against threats.",
+          "appsubhead": "Robust Security & Compliance Management"
+        },
+        {
+          "appcontent": "Employ sophisticated automated testing frameworks to guarantee product quality, performance, and reliability under varying conditions.",
+          "appsubhead": "Advanced Automated Testing Services"
+        },
+        {
+          "appcontent": "Optimize your application development with a scalable, manageable, and resilient microservices architecture, facilitating easier modifications and enhancements.",
+          "appsubhead": "Microservices Architecture Development"
+        }
+      ]
+    }
+  },
+  {
+    "MOBILITY":{
+      "MOBILITY_Heading1":"Mobility Solutions: ",
+      "MOBILITY_Heading2":"Empowering the Modern World on the Move!",
+      "MOBILITY_Content": "In a world driven by connectivity and immediate access, our Mobility Solutions stand out as a beacon of innovation and reliability. We specialize in providing comprehensive mobility solutions designed to empower businesses, streamline operations, and enhance user engagement, catering to the evolving needs of the fast-paced, mobile-centric environment.",
+      "MOBILITY_Solutions_Image": "https://www.infomericainc.com/Content/images/Mobility.png",
+      "MOBILITY_Comprehensive_Suite_Heading" : "Our Comprehensive Suite of Mobility Solutions",
+      "MOBILITY_Comprehensive_Suite_Content" : [
+        {
+          "Heading":"Mobile Application Development",
+          "Content":"Leveraging cutting-edge technologies and frameworks, we create customized, feature-rich applications, ensuring seamless functionality, and user-friendly interfaces across various platforms and devices."
+        },
+        {
+          "Heading":"Mobile Device Management (MDM)",
+          "Content":"Deploying sophisticated management solutions, we enable organizations to secure, monitor, and manage enterprise mobile devices, ensuring optimal compliance and protecting valuable information assets."
+        },
+        {
+          "Heading":"Mobile Security:",
+          "Content":"Our security solutions integrate advanced protection measures, encryption techniques, and threat intelligence to defend against evolving security risks, ensuring robust protection of data and applications on mobile devices."
+        },
+        {
+          "Heading":"Mobile Content Management",
+          "Content":"We facilitate the seamless management and delivery of diverse content types to mobile devices, providing secure and instantaneous access to essential resources and services, regardless of location."
+        },
+        {
+          "Heading":"Cross-Platform Development:",
+          "Content":"Utilizing adaptive development approaches, we ensure the accessibility and consistency of applications across multiple operating systems and devices, catering to a broad and diverse user base."
+        },
+        {
+          "Heading":"Enterprise Mobility:",
+          "Content":"We empower enterprises to embrace mobility, enhancing operational productivity, and enabling remote work capabilities, thereby fostering an environment of flexibility and inclusiveness"
+        },
+        {
+          "Heading":"Mobile Analytics:",
+          "Content":"Employing sophisticated analytical tools and methodologies, we extract meaningful insights from intricate mobile data, enabling the refinement of user experiences and continuous improvement of service delivery."
+        },
+        {
+          "Heading":"Advanced Mobility Consultation:",
+          "Content":"Our team of experts provides strategic consultation, guiding organizations in leveraging mobility for maximal impact, identifying opportunities for innovation, and ensuring alignment with business objectives."
+        }
+      ],
+      "MOBILITY_Comprehensive_Suite_Conclusion1":"Strategic Alliances with product, tool & technology vendors.",
+      "MOBILITY_Comprehensive_Suite_Conclusion2":"With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI]."
     }
   }
 ]
