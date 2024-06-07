@@ -15,6 +15,7 @@ const ApplicationServices = () => {
         Subhead: item.appsubhead,
         Content: [item.appcontent1,item.appcontent2,item.appcontent3]
     }));
+    console.log(data)
     return (
         <div>
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
