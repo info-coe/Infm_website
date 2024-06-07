@@ -11,7 +11,7 @@ const Zoomin = (props) => {
     // Render multiple sections
     return (
       <div
-        className=" zoom-in"
+        className="container zoom-in"
         data-aos="zoom-in"
         data-aos-duration="2000"
       >
@@ -31,7 +31,7 @@ const Zoomin = (props) => {
   // Render single content structure
   return (
     <div
-      className=" zoom-in"
+      className="container zoom-in"
       data-aos="zoom-in"
       data-aos-duration="2000"
     >
