@@ -82,7 +82,7 @@ const Bangalore = () => {
                         {hyd.map((item, index)=>(
                             <tr>
                             <td>{item.slno}</td>
-                            <td><img src={item.jobtype} alt="job type" width="40" height="40"/></td>
+                            <td><img src={item.jobtype} alt="job type" width="40" height="40" style={{objectFit:"contain"}}/></td>
                             <td>{item.Location}</td>
                             <td style={{minWidth:"200px"}}>{item.JobName}</td>
                             <td style={{minWidth:"250px"}}>{item.Skills}</td>

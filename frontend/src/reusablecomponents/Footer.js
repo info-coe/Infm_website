@@ -14,11 +14,12 @@ const Footer = () => {
             </div>
             <div className='keylinks flexgrowdiv'>
                 <h5>{data.keylinksh5}</h5>
-                <ul className='list-unstyled d-lg-flex gap-5' style={{lineHeight:"30px"}}>
+                <ul className='list-unstyled d-md-flex gap-5' style={{lineHeight:"30px"}}>
                    <div>
                    <Link to="/Aboutus" className='text-decoration-none'><li><i className="bi bi-chevron-double-right"></i>&nbsp;{data.aboutus}</li></Link>
                    <Link to="/Services" className='text-decoration-none'> <li><i className="bi bi-chevron-double-right"></i>&nbsp;{data.services}</li></Link>
                    <Link to="/Solutions" className='text-decoration-none'> <li><i className="bi bi-chevron-double-right"></i>&nbsp;{data.solutions}</li></Link>
+                   <Link to="/Industries" className='text-decoration-none'> <li><i className="bi bi-chevron-double-right"></i>&nbsp;{data.industries}</li></Link>
                    </div>
                    <div>
                    <Link to="/CSR" className='text-decoration-none'> <li><i className="bi bi-chevron-double-right"></i>&nbsp;{data.csr}</li></Link>

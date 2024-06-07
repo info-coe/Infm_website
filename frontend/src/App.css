@@ -42,13 +42,35 @@ body{
   color: white;
   transition: 0.4s;
 }
-.sidenavbardiv a:hover, #navbarNavDropdown a:hover{
+.sidenavbardiv a:hover, 
+.industriesLink:hover, 
+.solutionLink:hover{
   color: red;
   transition: 0.4s;
 }
-#navbarNavDropdown .dropdown a:hover{
-  color: black;
+
+#navbarNavDropdown a{
+  color:black;
 }
+#navbarNavDropdown #aboutusDropdown:hover, 
+#industriesDropdown:hover, 
+#solutionsDropdown:hover, 
+#careersDropdown:hover , 
+#servicesDropdown:hover,
+#csrlink:hover,
+#contactlink:hover,
+#homelink:hover{
+  color:red;
+  transition: 0.4s;
+}
+.navbar.scrolled {
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* #navbarNavDropdown .dropdown a:hover{
+  color: black;
+} */
 #navbarNavDropdown .dropdown a:active{
   background-color: white;
 }

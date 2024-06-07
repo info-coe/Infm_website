@@ -30,7 +30,7 @@ const Testimonials = () => {
             ></button>
           ))}
         </div>
-        <div className="carousel-inner ">
+        <div className="carousel-inner">
           {chunkedData.map((chunk, index) => (
             <div key={index} className={`carousel-item  ${index === 0 ? 'active' : ''}`}>
               <div className="container ps-5 pe-5">
