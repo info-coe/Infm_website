@@ -6,7 +6,8 @@ const CardBulb = ({solutionofferingData}) => {
         padding: 20px;
         border: 5px solid #0f62fe;
         position: relative;
-        width: 290px;
+        min-width: 290px;
+        width:auto;
         overflow: hidden;
         transition: color 0.5s; 
         margin: 30px auto; 

@@ -271,5 +271,145 @@
       "MOBILITY_Comprehensive_Suite_Conclusion1":"Strategic Alliances with product, tool & technology vendors.",
       "MOBILITY_Comprehensive_Suite_Conclusion2":"With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI]."
     }
+  },
+  {
+    "SERVICE_ORIENTED_ARCHITECTURE" : {
+      "SOA_Heading1" : "Service Oriented ",
+      "SOA_Heading2" : "Architecture",
+      "SOA_Content1" : "Service Oriented Architecture(SOA) is an Architectural & Framework based approach that helps Enterprises align IT in the view of Business. SOA Approach helps the Enterprise to Leverage existing IT Resources and Enable Complete Integration Between Cloud, Legacy Applications and Enterprise Applications. It helps the Enterprises to increase Efficiency, Agility and Flexibility with lesser efforts and less cost.",
+      "SOA_Content2" : "Deploying a SOA involves service enablement, orchestration, mediation, and governance. SOA Suite from various leading vendors such as IBM, Oracle, webMethods, TIBCO, SAP, PegaSystems etc helps to achieve all of these capabilities and through build, deploy, govern, optimize and manage deployments ranging from department-level to enterprise-wide systems. It works with your existing infrastructure, eliminating any costly dangers of rip-and-replace approaches.",
+      "SOA_Content3" : "Unlike traditional applications and point-to-point integration approaches, these vendors provides SOA Suite that complete standards-based, hot-pluggable infrastructure interoperates with your existing IT investments for service enabling your existing applications and orchestrating services across your enterprise with built-in lifecycle governance capabilities. You could success in deploying high-volume, mission-critical SOA systems by leveraging the industry's best services buses of your choice.",
+      "SOA_BGImage" : "https://infomericainc.com/Content/images/banner-8.jpg",
+      "SOA_SubPoints_Icon" : "fa fa-check",
+      "SOA_SubPoints" : [
+        {
+          "Point" : "  Offers the highest return on your investments[ROI] with improved security lower administrative costs, high scalability and the backing of an industry leader"
+        },
+        {
+          "Point" : "  Hot-pluggable solutions interoperate with all major systems to ensure enterprise wide security"
+        },
+        {
+          "Point" : "  The complete SOA suites that provides for an integrated and easy-to-use SOA development and management environment"
+        },
+        {
+          "Point" : "  Process integrity enables reliable business activity in a secure, scalable SOA environment."
+        },
+        {
+          "Point" : "  SOA governance can help you make better IT decisions."
+        },
+        {
+          "Point" : "  Business Process Management [BPM] enabled by SOA provides greater business flexibility through accelerated and iterative process improvement."
+        },
+        {
+          "Point" : "  SOA management and security can help enable visibility to monitor and control SOA based services and applications."
+        },
+        {
+          "Point" : "  Extend SOA with Web 2.0 to reach new people and markets. SOA design & development"
+        },
+        {
+          "Point" : "  SOA User Interface for People"
+        },
+        {
+          "Point" : "  Information as a service"
+        },
+        {
+          "Point" : "  SOA management and security"
+        }
+      ],
+      "SOA_Offering_Heading1" : "Infomerica ",
+      "SOA_Offering_Heading2" : "SOA Offerings",
+      "SOA_Offering_Content": [
+        {
+          "m1": "   Business Transformation Strategy Definition",
+          "m2": "   Legacy Modernization & Transformation Definition",
+          "m3": "   Application Optimization & Adoption Definition",
+          "url": "https://infomericainc.com/Content/images/connection.gif",
+          "name": "SOA Strategy Services"
+        },
+        {
+          "m1": "  SOA Maturity Assessment and Adoption Roadmap | Blueprint",
+          "m2": "  SOA Governance Maturity Model for Services",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "name": "SOA Assessment Services"
+        },
+        {
+          "m1": "  Definition & Assessment – SOA",
+          "m2": "  Define SOA Security Architecture",
+          "m3": "  Service – Oriented Analysis and Design",
+          "m4": "  Time and Event Driven SOA Definition and Assessment",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "name": "SOA Architectural Services"
+        },
+        {
+          "m1": "  Process Definition and Modeling – SOA Governance",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "name": "SOA Governance Services"
+        }
+      ]
+    }
+  },
+  {
+    "Business_Process_Management":{
+      "BPM_Heading1":"BPM / Process",
+      "BPM_Heading2":"Integration",
+      "content":[
+        
+         "Globalization, regulatory oversight, and entwined value chains have made business processes complex and inflexible at the same time, companies must continually improve their core processes to maintain a significant competitive advantage and bringing the value to the consumer. In this Emerging World – it is very important for any organizations to have Complete Analytics and Control over its Mission Critical Business Processes.",
+          "Business Process Management(BPM) is an Entity in Operational Management that focuses on improving Organization’s Efficiency by Managing and Optimizing Organization’s Business Processes and make On Demand Changes with New Evolving Business Trends."
+      ],
+      "BPM_Suitedrives_Content":"BPM Suite drives more efficiency, visibility, and agility from a broader range of processes from BPM suite of products. Whether the process is a line-of-business mandate or an IT exercise in systems integration, BPM Suite from leading vendors such as Oracle, IBM, webMethods, TIBCO, SAP, PegaSystems etc offers the flexibility & the change that the business demands, hand-in-hand with the power IT requires. The result is an agile and flexible platform based on your existing applications that allows you to react quickly to new business requirements and improves productivity. BPM contains a comprehensive set of collaborative, role-based capabilities that enable customers to model, simulate, execute, rapidly change, monitor and optimize core business processes resulting in faster time to market, increased customer satisfaction, and higher productivity improved efficiency and agility, and lower costs by BPM leverages your existing IT investments and is specially tuned for line-of-business users.",
+      "BPM_bgImg":"https://www.infomericainc.com/Content/images/banner-8.jpg",
+      "BPM_Technology":"Technology",
+      "BPM_Enablers":"Enablers",
+      "BPM_Suites":[
+        {
+          "name":"BPM Suites:",
+          "desc":"Utilize Comprehensive BPM Suites Like Pega, Appian, And IBM BPM To Enable End-To-End Process Management."
+        },
+        {
+          "name":"Middleware Platforms: ",
+          "desc":" Leverage Platforms Like IBM WebSphere, MuleSoft,Apache Kafka,RabbitMQ And Dell Boomi For Integrating And Managing Services And Applications."
+        },
+        {
+          "name":"RPA Tools:",
+          "desc":"Implement RPA Solutions Like UiPath And Automation Anywhere To Automate Routine Tasks Efficiently."
+        }
+      ],
+      "BPM_Business_experts":"Business experts can now rapidly model, measure, and change processes [that are] and enables processes to dynamically adapt to changing business scenarios by enhancing business agility and provides the power to react to threats and realize new business opportunities ensuring sustainable competitive advantage",
+      "BPM_BE_list":[
+        "Line-of-business users can quickly model processes for optimization and automation through the use of Out-of-the-box features which accelerates development time",
+        "Process owners can have visibility & transparency into variety of human- and system-centric, business-centric and document-centric processes performance through alerts, KPIs, and dashboards.",
+        "Key performance indicators allow process owners to identify opportunities for optimization and in-flight process updates",
+        "Business analysts and IT use a common language to collaborate on the development, deployment and testing of processes using unified tools",
+        "A unified tool for modeling and design allows business users and IT to collaborate on the development and testing of processes",
+        "Improve business processes through Monitor operations there by differentiating your business",
+        "Deliver projects faster by eliminate information silos & energizing your operations",
+        "Ability to deliver new products to market faster and speed up processes?",
+        "It lowers integration costs and gets more value to the business from core systems & processes?"
+      ],
+      "BPM_SolutionOfferings":[
+            {
+                "solutionHead":"Solution Offerings",
+                "icon":"bi bi-send",
+                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
+                "list":[
+                        "BPM Assessment Workshop",
+                        "Define BPM Roadmap & Strategy",
+                        "Proof of Concept | Proof of Technology",
+                        "Software Procurement",
+                        "Framework Development & Implementation",
+                        "BPM Implementation",
+                        "Platform Upgrade & Migration",
+                        "Production Support",
+                        "BPM Testing Services"
+                ]
+            }
+          ],
+          "Infomerica_BPM":"Infomerica BPM",
+          "Offerings":"Offerings",
+          "content_BPM":"Business Process Management(BPM) is an Entity in Operational Management that focuses on improving Organization’s Efficiency by Managing and Optimizing Organization’s Business Processes and make On Demand Changes with New Evolving Business Trends."
+
+    }
   }
+ 
 ]

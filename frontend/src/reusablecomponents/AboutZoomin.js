@@ -10,7 +10,7 @@ const AboutZoomin = (props) => {
             <h1><span className='text-primary'>{props.heading1}</span> <span className='text-danger'>{props.heading2}</span></h1>
             <div>
                 {props.content.map((item,index)=>(
-                    <p key={index}>{item}</p>
+                    <p key={index} style={{fontSize:"17px"}}>{item}</p>
                 ))}
             </div>
         </div>  
