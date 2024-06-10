@@ -20,13 +20,13 @@ const ModelsPoints = ({ contents }) => {
           </div>
             <div style={{ margin: '10px '}}>
               <ul className='list-unstyled'>
-                <li className="d-flex align-items-center" style={{color:'#0f62fe'}}><img src={mimage} width="3%" alt='no' />{content.p1}</li>
-                <li className="d-flex align-items-center" style={{color:'#0f62fe'}}><img src={mimage} width="3%" alt='no' />{content.p2}</li>
-                <li className="d-flex align-items-center" style={{color:'#0f62fe'}}><img src={mimage} width="3%" alt='no' />{content.p3}</li>
-                <li className="d-flex align-items-center" style={{color:'#0f62fe'}}><img src={mimage} width="3%" alt='no' />{content.p4}</li>
-                <li className="d-flex align-items-center" style={{color:'#0f62fe'}}><img src={mimage} width="3%" alt='no' />{content.p5}</li>
-                <li className="d-flex align-items-center" style={{color:'#0f62fe'}}><img src={mimage} width="3%" alt='no' />{content.p6}</li>
-                <li className="d-flex align-items-center" style={{color:'#0f62fe'}}><img src={mimage } width="3%" alt='no' />{content.p7}</li>
+                <li className="d-flex align-items-center"><img src={mimage} width="3%" alt='no' />{content.p1}</li>
+                <li className="d-flex align-items-center"><img src={mimage} width="3%" alt='no' />{content.p2}</li>
+                <li className="d-flex align-items-center"><img src={mimage} width="3%" alt='no' />{content.p3}</li>
+                <li className="d-flex align-items-center"><img src={mimage} width="3%" alt='no' />{content.p4}</li>
+                <li className="d-flex align-items-center"><img src={mimage} width="3%" alt='no' />{content.p5}</li>
+                <li className="d-flex align-items-center"><img src={mimage} width="3%" alt='no' />{content.p6}</li>
+                <li className="d-flex align-items-center"><img src={mimage } width="3%" alt='no' />{content.p7}</li>
               </ul>
             </div>
             <p  style={{fontSize:'18px',color: '#030250'}}><span className='m-md-4'>{content.mcontent3}
