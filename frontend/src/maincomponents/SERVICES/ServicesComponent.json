@@ -155,14 +155,34 @@
         "dataSer_sub_image": "https://infomericainc.com/Content/images/mdm.png"
       },
       {
-
-        "iotServiceHeading": "IoT Services: Enabling a Smart, Connected Future",
-        "iotServiceContent": "In today’s dynamic digital epoch, IoT (Internet of Things) stands at the forefront of technological evolution, shaping an interconnected universe where information is the prime asset. At Infomerica,Inc, we craft exemplary IoT solutions, paving the path for intelligent and informed decision-making and creating enhanced value for your enterprise.        ",
-        "iotRevolutionizeHeading": "Revolutionize Your Enterprise with Infomerica,Inc!",
-        "iotRevolutionizeContent": "Our IoT services are meticulously designed to empower your business with the essence of connectivity and intelligence. We amalgamate cutting-edge technology with deep industry insights to render solutions that are not just revolutionary but are also scalable and secure.",
-        "iotEmbarkHeading": "Embark on Your IoT Journey with Infomerica !",
-        "iotEmbarkContent": "Foster an environment of innovation, efficiency, and intelligent operation with our avant-garde IoT services. Let’s unravel the potential of a connected ecosystem and redefine the way your business interacts with the world."
-
+        "iotServiceHeading":"IoT Services: Enabling a Smart, Connected Future",
+        "iotServiceContent":"In today’s dynamic digital epoch, IoT (Internet of Things) stands at the forefront of technological evolution, shaping an interconnected universe where information is the prime asset. At Infomerica,Inc, we craft exemplary IoT solutions, paving the path for intelligent and informed decision-making and creating enhanced value for your enterprise.        ",
+        "iotRevolutionizeHeading":"Revolutionize Your Enterprise with Infomerica,Inc!",
+        "iotRevolutionizeContent":"Our IoT services are meticulously designed to empower your business with the essence of connectivity and intelligence. We amalgamate cutting-edge technology with deep industry insights to render solutions that are not just revolutionary but are also scalable and secure.",
+        "iotEmbarkHeading":"Embark on Your IoT Journey with Infomerica !",
+        "iotEmbarkContent":"Foster an environment of innovation, efficiency, and intelligent operation with our avant-garde IoT services. Let’s unravel the potential of a connected ecosystem and redefine the way your business interacts with the world."
+      },
+      {
+        "testingServiceHeading":"Elevating Business Resilience with",
+        "testingServiceAssuranceHeading":"Assurance & Rigorous Testing Services!",
+        "testingServiceContent":"In an era marked by rapid technological advancements and ever-evolving digital landscapes, Infomerica,Inc provides cutting-edge Business Assurance and Testing Services. We focus on delivering robust and comprehensive solutions that ensure the seamless performance, security, and reliability of your business applications and systems.",
+        "testingServiceImage":"https://www.infomericainc.com/Content/images/TESTING.jpg"
+      },
+      {
+        "enterprisePortalsHeading":"Enterprise Portals and",
+        "enterprisePortalCmHeading":"Content Management",
+        "enterprisePortalContent1":"Enterprise Portals and Content Management are pivotal in managing and delivering information effectively across an organization. They serve as centralized platforms that aggregate information, tools, and applications, providing users with a single access point to critical resources. These systems enhance collaboration, productivity, and user engagement by delivering personalized content and experiences.",
+        "enterprisePortalContent2":"Hands-on workshop designed to help senior IT architects and developers and also business users understand the usability, documentation and manageability of the technology as it pertains to their organization and offer end-to-end customized portal and Content Management services to add value and growth your business.We analyze your existing IT environment, understand your requirements, and deliver a comprehensive plan for successfully and efficiently implementing the portal application.",
+        "enterprisePortalImage": "https://www.infomericainc.com/Content/images/practi_enter.jpg",
+        "enterprisePortalPoint1": "Adobe Experience Manager (AEM)",
+        "enterprisePortalPoint2": "SharePoint",
+        "enterprisePortalPoint3": "Liferay",
+        "enterprisePortalPoint4": "WebSphere Portal",
+        "enterprisePortalPoint5": "SAP NetWeaver",
+        "enterprisePortalPoint6": "Drupal",
+        "enterprisePortalPoint7": "Dnn",
+        "enterprisePortalPoint8":"WordPress",
+        "enterprisePortalIcon": "bi bi-send"
       }
     ]
   },
@@ -633,6 +653,7 @@
       }
     ]
   },
+
   {
     "ComprehensiveIoTServicesData": [
       {
@@ -668,5 +689,158 @@
         "iotsubhead": "IoT Device & Application Management"
       }
     ]
+  },
+    {
+
+      "EnterprisePortal_ManagementData": [
+        {
+          "m1": "The valuable assessment report details the analysis, provides a project roadmap, estimates effort, includes a high-level project plan and recommends best practices where applicable."
+        },
+        {
+          "m1": " Proof-of-Concept Services are intended to demonstrate the value statements and return on investment for the proposed project."
+        },
+        {
+          "m1": "Proof of Technology services involves working to first understand business goals and concerns, and then to identify a relevant module(s) for use in the pilot project. The pilot will use a real portion of the production application, which can then be reused once the implementation project moves forward."
+        },
+        {
+          "m1": "Our subject matter experts not only bring portal knowledge but sound business process knowledge and experience to the table that helps the portal development a really a value-add as a whole finishing on time and within the budget"
+        }
+      ]
+    },
+    {
+      "EnterprisePortal_Data_Services": [
+        {
+          "m2": "Customer/Partner/Supplier/Dealer self service"
+        },
+        {
+          "m2": "Executive dashboards"
+        },
+        {
+          "m2": "Collaborative works"
+        },
+        {
+          "m2": "eGovernment portal"
+        },
+        {
+          "m2": "A2A, B2B/B2C portals"
+        },
+        {
+          "m2": "Portal & Content Management Infrastructure Planning & Management"
+        },
+        {
+          "m2": "Portal & Content Management Integration with other systems"
+        },
+        {
+          "m2": "Portal & Content Management Administration"
+        },
+        {
+          "m2": "Portal & Content Management Upgrades"
+        },
+        {
+          "m2": "Custom Portal Education & Mentoring (Onsite, Offsite, Online)"
+        }
+      ],
+      "EnterprisePortal_Cloud_Computing": [
+        {
+          "m1": "Portal & SOA Governance"
+        },
+        {
+          "m1": "Portal Prototyping"
+        },
+        {
+          "m1": "Business Value Assessment"
+        },
+        {
+          "m1": "Proof of Concept (PoC)"
+        },
+        {
+          "m1": "Proof of Technologies (POTs)"
+        },
+        {
+          "m1": "Portal & Content Management Planning & Solutions"
+        },
+        {
+          "m1": "Portal & Content Management Application Architecture & Development"
+        },
+        {
+          "m1": "Employee portal"
+        },
+        {
+          "m1": "Corporate extranet"
+        },
+        {
+          "m1": "Process Portals"
+        },
+        {
+          "m1": "Partner portal"
+        }
+      ]      
+    },
+    {
+      "ComprehensiveAssuranceTestingData": [
+        {
+          "name":"Quality Assurance",
+          "heading":"Our Comprehensive Assurance & Testing Solutions Include",
+          "content":"Provision of end-to-end quality assurance services that ensure the delivery of high-quality, secure, and responsive applications.Specialization in both manual and automated testing methodologies to detect and resolve issues efficiently"
+        },
+        {
+         
+          "name":"Performance Testing",
+          "content": "Employing advanced tools and methodologies to assess system performance, scalability, and reliability under varied conditions and workloads.Identifying performance bottlenecks and optimizing system capabilities to meet stringent business demands."
+        },
+        {
+        
+          "name":"Security Testing",
+          "content": "Conducting exhaustive security assessments to identify vulnerabilities and secure applications against potential threats and breaches.Implementation of robust security protocols and frameworks to safeguard sensitive data and ensure regulatory compliance."
+
+        },
+        {
+          "name":"Compliance Testing",
+          "content": "Utilizing cutting-edge automation tools and frameworks to accelerate testing cycles and enhance testing coverage.Leveraging automated scripts to ensure the rapid and consistent execution of test cases, reducing time-to-market."
+
+        },
+        {
+          "name":"Automation Testing",
+          "content": "Utilizing cutting-edge automation tools and frameworks to accelerate testing cycles and enhance testing coverage.Leveraging automated scripts to ensure the rapid and consistent execution of test cases, reducing time-to-market."
+
+        },
+        {
+          "name":"SOA/API Testing",
+          "content": "Validate the functionality, reliability, performance, and security of APIs.Testing of SOA/API responses, error codes, data accuracy, and latency to ensure the robustness of SOA/API integrations."
+        },
+        {
+          "name":"ETL Testing",
+          "content": "Ensure the accuracy of data extraction, transformation, and loading processes.Validation of data migration, transformation logic, and data integrity, ensuring the consistency of transformed data across various databases and warehouses."
+        }
+      ]
+    },
+    {
+      "TechnologyUtilizationSlides":[
+          {
+              "url":"https://infomericainc.com/Content/images/connection.gif",
+              "name":"Usage of Advanced Testing Tools",
+              "m1":"Implementation of renowned testing tools such as HP Quality Center, Selenium, Cucumber, Cypress, Appium, SoapUI, Postman, JMeter, and LoadRunner for comprehensive testing services.",
+              "aos":"slide-right",
+              "width":60,
+              "height":60
+          },
+          {
+              "url":"https://infomericainc.com/Content/images/cloud-network.gif",
+              "name":"Integration of AI & ML",
+              "m1":"Leveraging artificial intelligence and machine learning for predictive analysis, intelligent test automation, and enhanced test optimization.",
+              "aos":"slide-left",
+              "width":60,
+              "height":60
+          },
+          {
+              "url":"https://infomericainc.com/Content/images/computer.gif",
+              "name":"Cloud-based Testing",
+              "m1":"Utilization of cloud platforms for scalable, flexible, and cost-effective testing solutions.",
+              "aos":"slide-right",
+              "width":50,
+              "height":60
+          }
+      ]
   }
+
 ]
