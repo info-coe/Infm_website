@@ -38,7 +38,7 @@ import Microsoft365 from "./maincomponents/SERVICES/Microsoft 365";
 import MicrosoftCloudServices from "./maincomponents/SERVICES/Microsoft Cloud Services";
 import SecurityArchitecture from "./maincomponents/SERVICES/Security Architecture";
 import SoftwareSales from "./maincomponents/SERVICES/Software Sales";
-import ServiceOrientedArchitecture from "./maincomponents/SERVICES/Service Oriented Architecture";
+import ServiceOrientedArchitecture from "./maincomponents/SOLUTIONS/Service Oriented Architecture";
 
 import Solutions from "./maincomponents/SOLUTIONS/Solutions";
 import BusinessProcessManagement from "./maincomponents/SOLUTIONS/Business Process Management";

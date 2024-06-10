@@ -7,8 +7,8 @@ import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 const ServiceOrientedArchitecture = (props) => {
   const serviceContent = JSON.parse(props.product.ServicesComponent.Content);
   // console.log(serviceContent)
-  // console.log();
   const SOAData = SolutionData[6].SERVICE_ORIENTED_ARCHITECTURE;
+  // console.log(SOAData);
   const crmModelPointsData = serviceContent[3].ServiceCmsModelsData;
   return (
     <div>
