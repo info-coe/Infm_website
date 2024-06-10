@@ -38,6 +38,7 @@ import Microsoft365 from "./maincomponents/SERVICES/Microsoft 365";
 import MicrosoftCloudServices from "./maincomponents/SERVICES/Microsoft Cloud Services";
 import SecurityArchitecture from "./maincomponents/SERVICES/Security Architecture";
 import SoftwareSales from "./maincomponents/SERVICES/Software Sales";
+import ServiceOrientedArchitecture from "./maincomponents/SERVICES/Service Oriented Architecture";
 
 import Solutions from "./maincomponents/SOLUTIONS/Solutions";
 import BusinessProcessManagement from "./maincomponents/SOLUTIONS/Business Process Management";
@@ -47,7 +48,7 @@ import Mobility from "./maincomponents/SOLUTIONS/Mobility";
 import OracleCloud from "./maincomponents/SOLUTIONS/Oracle Cloud";
 import RoboticAutomationProcess from "./maincomponents/SOLUTIONS/Robotic Automation Process";
 import SAP from "./maincomponents/SOLUTIONS/SAP";
-import ServiceOrientedArchitecture from "./maincomponents/SOLUTIONS/Service Oriented Architecture";
+// import ServiceOrientedArchitecture from "./maincomponents/SOLUTIONS/Service Oriented Architecture";
 
 import Contactus from "./maincomponents/CONTACTUS/contactus";
 
@@ -94,7 +95,7 @@ function App() {
         },
     })
         .then(response => {
-            console.log("Response: ", response);
+            // console.log("Response: ", response);
             // console.log(JSON.parse(response.data.body.toString()));
             const data = (JSON.parse(response.data.body.toString()));
             const newState = {};

@@ -11,7 +11,7 @@ const DataServices = () => {
     ServicesComponent[1].ServicesAllHeadingAndContent[0];
   const { dataSer_managementData, dataAnalist, BigData } =
     ServicesComponent[13];
-  console.log(dataAnalist);
+  // console.log(dataAnalist);
   const {
     dataSer_image,
     dataSer_sub_image,
