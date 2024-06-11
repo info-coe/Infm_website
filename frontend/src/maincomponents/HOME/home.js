@@ -78,7 +78,7 @@ export default function Home(props) {
       <h3 className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>{whychooseus.chooseh3}
    </h3>
    </div>
-   <div className='container'>
+    <div className='container' style={{ overflowX: 'hidden' }}>
       <div className='row'>
         <div className='col-lg-8 col-xxl-8'>
           <SlideRight data={
