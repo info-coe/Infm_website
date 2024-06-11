@@ -99,7 +99,7 @@
       },
       {
         "cloudWelcomeHeading": "Welcome to Infomerica,Inc - Where the Cloud Meets Innovation!",
-        "cloudWelcomeContent": "Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At [Your Company Name], we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
+        "cloudWelcomeContent": "Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At Infomerica, we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
         "cloudUnveilHeading": "Unveil the Power of Cloud with Infomerica,Inc!",
         "cloudUnveilContent": "Through our cutting-edge Cloud Services, we help you harness the full potential of the cloud, ensuring optimal flexibility, security, and performance. Our services are designed to align with your unique business objectives, enabling you to overcome challenges and seize opportunities in the evolving digital landscape.",
         "cloudPlatformMigrationImage": "https://www.infomericainc.com/Content/images/3_stage_cloud_platform_migration_process.png",
@@ -168,7 +168,38 @@
         "solutionsSub_Heading": "Architecture",
         "solution_para": "Service Oriented Architecture(SOA) is an Architectural & Framework based approach that helps Enterprises align IT in the view of Business. SOA Approach helps the Enterprise to Leverage existing IT Resources and Enable Complete Integration Between Cloud, Legacy Applications and Enterprise Applications. It helps the Enterprises to increase Efficiency, Agility and Flexibility with lesser efforts and less cost.",
         "solution_para1": "Deploying a SOA involves service enablement, orchestration, mediation, and governance. SOA Suite from various leading vendors such as IBM, Oracle, webMethods, TIBCO, SAP, PegaSystems etc helps to achieve all of these capabilities and through build, deploy, govern, optimize and manage deployments ranging from department-level to enterprise-wide systems. It works with your existing infrastructure, eliminating any costly dangers of rip-and-replace approaches.",
-        "solution_para11": "Unlike traditional applications and point-to-point integration approaches, these vendors provides SOA Suite that complete standards-based, hot-pluggable infrastructure interoperates with your existing IT investments for service enabling your existing applications and orchestrating services across your enterprise with built-in lifecycle governance capabilities. You could success in deploying high-volume, mission-critical SOA systems by leveraging the industry's best services buses of your choice."
+        "solution_para11": "Unlike traditional applications and point-to-point integration approaches, these vendors provides SOA Suite that complete standards-based, hot-pluggable infrastructure interoperates with your existing IT investments for service enabling your existing applications and orchestrating services across your enterprise with built-in lifecycle governance capabilities. You could success in deploying high-volume, mission-critical SOA systems by leveraging the industry's best services buses of your choice.",
+        "testingServiceHeading":"Elevating Business Resilience with",
+        "testingServiceAssuranceHeading":"Assurance & Rigorous Testing Services!",
+        "testingServiceContent":"In an era marked by rapid technological advancements and ever-evolving digital landscapes, Infomerica,Inc provides cutting-edge Business Assurance and Testing Services. We focus on delivering robust and comprehensive solutions that ensure the seamless performance, security, and reliability of your business applications and systems.",
+        "testingServiceImage":"https://www.infomericainc.com/Content/images/TESTING.jpg"
+      },
+      {
+        "enterprisePortalsHeading":"Enterprise Portals and",
+        "enterprisePortalCmHeading":"Content Management",
+        "enterprisePortalContent1":"Enterprise Portals and Content Management are pivotal in managing and delivering information effectively across an organization. They serve as centralized platforms that aggregate information, tools, and applications, providing users with a single access point to critical resources. These systems enhance collaboration, productivity, and user engagement by delivering personalized content and experiences.",
+        "enterprisePortalContent2":"Hands-on workshop designed to help senior IT architects and developers and also business users understand the usability, documentation and manageability of the technology as it pertains to their organization and offer end-to-end customized portal and Content Management services to add value and growth your business.We analyze your existing IT environment, understand your requirements, and deliver a comprehensive plan for successfully and efficiently implementing the portal application.",
+        "enterprisePortalImage": "https://www.infomericainc.com/Content/images/practi_enter.jpg",
+        "enterprisePortalPoint1": "Adobe Experience Manager (AEM)",
+        "enterprisePortalPoint2": "SharePoint",
+        "enterprisePortalPoint3": "Liferay",
+        "enterprisePortalPoint4": "WebSphere Portal",
+        "enterprisePortalPoint5": "SAP NetWeaver",
+        "enterprisePortalPoint6": "Drupal",
+        "enterprisePortalPoint7": "Dnn",
+        "enterprisePortalPoint8":"WordPress",
+        "enterprisePortalIcon": "bi bi-send"
+      },
+      {
+        "freePOCPOTUnveilHeading":"Unveil the Potential with Our",
+        "freePOCPOTHeading1":"Free POC & POT",
+        "freePOCPOTHeading2":"at the Innovation Center!",
+        "freePOCPOTUnveilContnent":"Welcome to a world where ideas and technologies meld to form solutions of tomorrow! At our Innovation Center, we offer exclusive, free-of-charge Proof of Concepts (POC) and Proof of Technologies (POT), allowing you to witness the transformative power of innovative solutions, tailored specifically to your business needs.",
+        "freePOCPOTImage":"https://www.infomericainc.com/Content/images/iic.jpg",
+        "freePOCPOTTailoredHeading":"Tailored Exploration & Validation",
+        "freePOCPOTTailoredContent":"Dive deep into tailored explorative sessions and validate cutting-edge technologies' feasibility and practicality. Our experts are dedicated to crafting bespoke solutions, providing you a unique opportunity to test, validate, and experience technological advancements in a risk-free environment, ensuring they align seamlessly with your strategic goals.",
+        "freePOCPOTTStrategicHeading":"Strategic Partnership & Insightful Collaboration",
+        "freePOCPOTTStrategicContent":"We forge strategic partnerships to guide you through every step of your innovation journey. Through insightful collaboration with industry experts and tech aficionados, we facilitate an enriching exploration of technologies, ensuring you make well-informed, forward-thinking decisions that propel your business into the future."
       }
     ]
   },
@@ -425,7 +456,7 @@
         "microcontent2": " Solution Architecture",
         "microcontent3": "Roadmap Development",
         "microsubhead": "Microsoft Cloud Consulting",
-        "iotmainhead": "Our Holistic Microsoft Cloud Service Offerings Include",
+        "mainhead": "Our Holistic Microsoft Cloud Service Offerings Include",
         "microicon": "fa fa-check"
       },
       {
@@ -857,3 +888,4 @@
     ]
   }
 ]
+
