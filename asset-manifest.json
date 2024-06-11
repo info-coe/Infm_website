@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Infm_website/static/css/main.c1d44b0e.css",
-    "main.js": "/Infm_website/static/js/main.a85cb764.js",
+    "main.css": "/Infm_website/static/css/main.2bdd0447.css",
+    "main.js": "/Infm_website/static/js/main.5c31215f.js",
     "static/media/fa-solid-900.ttf": "/Infm_website/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/Infm_website/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/bootstrap-icons.woff?": "/Infm_website/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
@@ -17,11 +17,11 @@
     "static/media/slick.ttf": "/Infm_website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Infm_website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Infm_website/index.html",
-    "main.c1d44b0e.css.map": "/Infm_website/static/css/main.c1d44b0e.css.map",
-    "main.a85cb764.js.map": "/Infm_website/static/js/main.a85cb764.js.map"
+    "main.2bdd0447.css.map": "/Infm_website/static/css/main.2bdd0447.css.map",
+    "main.5c31215f.js.map": "/Infm_website/static/js/main.5c31215f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1d44b0e.css",
-    "static/js/main.a85cb764.js"
+    "static/css/main.2bdd0447.css",
+    "static/js/main.5c31215f.js"
   ]
 }
