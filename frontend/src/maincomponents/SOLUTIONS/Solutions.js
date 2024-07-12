@@ -2,9 +2,16 @@ import React from "react";
 import SolutionData from "./solutionscontent.json";
 
 const Solutions = () => {
-  return (
-    <>
-      <img
+    return (
+        <>
+              <img
+                src={SolutionData[0].solutionsMainBanner}
+                width="100%"
+                alt="Main Solution"
+              ></img>
+              <h1>Solutions Page</h1>
+        <img
+
         src={SolutionData[0].solutionsMainBanner}
         width="100%"
         alt="Main Solution"
@@ -13,4 +20,7 @@ const Solutions = () => {
     </>
   );
 };
+        
+
 export default Solutions;
+

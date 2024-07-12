@@ -17,7 +17,6 @@ const BusinessAssuranceTesting = () => {
     const testingServiceImage =  serviceContent[1].ServicesAllHeadingAndContent[10].testingServiceImage
     const ComprehensiveAssuranceTestingData = serviceContent[17].ComprehensiveAssuranceTestingData
     Aos.init();
-
     return (
         <div>
  <img

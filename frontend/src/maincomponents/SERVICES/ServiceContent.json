@@ -845,5 +845,32 @@
         "freePOCPOTEngagetoday": "today!",
         "freePOCPOTEngageContactLink": "/Contact"
       }
+    },
+    {
+      "SoftwareSales":{
+        "softwareSalesHeading":"Software",
+        "softwareSalesHeading2":"Sales",
+        "softwareSalesContent1":"Infomerica has partnered with various leading software vendors to bring them at affordable price to our customers. Being a valuable reseller and having no overheads, we would extend our promotions & discounts to our customers. Please contact us to get a quote on your software purchase.",
+         "softwareSalesContent2":"Infomerica is an IBM Premier Business Partner and Authorized IBM Reseller",
+         "softwarSales":[
+      {
+          "para":"Our Software Labs and IBM Business Partner Innovation Centre helps Customers in the Process Technology Partner Evaluation and offers POT and POC at Minimal Expenses to Articulate Capabilities, Benefits and Showcase ROI on IBM Products to their Enterprise.",
+          "bulb":"fa fa-lightbulb fa-5x fa-icon-image"
+      },
+      {
+        "para":"Infomerica with the Premier Partnership of IBM Offers Competitive Price on Software Procurement and Additional Competitive Advantage if it is bundled with Implementation Services",
+        "bulb":"fa fa-lightbulb fa-5x fa-icon-image"
+    }
+    
+  ],
+  "softwarSalesSideContent":[
+    {
+        "h1":"Software",
+        "h2":"Sales",
+        "p1":"Being a distinguished IBM Premier Business Partner, with specialization in IBM technologies, Infomerica, Inc stands as your ideal collaborator in navigating the intricacies of software procurement and renewal processes. Leveraging our Centers of Excellence and Innovation Centers, we offer complimentary POTs/POCs, elucidating the nuanced benefits that IBM products can unfold for your enterprise. This engagement illuminates the comprehensive features of a product, enabling an informed and beneficial choice for your IT needs. Our collaboration with IBM is tight-knit, ensuring the delivery of precisely the right product tailored to your requirements. We hold customer satisfaction paramount, working in unison with IBM to secure optimal results. Moreover, our expansive team of renewal representatives is at your service to assist in managing your licenses and software renewals meticulously, ensuring seamless and uninterrupted service. Experience enlightened decision-making and operational excellence with Infomerica, Inc, where innovation meets unparalleled expertise!",
+        "p2":"Infomerica is the GOTO Partner to help and guide you in the process of IBM Software Procurement for New License & Passport Advantage Annual Maintenance."
+      }
+]
+      }
     }
 ]

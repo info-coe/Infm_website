@@ -35,17 +35,17 @@ const Zoomin = (props) => {
       data-aos="zoom-in"
       data-aos-duration="2000"
     >
-      <h1 className="text-primary">{props.heading}</h1>
-      <div>
-        <h1 className="text-primary">{props.heading1}</h1>
-        <h1 className="text-danger">{props.heading2}</h1>
+     <div className={props.textdisplay}>
+        <h1 className="text-primary me-2">{props.heading}</h1>
+        <h1 className="text-danger me-2">{props.heading2}</h1>
+        <h1 className="text-primary">{props.heading3}</h1>
+        </div>
         <div>
           {props.content.map((item, index) => (
             <p key={index}>{item}</p>
           ))}
         </div>
       </div>
-    </div>
   );
 };
 
