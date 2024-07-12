@@ -1,9 +1,9 @@
 import React from 'react';
 import serviceContent from "./ServicesComponent.json";
 import IndustriesSideContent from '../../reusablecomponents/IndustriesSideContent';
-import CardBulb from '../../reusablecomponents/IndustriesCardBulb';
+// import CardBulb from '../../reusablecomponents/IndustriesCardBulb';
 import CardBulb2 from '../../reusablecomponents/industriesCardBulb2';
-import Zoomin from '../../reusablecomponents/zoomin';
+// import Zoomin from '../../reusablecomponents/zoomin';
 import AboutZoomin from '../../reusablecomponents/AboutZoomin';
 import { Link } from 'react-router-dom';
 

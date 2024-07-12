@@ -1,12 +1,13 @@
 import React from "react";
-import SolutionData from "./solutionscontent.json";
+// import SolutionData from "./solutionscontent.json";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 
 const Mobility = (props) => {
-  const serviceContent = JSON.parse(props.product.ServicesComponent.Content);
+  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
+  const SolutionData = JSON.parse(props.product.solutionscontent.Content);
   // console.log(serviceContent)
   const MobilityData = SolutionData[5].MOBILITY;
-  const crmModelPointsData = serviceContent[3].ServiceCmsModelsData;
+  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
   return (
     <div>
       <img

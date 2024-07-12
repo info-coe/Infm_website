@@ -1,15 +1,17 @@
 import React from "react";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
-import SolutionData from "./solutionscontent.json";
+// import SolutionData from "./solutionscontent.json";
 import Zoomin from "../../reusablecomponents/zoomin";
 import AdvantagesServices from "../../reusablecomponents/AdvantagesServices";
 import NoZoomin from "../../reusablecomponents/NoZoomin";
 import BoxServicesData from "../../reusablecomponents/BoxServicesData";
 
 const RoboticAutomationProcess = (props) => {
-  const serviceContent = JSON.parse(props.product.ServicesComponent.Content);
+  // console.log(props);
+  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
+  const SolutionData = JSON.parse(props.product.solutionscontent.Content);
   // console.log(serviceContent)
-  const crmModelPointsData = serviceContent[3].ServiceCmsModelsData;
+  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
   const heading = SolutionData[1].Robotic_Automation_Process.RAP_heading;
   const advantagesData = SolutionData[1].Robotic_Automation_Process;
   const digitalServiceData= SolutionData[1].Robotic_Automation_Process.DigitalServicesData

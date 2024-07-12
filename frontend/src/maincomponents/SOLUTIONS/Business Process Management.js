@@ -1,14 +1,15 @@
 import React from 'react';
-import SolutionData from "./solutionscontent.json";
+// import SolutionData from "./solutionscontent.json";
 import ModelsPoints from '../../reusablecomponents/ModelsPoints';
 import AboutZoomin from '../../reusablecomponents/AboutZoomin';
 import CardBulb from '../../reusablecomponents/IndustriesCardBulb';
 
 
 const BusinessProcessManagement = (props) => {
-    const serviceContent = JSON.parse(props.product.ServicesComponent.Content);
+  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
+  const SolutionData = JSON.parse(props.product.solutionscontent.Content);
     // console.log(serviceContent)
-    const crmModelPointsData = serviceContent[3].ServiceCmsModelsData;
+    const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
     const BPMData = SolutionData[7].Business_Process_Management;
     
     return (

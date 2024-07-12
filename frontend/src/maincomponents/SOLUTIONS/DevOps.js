@@ -1,11 +1,12 @@
 import React from "react";
-import SolutionData from "./solutionscontent.json";
+// import SolutionData from "./solutionscontent.json";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import Zoomin2 from "../../reusablecomponents/Zoomin2";
 import BoxServicesData from "../../reusablecomponents/BoxServicesData";
 
 const DevOps = (props) => {
-  const serviceContent = JSON.parse(props.product.ServicesComponent.Content);
+  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
+  const SolutionData = JSON.parse(props.product.solutionscontent.Content);
   // console.log(serviceContent)
   const DevOpsData = SolutionData[4].DEVOPS;
 const appServicesData = DevOpsData.DEVOPS_Services_Data.map(item => ({
@@ -13,7 +14,7 @@ const appServicesData = DevOpsData.DEVOPS_Services_Data.map(item => ({
     Subhead: item.appsubhead,
     Content: [item.appcontent]
 }));
-  const crmModelPointsData = serviceContent[3].ServiceCmsModelsData;
+  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
   return (
     <div>
       <img

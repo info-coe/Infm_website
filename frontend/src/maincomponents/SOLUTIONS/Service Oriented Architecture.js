@@ -1,15 +1,16 @@
 import React from "react";
-import SolutionData from "./solutionscontent.json";
+// import SolutionData from "./solutionscontent.json";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 
 const ServiceOrientedArchitecture = (props) => {
-  const serviceContent = JSON.parse(props.product.ServicesComponent.Content);
+  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
+  const SolutionData = JSON.parse(props.product.solutionscontent.Content);
   // console.log(serviceContent)
   const SOAData = SolutionData[6].SERVICE_ORIENTED_ARCHITECTURE;
   // console.log(SOAData);
-  const crmModelPointsData = serviceContent[3].ServiceCmsModelsData;
+  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
   return (
     <div>
       <img

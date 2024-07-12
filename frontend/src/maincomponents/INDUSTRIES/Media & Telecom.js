@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
 import IndustriesContent from "../INDUSTRIES/industriesContent.json";
-console.log(IndustriesContent[0]);
+// console.log(IndustriesContent[0]);
 const MediaTelecom = () => {
   const data = IndustriesContent[0];
   const slideData = IndustriesContent[1].mediatelsoloff1;

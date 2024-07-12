@@ -18,7 +18,7 @@ import ServicesCardOpen from '../../reusablecomponents/servicescardopen';
 
 export default function Home(props) {
   // console.log(props)
-  const data = props.product.ServicesComponent;
+  const data = props.product.ServiceContent;
   const HomeContent = JSON.parse(props.product.homeContent.Content);
 
   // const data1 = props.product.homeComponent;
@@ -61,6 +61,7 @@ export default function Home(props) {
       <div className='d-md-flex mt-5'>
         {circleData.map((data, index) => (
           <CircleImageCard
+            key={index}
             title={data.title}
             icon={data.image}
             background={data.color}

@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 
 const ModelsPoints = ({ contents }) => {
   const content = contents[0];
-  console.log(content)
-  const mimage = contents[0].image
-  ;
+  // console.log(content)
+  const mimage = contents[0].image;
 
   return (
     <>
@@ -33,8 +32,8 @@ const ModelsPoints = ({ contents }) => {
             <Link to={content.mcontactlink} className='text-decoration-none'>
              <span className='p-1 text-danger'>{content.mcontact}</span>
             </Link>{content.mtoday}</span>
-              <div style={{borderBottom:"9px solid #FE0000 "}}></div>
             </p>
+              <div style={{borderBottom:"9px solid #FE0000 "}}></div>
           </div>
         </div>
        
