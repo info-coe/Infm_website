@@ -33,7 +33,7 @@ const ModelsPoints = ({ contents }) => {
              <span className='p-1 text-danger'>{content.mcontact}</span>
             </Link>{content.mtoday}</span>
             </p>
-              <div style={{borderBottom:"9px solid #FE0000 "}}></div>
+              <div style={{borderBottom:"9px solid #FE0000 "}} className='mb-5'></div>
           </div>
         </div>
        
