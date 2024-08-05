@@ -1,46 +1,82 @@
-import React from 'react';
-import Zoomin from '../../reusablecomponents/zoomin';
-import ModelsPoints from '../../reusablecomponents/ModelsPoints';
-import BoxServicesData from '../../reusablecomponents/BoxServicesData';
-import AdvantagesServices from '../../reusablecomponents/AdvantagesServices';
-import serviceContent from './ServicesComponent.json'
+import React from "react";
+import Zoomin from "../../reusablecomponents/zoomin";
+import ModelsPoints from "../../reusablecomponents/ModelsPoints";
+import BoxServicesData from "../../reusablecomponents/BoxServicesData";
+import AdvantagesServices from "../../reusablecomponents/AdvantagesServices";
 
-const DigitalTransformationServices = () => {
-    const data = serviceContent[3].ServiceCmsModelsData
-    const digitalData =serviceContent[1].ServicesAllHeadingAndContent[1]
-    const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicebannerimage
-    const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicemobileimage
-    const dtsImage =serviceContent[1].ServicesAllHeadingAndContent[1].digitalImage
-    const digitalServiceData= serviceContent[5].DigitalServicesData
-    const dtsServicesData = digitalServiceData.map(item => ({
-        Mainhead: item.dtsmainhead,
-        Subhead: item.dtssubhead,
-        Content: [item.dtscontent],
-      }));
-    const advantagesData = serviceContent[4].ServicesAdvantages[0]
-    return (
-        <>
-        <div>
-        <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
-        <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
-        <div className='mt-5'>
-        <Zoomin heading={digitalData.digitalUnleashHeading} content={[digitalData.digitalUnleashContent]}/>
-        </div>
-        <div>
-            <img src={dtsImage} width="100%" alt='no-display'/>
-        </div>
-         <AdvantagesServices heading={advantagesData.digitalServiceAdvanHeading} icon={advantagesData.digitalServiceAdvanIcon} advantagesData={[
-              advantagesData.digitalServiceAdvanPoint1,
-              advantagesData.digitalServiceAdvanPoint2,
-              advantagesData.digitalServiceAdvanPoint3,
-              ]}
-              />
+const DigitalTransformationServices = (props) => {
+  const data = JSON.parse(props.product.ServiceContent.Content);
+  const crmModelPointsData = data
+    .map((item) => item.ServiceCmsModelsData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
 
-            <BoxServicesData allservices={dtsServicesData} textColor="#0f62fe" textcenter="center"/>
-            <ModelsPoints contents={data} />
+  const DTSAllData = data
+  .map((item) => item.Digital_Transformation_Services)
+  .filter(Boolean)
+  .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const serviceMainimage = data
+    .map((item) => item.servicebannerimage)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+    
+  const serviceSubimage = data
+    .map((item) => item.servicemobileimage)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const dtsImage = DTSAllData.digitalImage;
+  const dtsServicesData = DTSAllData.DigitalServicesData.map((item) => ({
+    Mainhead: item.dtsmainhead,
+    Subhead: item.dtssubhead,
+    Content: [item.dtscontent],
+  }));
+
+  const advantagesData = DTSAllData.digitalAdavantages;
+
+  return (
+    <>
+      <div>
+        <img
+          src={serviceMainimage}
+          width="100%"
+          alt="Main Service"
+          className="mainimg img-fluid d-none d-md-block"
+        />
+        <img
+          src={serviceSubimage}
+          alt="no-display"
+          className="sunimg img-fluid d-md-none w-100"
+        />
+        <div className="mt-5">
+          <Zoomin
+            heading={DTSAllData.digitalUnleashHeading}
+            content={[DTSAllData.digitalUnleashContent]}
+          />
         </div>
-        </>
-    );
+        <div>
+          <img src={dtsImage} width="100%" alt="no-display" />
+        </div>
+        <AdvantagesServices
+          heading={advantagesData.digitalServiceAdvanHeading}
+          icon={advantagesData.digitalServiceAdvanIcon}
+          advantagesData={[
+            advantagesData.digitalServiceAdvanPoint1,
+            advantagesData.digitalServiceAdvanPoint2,
+            advantagesData.digitalServiceAdvanPoint3,
+          ]}
+        />
+
+        <BoxServicesData
+          allservices={dtsServicesData}
+          textColor="#0f62fe"
+          textcenter="center"
+        />
+        <ModelsPoints contents={crmModelPointsData} />
+      </div>
+    </>
+  );
 };
 
 export default DigitalTransformationServices;

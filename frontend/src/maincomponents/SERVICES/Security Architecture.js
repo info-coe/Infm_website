@@ -1,40 +1,72 @@
-import React from 'react';
-// import {} from './ServicesContent'
-import ModelsPoints from '../../reusablecomponents/ModelsPoints';
-import CrmServices from '../../reusablecomponents/CrmServices';
-import NoZoomin from '../../reusablecomponents/NoZoomin';
-import serviceContent from './ServicesComponent.json'
+import React from "react";
+import ModelsPoints from "../../reusablecomponents/ModelsPoints";
+import CrmServices from "../../reusablecomponents/CrmServices";
+import NoZoomin from "../../reusablecomponents/NoZoomin";
 
+const SecurityArchitecture = (props) => {
+  const data = JSON.parse(props.product.ServiceContent.Content);
+  const crmModelPointsData = data
+    .map((item) => item.ServiceCmsModelsData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
 
-const SecurityArchitecture = () => {
-    const secuirtyData = serviceContent[1].ServicesAllHeadingAndContent[2]
-    const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicebannerimage
-    const serviceSubimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicemobileimage
-    const secImage = serviceContent[1].ServicesAllHeadingAndContent[2].securityarchitectureImage
-    const crmModelPointsData = serviceContent[3].ServiceCmsModelsData
-    const securityServicesData = serviceContent[6].SecurityServicesData.map(item => ({
-        mainHead: item.secmainhead,
-        subHead: item.secminhead,
-        objective: item.seccontent1,
-        outcome: item.seccontent2,
-        approach:item.seccontent3
-      }));
-    return (
-        <div>
-        <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
-        <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
-        <div className='mt-5'>
-        <NoZoomin heading={secuirtyData.securityAdvancedHeading} heading2={secuirtyData.securityConstructingHeading} content={[secuirtyData.securityConstructingContent1,secuirtyData.securityConstructingContent2,secuirtyData.securityConstructingContent3]}/>
-       
-        </div>
-        <div className='text-center'>
-            <img src={secImage} width="85%" alt='no-display'/>
-        </div>
-        <CrmServices serviceData={securityServicesData}/>
-        <ModelsPoints contents={crmModelPointsData} />
+  const SAAllData = data
+    .map((item) => item.Security_Architecture)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
 
-        </div>
-    );
+  const serviceMainimage = data
+    .map((item) => item.servicebannerimage)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const serviceSubimage = data
+    .map((item) => item.servicemobileimage)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const secImage = SAAllData.securityarchitectureImage;
+  const securityServicesData = SAAllData.SecurityServicesData.map(
+    (item) => ({
+      mainHead: item.secmainhead,
+      subHead: item.secminhead,
+      objective: item.seccontent1,
+      outcome: item.seccontent2,
+      approach: item.seccontent3,
+    })
+  );
+
+  return (
+    <div>
+      <img
+        src={serviceMainimage}
+        width="100%"
+        alt="Main Service"
+        className="mainimg img-fluid d-none d-md-block"
+      />
+      <img
+        src={serviceSubimage}
+        alt="no-display"
+        className="sunimg img-fluid d-md-none w-100"
+      />
+      <div className="mt-5">
+        <NoZoomin
+          heading={SAAllData.securityAdvancedHeading}
+          heading2={SAAllData.securityConstructingHeading}
+          content={[
+            SAAllData.securityConstructingContent1,
+            SAAllData.securityConstructingContent2,
+            SAAllData.securityConstructingContent3,
+          ]}
+        />
+      </div>
+      <div className="text-center">
+        <img src={secImage} width="85%" alt="no-display" />
+      </div>
+      <CrmServices serviceData={securityServicesData} />
+      <ModelsPoints contents={crmModelPointsData} />
+    </div>
+  );
 };
 
 export default SecurityArchitecture;

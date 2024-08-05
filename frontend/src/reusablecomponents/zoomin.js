@@ -16,8 +16,8 @@ const Zoomin = (props) => {
         data-aos-duration="2000"
       >
         <h2 className="text-primary ">{props.heading}</h2>
-        {props.sections.map((section) => (
-          <div>
+        {props.sections.map((section, index) => (
+          <div key={index}>
             <h2 className="text-danger" style={{ fontSize: props.textsize }}>
               {section.heading}
             </h2>

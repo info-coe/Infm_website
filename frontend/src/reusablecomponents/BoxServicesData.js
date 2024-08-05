@@ -46,9 +46,7 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
                                 <h2 style={styles.heading} className="pb-3">{service.Subhead}</h2>
                                 <div  style={styles.content}>
                                     {service.Content.map((paragraph, idx) => (
-                                        <>
                                         <p key={idx} style={styles.paragraph}><span className="me-2"><i className={icon}/></span>{paragraph}</p> 
-                                   </>
                                     ))}
                                 </div>
                             </div>

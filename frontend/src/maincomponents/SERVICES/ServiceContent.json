@@ -26,12 +26,12 @@
     },
     {
         "Services":{
+            "serviceHeading": "Services",
             "ServicesData": [
                 {
                   "t1": "Customer Relationship Management",
                   "Des1": "Fostering Enhanced Customer Relations.",
-                  "icon1": "fa fa-users",
-                  "serviceHeading": "Services"
+                  "icon1": "fa fa-users"
                 },
                 {
                   "t2": "Security Architecture",

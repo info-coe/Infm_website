@@ -1,30 +1,45 @@
 import React from 'react';
 import Zoomin from '../../reusablecomponents/zoomin';
-import serviceContent from './ServicesComponent.json'
 import ModelsPoints from '../../reusablecomponents/ModelsPoints';
 import BoxServicesData from '../../reusablecomponents/BoxServicesData';
 
-const ApplicationServices = () => {
-    const data = serviceContent[3].ServiceCmsModelsData
-    const serviceMainimage =serviceContent[1].ServicesAllHeadingAndContent[0].servicebannerimage
-    const serviceSubimage  = serviceContent[1].ServicesAllHeadingAndContent[0].servicemobileimage
-    const applicationData = serviceContent[1].ServicesAllHeadingAndContent[3]
-    const applicationServiceData= serviceContent[7].ComprehensiveApplicationServicesData
-    const appServicesData = applicationServiceData.map(item => ({
+const ApplicationServices = (props) => {
+    const data = JSON.parse(props.product.ServiceContent.Content);
+    const crmModelPointsData = data
+      .map((item) => item.ServiceCmsModelsData)
+      .filter(Boolean)
+      .reduce((acc, curr) => acc.concat(curr), []);
+  
+    const ASAllData = data
+    .map((item) => item.Application_Services)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+  
+    const serviceMainimage = data
+      .map((item) => item.servicebannerimage)
+      .filter(Boolean)
+      .reduce((acc, curr) => acc.concat(curr), []);
+      
+    const serviceSubimage = data
+      .map((item) => item.servicemobileimage)
+      .filter(Boolean)
+      .reduce((acc, curr) => acc.concat(curr), []);
+
+    const appServicesData = ASAllData.ComprehensiveApplicationServicesData.map(item => ({
         Mainhead: item.appmainhead,
         Subhead: item.appsubhead,
         Content: [item.appcontent1,item.appcontent2,item.appcontent3]
     }));
-    console.log(data)
+
     return (
         <div>
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
         <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"/>
         <div className='mt-5'>
-        <Zoomin heading={applicationData.applicationRevolutionizingHeading} heading2={applicationData.applicationInnovativeHeading} content={[applicationData.applicationInnovativeContent1,applicationData.applicationInnovativeContent2,applicationData.applicationInnovativeContent3,applicationData.applicationInnovativeContent4]}/>
+        <Zoomin heading={ASAllData.applicationRevolutionizingHeading} heading2={ASAllData.applicationInnovativeHeading} content={[ASAllData.applicationInnovativeContent1,ASAllData.applicationInnovativeContent2,ASAllData.applicationInnovativeContent3,ASAllData.applicationInnovativeContent4]}/>
         </div>
         <BoxServicesData allservices={appServicesData} textColor="#FE0000"/>
-        <ModelsPoints contents={data} />
+        <ModelsPoints contents={crmModelPointsData} />
         </div>
     );
 };
