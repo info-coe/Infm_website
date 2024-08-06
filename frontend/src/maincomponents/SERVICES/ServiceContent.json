@@ -532,6 +532,11 @@
     },
     {
       "Data_Services":{
+        "dataServicesHeading": "Empowering Your Business through Intelligent Data Services",
+        "dataServicesContent": "In the era of digital evolution, data is the heartbeat of business success. At Infomerica, we empower organizations to harness the full potential of their data, driving insights, innovation, and intelligent decision-making. We offer a comprehensive suite of data services, designed to elevate your business in today’s competitive landscape.",
+        "dataServices_sub_Content": "The Data Life Cycle is a series of steps carried out to mine information from raw data - a navigation tool for facilitating users in discovering recommendations on how to effectively work with their data across all stages of the data life cycle.",
+        "dataSer_image": "https://infomericainc.com/Content/images/Data%20Life%20Cycle.png",
+        "dataSer_sub_image": "https://infomericainc.com/Content/images/mdm.png",
         "dataSer_managementData": [
             {
               "name": "Integrated Data Platform (ERP & non-ERP)",

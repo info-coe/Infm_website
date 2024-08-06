@@ -3,15 +3,29 @@ import ServicesComponent from "./ServicesComponent.json";
 import AOS from "aos";
 import { FaCheck } from "react-icons/fa6";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
-// import serviceContent from "./ServicesComponent.json";
 
-const DataServices = () => {
-//   console.log(ServicesComponent);
-  const { servicebannerimage, servicemobileimage } =
-    ServicesComponent[1].ServicesAllHeadingAndContent[0];
-  const { dataSer_managementData, dataAnalist, BigData } =
-    ServicesComponent[13];
-  // console.log(dataAnalist);
+const DataServices = (props) => {
+  const data = JSON.parse(props.product.ServiceContent.Content);
+  const crmModelPointsData = data
+    .map((item) => item.ServiceCmsModelsData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const DSAllData = data
+  .map((item) => item.Data_Services)
+  .filter(Boolean)
+  .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const serviceMainimage = data
+    .map((item) => item.servicebannerimage)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+    
+  const serviceSubimage = data
+    .map((item) => item.servicemobileimage)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
   const {
     dataSer_image,
     dataSer_sub_image,
@@ -19,9 +33,6 @@ const DataServices = () => {
     dataServicesContent,
     dataServices_sub_Content,
   } = ServicesComponent[1].ServicesAllHeadingAndContent[8];
-  const { ServiceCmsModelsData } = ServicesComponent[3];
-  //ServicesComponent[3]
-  //   console.log(ServicesComponent[3].ServiceCmsModelsData);
 
   AOS.init({
     offset: 120,
@@ -34,13 +45,13 @@ const DataServices = () => {
     <div style={{ backgroundColor: "#F1F7FB" }}>
       <div>
         <img
-          src={servicebannerimage}
+          src={serviceMainimage}
           width="100%"
           alt="Main Service"
           className="mainimg img-fluid d-none d-md-block"
         />
         <img
-          src={servicemobileimage}
+          src={serviceSubimage}
           alt="no-display"
           className="sunimg img-fluid d-md-none w-100"
         />
@@ -75,7 +86,7 @@ const DataServices = () => {
           {/*Manage ment Data */}
           <div className="col-12  col-lg-5">
             <div className="row">
-              {dataSer_managementData.map((curr, index) => (
+              {DSAllData.dataSer_managementData.map((curr, index) => (
                 <div
                   className="col-12 col-md-6 mb-3 d-flex text-center"
                   key={index}
@@ -109,7 +120,7 @@ const DataServices = () => {
 
           <div className="container">
             <div className="row justify-content-center mb-4">
-              {dataAnalist.map((curr, index) => (
+              {DSAllData.dataAnalist.map((curr, index) => (
                 <div
                   key={index}
                   className="col-12 col-sm-6 col-md-6 col-lg-3 d-flex"
@@ -164,7 +175,7 @@ const DataServices = () => {
           </div>
           <div className="container">
             <div className="row justify-content-center">
-              {BigData.map((curr, index) => (
+              {DSAllData.BigData.map((curr, index) => (
                 <div key={index} className="col-12 col-md-6">
                   <div className=" border rounded position-relative">
                     <div className="p-2">
@@ -192,19 +203,9 @@ const DataServices = () => {
           </div>
         </div>
       </div>
-      <ModelsPoints contents={ServiceCmsModelsData} />
+      <ModelsPoints contents={crmModelPointsData} />
     </div>
   );
 };
 
 export default DataServices;
-
-// <li key={idx} className="list-group-item p-2">
-// <span className="p-1">
-//   <FaCheck
-//     style={{ color: "#0f62fe" }}
-//     size="1.2em"
-//   />
-// </span>
-// {value}
-// </li>
