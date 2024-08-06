@@ -54,15 +54,15 @@ const CardBulb = ({solutionofferingData}) => {
         <>
             <style>{styles}</style>
             {solutionofferingData.map((item,index)=>(
-                <div className="services-tab">
+                <div className="services-tab" key={index}>
                     <div className="cornerbox"></div>
                         <div className="folded-corner">
                             <div className="text">
                                 {/* <i className="fa fa-lightbulb fa-5x fa-icon-image"></i> */}
                                 <i className={item.bulb}></i>
-                                <p className="item-title">
+                                <div className="item-title">
                                     <h4 className="solu-titlehd mt-3">{item.solutionHead}</h4>
-                                </p>
+                                </div>
                                 <ul className='list-unstyled'>
                                     {item.list.map((curr,i)=>(
                                         <li key={i}><i className={item.icon}></i>{" "}{curr}</li>

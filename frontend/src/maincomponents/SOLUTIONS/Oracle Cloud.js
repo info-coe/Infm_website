@@ -1,5 +1,4 @@
 import React from "react";
-// import SolutionData from "./solutionscontent.json";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
@@ -8,9 +7,16 @@ import CareersSlideContent from "../../reusablecomponents/CareersSlideContent";
 const OracleCloud = (props) => {
   const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  // console.log(serviceContent)
-  const oracleCloudData = SolutionData[2].oracle_cloud;
-  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
+  const crmModelPointsData = serviceContent
+  .map((item) => item.ServiceCmsModelsData)
+  .filter(Boolean)
+  .reduce((acc, curr) => acc.concat(curr), []);
+
+const OCAllData = SolutionData
+  .map((item) => item.oracle_cloud)
+  .filter(Boolean)
+  .reduce((acc, curr) => acc.concat(curr), [])[0];
+
   return (
     <div>
       <img
@@ -20,15 +26,15 @@ const OracleCloud = (props) => {
       ></img>
       <div className="mt-5">
         <AboutZoomin
-          heading1={oracleCloudData.OC_heading1}
-          heading2={oracleCloudData.OC_heading2}
-          content={[oracleCloudData.OC_content1, oracleCloudData.OC_content2]}
+          heading1={OCAllData.OC_heading1}
+          heading2={OCAllData.OC_heading2}
+          content={[OCAllData.OC_content1, OCAllData.OC_content2]}
         />
       </div>
-      <SolutionOfferings managementData={oracleCloudData.Oracle_Enterprise} />
-      <h4 className="text-danger container p-5">{oracleCloudData.ETE_Oracle_Cloud_Services}</h4>
+      <SolutionOfferings managementData={OCAllData.Oracle_Enterprise} />
+      <h4 className="text-danger container p-5">{OCAllData.ETE_Oracle_Cloud_Services}</h4>
       <div className='d-md-flex flex-wrap gap-4 justify-content-center m-5 mt-0'>
-        <CareersSlideContent data={oracleCloudData.ETE_Oracle_Cloud_Slides}/>
+        <CareersSlideContent data={OCAllData.ETE_Oracle_Cloud_Slides}/>
       </div>
       <ModelsPoints contents={crmModelPointsData} />
     </div>

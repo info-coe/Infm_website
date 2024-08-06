@@ -1,5 +1,4 @@
 import React from "react";
-// import SolutionData from "./solutionscontent.json";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import Zoomin2 from "../../reusablecomponents/Zoomin2";
 import BoxServicesData from "../../reusablecomponents/BoxServicesData";
@@ -7,14 +6,21 @@ import BoxServicesData from "../../reusablecomponents/BoxServicesData";
 const DevOps = (props) => {
   const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  // console.log(serviceContent)
-  const DevOpsData = SolutionData[4].DEVOPS;
-const appServicesData = DevOpsData.DEVOPS_Services_Data.map(item => ({
+  const crmModelPointsData = serviceContent
+    .map((item) => item.ServiceCmsModelsData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const DevOpsData = SolutionData.map((item) => item.DEVOPS)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const appServicesData = DevOpsData.DEVOPS_Services_Data.map((item) => ({
     Mainhead: item.appmainhead,
     Subhead: item.appsubhead,
-    Content: [item.appcontent]
-}));
-  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
+    Content: [item.appcontent],
+  }));
+
   return (
     <div>
       <img
@@ -43,8 +49,10 @@ const appServicesData = DevOpsData.DEVOPS_Services_Data.map(item => ({
         ></img>
       </div>
       <div>
-        <h5 className="text-primary text-center">{DevOpsData.DEVOPS_Services_Heading}</h5>
-        <BoxServicesData allservices={appServicesData} textColor="#FE0000"/>
+        <h5 className="text-primary text-center">
+          {DevOpsData.DEVOPS_Services_Heading}
+        </h5>
+        <BoxServicesData allservices={appServicesData} textColor="#FE0000" />
       </div>
       <ModelsPoints contents={crmModelPointsData} />
     </div>

@@ -1,5 +1,4 @@
 import React from "react";
-// import SolutionData from "./solutionscontent.json";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
@@ -7,10 +6,15 @@ import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 const ServiceOrientedArchitecture = (props) => {
   const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  // console.log(serviceContent)
-  const SOAData = SolutionData[6].SERVICE_ORIENTED_ARCHITECTURE;
-  // console.log(SOAData);
-  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
+  const crmModelPointsData = serviceContent
+    .map((item) => item.ServiceCmsModelsData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const SOAData = SolutionData.map((item) => item.SERVICE_ORIENTED_ARCHITECTURE)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
   return (
     <div>
       <img
@@ -46,15 +50,19 @@ const ServiceOrientedArchitecture = (props) => {
           ))}
         </div>
       </div>
-      <div style={{ backgroundColor: "rgb(240, 242, 243)" }} className="pt-5 pb-5">
+      <div
+        style={{ backgroundColor: "rgb(240, 242, 243)" }}
+        className="pt-5 pb-5"
+      >
         <h2 className="ps-5">
           <span className="text-primary">{SOAData.SOA_Offering_Heading1}</span>
-          <span style={{color:"#ef0000"}}>{SOAData.SOA_Offering_Heading2}</span>
+          <span style={{ color: "#ef0000" }}>
+            {SOAData.SOA_Offering_Heading2}
+          </span>
         </h2>
         <SolutionOfferings managementData={SOAData.SOA_Offering_Content} />
         <ModelsPoints contents={crmModelPointsData} />
       </div>
-      
     </div>
   );
 };

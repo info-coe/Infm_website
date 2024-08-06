@@ -5,9 +5,15 @@ import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 const Mobility = (props) => {
   const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  // console.log(serviceContent)
-  const MobilityData = SolutionData[5].MOBILITY;
-  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
+  const crmModelPointsData = serviceContent
+    .map((item) => item.ServiceCmsModelsData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const MobilityData = SolutionData.map((item) => item.MOBILITY)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
   return (
     <div>
       <img
@@ -24,20 +30,27 @@ const Mobility = (props) => {
         </h3>
         <p className="mt-4">{MobilityData.MOBILITY_Content}</p>
         <div>
-            <img src={MobilityData.MOBILITY_Solutions_Image} alt="MOBILITY_Solutions_Image"></img>
+          <img
+            src={MobilityData.MOBILITY_Solutions_Image}
+            alt="MOBILITY_Solutions_Image"
+          ></img>
         </div>
-        <h3 className="text-primary mt-4 mb-4">{MobilityData.MOBILITY_Comprehensive_Suite_Heading}</h3>
-        {
-            MobilityData.MOBILITY_Comprehensive_Suite_Content.map((item,index)=>(
-                <div key={index} className="mt-4">
-                    <h6 style={{ color: "#FE0000" }}><b>{item.Heading}</b></h6>
-                    <p>{item.Content}</p>
-                </div>
-            ))
-        }
+        <h3 className="text-primary mt-4 mb-4">
+          {MobilityData.MOBILITY_Comprehensive_Suite_Heading}
+        </h3>
+        {MobilityData.MOBILITY_Comprehensive_Suite_Content.map(
+          (item, index) => (
+            <div key={index} className="mt-4">
+              <h6 style={{ color: "#FE0000" }}>
+                <b>{item.Heading}</b>
+              </h6>
+              <p>{item.Content}</p>
+            </div>
+          )
+        )}
         <div className="mt-5">
-            <p>{MobilityData.MOBILITY_Comprehensive_Suite_Conclusion1}</p>
-            <p>{MobilityData.MOBILITY_Comprehensive_Suite_Conclusion2}</p>
+          <p>{MobilityData.MOBILITY_Comprehensive_Suite_Conclusion1}</p>
+          <p>{MobilityData.MOBILITY_Comprehensive_Suite_Conclusion2}</p>
         </div>
       </div>
       <ModelsPoints contents={crmModelPointsData} />

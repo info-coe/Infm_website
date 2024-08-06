@@ -54,15 +54,15 @@ const CardBulb2 = ({solutionofferingData}) => {
         <>
             <style>{styles}</style>
             {solutionofferingData.map((item,index)=>(
-                <div className="services-tab">
+                <div className="services-tab" key={index}>
                     <div className="cornerbox"></div>
                         <div className="folded-corner">
                             <div className="text">
                                 {/* <i className="fa fa-lightbulb fa-5x fa-icon-image"></i> */}
                                 <i className={item.bulb}></i>
-                                <p className="item-title">
+                                <div className="item-title">
                                     <h5>{item.para}</h5>
-                                </p>
+                                </div>
                             </div>
                         </div>
                     </div>

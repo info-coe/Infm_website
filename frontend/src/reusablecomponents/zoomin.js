@@ -36,9 +36,11 @@ const Zoomin = (props) => {
       data-aos-duration="2000"
     >
      <div className={props.textdisplay}>
-        <h1 className="text-primary me-2">{props.heading}</h1>
-        <h1 className="text-danger me-2">{props.heading2}</h1>
-        <h1 className="text-primary">{props.heading3}</h1>
+        <h2>
+          <span className="text-primary me-2">{props.heading} </span>
+          <span className="text-danger me-2">{props.heading2} </span>
+          <span className="text-primary">{props.heading3}</span>
+        </h2>
         </div>
         <div>
           {props.content.map((item, index) => (

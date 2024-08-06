@@ -1,24 +1,29 @@
 import React from "react";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
-// import SolutionData from "./solutionscontent.json";
 import Zoomin from "../../reusablecomponents/zoomin";
 import AdvantagesServices from "../../reusablecomponents/AdvantagesServices";
 import NoZoomin from "../../reusablecomponents/NoZoomin";
 import BoxServicesData from "../../reusablecomponents/BoxServicesData";
 
 const RoboticAutomationProcess = (props) => {
-  // console.log(props);
   const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  // console.log(serviceContent)
-  const crmModelPointsData = serviceContent[1].ServiceCmsModelsData;
-  const heading = SolutionData[1].Robotic_Automation_Process.RAP_heading;
-  const advantagesData = SolutionData[1].Robotic_Automation_Process;
-  const digitalServiceData= SolutionData[1].Robotic_Automation_Process.DigitalServicesData
-  const dtsServicesData = digitalServiceData.map(item => ({
-      Subhead: item.dtssubhead,
-      Content: [item.dtscontent],
-    }));
+  const crmModelPointsData = serviceContent
+    .map((item) => item.ServiceCmsModelsData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const RPAAllData = SolutionData
+    .map((item) => item.Robotic_Automation_Process)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const heading = RPAAllData.RAP_heading;
+  const digitalServiceData = RPAAllData.DigitalServicesData;
+  const dtsServicesData = digitalServiceData.map((item) => ({
+    Subhead: item.dtssubhead,
+    Content: [item.dtscontent],
+  }));
 
   return (
     <div>
@@ -28,18 +33,33 @@ const RoboticAutomationProcess = (props) => {
         alt="Main Solution"
       ></img>
       <div className="mt-5">
-        <Zoomin heading={heading} content={[SolutionData[1].Robotic_Automation_Process.RAP_content1,SolutionData[1].Robotic_Automation_Process.RAP_content2]}/>
+        <Zoomin
+          heading={heading}
+          content={[
+            SolutionData[1].Robotic_Automation_Process.RAP_content1,
+            SolutionData[1].Robotic_Automation_Process.RAP_content2,
+          ]}
+        />
       </div>
-      <AdvantagesServices heading={advantagesData.RAP_RPA.heading} icon={advantagesData.RAP_RPA.icon} advantagesData={[
-              advantagesData.RAP_RPA.point1,
-              advantagesData.RAP_RPA.point2,
-              advantagesData.RAP_RPA.point3,
-              ]}
-       />
-       <NoZoomin heading = {advantagesData.RAP_APPROACH.heading} content={[
-            advantagesData.RAP_APPROACH.content
-       ]} textPosition="center"/>    
-        <BoxServicesData allservices={dtsServicesData} textColor="#0f62fe" textcenter="center"/>
+      <AdvantagesServices
+        heading={RPAAllData.RAP_RPA.heading}
+        icon={RPAAllData.RAP_RPA.icon}
+        advantagesData={[
+          RPAAllData.RAP_RPA.point1,
+          RPAAllData.RAP_RPA.point2,
+          RPAAllData.RAP_RPA.point3,
+        ]}
+      />
+      <NoZoomin
+        heading={RPAAllData.RAP_APPROACH.heading}
+        content={[RPAAllData.RAP_APPROACH.content]}
+        textPosition="center"
+      />
+      <BoxServicesData
+        allservices={dtsServicesData}
+        textColor="#0f62fe"
+        textcenter="center"
+      />
       <ModelsPoints contents={crmModelPointsData} />
     </div>
   );
