@@ -36,8 +36,8 @@ const RoboticAutomationProcess = (props) => {
         <Zoomin
           heading={heading}
           content={[
-            SolutionData[1].Robotic_Automation_Process.RAP_content1,
-            SolutionData[1].Robotic_Automation_Process.RAP_content2,
+            RPAAllData.RAP_content1,
+            RPAAllData.RAP_content2,
           ]}
         />
       </div>
