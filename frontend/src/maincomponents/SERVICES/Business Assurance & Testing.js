@@ -6,13 +6,29 @@ import CareersSlideContent from '../../reusablecomponents/CareersSlideContent';
 import Aos from 'aos';
 import "aos/dist/aos.css"
 
-const BusinessAssuranceTesting = () => {
+const BusinessAssuranceTesting = (props) => {
+  const data = JSON.parse(props.product.ServiceContent.Content);
+  const crmModelPointsData = data
+    .map((item) => item.ServiceCmsModelsData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
+  const BATAllData = data
+  .map((item) => item.Testing_QA_Services)
+  .filter(Boolean)
+  .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const serviceMainimage = data
+    .map((item) => item.servicebannerimage)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+    
+  const serviceSubimage = data
+    .map((item) => item.servicemobileimage)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), []);
+
     const testingServiceData = serviceContent[1].ServicesAllHeadingAndContent[10];
-    const crmModelPointsData = serviceContent[3].ServiceCmsModelsData;
-    const serviceMainimage =
-    serviceContent[1].ServicesAllHeadingAndContent[0].servicebannerimage;
-  const serviceSubimage =
-    serviceContent[1].ServicesAllHeadingAndContent[0].servicemobileimage;
 
     const testingServiceImage =  serviceContent[1].ServicesAllHeadingAndContent[10].testingServiceImage
     const ComprehensiveAssuranceTestingData = serviceContent[17].ComprehensiveAssuranceTestingData
@@ -42,7 +58,7 @@ const BusinessAssuranceTesting = () => {
        <div className="row">
         <h3 style={{color:'#FE0000'}}>{ComprehensiveAssuranceTestingData[0].heading}</h3>
         {ComprehensiveAssuranceTestingData.map((item, index) => (
-            <div className="p-3">
+            <div className="p-3" key={index}>
               <h5 style={{color:'#FE0000'}}>{item.name}</h5>
               <p>{item.content}</p>
           </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import ServicesComponent from "./ServicesComponent.json";
 import AOS from "aos";
 import { FaCheck } from "react-icons/fa6";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
@@ -26,14 +25,6 @@ const DataServices = (props) => {
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), []);
 
-  const {
-    dataSer_image,
-    dataSer_sub_image,
-    dataServicesHeading,
-    dataServicesContent,
-    dataServices_sub_Content,
-  } = ServicesComponent[1].ServicesAllHeadingAndContent[8];
-
   AOS.init({
     offset: 120,
     delay: 1,
@@ -58,11 +49,11 @@ const DataServices = (props) => {
       </div>
       <div data-aos="fade-down">
         <div className="text-center p-4 fs-1">
-          <span style={{ color: " #0f62fe " }}>{dataServicesHeading} </span>
+          <span style={{ color: " #0f62fe " }}>{DSAllData.dataServicesHeading} </span>
         </div>
         <div className="container font-weight-normal fs-5 pb-5 ">
-          <p>{dataServicesContent}</p>
-          <p style={{ color: "gray" }}>{dataServices_sub_Content}</p>
+          <p>{DSAllData.dataServicesContent}</p>
+          <p style={{ color: "gray" }}>{DSAllData.dataServices_sub_Content}</p>
         </div>
       </div>
       <div className="container">
@@ -70,13 +61,13 @@ const DataServices = (props) => {
           <div className="col-12 col-lg-6">
             <div className="mb-md-5 mb-2">
               <div className="bg-white p-1 p-md-2 pt-md-5 pb-md-5 border rounded">
-                <img src={dataSer_image} alt="" className="img-fluid  w-100" />
+                <img src={DSAllData.dataSer_image} alt="" className="img-fluid  w-100" />
               </div>
             </div>
             <div className="mb-md-5 mb-2">
               <div className="bg-white p-1 p-md-2 pt-md-5 pb-md-5 border rounded">
                 <img
-                  src={dataSer_sub_image}
+                  src={DSAllData.dataSer_sub_image}
                   alt=""
                   className="img-fluid  w-100"
                 />
