@@ -18,7 +18,8 @@ const ManufacturingAutomotive = () => {
   } = IndustriesContent[0];
   const {
     man_auto_para,
-    man_auto_para_sub,
+    man_auto_para_sub1,
+    man_auto_para_sub2,
     man_auto_detail,
     man_auto_contact,
     man_auto_today,
@@ -80,7 +81,8 @@ const ManufacturingAutomotive = () => {
 
         <div className="col-md-6" data-aos="zoom-in-up">
           <div className="p-4">
-            <p className="fs-md-5">{man_auto_para_sub}</p>
+            <p className="fs-md-5">{man_auto_para_sub1}</p>
+            <p className="fs-md-5">{man_auto_para_sub2}</p>
           </div>
         </div>
       </div>

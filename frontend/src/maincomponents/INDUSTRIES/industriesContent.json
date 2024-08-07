@@ -1,646 +1,940 @@
 [
-    {
-        "industriesmainimage":"https://infomericainc.com/Content/images/industries-banner.jpg",
-        "industriesSubimage":"https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
-        "mediaHead":"Media And",
-        "telecomHead":"Telecom",
-        "mediapara1":"In the transformative sectors of Media & Telecom, Infomerica,Inc emerges as a leading solution provider, seamlessly integrating innovative technologies to cater to the intricate and diverse needs of the industry. Our rich experience and deep industry insights enable us to create and deliver unparalleled solutions, elevating user experience, boosting operational efficacy, and driving digital evolution.",
-        "mediapara2":"Choosing Infomerica,Inc as your partner in the Media & Telecom sector means embracing innovative, high-quality solutions underpinned by cutting-edge technologies. We foster a collaborative approach, working meticulously with our clients to unravel industry challenges, uncover novel opportunities, and transform visions into reality in the constantly evolving Media & Telecom sectors.",
-        "solution":"Solution",
-        "offerings":"Offerings",
-        "solutionpara":"We strive for your business growth through innovative approaches",
-        "cloudnetwork":"https://infomericainc.com/Content/images/cloud-network.gif",
-        "computer":"https://infomericainc.com/Content/images/computer.gif",
-        "connection":"https://infomericainc.com/Content/images/connection.gif",
-        "rocket":"https://infomericainc.com/Content/images/rocket.gif",
-        "servicesmainbulb":"https://infomericainc.com/Content/images/services-main1.png",
-        "technology":"Technology",
-        "manufacturing":"Manufacturing",
-        "automotive":"And Automotive",
-        "manufacturingpara":"Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers. Therefore the auto industry is consistently challenged to find new ways to reach individual consumers with the right vehicle and right offer at the right time, while retaining and increasing the market, as well as using their assets to become profitable.",
-        "energy": "Energy",
-        "utility": "And Uitility",
-        "solution_para": "We strive for your business growth through innovative approaches",
-        "banking": "Banking And",
-        "insurance": "Insurance",
-        "health": "Unlocking Innovation in",
-        "sciences": "Healthcare and Life Sciences",
-        "air": "Airline, Travel And",
-        "logistics": "Logistics",
-        "customer": "Consumer And ",
-        "retail": "Retail",
-        "industriesMediatelecomBg":"https://infomericainc.com/Content/images/banner-8.jpg"
-    },
-    {
-        "mediatelsoloff1": [
-            {
-                "name": "Content Delivery Networks",
-                "p1": "We design resilient and scalable content delivery networks to ensure uninterrupted and high-quality media streaming, addressing the demand for instant content access and superior user experience..",
-                "url": "https://infomericainc.com/Content/images/connection.gif"
-            },
-            {
-                "name": "Customer Management Systems",
-                "p1": "Our comprehensive customer management solutions empower Telecom operators to enhance customer interactions, resolve issues promptly, and implement personalized engagement strategies.",
-                "url": "https://infomericainc.com/Content/images/cloud-network.gif"
-            },
-            {
-                "name": "Billing & Revenue Management",
-                "p1": "We offer robust and flexible billing and revenue management solutions, optimizing revenue streams and facilitating transparent and accurate invoicing.",
-                "url": "https://infomericainc.com/Content/images/computer.gif"
-            },
-            {
-                "name": "Operational Analytics",
-                "p1": "We harness the power of data analytics and Artificial Intelligence to facilitate informed decision-making processes, predictive maintenance, and continuous operational improvements.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif"
-            },
-            {
-                "name": "Revenue Management",
-                "p1": "We construct dynamic and adaptable pricing models and inventory management systems. These solutions are devised to optimize revenue growth and adjust efficiently to market demands and fluctuations.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif"
-            }
+  {
+    "Manufacturing_And_Automotive": {
+      "MAA_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
+      "MAA_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "MAA_Manufacturing": "Manufacturing",
+      "MAA_Automotive": "And Automotive",
+      "MAA_ManufacturingPara": "Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers. Therefore the auto industry is consistently challenged to find new ways to reach individual consumers with the right vehicle and right offer at the right time, while retaining and increasing the market, as well as using their assets to become profitable.",
+      "MAA_Solution": "Solution",
+      "MAA_Offerings": "Offerings",
+      "MAA_SO_Para1": "In the fast-paced and ever-evolving automotive manufacturing sector, Infomerica offers a range of solution offerings designed to enhance operational efficiency, drive innovation, industrial safety ,environmental standards and fuel growth. Our offerings are custom-tailored to meet the unique demands of the automotive manufacturing industry.",
+      "MAA_SO_Para2": "We leverage our rich experience in brand management, CRM, SRM, dealer monitoring/ordering/information systems, portal management, inquiry-tracking systems, and online-buying systems. We have experience in finance, HRMS, legal, and internal fleet management. Services include warranty systems, parts ordering, inventory systems, and government regulations.",
+      "MAA_Product_ManagementData": [
+        {
+          "m1": "IOT/ Embedded Electronics",
+          "m2": "Product Life Cycle Management Solutions",
+          "m3": "Production Process Automation",
+          "m4": "CAD / CAE",
+          "m5": "Quality Assurance and Compliance",
+          "m6": "Product Data Management",
+          "name": "Product Management"
+        },
+        {
+          "m1": "Process Consulting",
+          "m2": "Supplier Collaboration",
+          "m3": "Charge Back (SRM)",
+          "m4": "E-Procurement [Strategic Sourcing & Procurement]",
+          "m5": "Dealer Management",
+          "m6": "Route Planning/Logistics",
+          "m7": "Inventory Planning [Demand and Supply planning]",
+          "m8": "Retail Process Integration",
+          "name": "Supply Chain Management"
+        },
+        {
+          "m1": "Channel Management",
+          "m2": "Marketing",
+          "m3": "Order Management",
+          "m4": "Sales & Service",
+          "m5": "CRM Analytics & Management",
+          "m6": "Sales Planning & Forecast",
+          "m7": "Contract Management",
+          "name": "Sales and Marketing"
+        },
+        {
+          "m1": "Parts Inventory Tracking",
+          "m2": "Parts Accessories Catalogue Marketing",
+          "m3": "Warranty Claims Analysis",
+          "m4": "Government Regulations",
+          "name": "After Sales Service"
+        }
+      ],
+      "MAA_Technology_Offerings": {
+        "TO_Technology": "Technology",
+        "TO_Offerings": "Offerings",
+        "TO_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
+        "TO_Cloud_Computing": [
+          {
+            "m1": "Cloud Computing"
+          },
+          {
+            "m1": "Internet of Things (IoT)"
+          },
+          {
+            "m1": "Artificial Intelligence and Machine Learning"
+          },
+          {
+            "m1": "Blockchain Technology"
+          },
+          {
+            "m1": "Cybersecurity Solutions"
+          },
+          {
+            "m1": "Augmented and Virtual Reality"
+          },
+          {
+            "m1": "Electronic Data Interchange [EDI]"
+          }
         ],
-        "air_management": [
-            {
-                "name": "Integrated Booking Systems",
-                "p1": "We develop sophisticated and customer-centric booking and reservation systems. These platforms are meticulously designed to provide seamless user experiences, aiming to convert and retain customers, ensuring satisfaction at every touchpoint.",
-                "url": "https://infomericainc.com/Content/images/connection.gif"
-            },
-            {
-                "name": "Supply Chain Optimization",
-                "p1": "Our strategic logistics solutions focus on elevating supply chain resilience and transparency. We empower businesses with real-time visibility and control, making way for efficient and effective supply chain management.",
-                "url": "https://infomericainc.com/Content/images/cloud-network.gif"
-            },
-            {
-                "name": "Customer Engagement Platforms",
-                "p1": "Utilizing advanced CRM solutions, we enable businesses to forge lasting relationships with their customers. We create personalized engagement strategies, enhancing customer loyalty and satisfaction.",
-                "url": "https://infomericainc.com/Content/images/computer.gif"
-            },
-            {
-                "name": "Operational Analytics",
-                "p1": "We harness the power of data analytics and Artificial Intelligence to facilitate informed decision-making processes, predictive maintenance, and continuous operational improvements.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif"
-            },
-            {
-                "name": "Revenue Management",
-                "p1": "We construct dynamic and adaptable pricing models and inventory management systems. These solutions are devised to optimize revenue growth and adjust efficiently to market demands and fluctuations.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif"
-            }
-        ],
-        "customer_management": [
-            {
-                "name": "Omnichannel Retail Solutions",
-                "p1": "We develop seamless and integrative omnichannel solutions that enable businesses to offer a consistent and engaging customer experience across various touchpoints, both online and offline.",
-                "url": "https://infomericainc.com/Content/images/connection.gif"
-            },
-            {
-                "name": "Supply Chain Optimization",
-                "p1": "Leverage our advanced solutions to optimize supply chain processes, ensuring agility, reducing costs, and improving overall operational efficiency.",
-                "url": "https://infomericainc.com/Content/images/cloud-network.gif"
-            },
-            {
-                "name": "Customer Engagement & Loyalty Programs",
-                "p1": "Our innovative customer engagement strategies and loyalty programs are designed to elevate customer relationships, drive brand loyalty, and enhance overall consumer satisfaction.",
-                "url": "https://infomericainc.com/Content/images/computer.gif"
-            },
-            {
-                "name": "E-Commerce Solutions",
-                "p1": "Our robust and scalable e-commerce solutions are crafted to deliver an intuitive and seamless shopping experience, driving conversion rates and fostering business growth.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif"
-            },
-            {
-                "name": "Data Analytics & Insight",
-                "p1": "Employing advanced analytics, we help businesses glean actionable insights from consumer data, enabling informed decision-making and personalized consumer interactions.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif"
-            }
-        ],
-        "energy_utility_manage": [
-            {
-                "m1": "Legacy/Best-of-Breed Product Implementation",
-                "m2": "Support & Maintenance",
-                "m3": "Metering/Profiling of Customer Base",
-                "m4": "Strategic Pricing Analysis & Profitability Analysis",
-                "m5": "Customer Relationship Management & Call Center Support",
-                "m6": "Product Data Management",
-                "m7": "Scheduling & Settlements",
-                "url": "https://infomericainc.com/Content/images/connection.gif",
-                "name": "Customer Care"
-            },
-            {
-                "m1": "Billing & Electronic Bill Presentment & Payment",
-                "m2": "Credit Analysis & Accounts Receivable.Remittance Processing",
-                "m3": "Financial Reporting & Correction Programs",
-                "m4": "Forecasting, Scheduling, and Settlement, Billing and EBPP",
-                "m5": "Rate Ready Systems and Bill-Ready Markets",
-                "m6": "Regulatory Reporting & Risk Data Analysis Support",
-                "url": "https://infomericainc.com/Content/images/cloud-network.gif",
-                "name": "Energy Retaining & Bill Settlement"
-            },
-            {
-                "m1": "Customer Relationship Management",
-                "m2": "Billing- Customer Billing/ Time of Use Billing/ Prepaid Billing",
-                "m3": "Meter Asset & Data Management",
-                "m4": "CRM Analytics & Management",
-                "m5": "Automated Meter Reading",
-                "m6": "Contact Center & BPO Services",
-                "url": "https://infomericainc.com/Content/images/computer.gif",
-                "name": "Customer Information System"
-            },
-            {
-                "m1": "Outage Analysis/Probable Event Prediction",
-                "m2": "Circuit Tracking & Feeder management",
-                "m3": "Power Out Requests &Switch Order Management",
-                "m4": "Dispatch & Tracking of Crew",
-                "m5": "Integration of OMS with GIS, SCADA, Work Force Management Systems, IVRS",
-                "url": "https://infomericainc.com/Content/images/rocket.gif",
-                "name": "Contact Center & BPO Services"
-            }
-        ],
-        "banking_manage": [
-            {
-                "m1": "We deploy integrated digital platforms that redefine online banking experiences by enabling seamless interactions, secure transaction processing, and enriched customer engagement. Our solutions are designed to meet the modern-day banking requirements while ensuring adaptability to future advancements.",
-                "url": "https://infomericainc.com/Content/images/connection.gif",
-                "name": "Digital Banking Solutions"
-            },
-            {
-                "m1": "Our systems streamline insurance policy issuance, claims processing, and customer relationship management. We focus on delivering solutions that simplify insurance workflows, ensuring optimal efficiency and enhanced customer satisfaction.",
-                "url": "https://infomericainc.com/Content/images/cloud-network.gif",
-                "name": "Insurance Management Systems"
-            },
-            {
-                "m1": "To navigate the intricate web of industry regulations and standards, we employ innovative tools and methodologies, focusing on effective risk management and regulatory compliance.",
-                "url": "https://infomericainc.com/Content/images/computer.gif",
-                "name": "Risk Management and Compliance"
-            },
-            {
-                "m1": "Leveraging sophisticated technologies, our solutions identify and counteract fraudulent activities, protecting sensitive information and maintaining the security and integrity of your operations.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif",
-                "name": "Contact Center & BPO ServiceFraud Detection and Prevention:"
-            },
-            {
-                "m1": "We strategize to augment customer engagement and offer personalized financial and insurance products and services, ensuring enriched customer experiences and fostering enduring relationships.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif",
-                "name": "Customer Engagement and Personalization:"
-            },
-            {
-                "m1": "Infomerica optimizes operational workflows using automation and advanced process engineering, achieving unparalleled cost-effectiveness and heightened productivity.",
-                "url": "https://infomericainc.com/Content/images/rocket.gif",
-                "name": "Operational Efficiency"
-            }
+        "TO_Data_Services": [
+          {
+            "m2": "Data Services"
+          },
+          {
+            "m2": "CRM / ERP"
+          },
+          {
+            "m2": "IT Consulting Services"
+          },
+          {
+            "m2": "Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
+          },
+          {
+            "m2": "Application Development & Support"
+          },
+          {
+            "m2": "Infrastructure Management & Platform Upgrades"
+          },
+          {
+            "m2": "Reseller of leading software Software"
+          }
         ]
-    },
-    {
-        "mediacloudcomp": [
-            {
-                "m1": "Cloud Computing"
-            },
-            {
-                "m1": "5G & IoT Integration"
-            },
-            {
-                "m1": "Artificial Intelligence and Machine Learning"
-            },
-            {
-                "m1": "Blockchain Technology"
-            },
-            {
-                "m1": "Cybersecurity Solutions"
-            },
-            {
-                "m1": "Electronic Data Interchange [EDI]"
-            }
-        ],
-        "mediadataservices": [
-            {
-                "m2": "Data Services"
-            },
-            {
-                "m2": "CRM / ERP"
-            },
-            {
-                "m2": "IT Consulting Services"
-            },
-            {
-                "m2": "Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
-            },
-            {
-                "m2": "Application Development & Support"
-            },
-            {
-                "m2": "Infrastructure Management & Platform Upgrades"
-            },
-            {
-                "m2": "Reseller of leading software Software"
-            }
-        ]
-    },
-    {
-        "man_auto_para": "Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers. Therefore the auto industry is consistently challenged to find new ways to reach individual consumers with the right vehicle and right offer at the right time, while retaining and increasing the market, as well as using their assets to become profitable.",
-        "man_auto_para_sub": "In the fast-paced and ever-evolving automotive manufacturing sector, Infomerica offers a range of solution offerings designed to enhance operational efficiency, drive innovation, industrial safety ,environmental standards and fuel growth. Our offerings are custom-tailored to meet the unique demands of the automotive manufacturing industry. We leverage our rich experience in brand management, CRM, SRM, dealer monitoring/ordering/information systems, portal management, inquiry-tracking systems, and online-buying systems. We have experience in finance, HRMS, legal, and internal fleet management. Services include warranty systems, parts ordering, inventory systems, and government regulations.",
-        "energy_utility": "In this post-deregulatory environment, the industry is searching for new ways to meet challenges. Improving operational effectiveness in each of these areas is intrinsic to operational and financial performance enhancement of utility organizations. Utility companies are responding to these challenges by restructuring strategies and implementing state-of-the-art technology and business solutions.",
-        "energy_utility_sub": "We have consultants with Customer Infromation Systems (CIS) and Outage Management Systems (OMS) experience working towards diverse solutions and technologies to give IT Consulting Services to utility companies seeking to transform their existing solution landscape.",
-        "banking_insu": "Navigating the multifaceted domains of Banking and Insurance requires specialized expertise and innovative solutions tailored to meet the complex demands of these sectors. Infomerica stands as a beacon of innovation and proficiency in developing and implementing advanced solutions, addressing the challenges and evolving needs of the Banking and Insurance industries. We focus on driving operational excellence, enhancing customer experiences, and facilitating financial and risk management services by leveraging cutting-edge technologies.",
-        "man_auto_detail": "For more details or to discuss your specific needs",
-        "man_auto_contact": " Contact Us",
-        "man_auto_today": "today!",
-        "banking_para": "Navigating the multifaceted domains of Banking and Insurance requires specialized expertise and innovative solutions tailored to meet the complex demands of these sectors. Infomerica stands as a beacon of innovation and proficiency in developing and implementing advanced solutions, addressing the challenges and evolving needs of the Banking and Insurance industries. We focus on driving operational excellence, enhancing customer experiences, and facilitating financial and risk management services by leveraging cutting-edge technologies.",
-        "health_para": "In today's healthcare landscape, prioritizing patient-centric solutions, leveraging data for insights, and ensuring regulatory compliance are paramount. Infomerica stands at the convergence of technology and healthcare, offering sophisticated, integrated solutions to meet the evolving needs of healthcare providers, patients, and life science organizations.",
-        "air_para": "In the fast-evolving sectors of Airline, Travel, and Logistics, Infomerica,Inc stands out as a premier provider of tailored solutions designed to address the dynamic needs of these industries. Our profound industry knowledge enables us to deliver high-quality, innovative solutions that enhance operational efficiency, foster customer satisfaction, and spearhead digital transformation.",
-        "air_sub_para": "By partnering with Infomerica,Inc , businesses experience a blend of innovative solutions and cutting-edge technologies, meticulously crafted to address the evolving needs of the Airline, Travel, and Logistics industries. We offer a collaborative approach, working closely with our clients to navigate industry-specific challenges, explore untapped opportunities, and realize their vision in the dynamic transportation and logistics landscape..",
-        "customer_para": "In the fast-paced and dynamic Consumer & Retail industry, Infomerica,Inc stands as a beacon of innovation and reliability. We specialize in delivering multifaceted solutions and services tailored to meet the evolving needs of consumer-centric businesses. Our depth of industry knowledge coupled with technological prowess enables us to facilitate digital transformation, creating a cohesive and enriched consumer experience.",
-        "customer_sub_para": "  Opting for Infomerica,Inc as your partner in the Consumer & Retail industry means choosing innovation, reliability, and unparalleled quality. We work collaboratively with our clients to address industry-specific challenges, capitalize on emerging opportunities, and delineate transformative solutions that resonate with contemporary consumer expectations.."
-    },
-    {
-        "man_auto_ManagementData": [
-            {
-                "m1": "IOT/ Embedded Electronics",
-                "m2": "Product Life Cycle Management Solutions",
-                "m3": "Production Process Automation",
-                "m4": "CAD / CAE",
-                "m5": "Quality Assurance and Compliance",
-                "m6": "Product Data Management",
-                "name": "Product Management"
-            },
-            {
-                "m1": "Process Consulting",
-                "m2": "Charge Back (SRM)",
-                "m3": "E-Procurement [Strategic Sourcing & Procurement]",
-                "m4": "Dealer Management",
-                "m5": "Route Planning/Logistics",
-                "m6": "Inventory Planning [Demand and Supply planning]",
-                "m7": "Retail Process Integration",
-                "name": "Supply Chain Management"
-            },
-            {
-                "m1": "Marketing",
-                "m2": "Order Management",
-                "m3": "Sales & Service",
-                "m4": "CRM Analytics & Management",
-                "m5": "Sales Planning & Forecast",
-                "m6": "Contract Management",
-                "name": "Channel Management"
-            },
-            {
-                "m1": "Parts Inventory Tracking",
-                "m2": "Parts Accessories Catalogue Marketing",
-                "m3": "Warranty Claims Analysis",
-                "m4": "Government Regulations",
-                "name": "After Sales Service"
-            }
-        ],
-        "health_management": [
-            {
-                "m1": "Aim: To deliver personalized care, integrating clinical workflows, patient management, and health informatics.",
-                "sub": [
-                    {
-                        "f": "Features:",
-                        "f1": "Seamless patient-care provider interactions",
-                        "f2": "Clinical data management",
-                        "f3": "Personalized decision support"
-                    },
-                    {
-                        "f": "Benefits:",
-                        "f1": "Improved patient outcomes",
-                        "f2": "Enhanced care delivery",
-                        "f3": "Enhanced care delivery"
-                    }
-                ],
-                "url": "https://infomericainc.com/Content/images/connection.gif",
-                "name": "Comprehensive Integrated Care Solutions"
-            },
-            {
-                "m1": "Aim: To accelerate scientific research and drug development using cutting-edge technologies and analytical tools.",
-                "sub": [
-                    {
-                        "f": "Features:",
-                        "f1": "Robust research platforms",
-                        "f2": "AI and Big Data integration"
-                    },
-                    {
-                        "f": "Benefits:",
-                        "f1": "Accelerated discoveries",
-                        "f2": "Streamlined innovations",
-                        "f3": "Improved drug development processes"
-                    }
-                ],
-                "url": "https://infomericainc.com/Content/images/cloud-network.gif",
-                "name": "Life Sciences Research & Development"
-            },
-            {
-                "m1": "Aim: To optimize clinical and administrative workflows through intelligent automation.",
-                "sub": [
-                    {
-                        "f": "Features:",
-                        "f1": "Automation of repetitive tasks",
-                        "f2": "Workflow optimization"
-                    },
-                    {
-                        "f": "Benefits:",
-                        "f1": "Reduced operational costs",
-                        "f2": "Enhanced productivity",
-                        "f3": "Streamlined operations"
-                    }
-                ],
-                "url": "https://infomericainc.com/Content/images/computer.gif",
-                "name": "Operational Efficiency & Automation"
-            },
-            {
-                "m1": "Aim: To address regulatory challenges and protect sensitive health information.",
-                "sub": [
-                    {
-                        "f": "Features:",
-                        "f1": "Compliance management systems",
-                        "f2": "Risk mitigation strategies"
-                    },
-                    {
-                        "f": "Benefits:",
-                        "f1": "Enhanced data security",
-                        "f2": "Reduced compliance risks",
-                        "f3": "Optimized regulatory adherence"
-                    }
-                ],
-                "url": "https://infomericainc.com/Content/images/rocket.gif",
-                "name": "Regulatory Compliance, Risk Management & Data Security"
-            },
-            {
-                "m1": "Aim: To offer remote monitoring, telehealth services, and real-time health information access.",
-                "sub": [
-                    {
-                        "f": "Features:",
-                        "f1": "Remote monitoring",
-                        "f2": "Telehealth services"
-                    },
-                    {
-                        "f": "Benefits:",
-                        "f1": "Enhanced healthcare accessibility",
-                        "f2": "Improved patient engagement",
-                        "f3": "Streamlined healthcare delivery"
-                    }
-                ],
-                "url": "https://infomericainc.com/Content/images/rocket.gif",
-                "name": "Digital Health & mHealth Solutions"
-            },
-            {
-                "m1": "Aim: To harness the formidable power of data, enabling pharmaceutical companies to derive actionable insights for informed decision-making and strategic advancements in drug development.",
-                "sub": [
-                    {
-                        "f": "Features:",
-                        "f1": "Comprehensive data analytics",
-                        "f2": "Advanced AI-driven insights",
-                        "f3": "Strategic development enhancements"
-                    },
-                    {
-                        "f": "Benefits:",
-                        "f1": "Transform multifaceted pharmaceutical data into coherent and actionable insights",
-                        "f2": "Improved patient engagement",
-                        "f3": "Streamlined healthcare delivery"
-                    },
-                    {
-                        "f": "Insights",
-                        "f1": "Informed decision-making",
-                        "f2": "Improved strategic planning"
-                    }
-                ],
-                "url": "https://infomericainc.com/Content/images/rocket.gif",
-                "name": "Pharmaceutical Data Analytics & Insights"
-            }
-        ]
-    },
-    {
-        "man_auto_Cloud_Computing": [
-            {
-                "m1": "Cloud Computing"
-            },
-            {
-                "m1": "Internet of Things (IoT)"
-            },
-            {
-                "m1": "Artificial Intelligence and Machine Learning"
-            },
-            {
-                "m1": "Blockchain Technology"
-            },
-            {
-                "m1": "Cybersecurity Solutions"
-            },
-            {
-                "m1": "Augmented and Virtual Reality"
-            },
-            {
-                "m1": "Electronic Data Interchange [EDI]"
-            }
-        ],
-        "man_auto_Data_Services": [
-            {
-                "m2": "Data Services"
-            },
-            {
-                "m2": "CRM / ERP"
-            },
-            {
-                "m2": "IT Consulting Services"
-            },
-            {
-                "m2": "Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
-            },
-            {
-                "m2": "Application Development & Support"
-            },
-            {
-                "m2": "Infrastructure Management & Platform Upgrades"
-            },
-            {
-                "m2":"Reseller of leading software Software"
-            }
-        ],
-        "health_Cloud_Computing": [
-            {
-                "m1": "Mobile Health Applications"
-            },
-            {
-                "m1": "Cloud-Based Solutions"
-            },
-            {
-                "m1": "Internet of Things (IoT)"
-            },
-            {
-                "m1": "Advanced Analytics & AI"
-            },
-            {
-                "m1": "Blockchain in Healthcare"
-            },
-            {
-                "m1": "Cybersecurity Solutions"
-            },
-            {
-                "m1": "Internet of Medical Things (IoMT)"
-            },
-            {
-                "m1": "Internet of Pharmaceutical Things(IoMT)"
-            }
-        ]
-    },
-    {
-        "industriesSolutionOfferings":[
-        [
-            {
-                "solutionHead":"Solution Offerings",
-                "icon":"bi bi-send",
-                "list":[
-                        "Product Management",
-                        "Supply Chain Management",
-                        "Sales and Marketing",
-                        "After Sales Service"
-                ]
-            },
-            {
-                "solutionHead":"Technology Offerings",
-                "icon":"bi bi-send",
-                "list":[
-                        "Reseller of leading software",
-                        "IT Consulting Services",
-                        "Web Services",
-                        "Platform Upgrades"
-                ]
-               
-            }
-        ],
-        [
-            {
-                "solutionHead":"Solution Offerings",
-                "icon":"bi bi-send",
-                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
-                "list":[
-                        "Our Financial Focuses",
-                        "Retail Banking",
-                        "Investment Management",
-                        "Capital Markets"
-                ]
-            },
-            {
-                "solutionHead":"Technology Offerings",
-                "icon":"bi bi-send",
-                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
-                "list":[
-                        "Enterprise Resource Planning",
-                        "Data Warehouse",
-                        "Content/Records Management",
-                        "Master Data Management"
-                ]
-               
-            }
-        ],
-        [
-            {
-                "solutionHead":"Solution Offerings",
-                "icon":"bi bi-send",
-                "list":[
-                        "Hospital Information System",
-                        "Multi-Specialty Modules",
-                        "Validation Services",
-                        "Sales and Marketing"
-                ]
-            },
-            {
-                "solutionHead":"Technology Offerings",
-                "icon":"bi bi-send",
-                "list":[
-                        "Platform Upgrades",
-                        "Software Development",
-                        "E-Commerce Development",
-                        "Master Data Management"
-                ]
-               
-            }
-        ],
-        [
-            {
-                "solutionHead":"Solution Offerings",
-                "icon":"bi bi-send",
-                "color":"#0f62fe",
-                "list":[
-                        "Revenue Assurance",
-                        "Inventory Management",
-                        "Service Provisioning",
-                        "Enterprise Applications"
-                ]
-            },
-            {
-                "solutionHead":"Technology Offerings",
-                "icon":"bi bi-send",
-                "color":"#FE0000",
-                "list":[
-                        "Electronic Data Interchange",
-                        " Data Warehouse",
-                        "Infrastructure Management",
-                        "Records Management"
-                ]
-               
-            }
-        ],
-        [
-            {
-                "solutionHead":"Solution Offerings",
-                "icon":"bi bi-send",
-                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
-                "list":[
-                        "Technical Operations",
-                        "Transportation Planning",
-                        "Loyalty Management",
-                        "Online Presence & Portals"
-                ]
-            },
-            {
-                "solutionHead":"Technology Offerings",
-                "icon":"bi bi-send",
-                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
-                "list":[
-                        "Reseller of leading software",
-                        "Enterprise Portals",
-                        "Web Services",
-                        "E-Commerce Development"
-                ]
-               
-            }
-        ]
-        ]
-    },
-    {
-        "IndustriesSideContent":[
-            {
-                "h1":"Manufacturing",
-                "h2":"& Automotive",
-                "p1":"Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers.",
-                "readmore":"Read More",
-                "route":"/Manufacturing-Automotive"
-            },
-            {
-                "h1":"Banking &",
-                "h2":"Insurance Services",
-                "p1":"Infomerica helps retail banks shift their focus from their products to their customers by offering solutions tailored for the needs and goals of their most valuable customers and high potential value prospects.",
-                "readmore":"Read More",
-                "route":"/Banking-Insurance-Services"
-            },
-            {
-                "h1":"Healthcare &",
-                "h2":"Life Sciences",
-                "p1":"Healthcare payers, providers and pharmaceutical organizations must continue leveraging technology to automate their businesses for greater efficiency and effectiveness.",
-                "readmore":"Read More",
-                "route":"/Healthcare-LifeSciences"
-            },
-            {
-                "h1":"Media &",
-                "h2":"Telecom",
-                "p1":"Media Groups, Telecom Operators, Internet Players, Publishing Companies, And Cable Television, VoIP, Satellite, Wireless Providers Are All Competing For The Time Of People.",
-                "readmore":"Read More",
-                "route":"/Media-Telecom"
-            },
-            {
-                "h1":"Airline / Travel /",
-                "h2":"Logistics",
-                "p1":"It is a known fact that more than two-thirds of the planet is covered by water and that more than 80% of all finished goods and raw materials traded globally is shipped through sea.",
-                "readmore":"Read More",
-                "route":"/Airline-Travel-Logistics"
-            }
-        ]
+      },
+      "MAA_Details": "For more details or to discuss your specific needs",
+      "MAA_contactus": " Contact Us",
+      "MAA_today": "today!"
     }
+  },
+  {
+    "Energy_and_Utilities": {
+      "EU_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
+      "EU_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "EU_Energy": "Energy ",
+      "EU_Utilities": "and Utilities",
+      "EU_Para1": "In this post-deregulatory environment, the industry is searching for new ways to meet challenges. Improving operational effectiveness in each of these areas is intrinsic to operational and financial performance enhancement of utility organizations. Utility companies are responding to these challenges by restructuring strategies and implementing state-of-the-art technology and business solutions.",
+      "EU_Para2": "We have consultants with Customer Infromation Systems (CIS) and Outage Management Systems (OMS) experience working towards diverse solutions and technologies to give IT Consulting Services to utility companies seeking to transform their existing solution landscape.",
+      "EU_Solution": "Solution",
+      "EU_Offerings": "Offerings",
+      "EU_SO_description": "We strive for your business growth through innovative approaches",
+      "EU_SO_ProductManagementData": [
+        {
+          "m1": "Legacy/Best-of-Breed Product Implementation",
+          "m2": "Support & Maintenance",
+          "m3": "Metering/Profiling of Customer Base",
+          "m4": "Strategic Pricing Analysis & Profitability Analysis",
+          "m5": "Customer Relationship Management & Call Center Support",
+          "m6": "Scheduling & Settlements",
+          "url": "https://infomericainc.com/Content/images/connection.gif",
+          "name": "Customer Care"
+        },
+        {
+          "m1": "Billing & Electronic Bill Presentment & Payment",
+          "m2": "Credit Analysis & Accounts Receivable.Remittance Processing",
+          "m3": "Financial Reporting & Correction Programs",
+          "m4": "Forecasting, Scheduling, and Settlement, Billing and EBPP",
+          "m5": "Rate Ready Systems and Bill-Ready Markets",
+          "m6": "Regulatory Reporting & Risk Data Analysis Support",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "name": "Energy Retaining & Bill Settlement"
+        },
+        {
+          "m1": "Customer Relationship Management",
+          "m2": "Billing- Customer Billing/ Time of Use Billing/ Prepaid Billing",
+          "m3": "Meter Asset & Data Management",
+          "m4": "Automated Meter Reading",
+          "m5": "Contact Center & BPO Services",
+          "url": "https://infomericainc.com/Content/images/computer.gif",
+          "name": "Customer Information System"
+        },
+        {
+          "m1": "Outage Analysis/Probable Event Prediction",
+          "m2": "Circuit Tracking & Feeder management",
+          "m3": "Power Out Requests &Switch Order Management",
+          "m4": "Dispatch & Tracking of Crew",
+          "m5": "Integration of OMS with GIS, SCADA, Work Force Management Systems, IVRS",
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Outage Management System"
+        }
+      ],
+      "EU_Technology_Offerings": {
+        "TO_Technology": "Technology",
+        "TO_Offerings": "Offerings",
+        "TO_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
+        "TO_Cloud_Computing": [
+          {
+            "m1": "Cloud Computing"
+          },
+          {
+            "m1": "Internet of Things (IoT)"
+          },
+          {
+            "m1": "Artificial Intelligence and Machine Learning"
+          },
+          {
+            "m1": "Blockchain Technology"
+          },
+          {
+            "m1": "Cybersecurity Solutions"
+          },
+          {
+            "m1": "Augmented and Virtual Reality"
+          },
+          {
+            "m1": "Electronic Data Interchange [EDI]"
+          }
+        ],
+        "TO_Data_Services": [
+          {
+            "m2": "Data Services"
+          },
+          {
+            "m2": "CRM / ERP"
+          },
+          {
+            "m2": "IT Consulting Services"
+          },
+          {
+            "m2": "Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
+          },
+          {
+            "m2": "Application Development & Support"
+          },
+          {
+            "m2": "Infrastructure Management & Platform Upgrades"
+          },
+          {
+            "m2": "Reseller of leading software Software"
+          }
+        ]
+      },
+      "EU_Details": "For more details or to discuss your specific needs",
+      "EU_contactus": " Contact Us",
+      "EU_today": "today!"
+    }
+  },
+  {
+    "Banking_and_Insurance": {
+      "BI_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
+      "BI_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "BI_Banking": "Banking and",
+      "BI_Insurance": "Insurance",
+      "BI_BankingInsurancePara": "Navigating the multifaceted domains of Banking and Insurance requires specialized expertise and innovative solutions tailored to meet the complex demands of these sectors. Infomerica stands as a beacon of innovation and proficiency in developing and implementing advanced solutions, addressing the challenges and evolving needs of the Banking and Insurance industries. We focus on driving operational excellence, enhancing customer experiences, and facilitating financial and risk management services by leveraging cutting-edge technologies.",
+      "BI_Solution": "Solution",
+      "BI_Offerings": "Offerings",
+      "BI_SO_description": "We strive for your business growth through innovative approaches",
+      "BI_SO_Product_ManagementData": [
+        {
+          "m1": "We deploy integrated digital platforms that redefine online banking experiences by enabling seamless interactions, secure transaction processing, and enriched customer engagement. Our solutions are designed to meet the modern-day banking requirements while ensuring adaptability to future advancements.",
+          "url": "https://infomericainc.com/Content/images/connection.gif",
+          "name": "Digital Banking Solutions"
+        },
+        {
+          "m1": "Our systems streamline insurance policy issuance, claims processing, and customer relationship management. We focus on delivering solutions that simplify insurance workflows, ensuring optimal efficiency and enhanced customer satisfaction.",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "name": "Insurance Management Systems"
+        },
+        {
+          "m1": "To navigate the intricate web of industry regulations and standards, we employ innovative tools and methodologies, focusing on effective risk management and regulatory compliance.",
+          "url": "https://infomericainc.com/Content/images/computer.gif",
+          "name": "Risk Management and Compliance"
+        },
+        {
+          "m1": "Leveraging sophisticated technologies, our solutions identify and counteract fraudulent activities, protecting sensitive information and maintaining the security and integrity of your operations.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Fraud Detection and Prevention"
+        },
+        {
+          "m1": "We strategize to augment customer engagement and offer personalized financial and insurance products and services, ensuring enriched customer experiences and fostering enduring relationships.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Customer Engagement and Personalization"
+        },
+        {
+          "m1": "Infomerica optimizes operational workflows using automation and advanced process engineering, achieving unparalleled cost-effectiveness and heightened productivity.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Operational Efficiency"
+        }
+      ],
+      "BI_Technology_Offerings": {
+        "TO_Technology": "Technology",
+        "TO_Offerings": "Offerings",
+        "TO_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
+        "TO_Cloud_Computing": [
+          {
+            "m1": "Robotic Process Automation (RPA)"
+          },
+          {
+            "m1": "Cloud Computing"
+          },
+          {
+            "m1": "Internet of Things (IoT)"
+          },
+          {
+            "m1": "Artificial Intelligence and Machine Learning"
+          },
+          {
+            "m1": "Blockchain Technology"
+          },
+          {
+            "m1": "Cybersecurity Solutions"
+          },
+          {
+            "m1": "Augmented and Virtual Reality"
+          },
+          {
+            "m1": "Electronic Data Interchange [EDI]"
+          }
+        ],
+        "TO_Data_Services": [
+          {
+            "m2": "Data Services"
+          },
+          {
+            "m2": "CRM / ERP"
+          },
+          {
+            "m2": "IT Consulting Services"
+          },
+          {
+            "m2": "Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
+          },
+          {
+            "m2": "Application Development & Support"
+          },
+          {
+            "m2": "Infrastructure Management & Platform Upgrades"
+          },
+          {
+            "m2": "Reseller of leading software Software"
+          }
+        ]
+      },
+      "BI_Details": "For more details or to discuss your specific needs",
+      "BI_contactus": " Contact Us",
+      "BI_today": "today!"
+    }
+  },
+  {
+    "Healthcare_and_Life_Sciences": {
+      "HLS_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
+      "HLS_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "HLS_Head1": "Unlocking Innovation in ",
+      "HLS_Head2": "Healthcare and Life Sciences",
+      "HLS_Para": "In today's healthcare landscape, prioritizing patient-centric solutions, leveraging data for insights, and ensuring regulatory compliance are paramount. Infomerica stands at the convergence of technology and healthcare, offering sophisticated, integrated solutions to meet the evolving needs of healthcare providers, patients, and life science organizations.",
+      "HLS_Solution": "Solution",
+      "HLS_Offerings": "Offerings",
+      "HLS_SO_description": "We strive for your business growth through innovative approaches",
+      "HLS_Health_ManagementData": [
+        {
+          "m1": "Aim: To deliver personalized care, integrating clinical workflows, patient management, and health informatics.",
+          "sub": [
+            {
+              "f": "Features:",
+              "f1": "Seamless patient-care provider interactions",
+              "f2": "Clinical data management",
+              "f3": "Personalized decision support"
+            },
+            {
+              "f": "Benefits:",
+              "f1": "Improved patient outcomes",
+              "f2": "Enhanced care delivery",
+              "f3": " Increased patient engagement"
+            }
+          ],
+          "url": "https://infomericainc.com/Content/images/connection.gif",
+          "name": "Comprehensive Integrated Care Solutions"
+        },
+        {
+          "m1": "Aim: To accelerate scientific research and drug development using cutting-edge technologies and analytical tools.",
+          "sub": [
+            {
+              "f": "Features:",
+              "f1": "Robust research platforms",
+              "f2": "AI and Big Data integration"
+            },
+            {
+              "f": "Benefits:",
+              "f1": "Accelerated discoveries",
+              "f2": "Streamlined innovations",
+              "f3": "Improved drug development processes"
+            }
+          ],
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "name": "Life Sciences Research & Development"
+        },
+        {
+          "m1": "Aim: To optimize clinical and administrative workflows through intelligent automation.",
+          "sub": [
+            {
+              "f": "Features:",
+              "f1": "Automation of repetitive tasks",
+              "f2": "Workflow optimization"
+            },
+            {
+              "f": "Benefits:",
+              "f1": "Reduced operational costs",
+              "f2": "Enhanced productivity",
+              "f3": "Streamlined operations"
+            }
+          ],
+          "url": "https://infomericainc.com/Content/images/computer.gif",
+          "name": "Operational Efficiency & Automation"
+        },
+        {
+          "m1": "Aim: To address regulatory challenges and protect sensitive health information.",
+          "sub": [
+            {
+              "f": "Features:",
+              "f1": "Compliance management systems",
+              "f2": "Risk mitigation strategies"
+            },
+            {
+              "f": "Benefits:",
+              "f1": "Enhanced data security",
+              "f2": "Reduced compliance risks",
+              "f3": "Optimized regulatory adherence"
+            }
+          ],
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Regulatory Compliance, Risk Management & Data Security"
+        },
+        {
+          "m1": "Aim: To offer remote monitoring, telehealth services, and real-time health information access.",
+          "sub": [
+            {
+              "f": "Features:",
+              "f1": "Remote monitoring",
+              "f2": "Telehealth services"
+            },
+            {
+              "f": "Benefits:",
+              "f1": "Enhanced healthcare accessibility",
+              "f2": "Improved patient engagement",
+              "f3": "Streamlined healthcare delivery"
+            }
+          ],
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Digital Health & mHealth Solutions"
+        },
+        {
+          "m1": "Aim: To harness the formidable power of data, enabling pharmaceutical companies to derive actionable insights for informed decision-making and strategic advancements in drug development.",
+          "sub": [
+            {
+              "f": "Features:",
+              "f1": "Comprehensive data analytics",
+              "f2": "Advanced AI-driven insights",
+              "f3": "Strategic development enhancements"
+            },
+            {
+              "f": "Benefits:",
+              "f1": "Transform multifaceted pharmaceutical data into coherent and actionable insights",
+              "f2": "Informed decision-making",
+              "f3": "Improved strategic planning"
+            }
+          ],
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Pharmaceutical Data Analytics & Insights"
+        }
+      ],
+      "HLS_Technology_Offerings": {
+        "TO_Technology": "Technology",
+        "TO_Offerings": "Offerings",
+        "TO_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
+        "TO_Cloud_Computing": [
+          {
+            "m1": "Mobile Health Applications"
+          },
+          {
+            "m1": "Cloud-Based Solutions"
+          },
+          {
+            "m1": "Internet of Things (IoT)"
+          },
+          {
+            "m1": "Advanced Analytics & AI"
+          },
+          {
+            "m1": "Blockchain in Healthcare"
+          },
+          {
+            "m1": "Cybersecurity Solutions"
+          },
+          {
+            "m1": "Internet of Medical Things (IoMT)"
+          },
+          {
+            "m1": "Internet of Pharmaceutical Things(IoMT)"
+          }
+        ],
+        "TO_Data_Services": [
+          {
+            "m2": "Data Services"
+          },
+          {
+            "m2": "CRM / ERP"
+          },
+          {
+            "m2": "IT Consulting Services"
+          },
+          {
+            "m2": "Robotic Process Automation (RPA)"
+          },
+          {
+            "m2": "Mobile Health & Pharmaceutical Applications"
+          },
+          {
+            "m2": "Infrastructure Management & Platform Upgrades"
+          },
+          {
+            "m2": "Reseller of leading software Software"
+          }
+        ]
+      },
+      "HLS_Details": "For more details or to discuss your specific needs",
+      "HLS_contactus": " Contact Us",
+      "HLS_today": "today!"
+    }
+  },
+  {
+    "Media_and_Telecom": {
+      "MT_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
+      "MT_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "MT_Media": "Media and",
+      "MT_Telecom": "Telecom",
+      "MT_Para1": "In the transformative sectors of Media & Telecom, Infomerica,Inc emerges as a leading solution provider, seamlessly integrating innovative technologies to cater to the intricate and diverse needs of the industry. Our rich experience and deep industry insights enable us to create and deliver unparalleled solutions, elevating user experience, boosting operational efficacy, and driving digital evolution.",
+      "MT_Para2": "Choosing Infomerica,Inc as your partner in the Media & Telecom sector means embracing innovative, high-quality solutions underpinned by cutting-edge technologies. We foster a collaborative approach, working meticulously with our clients to unravel industry challenges, uncover novel opportunities, and transform visions into reality in the constantly evolving Media & Telecom sectors.",
+      "MT_Solution": "Solution",
+      "MT_Offerings": "Offerings",
+      "MT_SO_description": "We strive for your business growth through innovative approaches",
+      "MT_SO_MediaManagementData": [
+        {
+          "name": "Content Delivery Networks",
+          "p1": "We design resilient and scalable content delivery networks to ensure uninterrupted and high-quality media streaming, addressing the demand for instant content access and superior user experience..",
+          "url": "https://infomericainc.com/Content/images/connection.gif"
+        },
+        {
+          "name": "Customer Management Systems",
+          "p1": "Our comprehensive customer management solutions empower Telecom operators to enhance customer interactions, resolve issues promptly, and implement personalized engagement strategies.",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif"
+        },
+        {
+          "name": "Billing & Revenue Management",
+          "p1": "We offer robust and flexible billing and revenue management solutions, optimizing revenue streams and facilitating transparent and accurate invoicing.",
+          "url": "https://infomericainc.com/Content/images/computer.gif"
+        },
+        {
+          "name": "Operational Analytics",
+          "p1": "We harness the power of data analytics and Artificial Intelligence to facilitate informed decision-making processes, predictive maintenance, and continuous operational improvements.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif"
+        },
+        {
+          "name": "Revenue Management",
+          "p1": "We construct dynamic and adaptable pricing models and inventory management systems. These solutions are devised to optimize revenue growth and adjust efficiently to market demands and fluctuations.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif"
+        }
+      ],
+      "MT_Technology_Offerings": {
+        "TO_Technology": "Technology",
+        "TO_Offerings": "Offerings",
+        "TO_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
+        "TO_Cloud_Computing": [
+          {
+            "m1": "Cloud Computing"
+          },
+          {
+            "m1": "5G & IoT Integration"
+          },
+          {
+            "m1": "Artificial Intelligence and Machine Learning"
+          },
+          {
+            "m1": "Blockchain Technology"
+          },
+          {
+            "m1": "Cybersecurity Solutions"
+          },
+          {
+            "m1": "Electronic Data Interchange [EDI]"
+          }
+        ],
+        "TO_Data_Services": [
+          {
+            "m2": "Data Services"
+          },
+          {
+            "m2": "CRM / ERP"
+          },
+          {
+            "m2": "IT Consulting Services"
+          },
+          {
+            "m2": "Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
+          },
+          {
+            "m2": "Application Development & Support"
+          },
+          {
+            "m2": "Infrastructure Management & Platform Upgrades"
+          },
+          {
+            "m2": "Reseller of leading software Software"
+          }
+        ]
+      },
+      "MT_Details": "For more details or to discuss your specific needs",
+      "MT_contactus": " Contact Us",
+      "MT_today": "today!"
+    }
+  },
+  {
+    "Airline_Travel_Logistics": {
+      "ATL_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
+      "ATL_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "ATL_Airline": "Airline, Travel and",
+      "ATL_Logistics": "Logistics",
+      "ATL_Para1": "In the fast-evolving sectors of Airline, Travel, and Logistics, Infomerica,Inc stands out as a premier provider of tailored solutions designed to address the dynamic needs of these industries. Our profound industry knowledge enables us to deliver high-quality, innovative solutions that enhance operational efficiency, foster customer satisfaction, and spearhead digital transformation.",
+      "ATL_Para2": "By partnering with Infomerica,Inc , businesses experience a blend of innovative solutions and cutting-edge technologies, meticulously crafted to address the evolving needs of the Airline, Travel, and Logistics industries. We offer a collaborative approach, working closely with our clients to navigate industry-specific challenges, explore untapped opportunities, and realize their vision in the dynamic transportation and logistics landscape..",
+      "ATL_Solution": "Solution",
+      "ATL_Offerings": "Offerings",
+      "ATL_SO_description": "We strive for your business growth through innovative approaches",
+      "ATL_SO_MediaManagementData": [
+        {
+          "name": "Integrated Booking Systems",
+          "p1": "We develop sophisticated and customer-centric booking and reservation systems. These platforms are meticulously designed to provide seamless user experiences, aiming to convert and retain customers, ensuring satisfaction at every touchpoint.",
+          "url": "https://infomericainc.com/Content/images/connection.gif"
+        },
+        {
+          "name": "Supply Chain Optimization",
+          "p1": "Our strategic logistics solutions focus on elevating supply chain resilience and transparency. We empower businesses with real-time visibility and control, making way for efficient and effective supply chain management.",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif"
+        },
+        {
+          "name": "Customer Engagement Platforms",
+          "p1": "Utilizing advanced CRM solutions, we enable businesses to forge lasting relationships with their customers. We create personalized engagement strategies, enhancing customer loyalty and satisfaction.",
+          "url": "https://infomericainc.com/Content/images/computer.gif"
+        },
+        {
+          "name": "Operational Analytics",
+          "p1": "We harness the power of data analytics and Artificial Intelligence to facilitate informed decision-making processes, predictive maintenance, and continuous operational improvements.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif"
+        },
+        {
+          "name": "Revenue Management",
+          "p1": "We construct dynamic and adaptable pricing models and inventory management systems. These solutions are devised to optimize revenue growth and adjust efficiently to market demands and fluctuations.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif"
+        }
+      ],
+      "ATL_Technology_Offerings": {
+        "TO_Technology": "Technology",
+        "TO_Offerings": "Offerings",
+        "TO_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
+        "TO_Cloud_Computing": [
+          {
+            "m1": "Cloud Computing"
+          },
+          {
+            "m1": "Internet of Things (IoT)"
+          },
+          {
+            "m1": "Artificial Intelligence and Machine Learning"
+          },
+          {
+            "m1": "Blockchain Technology"
+          },
+          {
+            "m1": "Cybersecurity Solutions"
+          },
+          {
+            "m1": "Electronic Data Interchange [EDI]"
+          }
+        ],
+        "TO_Data_Services": [
+          {
+            "m2": "Data Services"
+          },
+          {
+            "m2": "CRM / ERP"
+          },
+          {
+            "m2": "IT Consulting Services"
+          },
+          {
+            "m2": "Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
+          },
+          {
+            "m2": "Application Development & Support"
+          },
+          {
+            "m2": "Infrastructure Management & Platform Upgrades"
+          },
+          {
+            "m2": "Reseller of leading software Software"
+          }
+        ]
+      },
+      "ATL_Details": "For more details or to discuss your specific needs",
+      "ATL_contactus": " Contact Us",
+      "ATL_today": "today!"
+    }
+  },
+  {
+    "Consumer_and_Retail": {
+      "CR_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
+      "CR_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "CR_Consumer": "Consumer and",
+      "CR_Retail": "Retail",
+      "CR_Para1": "In the fast-paced and dynamic Consumer & Retail industry, Infomerica,Inc stands as a beacon of innovation and reliability. We specialize in delivering multifaceted solutions and services tailored to meet the evolving needs of consumer-centric businesses. Our depth of industry knowledge coupled with technological prowess enables us to facilitate digital transformation, creating a cohesive and enriched consumer experience.",
+      "CR_Para2": "Opting for Infomerica,Inc as your partner in the Consumer & Retail industry means choosing innovation, reliability, and unparalleled quality. We work collaboratively with our clients to address industry-specific challenges, capitalize on emerging opportunities, and delineate transformative solutions that resonate with contemporary consumer expectations..",
+      "CR_Solution": "Solution",
+      "CR_Offerings": "Offerings",
+      "CR_SO_description": "We strive for your business growth through innovative approaches",
+      "CR_SO_MediaManagementData": [
+        {
+          "name": "Omnichannel Retail Solutions",
+          "p1": "We develop seamless and integrative omnichannel solutions that enable businesses to offer a consistent and engaging customer experience across various touchpoints, both online and offline.",
+          "url": "https://infomericainc.com/Content/images/connection.gif"
+        },
+        {
+          "name": "Supply Chain Optimization",
+          "p1": "Leverage our advanced solutions to optimize supply chain processes, ensuring agility, reducing costs, and improving overall operational efficiency.",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif"
+        },
+        {
+          "name": "Customer Engagement & Loyalty Programs",
+          "p1": "Our innovative customer engagement strategies and loyalty programs are designed to elevate customer relationships, drive brand loyalty, and enhance overall consumer satisfaction.",
+          "url": "https://infomericainc.com/Content/images/computer.gif"
+        },
+        {
+          "name": "E-Commerce Solutions",
+          "p1": "Our robust and scalable e-commerce solutions are crafted to deliver an intuitive and seamless shopping experience, driving conversion rates and fostering business growth.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif"
+        },
+        {
+          "name": "Data Analytics & Insight",
+          "p1": "Employing advanced analytics, we help businesses glean actionable insights from consumer data, enabling informed decision-making and personalized consumer interactions.",
+          "url": "https://infomericainc.com/Content/images/rocket.gif"
+        }
+      ],
+      "CR_Technology_Offerings": {
+        "TO_Technology": "Technology",
+        "TO_Offerings": "Offerings",
+        "TO_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
+        "TO_Cloud_Computing": [
+          {
+            "m1": "Cloud Computing"
+          },
+          {
+            "m1": "IIoT Integration"
+          },
+          {
+            "m1": "Augmented & Virtual Reality"
+          },
+          {
+            "m1": "Artificial Intelligence and Machine Learning"
+          },
+          {
+            "m1": "Blockchain Technology"
+          },
+          {
+            "m1": "Cybersecurity Solutions"
+          },
+          {
+            "m1": "Electronic Data Interchange [EDI]"
+          }
+        ],
+        "TO_Data_Services": [
+          {
+            "m2": "Data Services"
+          },
+          {
+            "m2": "CRM / ERP"
+          },
+          {
+            "m2": "IT Consulting Services"
+          },
+          {
+            "m2": "Enterprise Application Integration [EAI] /Process Integration [BPM/SOA]"
+          },
+          {
+            "m2": "Application Development & Support"
+          },
+          {
+            "m2": "Infrastructure Management & Platform Upgrades"
+          },
+          {
+            "m2": "Reseller of leading software Software"
+          }
+        ]
+      },
+      "CR_Details": "For more details or to discuss your specific needs",
+      "CR_contactus": " Contact Us",
+      "CR_today": "today!"
+    }
+  },
+  {
+    "Industries": {
+      "Industries_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
+      "Industries_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "Industries_Manufacturing_Automotive": {
+        "industriesSolutionOfferings": [
+          {
+            "solutionHead": "Solution Offerings",
+            "icon": "bi bi-send",
+            "list": [
+              "Product Management",
+              "Supply Chain Management",
+              "Sales and Marketing",
+              "After Sales Service"
+            ]
+          },
+          {
+            "solutionHead": "Technology Offerings",
+            "icon": "bi bi-send",
+            "list": [
+              "Reseller of leading software",
+              "IT Consulting Services",
+              "Web Services",
+              "Platform Upgrades"
+            ]
+          }
+        ],
+        "IndustriesSideContent": {
+          "h1": "Manufacturing",
+          "h2": "& Automotive",
+          "p1": "Consumers today seek products as if they are made specifically for them as individuals. The automotive industry is not an exception to escape the high expectations of consumers.",
+          "readmore": "Read More",
+          "route": "/Manufacturing-Automotive"
+        }
+      },
+      "Banking_Financial_Services": {
+        "industriesSolutionOfferings": [
+          {
+            "solutionHead": "Solution Offerings",
+            "icon": "bi bi-send",
+            "bulb": "fa fa-lightbulb fa-5x fa-icon-image",
+            "list": [
+              "Our Financial Focuses",
+              "Retail Banking",
+              "Investment Management",
+              "Capital Markets"
+            ]
+          },
+          {
+            "solutionHead": "Technology Offerings",
+            "icon": "bi bi-send",
+            "bulb": "fa fa-lightbulb fa-5x fa-icon-image",
+            "list": [
+              "Enterprise Resource Planning",
+              "Data Warehouse",
+              "Content/Records Management",
+              "Master Data Management"
+            ]
+          }
+        ],
+        "IndustriesSideContent": {
+          "h1": "Banking &",
+          "h2": "Insurance Services",
+          "p1": "Infomerica helps retail banks shift their focus from their products to their customers by offering solutions tailored for the needs and goals of their most valuable customers and high potential value prospects.",
+          "readmore": "Read More",
+          "route": "/Banking-Insurance-Services"
+        }
+      },
+      "Healthcare_Life_Sciences": {
+        "industriesSolutionOfferings": [
+          {
+            "solutionHead": "Solution Offerings",
+            "icon": "bi bi-send",
+            "list": [
+              "Hospital Information System",
+              "Multi-Specialty Modules",
+              "Validation Services",
+              "Sales and Marketing"
+            ]
+          },
+          {
+            "solutionHead": "Technology Offerings",
+            "icon": "bi bi-send",
+            "list": [
+              "Platform Upgrades",
+              "Software Development",
+              "E-Commerce Development",
+              "Master Data Management"
+            ]
+          }
+        ],
+        "IndustriesSideContent": {
+          "h1": "Healthcare &",
+          "h2": "Life Sciences",
+          "p1": "Healthcare payers, providers and pharmaceutical organizations must continue leveraging technology to automate their businesses for greater efficiency and effectiveness.",
+          "readmore": "Read More",
+          "route": "/Healthcare-LifeSciences"
+        }
+      },
+      "Media_Telecom": {
+        "industriesSolutionOfferings": [
+          {
+            "solutionHead": "Solution Offerings",
+            "icon": "bi bi-send",
+            "color": "#0f62fe",
+            "list": [
+              "Revenue Assurance",
+              "Inventory Management",
+              "Service Provisioning",
+              "Enterprise Applications"
+            ]
+          },
+          {
+            "solutionHead": "Technology Offerings",
+            "icon": "bi bi-send",
+            "color": "#FE0000",
+            "list": [
+              "Electronic Data Interchange",
+              " Data Warehouse",
+              "Infrastructure Management",
+              "Records Management"
+            ]
+          }
+        ],
+        "IndustriesSideContent": {
+          "h1": "Media &",
+          "h2": "Telecom",
+          "p1": "Media Groups, Telecom Operators, Internet Players, Publishing Companies, And Cable Television, VoIP, Satellite, Wireless Providers Are All Competing For The Time Of People.",
+          "readmore": "Read More",
+          "route": "/Media-Telecom"
+        }
+      },
+      "Airline_Travel_Logistics": {
+        "industriesSolutionOfferings": [
+          {
+            "solutionHead": "Solution Offerings",
+            "icon": "bi bi-send",
+            "bulb": "fa fa-lightbulb fa-5x fa-icon-image",
+            "list": [
+              "Technical Operations",
+              "Transportation Planning",
+              "Loyalty Management",
+              "Online Presence & Portals"
+            ]
+          },
+          {
+            "solutionHead": "Technology Offerings",
+            "icon": "bi bi-send",
+            "bulb": "fa fa-lightbulb fa-5x fa-icon-image",
+            "list": [
+              "Reseller of leading software",
+              "Enterprise Portals",
+              "Web Services",
+              "E-Commerce Development"
+            ]
+          }
+        ],
+        "IndustriesSideContent": {
+          "h1": "Airline / Travel /",
+          "h2": "Logistics",
+          "p1": "It is a known fact that more than two-thirds of the planet is covered by water and that more than 80% of all finished goods and raw materials traded globally is shipped through sea.",
+          "readmore": "Read More",
+          "route": "/Airline-Travel-Logistics"
+        }
+      }
+    }
+  }
 ]
