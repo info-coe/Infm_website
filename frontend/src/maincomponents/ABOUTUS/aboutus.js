@@ -5,23 +5,18 @@ import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 const Aboutus = (props) => {
   const AboutusContent = JSON.parse(props.product.aboutusContent.Content);
   const data= AboutusContent
-  console.log(data)
-  // const data = props.product;
-  const content = [
-    data[1].content[0].aboutUsContent,
-    data[1].content[0].aboutUsContent2,
-    data[1].content[0].aboutUsContent3,
-    data[1].content[0].aboutUsContent4,
-    data[1].content[0].aboutUsContent5,
-  ];
+  .map((item) => item.About_Us)
+  .filter(Boolean)
+  .reduce((acc, curr) => acc.concat(curr), [])[0];
+
   return (
     <>
     <div>
-       <img src={data[0].aboutUsmainimage}  width="100%" alt='no-display' className="img-fluid d-none d-md-block"  />
-       <img src={data[0].aboutUsSubimage} alt='no-display' className="img-fluid d-md-none w-100" />
+       <img src={data.AU_MainBanner}  width="100%" alt='no-display' className="img-fluid d-none d-md-block"  />
+       <img src={data.AU_MobileBanner} alt='no-display' className="img-fluid d-md-none w-100" />
        
     <div className="mt-5 mb-5">
-      <AboutZoomin heading1={data[0].aboutUsHeading1} heading2={data[0].aboutUsHeading2} content={content} />
+      <AboutZoomin heading1={data.AU_About} heading2={data.AU_Infomerica} content={data.AU_Content} />
     </div>
     </div>
     </>

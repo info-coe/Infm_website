@@ -20,32 +20,32 @@ export default function Home(props) {
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), []);
   // serviceContent[0].ServicesData
-  const homeData = HomeContent[0].content[0];
-  const circleData = HomeContent[1].circleDatas;
-  const MainSlideData = HomeContent[4].MainSlider;
-  const innovativeApproachesData = HomeContent[5].innovativeApproachesData;
-  const solutionOfferingsData = HomeContent[6].solutionOfferingsData;
-  const whychooseus = HomeContent[7].whychooseus[0];
-  const businesspartners = HomeContent[8].BusinessPartners;
+  const homeData = HomeContent[0].Business_Growth_Through;
+  const circleData = HomeContent[0].Thought_Leadership_Circles;
+  const MainSlideData = HomeContent[0].Home_Banner;
+  const innovativeApproachesData = HomeContent[0].Why_Choose_Us.Few_Good_Reasons_Data;
+  const solutionOfferingsData = HomeContent[0].Why_Choose_Us.Solution_Offerings_Data;
+  const whychooseus = HomeContent[0].Why_Choose_Us;
+  const businesspartners = HomeContent[0].Business_Partners;
 
   return (
     <div>
       <MainSlider MainSlideData={MainSlideData} />
-      <Marquee content={MainSlideData[0].contentslider} />
+      <Marquee content={MainSlideData.HB_Marquee} />
       <div className="container mt-5">
         <div className="row align-items-center">
           <div className="col-md-6 mb-3 ">
-            <ImageMoving image={homeData.image} />
+            <ImageMoving image={homeData.BGT_image} />
           </div>
           <div className="col-md-6">
             <Zoomin2
-              Mainheading={homeData.hmainhead}
-              heading={homeData.hhead1}
-              heading2={homeData.hhead2}
-              content={[homeData.hcontent]}
-              btn={homeData.hbtn}
-              icon={homeData.hbtnicon}
-              s={homeData.hstrongcontent}
+              Mainheading={homeData.BGT_head}
+              heading={homeData.BGT_head1}
+              heading2={homeData.BGT_head2}
+              content={[homeData.BGT_whoweareDesc]}
+              btn={homeData.BGT_moredetailsbtn}
+              icon={homeData.BGT_anglerighticon}
+              s={homeData.BGT_whoweare}
             />
           </div>
         </div>
@@ -63,25 +63,25 @@ export default function Home(props) {
       </div>
 
       <div className="mt-2 mb-4">
-        <Marquee content={MainSlideData[0].contentslider} />
+        <Marquee content={MainSlideData.HB_Marquee} />
       </div>
       <div>
         <div className="ps-lg-5 ms-lg-5 ms-md-5 ms-3 mt-5">
           <h1 className="text-primary">
-            {whychooseus.why}
-            <span className="text-danger"> {whychooseus.chooseus}</span>
+            {whychooseus.WCU_why}
+            <span className="text-danger"> {whychooseus.WCU_chooseus}</span>
           </h1>
           <p
             className="text-secondary"
             style={{ fontFamily: "'Lobster', cursive" }}
           >
-            {whychooseus.choosepara}
+            {whychooseus.WCU_choosepara}
           </p>
           <h3
             className="text-secondary"
             style={{ fontFamily: "'Lobster', cursive" }}
           >
-            {whychooseus.chooseh3}
+            {whychooseus.WCU_fewreasons}
           </h3>
         </div>
         <div className="container" style={{ overflowX: "hidden" }}>
@@ -171,7 +171,7 @@ export default function Home(props) {
                 </div>
               </div>
             ))}
-          <Testimonials />
+          <Testimonials data={HomeContent}/>
         </div>
       </div>
     </div>

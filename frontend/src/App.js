@@ -94,7 +94,7 @@ function App() {
       {Object.keys(s3objects).length > 0 ? (
         <BrowserRouter basename="Infm_website">
           <Scrolltotop />
-          <Navigation />
+          <Navigation product={s3objects}/>
           <Routes>
             <Route
               path="/"
@@ -262,7 +262,7 @@ function App() {
 
             <Route path="*" element={<Notfound />}></Route>
           </Routes>
-          <Footer />
+          <Footer product={s3objects}/>
           <Scrolltotopbtn />
         </BrowserRouter>
       ) : (

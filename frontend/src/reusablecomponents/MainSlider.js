@@ -10,12 +10,7 @@ const MainSlider = ({MainSlideData}) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [animating, setAnimating] = useState(false);
     const sliderRef = useRef(null);
-    const slides= MainSlideData.map(item => item.slides).filter(Boolean).reduce((acc, curr) => acc.concat(curr), []);
-    // MainSlideData.map(item => item.slides).filter(Boolean)
-    // MainSlideData.filter((item) => (item.hasOwnProperty('slides') && item.map(item1=>item1)))
-    // console.log(slides);
-    // console.log(MainSlideData[1].slides);
-    // MainSlideData[1].slides
+    const slides= MainSlideData.HB_slides;
     
     const settings = {
         dots: false,
@@ -45,9 +40,9 @@ const MainSlider = ({MainSlideData}) => {
             <Slider {...settings} className="slider-box" pauseOnHover={false} ref={sliderRef}>
                 {slides.slice(0, 6).map((slide, index) => (
                     <div className="slide" key={index}>
-                        <div className="image-layer" style={{ backgroundImage: `url(${slide.image})`, opacity: "0.6" }}></div>
+                        <div className="image-layer" style={{ backgroundImage: `url(${slide.Bg_image})`, opacity: "0.6" }}></div>
                         <img src={slide.imgSrc} className="slide-img" alt={slide.title} width="350" height="350" />
-                        <p className="img-para">{MainSlideData[0].rightmindset}</p>
+                        <p className="img-para">{MainSlideData.HB_rightmindset}</p>
                         <div className="auto-container">
                             <div className={`content ${animating && currentSlide === index ? 'cont-zoom-out' : ''} ${!animating && currentSlide === index ? 'cont-zoom-in' : 'hidden'}`}>
                                 <div className={`big-title ${animating && currentSlide === index ? 'cont-zoom-out' : ''} ${!animating && currentSlide === index ? 'cont-zoom-in' : 'hidden'}`}>
@@ -63,7 +58,7 @@ const MainSlider = ({MainSlideData}) => {
                                 </div>
                                 <div className="btns-box">
                                     <Link className="btn-one style2" to="/Contact">
-                                        <span className="txt">{MainSlideData[0].contactus} &nbsp;&nbsp;&nbsp;<i className="fa fa-angle-right"></i></span>
+                                        <span className="txt">{MainSlideData.HB_contactusBtn} &nbsp;&nbsp;&nbsp;<i className="fa fa-angle-right"></i></span>
                                     </Link>
                                 </div>
                             </div>
@@ -89,7 +84,7 @@ const MainSlider = ({MainSlideData}) => {
                             </div>
                             <div className="btns-box">
                                 <Link className="btn-one style2" to="/Careers">
-                                    <span className="txt">{MainSlideData[0].moredetails} &nbsp;&nbsp;&nbsp;<i className="fa fa-angle-right"></i></span>
+                                    <span className="txt">{MainSlideData.HB_moredetailsBtn} &nbsp;&nbsp;&nbsp;<i className="fa fa-angle-right"></i></span>
                                 </Link>
                             </div>
                         </div>

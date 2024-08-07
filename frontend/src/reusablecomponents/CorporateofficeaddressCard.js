@@ -1,8 +1,7 @@
 import React from 'react';
 
 const CorporateofficeaddressCard = ({data}) => {
-    console.log(data.address)
-    const address=data.address
+    const address=data
     const styles = `
     .card {
         position: relative;
@@ -90,7 +89,6 @@ const CorporateofficeaddressCard = ({data}) => {
                         <p><i className={item.locationicon}></i>&nbsp;{item.addr}</p>
                         <p><i className={item.emailicon}></i>&nbsp;{item.email}</p>
                         <h4><i className={item.phoneicon}></i>&nbsp;{item.phone}</h4>
-
                     </div>
                     <div className="constoverlay"></div>
                     <div className="overlay"></div>

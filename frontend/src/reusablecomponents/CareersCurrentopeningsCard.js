@@ -49,12 +49,11 @@ const CareersCurrentopeningsCard = ({data}) => {
         }
     }
     `
-    console.log(modalData);
     return (
         <>
         <style>{styles}</style>
         {data.map((item,i)=>(
-            <div className='card border-2 openingscard' data-aos={item.aos} data-aos-once="true" data-aos-duration="1500">
+            <div key={i} className='card border-2 openingscard' data-aos={item.aos} data-aos-once="true" data-aos-duration="1500">
                <div className='card-body'>
                <div className='d-flex flex-wrap'>
                 {item.list.map((li,j)=>(

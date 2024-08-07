@@ -1,11 +1,15 @@
 import React from 'react';
-import CareersContent from "../CAREERS/careersContent.json";
 import { Link } from 'react-router-dom';
 
-const Bangalore = () => {
-    const data = CareersContent[0];
-    const hyd= CareersContent[4].bangaloreOpenings
-    // console.log(hyd)
+const Bangalore = (props) => {
+  const careersContent = JSON.parse(props.product.careersContent.Content);
+  const data = careersContent
+    .map((item) => item.Banglore)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const bangalore= data.Banglore_Openings
+
     const styles = `
       table { 
         width: 100%; 
@@ -47,21 +51,21 @@ const Bangalore = () => {
         <>
         <style>{styles}</style>
         <img
-            src={data.careersbanner}
+            src={data.BangloreMainBanner}
             width="100%"
             alt="Careers Bangalore"
             className="img-fluid d-none d-md-block"
         />
         <img
-            src={data.careersMobilebanner}
+            src={data.BangloreMobileBanner}
             alt="CareersMobile Bangalore"
             className="img-fluid d-md-none w-100"
         />
-        <div className='p-lg-5 p-md-3 p-2' style={{backgroundImage: `url(${data.currentopeningsBg})` , height:"auto"}}>
+        <div className='p-lg-5 p-md-3 p-2' style={{backgroundImage: `url(${data.Banglore_CO_BgImage})` , height:"auto"}}>
         <div className='container'>
             <h2 className='text-center p-4'>
-                <span className='text-primary'>{data.Current}</span>&nbsp;
-                <span className='text-danger'>{data.Openings}</span>
+                <span className='text-primary'>{data.Banglore_Head1}</span>&nbsp;
+                <span className='text-danger'>{data.Banglore_Head2}</span>
             </h2>
             <div className='table-responsive'>
                
@@ -79,8 +83,8 @@ const Bangalore = () => {
                     </tr>
                     </thead>
                     <tbody>
-                        {hyd.map((item, index)=>(
-                            <tr>
+                        {bangalore.map((item, index)=>(
+                            <tr key={index}>
                             <td>{item.slno}</td>
                             <td><img src={item.jobtype} alt="job type" width="40" height="40" style={{objectFit:"contain"}}/></td>
                             <td>{item.Location}</td>

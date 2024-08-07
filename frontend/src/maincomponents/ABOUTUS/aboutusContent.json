@@ -20,7 +20,7 @@
       "OV_MobileBanner": "https://infomericainc.com/Content/images/abt-banner-mobile1.jpg",
       "OV_Heading1": "Our",
       "OV_Heading2": "Vision",
-      "OV_Content": "Welcome and thank you for your interest in Infomerica, the company you can trust and rely on. We wanted you to understand our core values. Infomerica would strongly bind to the business ethics, honesty and integrity."
+      "OV_Content": ["Welcome and thank you for your interest in Infomerica, the company you can trust and rely on. We wanted you to understand our core values. Infomerica would strongly bind to the business ethics, honesty and integrity."]
     }
   },
   {
@@ -29,7 +29,7 @@
       "OM_MobileBanner": "https://infomericainc.com/Content/images/abt-banner-mobile1.jpg",
       "OM_Heading1": "Our",
       "OM_Heading2": "Mission",
-      "OM_Content": "At Infomerica, our mission is to empower businesses globally through innovative and strategic technological solutions. We are committed to delivering excellence and adding value to our clients by optimizing processes and efficiently allocating resources. We aim to facilitate sustainable growth and enhance operational efficiency for our clients, enabling them to excel in their respective domains. We endeavor to foster a collaborative environment that encourages continuous learning, innovation, and a commitment to delivering exceptional service. Our dedication to integrity, transparency, and sustainability drives us to create meaningful impacts and contribute to the advancement of the technology industry."
+      "OM_Content": ["At Infomerica, our mission is to empower businesses globally through innovative and strategic technological solutions. We are committed to delivering excellence and adding value to our clients by optimizing processes and efficiently allocating resources. We aim to facilitate sustainable growth and enhance operational efficiency for our clients, enabling them to excel in their respective domains. We endeavor to foster a collaborative environment that encourages continuous learning, innovation, and a commitment to delivering exceptional service. Our dedication to integrity, transparency, and sustainability drives us to create meaningful impacts and contribute to the advancement of the technology industry."]
     }
   }
 ]

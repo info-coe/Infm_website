@@ -1,13 +1,13 @@
 import React from 'react';
 
 const CSRimplementationStrategy = ({data}) => {
-    const data1=data[2].ImplementationStrategy
+    const data1=data
     return (
         <>
             {data1.map((item,i)=>(
-                <div className='row'>
-                <h6 className='col-md-5 text-primary '>{item.h}</h6>
-                <p className='col-md-7'>{item.des}</p>
+                <div className='row' key={i}>
+                <h6 className='col-md-5 text-primary '>{item.head}</h6>
+                <p className='col-md-7'>{item.description}</p>
             </div>
             ))}
             

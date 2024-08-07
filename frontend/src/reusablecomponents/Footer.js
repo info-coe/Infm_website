@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeContent from "../maincomponents/HOME/homeContent.json"
+// import HomeContent from "../maincomponents/HOME/homeContent.json"
 
-const Footer = () => {
-    const data= HomeContent[9].FooterData[0]
-    // console.log(data)
+const Footer = (props) => {
+    const HomeContent = JSON.parse(props.product.homeContent.Content);
+    const data = HomeContent
+    .map((item) => item.FooterData)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
     return (
         <>
         <div className='flex-container'>
