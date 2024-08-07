@@ -1,42 +1,44 @@
 [
-   {
-        "contactform":"https://infomericainc.com/Content/images/contact-form-bg.jpg",
-        "contactusbanner":"https://infomericainc.com/Content/images/contactus-img-banner.jpg",
-        "contactusMobilebanner":"https://infomericainc.com/Content/images/contactus-img-banner.jpg",
-        "description":"Thank you for your interest in Infomerica services. Please provide the following information about your business needs to help us serve you better. This information will enable us to route your request to the appropriate person. You should receive a response within 8 hours.",
-        "contactusHead":"Contact Us",
-        "CorporateOffice":"Corporate Office",
-        "Address":"Address"
-   },
-   {
-    "address":[
+  {
+    "Contact_Us_MainBanner": "https://infomericainc.com/Content/images/contactus-img-banner.jpg",
+    "Contact_Us_MobileBanner": "https://infomericainc.com/Content/images/contactus-img-banner.jpg",
+    "Contact_Us_Description": "Thank you for your interest in Infomerica services. Please provide the following information about your business needs to help us serve you better. This information will enable us to route your request to the appropriate person. You should receive a response within 8 hours.",
+    "Contact_Form": {
+      "CF_BgImage": "https://infomericainc.com/Content/images/contact-form-bg.jpg",
+      "CF_contactusHead": "Contact Us"
+    },
+    "Corporate_Office_Address": {
+      "COA_Head1": "Corporate Office",
+      "COA_Head2": "Address",
+      "COA_Address": [
         {
-            "name":"USA",
-            "addr":"252 Towne Village Dr, Cary, NC 27513.",
-            "phone":"(919) 655-0800",
-            "email":"info@infomericainc.com",
-            "locationicon":"bi bi-geo-alt-fill",
-            "emailicon":"bi bi-envelope",
-            "phoneicon":"bi bi-telephone-forward-fill"
+          "name": "USA",
+          "addr": "252 Towne Village Dr, Cary, NC 27513.",
+          "phone": "(919) 655-0800",
+          "email": "info@infomericainc.com",
+          "locationicon": "bi bi-geo-alt-fill",
+          "emailicon": "bi bi-envelope",
+          "phoneicon": "bi bi-telephone-forward-fill"
         },
         {
-            "name":"Hyderabad",
-            "addr":"Infomerica (India) Private Limited 3rd Floor, 'SARANYA' Plot No 58 & 59, Nagarjuna Hills, Hyderabad-50082",
-            "phone":"",
-            "email":"info@infomericainc.in",
-            "locationicon":"bi bi-geo-alt-fill",
-            "emailicon":"bi bi-envelope",
-            "phoneicon":""
+          "name": "Hyderabad",
+          "addr": "Infomerica (India) Private Limited 3rd Floor, 'SARANYA' Plot No 58 & 59, Nagarjuna Hills, Hyderabad-50082",
+          "phone": "",
+          "email": "info@infomericainc.in",
+          "locationicon": "bi bi-geo-alt-fill",
+          "emailicon": "bi bi-envelope",
+          "phoneicon": ""
         },
         {
-            "name":"Bengaluru",
-            "addr":"2nd Floor, Sai Arcade,Outer Ring Road, Devarabeesanahalli, Bengaluru – 560103.",
-            "phone":"",
-            "email":"info@infomericainc.in",
-            "locationicon":"bi bi-geo-alt-fill",
-            "emailicon":"bi bi-envelope",
-            "phoneicon":""
+          "name": "Bengaluru",
+          "addr": "2nd Floor, Sai Arcade,Outer Ring Road, Devarabeesanahalli, Bengaluru – 560103.",
+          "phone": "",
+          "email": "info@infomericainc.in",
+          "locationicon": "bi bi-geo-alt-fill",
+          "emailicon": "bi bi-envelope",
+          "phoneicon": ""
         }
-    ]
-   }
+      ]
+    }
+  }
 ]

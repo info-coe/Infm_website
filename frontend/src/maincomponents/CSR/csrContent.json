@@ -1,88 +1,88 @@
 [
-    {
-        "csrbanner":"https://infomericainc.com/Content/images/csr-banner.jpg",
-        "csrMobilebanner":"https://infomericainc.com/Content/images/csr-banner-mobile.jpg",
-        "PolicyOnCorporate":"Policy On Corporate",
-        "SocialResponsibility":"Social Responsibility",
-        "Vision":"Vision",
-        "VisionDescription":"Empowerment, Environment, and Education for Everyone, Everywhere.",
-        "Objective":"Objective",
-        "ObjectiveDescription":"To foster a sustainable global community that champions inclusivity, promotes environmental stewardship, and facilitates continuous learning and education.",
-        "KeyPillarsofOurGlobalCSRInitiative":"Key Pillars of Our Global CSR Initiative",
-        "ImplementationStrategy":"Implementation Strategy",
-        "MeasurementImpacty":"Measurement & Impacty",
-        "MeasurementImpactyPara1":"Adopt the Triple Bottom Line (TBL) approach, focusing on social, environmental, and financial outcomes. Establish clear KPIs for each pillar, with regular audits to measure impact and ensure alignment with global CSR objectives.",
-        "MeasurementImpactyPara2":"By embracing our global CSR initiative, we commit to playing an active role in shaping a better future for our planet and its inhabitants. Our collective efforts will pave the way for a world that is equitable, environmentally conscious, and ever-evolving in its pursuit of knowledge."
-    },
-    {
-        "keypillars":[
-            {
-                "head":"Empowerment",
-                "list":[
-                    {
-                        "h":"Community Development",
-                        "des":"Launch programs to uplift underserved communities worldwide, focusing on areas like health, sanitation, and infrastructure."
-                    },
-                    {
-                        "h":"Inclusivity Initiatives",
-                        "des":"Partner with organizations to promote gender equality, support differently-abled individuals, and back minority groups to ensure equal opportunities for all."
-                    }
-                ]
-            },
-            {
-                "head":"Environment",
-                "list":[
-                    {
-                        "h":"Sustainability Programs",
-                        "des":"Promote eco-friendly business practices across all operations, aiming for carbon neutrality and zero waste."
-                    },
-                    {
-                        "h":"Conservation Projects",
-                        "des":"Partner with global environmental organizations to support reforestation, clean water initiatives, and wildlife conservation."
-                    },
-                    {
-                        "h":"Awareness and Advocacy",
-                        "des":"Organize global environmental awareness campaigns and support policies that promote sustainability."
-                    }
-                ]
-            },
-            {
-                "head":"Education",
-                "list":[
-                    {
-                        "h":"Global Scholarship Programs",
-                        "des":"Offer scholarships to students from underserved communities around the world, with a focus on STEM education."
-                    },
-                    {
-                        "h":"Digital Learning Platforms",
-                        "des":"Develop and promote platforms that provide free access to quality educational content for learners globally."
-                    },
-                    {
-                        "h":"Skill Development",
-                        "des":"Launch vocational training centers in underserved areas, imparting skills that cater to local industry demands."
-                    }
-                ]
-            }
+  {
+    "CSR_MainBanner": "https://infomericainc.com/Content/images/csr-banner.jpg",
+    "CSR_MobileBanner": "https://infomericainc.com/Content/images/csr-banner-mobile.jpg",
+    "CSR_PolicyOnCorporate": "Policy On Corporate",
+    "CSR_SocialResponsibility": "Social Responsibility",
+    "CSR_Vision": "Vision",
+    "CSR_VisionDescription": "Empowerment, Environment, and Education for Everyone, Everywhere.",
+    "CSR_Objective": "Objective",
+    "CSR_ObjectiveDescription": "To foster a sustainable global community that champions inclusivity, promotes environmental stewardship, and facilitates continuous learning and education.",
+    "KeyPillarsHeading": "Key Pillars of Our Global CSR Initiative",
+    "KeyPillarsData": [
+      {
+        "Heading": "Empowerment",
+        "Points": [
+          {
+            "name": "Community Development",
+            "description": "Launch programs to uplift underserved communities worldwide, focusing on areas like health, sanitation, and infrastructure."
+          },
+          {
+            "name": "Inclusivity Initiatives",
+            "description": "Partner with organizations to promote gender equality, support differently-abled individuals, and back minority groups to ensure equal opportunities for all."
+          }
         ]
-    },
-    {
-        "ImplementationStrategy":[
-            {
-                "h":"Partnerships",
-                "des":"Collaborate with NGOs, governments, and other corporations, leveraging their expertise and reach."
-            },
-            {
-                "h":"Employee Involvement",
-                "des":"Encourage employees to contribute through volunteering, mentoring, and donations, with corporate matching for charitable giving."
-            },
-            {
-                "h":"Transparency",
-                "des":"Regularly report on CSR activities, achievements, and financial allocations, maintaining open communication with all stakeholders."
-            },
-            {
-                "h":"Continuous Assessment",
-                "des":"Implement feedback loops to continually assess and refine CSR initiatives based on outcomes and community feedback."
-            }
+      },
+      {
+        "Heading": "Environment",
+        "Points": [
+          {
+            "name": "Sustainability Programs",
+            "description": "Promote eco-friendly business practices across all operations, aiming for carbon neutrality and zero waste."
+          },
+          {
+            "name": "Conservation Projects",
+            "description": "Partner with global environmental organizations to support reforestation, clean water initiatives, and wildlife conservation."
+          },
+          {
+            "name": "Awareness and Advocacy",
+            "description": "Organize global environmental awareness campaigns and support policies that promote sustainability."
+          }
         ]
+      },
+      {
+        "Heading": "Education",
+        "Points": [
+          {
+            "name": "Global Scholarship Programs",
+            "description": "Offer scholarships to students from underserved communities around the world, with a focus on STEM education."
+          },
+          {
+            "name": "Digital Learning Platforms",
+            "description": "Develop and promote platforms that provide free access to quality educational content for learners globally."
+          },
+          {
+            "name": "Skill Development",
+            "description": "Launch vocational training centers in underserved areas, imparting skills that cater to local industry demands."
+          }
+        ]
+      }
+    ],
+    "Implementation_Strategy": {
+      "IS_Heading": "Implementation Strategy",
+      "ImplementationStrategy": [
+        {
+          "head": "Partnerships",
+          "description": "Collaborate with NGOs, governments, and other corporations, leveraging their expertise and reach."
+        },
+        {
+          "head": "Employee Involvement",
+          "description": "Encourage employees to contribute through volunteering, mentoring, and donations, with corporate matching for charitable giving."
+        },
+        {
+          "head": "Transparency",
+          "description": "Regularly report on CSR activities, achievements, and financial allocations, maintaining open communication with all stakeholders."
+        },
+        {
+          "head": "Continuous Assessment",
+          "description": "Implement feedback loops to continually assess and refine CSR initiatives based on outcomes and community feedback."
+        }
+      ]
+    },
+    "Measurement_Impacty": {
+      "MI_Heading": "Measurement & Impacty",
+      "MI_Para1": "Adopt the Triple Bottom Line (TBL) approach, focusing on social, environmental, and financial outcomes. Establish clear KPIs for each pillar, with regular audits to measure impact and ensure alignment with global CSR objectives.",
+      "MI_Para2": "By embracing our global CSR initiative, we commit to playing an active role in shaping a better future for our planet and its inhabitants. Our collective efforts will pave the way for a world that is equitable, environmentally conscious, and ever-evolving in its pursuit of knowledge."
     }
+  }
 ]

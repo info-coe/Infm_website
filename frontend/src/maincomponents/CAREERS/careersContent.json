@@ -1,264 +1,285 @@
 [
-    {
-        "careersbanner":"https://infomericainc.com/Content/images/Careers-banner.jpg",
-        "careersMobilebanner":"https://infomericainc.com/Content/images/Careers-banner-mobile.jpg",
-        "Careers":"Careers",
-        "CareersDescription":"Regardless of whether your role is in development, sales, or HR, at Infomerica, you are empowered to pioneer innovative ideas and contribute to the creation of solutions that are transforming industries and enhancing lives. Within our dynamic ecosystem, you'll discover intellectual minds collectively working with a synergy that is exceptionally inspiring.",
-        "Current":"Current",
-        "Openings":"Openings",
-        "HyderabadOpenings":"Hyderabad Openings",
-        "BangaloreOpenings":"Bangalore Openings",
-        "currentopeningsBg":"https://infomericainc.in/Content/images/tech.jpg",
-        "formoredetailsmailuson":"For more details please Mail Us on",
-        "mail":"info@infomericainc.com",
-        "slno":"#",
-        "Jobtype":"Job Type",
-        "Location":"Location",
-        "JobName":"Job Name",
-        "Skills":"Skills",
-        "ExpYears":"Exp(Years)",
-        "NoOfPositions":"No Of Positions"
-    },
-    {
-        "careersSlides":[
-            {
-                "url":"https://infomericainc.com/Content/images/connection.gif",
-                "m1":"Infomerica also believes that our strength and success lies in our employees and our asset is our employees. Our business environment is dynamic by a high degree of competition and rapid technological advances. Success in a dynamic and high degree of competition situation demands that we continuously challenge ourselves to higher levels of individual and collective performance. To enable high degree of performance, we aim to provide an enabling and positive environment that will motivate our employees.",
-                "aos":"slide-right",
-                "width":60,
-                "height":60
-            },
-            {
-                "url":"https://infomericainc.com/Content/images/cloud-network.gif",
-                "m1":"We also believe in continuous education of our associates and strive to provide the best training facilities that will keep us apart from our competitors in our field. At Infomerica we treat each person with respect and fairness, and afford ample opportunity for individual growth in Infomerica.",
-                "aos":"slide-left",
-                "width":60,
-                "height":60
-            },
-            {
-                "url":"https://infomericainc.com/Content/images/computer.gif",
-                "m1":"We always look for hiring talented people. We employ people of exceptional creativity, expertise, and determination who work closely with one another and with our customers. We pursue technical growth and market diversification to increase value for our customers and opportunity for our employees.",
-                "aos":"slide-right",
-                "width":60,
-                "height":60
-            },
-            {
-                "url":"https://infomericainc.com/Content/images/rocket.gif",
-                "m1":"If you are interested please send your resume in word format and we promise you that we will respond if your skill fits our ongoing requirements. Also remember that at Infomerica we protect and respect the privacy and confidentiality, hence would not disclose to the public.",
-                "aos":"slide-left",
-                "width":60,
-                "height":60
-            }
+  {
+    "Careers": {
+      "CareersMainBanner": "https://infomericainc.com/Content/images/Careers-banner.jpg",
+      "CareersMobileBanner": "https://infomericainc.com/Content/images/Careers-banner-mobile.jpg",
+      "CareersHeading": "Careers",
+      "CareersDescription": "Regardless of whether your role is in development, sales, or HR, at Infomerica, you are empowered to pioneer innovative ideas and contribute to the creation of solutions that are transforming industries and enhancing lives. Within our dynamic ecosystem, you'll discover intellectual minds collectively working with a synergy that is exceptionally inspiring.",
+      "CareersDiscoverCards": [
+        {
+          "url": "https://infomericainc.com/Content/images/connection.gif",
+          "m1": "Infomerica also believes that our strength and success lies in our employees and our asset is our employees. Our business environment is dynamic by a high degree of competition and rapid technological advances. Success in a dynamic and high degree of competition situation demands that we continuously challenge ourselves to higher levels of individual and collective performance. To enable high degree of performance, we aim to provide an enabling and positive environment that will motivate our employees.",
+          "aos": "slide-right",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "m1": "We also believe in continuous education of our associates and strive to provide the best training facilities that will keep us apart from our competitors in our field. At Infomerica we treat each person with respect and fairness, and afford ample opportunity for individual growth in Infomerica.",
+          "aos": "slide-left",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "url": "https://infomericainc.com/Content/images/computer.gif",
+          "m1": "We always look for hiring talented people. We employ people of exceptional creativity, expertise, and determination who work closely with one another and with our customers. We pursue technical growth and market diversification to increase value for our customers and opportunity for our employees.",
+          "aos": "slide-right",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "m1": "If you are interested please send your resume in word format and we promise you that we will respond if your skill fits our ongoing requirements. Also remember that at Infomerica we protect and respect the privacy and confidentiality, hence would not disclose to the public.",
+          "aos": "slide-left",
+          "width": 60,
+          "height": 60
+        }
+      ],
+      "Current_Openings": {
+        "CO_Head1": "Current",
+        "CO_Head2": "Openings",
+        "CO_CardsData": [
+          {
+            "list": [
+              "Bachelors/equivalent in CS, Engineering or related field and 5 years of IT experience",
+              "White Box Testing, Black Box Testing, Load Testing, Test Planning, Test Execution",
+              "Selenium WebDriver, Cypress.io, Postman Pro, Newman, SOAP UI, Karate DSL, BDD, Cucumber, TestNG,Agile SCRUM, Azure DevOps, Rally, Atlassian JIRA, ALM"
+            ],
+            "head": "Software QA Engineer",
+            "p1": "Test software systems for quality assurance purposes; design test plans and procedures for software systems; document software defects and report to developers; perform regression testing and negative testing; implement fixes for software defects.",
+            "p2": "Position requires Bachelors/equivalent in CS, Engineering or related field and 5 years of IT experience including White Box Testing, Black Box Testing, Load Testing, Test Planning, Test Execution, Selenium WebDriver, Cypress.io, Postman Pro, Newman, SOAP UI, Karate DSL, BDD, Cucumber, TestNG, JSON, XML, QTP, Java, Oracle SQL, Jenkins, Git, AWS, JavaScript, VBScript, Groovy, MongoDB, Waterfall Delivery, Agile SCRUM, Azure DevOps, Rally, Atlassian JIRA, ALM, IntelliJ Idea, VS Code, and Azure. Position requires travel / relocation to various unanticipated U.S. locations.",
+            "p3": "Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
+            "p4": "",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "22"
+          },
+          {
+            "list": [
+              "Master’s / equivalent in Engineering",
+              "cDAQ (TestSystems)eDAQ (SOMAT)",
+              "Torsional Vibrational testing, Flow testing",
+              "LMS for Data Acquisition",
+              "DATK, n-code, understanding of MER and ET-186"
+            ],
+            "head": "Sr. Mechanical Engineer",
+            "p1": "Perform engineering duties in planning, testing the mechanically functioning equipment. Improve reliability of Gensets, through testing and analyzing the structural and dynamic vibrations. Research and recommend mechanical stiffness changes to meet requirements of structural reliability. Analyze test data and recommend structural changes to avoid early failures, with data analysis tools.",
+            "p2": "Position requires Master’s / equivalent in Engineering and 6 months of experience including cDAQ (TestSystems), eDAQ (SOMAT), LMS for Data Acquisition, DATK, n-code, understanding of MER and ET-186, strain DAQ, Modal Testing (MEscope), Torsional Vibrational testing, Flow testing, Proximity-probes, Megger testing, Coupling Test, Battery/Alternator Load Test, Gas Train Pressure test, CANape and CANalyzer for ECU calibration. Position requires travel/relocation to various unanticipated U.S. locations.",
+            "p3": "Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
+            "p4": "",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "22"
+          },
+          {
+            "list": [
+              "Master’s / equivalent in CS",
+              "CIS",
+              "Information Systems Security",
+              "Cryptography",
+              "Security Architecture and Design",
+              "Telecommunications Network Security"
+            ],
+            "head": "Sr. Systems Analyst",
+            "p1": "Test, maintain, and monitor computer program products and systems, including coordinating the installation of computer programs and systems. Troubleshoot program and software security system malfunctions to restore normal functioning. Expand and modify software system products to serve new purposes and improve work flow. Document, revise, and develop software system procedures and test procedures. Use the computer in the analysis and solution of business, software problems.",
+            "p2": "Position requires Master’s / equivalent in CS, CIS, Information Systems Security, or related field and coursework in Telecommunications Network Security, Access Control, Application Security, Cryptography, Physical Security, Operations Security, and Security Architecture and Design. Position requires travel / relocation to various unanticipated U.S. locations.",
+            "p3": "Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
+            "p4": "",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "30"
+          },
+          {
+            "list": [
+              "Reinforcement Learning (RL)",
+              "Python",
+              "TensorFlow",
+              "PyTorch",
+              "OpenAI Gym",
+              "5+ years experience"
+            ],
+            "head": "Data Scientist",
+            "p1": "We are seeking an experienced Data Scientist with a specialization in Reinforcement Learning (RL) and its application in quantitative trading or portfolio management. The selected candidate will work on developing a package for RL to apply to many use cases and end their contract training other data scientists in how to utilize the package.",
+            "p2": "<b>Key Responsibilities:</b><br/><br/><span class='fw-bold'>Package Development:</span> Develop a package to execute Reinforcement Learning (RL) on AWS Sagemaker. The package should allow for the use of multiple agents and allow for easy implementation of agents across different problems. Needs the ability to deploy multiple agents to solve problems mainly for portfolio management purposes.<br/>- Deploy the building blocks of a reinforcement learning problem to data packages.<br/>- Code should be modular. Strong acumen for OOP preferred.<br/>- Package should address complex multi-agent problems which are common in portfolio optimization.<br/>- Package should have functionality for the evaluation of models, hyper-parameter optimization, model/scenario explainability, and the display of results to the trading team.<br/>- Experience in Quantitative trading or deploying RL for similar optimization problems required.<br/><span class='fw-bold'>Proof of Concept Deployment:</span> Design, implement, and evaluate the RL package on a POC after package deployment.<br/><span class='fw-bold'>Documentation & Training:</span> Train other data scientists to swap agents, change the environment, rewards, etc... Detailed documentation of the RL package will be required.",
+            "p3": "<b>Qualifications:</b><br/><br/><span class='fw-bold'>Education:</span> Master's or PhD in Computer Science, Machine Learning, Financial Engineering, Operations Research or a related field.<br/><span class='fw-bold'>Experience:</span> At least 5 years of professional experience in reinforcement learning deploying models at scale on AWS required. Experience contributing to building python packages in RL or other ML fields preferred. Prior model deployments with a specific focus on applications in quantitative trading or portfolio management preferred.<br/><span class='fw-bold'>Technical Skills:</span> Proficiency in Python and familiarity with popular RL libraries such as TensorFlow, PyTorch, and OpenAI Gym. Must also have a familiarity with cloud platforms deploying and training RL models (AWS Sagemaker).<br/><span class='fw-bold'>Software Engineering Skills:</span> Solid grasp of software design principles, data structures, and algorithms pertinent to trading environments.<br/><span class='fw-bold'>Communication:</span> Excellent written and verbal communication skills; ability to relay complex trading strategies and outcomes to various stakeholders.<br/><span class='fw-bold'>Teamwork:</span> Demonstrated experience working effectively in cross-functional teams, especially within a high-pressure trading context.",
+            "p4": "<b>Nice-to-Have:</b><br/><br/>Experience with high-frequency trading environments.<br/>Publications or notable contributions in the realm of RL for quantitative finance.",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "50"
+          },
+          {
+            "list": [
+              "ReactJS",
+              "TypeScript",
+              "Javascript",
+              "Performance Tuning",
+              "OHIF",
+              "Cornerstone Image",
+              "Docker/Containerization"
+            ],
+            "head": "Sr. UI developer/ React developer",
+            "p1": "<span class='fw-bold'>Mandatory skills :</span> ReactJS, TypeScript, Javascript ,Performance Tuning ,OHIF, Cornerstone Image <br/> Hands on experience on ReactJS/Redux, CSS/SCSS (Grid), Responsive design, PWA, websocket, Unit Testing Jest<br/>Good knowledge of Java Script, jQUery, HTML 5, CSS, Unit Testing - Mocha, Chai, Karma, Jest React JS,advance Java Script, ReactJS Hooks, desired React Redux,Expoure to GraphQL<br/>Desired - Exposure to GIT, Jenkins, NPM, Yarn Knowledge of AWS will be a plus Knowledge of Angular Material Design<br/>Knowledge of NodeJS will be a plus<br/>",
+            "p2": "Must have <br/><br/>ReactJS, TypeScript, Javascript<br/>Web Application Development & Deployment - UI/CSS etc",
+            "p3": "Performance Tuning – Should be able to find problem area in terms of memory optimization for web application, this required core understanding of React and JavaScript Docker/Containerization basic",
+            "p4": "",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "30"
+          },
+          {
+            "list": [
+              "ServiceNow",
+              "Configuration Management",
+              "ITIL",
+              "relational databases",
+              "5+ years hands-on ServiceNow Process"
+            ],
+            "head": "Service Now Discovery and Configuration Management Developer/ Analyst",
+            "p1": "Understand the ServiceNow Discovery and Configuration Management processes and methodology. Expert level knowledge on Discovery Probes, Sensors and identifier rules.<br/>Setting up Configuration Management from scratch defining the CI classes and their relationships.<br/>Work with business users to capture and compile business requirements.<br/>Responsible for the technical specification, developing the technical solutions, implementing them, and performing the component integration tests on the ServiceNow platform.<br/>Understand the needs to standardize processes and build this into the design for best ITIL practices.<br/>On-call support for issues impacting the ServiceNow instance.<br/>Build custom integrations between ServiceNow and other tools and products.<br/>Leverage both proven and innovative technology approaches to solve challenging business problems.<br/>Contribute to continual service improvement by leveraging personal knowledge and best practice in solving complex business problems.<br/>Excellent Communication skills.<br/>Excellent Collaboration skills working with other team members.",
+            "p2": "<b>Qualifications and Preferred Skills/Experience:</b><br/><br/>Ideal candidate must be self-motivated with a proven track record in ITSM technologies and comfortable in the dynamic atmosphere of a technical organization with a rapidly expanding customer base. Candidate must be organized and analytical, adept at working in a team environment, able to implement on time to a project schedule, and able to handle multiple priorities in a fast-moving environment.<br/> B.S. degree in Computer Science, MIS or equivalent preferred.<br/>Minimum of 5 years hands-on ServiceNow Process and Development/ Admin experience.<br/>Advanced experience with ServiceNow implementations and maintenance and upkeep of ServiceNow CMDB.<br/>Comfortable deploying discoveries in a multi-datacenter environment with ServiceNow Discovery and Configuration Management processes.<br/>Excellent troubleshooting skills with ability to demonstrate influence in a consultative fashion to stakeholders and other team members.<br/>Experience with development and implementation of ServiceNow modules - Incident Management, Problem Management, Change Management, Release Management, Knowledge Management and Service Catalog or other ITSM applications.<br/>Experience with extending the ServiceNow schema to custom applications/tables.<br/>Experience with setup and troubleshooting with Discovery mapping, schedules, patterns, and transformation of class data and restructuring.<br/>Experience setting up multiple MID servers, check for their connectivity to various other data center components and troubleshoot issues.<br/>Experience with relational databases (e.g. MySQL, SQL Server) required to work on manipulating the data from multiple data source in SQL Server DB<br/>A fundamental understanding of Business Rules, Script Includes, UI Actions, Scheduled Jobs - all scripted aspects of the ServiceNow system.<br/>Experience with ServiceNow reporting, scheduled reports, and ServiceNow Database views.<br/>Understanding of ServiceNow scheduled import/export jobs and transform maps.",
+            "p3": "",
+            "p4": "",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "30"
+          },
+          {
+            "list": [
+              "Aws with terraform",
+              "Iaas",
+              "Paas",
+              "SDLC",
+              "Azure",
+              "GCP",
+              "9+ Years"
+            ],
+            "head": "AWS cloud engineer",
+            "p1": "The Sr Cloud Engineer role is part of the Cloud COE, and is responsible for delivering Cloud solutions to the Application team (internal customer), based on customer requirements. The Sr Cloud Engineer is responsible for designing and building scalable, available, and secure architecture solutions.based on Architectural standards, availability of services, cost, network, security, storage, and Governance considerations. The Engineer should also be able to design, develop, test, and deploy secure custom workflows and scripts within the Cloud infrastructure that can be used for integration, deployment, monitoring, compliance, or other routine tasks.",
+            "p2": "<b>Essential Duties/Responsibilities:</b><br/><br/>Lead the implementation of solutions based on Architectural best practices and AWS Well Architected Framework<br/>Provides guidance on AWS, Azure and Google Cloud Platform Cloud offerings<br/>Assists business devops teams with the design and implementation of highly available, cost efficient and fault tolerant systems<br/>Leads the implementation of Cloud Architecture solutions, based on defined standards for Cloud COE - from an Application and Infrastructure perspective<br/>Leads the delivery of simple Cloud architecture patterns and implementations based on customer requirements<br/>Assists with the analysis of the application portfolios and migration feasibility<br/>Understand the integration of Cloud infrastructure/network environment with corporate infrastructure / data center environment<br/>Assist with design of reference Architecture for implementation of codified stacks that meet the needs of the applications<br/>Continuous building, testing, integration, and deployment of platforms and pipelines<br/>Provides hands-on technical support to accelerate Cloud learning among peers<br/>Assist with implementation of standardized offerings<br/>Assist maintaining Repositories & registries for build/deployment artifacts<br/>Assist with the creation of automated testing frameworks for applications and infrastructure<br/>Collaborates with internal service teams for infrastructure and application deployments<br/>Understands the tools used to perform proactive monitoring of system and server health, analyze trends to prevent incidents<br/>Assists in implementation of Security Standards, based on organization's Security policy<br/><br/>Familiarity with Security best practices and industry standards for security",
+            "p3": "<b>Minimum Requirements:</b><br/><br/>Demonstrated experience in AWS, Azure & Google Cloud Platform environments<br/>Terraform Cloud expertise",
+            "p4": "<b>Preferred Qualifications:</b><br/><br/>Demonstrated experience working with Hashicorp applications, specifically Terraform Cloud Enterprise, Vault and Packer<br/>Demonstrated experience of working in an Agile/Scrum environment<br/>Demonstrated experience of Cloud computing technologies<br/>Demonstrated experience of AWS, Azure and Google Cloud Platform design principles and architectural best practices and industry standards<br/>Demonstrated experience of the AWS Well Architected Framework and Cloud migration industry standards and best practices<br/>Prior programming background in at least ONE language: C++, Java, Python, Ruby etc.<br/>Demonstrated experience of building IaaS and PaaS solutions<br/>Knowledge of technology infrastructure, network, compute, storage, and virtualization<br/>Demonstrated experience of Cloud computing technologies and workload transition challenges<br/>Demonstrated experience with one or more IaaS platforms like Google Compute Engine, Azure, Soft Layer, OpenStack, etc.<br/>Demonstrated experience with software development life cycle (SDLC).",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "50"
+          },
+          {
+            "list": [
+              "Java",
+              "AWS Cloud services",
+              "10+ year experience",
+              "Spring Security, OAuth 2.0 or OpenID Connect",
+              "Kubernetes or OpenShift",
+              "Kubernetes or OpenShift"
+            ],
+            "head": "Application Architects",
+            "p1": "Lead development teams to build and deploy micro services-based applications in public cloud with Continuous Integration & Continuous Deployment tools and processes<br/>Provide technical leadership throughout the development life cycle and focus on delivery of quality solutions<br/>Lead the technical architectand design discussions to propose architecture patterns to enterprise stakeholders, peers and management<br/>Demonstrate knowledge of APIs, microservices architecture, Infrastructure as Code, Data Architecture, Security and clear expertise in one or more of these areas<br/>Encourage innovation and fail fast mindsets and continuously improve our ability to deliver quality solutions by evolving our engineering process and technical capabilities.<br/>Drive a culture of technical excellence and continuous improvement. Keep up to date on latest software development methods, language features and design philosophies to contribute to technology roadmap and manage tech debt work.<br/>Mentor engineering team members on technical decision making, code reviews and enforcing engineering practices and standards<br/>Main point of contact and subject matter expert on your product domain.",
+            "p2": "Requirements<br/><br/>Bachelor’s degree in Computer Science or foreign equivalent plus ten (10) years of experience as Architect, Technical Lead, User Interface Developer, Consultant, or Software Engineer.<br/>10+ year experience and expert knowledge of Java(7+) enterprise development and middleware system integrations.<br/>3+ years of architecture and development for building large scale enterprise applications using AWS Cloud services like Lambda, SQS, EC2, ECS and API Gateway<br/> Hands-on working experience with Spring Boot, JPA, Hibernate, Maven, and other Javadevelopment frameworks<br/>Working experience with Application security using frameworks such as Spring Security, OAuth 2.0 or OpenID Connect<br/>In-depth understanding of scalable database design for SQL (e.g. Postgres, Oracle), Stored procedures and NoSQL solutions (e.g., MongoDB, AWS Dynamodb)<br/>Hands-on experience with messaging oriented platforms such as Kafka, Kinesis Stream IBM MQ and ActiveMQ<br/>Strong knowledge of cloud-native microservices architectures, principles and patterns<br/>Strong understanding of container platforms such as Kubernetes or OpenShift<br/>Experience in Continuous Integration (CI) / Continuous Deployment (CD) using tools such as Jenkins, Maven/Gradle, Git, Sonar, Jenkins, Jira.<br/> Hands-on experience with TDD using Junit5 and Mockito<br/>Experience using Application Performance Management (APM) tools (e.g., AppDynamics, Dynatrace) and Splunk and ELK or Opensearch stack for log aggregation<br/>Working experience as a multi-skilled professional practicing Agile/SCRUM methodologies.<br/>Ability to mentor the junior engineers and advocate for engineering standard processes, control code quality<br/>Strong analytical, communication and team collaboration skills",
+            "p3": "",
+            "p4": "",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "30"
+          },
+          {
+            "list": [
+              "Collibra Data Catalog or equivalent data governance tool",
+              "power bi",
+              "agile",
+              "6+ years"
+            ],
+            "head": "Data Governance Analyst II",
+            "p1": "Data Governance & Engineering team is seeking a Data Governance Analyst. This candidate should be skilled at working with people, processes, and technology efficiently so that the Data Governance team can implement and operationalize a comprehensive Data Governance framework. The analyst will also partner with IT-Security, Data Engineering/Science, Business Intelligence, and Legal counsel teams to develop data governance policies, standards, and procedures, as well as designing and implementing Data Governance training on standards and procedures.<br/>This candidate will play a key role in establishing, building, and managing the Data Catalog, projects, and other tool capabilities so that the company is set up to manage its internal data assets.",
+            "p2": "<b>Essential Duties/Responsibilities:</b><br/><br/>Develops and deploys data governance framework/standards consisting of data policies and processes in the areas of data ingestion, data movement, data quality, master & reference data and data life cycle management<br/>Assists in developing and implementing enterprise tools to support Data Governance & Data Management, including Data Catalog, Metadata Management, Data Quality, Master & Reference Data Management<br/>Coordinates with various stakeholders across various organizations to apply established data governance framework (developing data stewardship, data custodian roles, data dictionary, metadata management, and access controls).<br/>Ensures remediation plans are implemented where data fails to meet established data governance framework/standards.<br/>Support business owners and data stewards in addressing high priority enterprise data problems, recommend solutions and use of industry standards when appropriate.<br/>Detail oriented with the ability to analyze data and perform in depth data analysis<br/>Work across multiple business and technology teams, with the ability to perform data discovery, build data glossaries and catalogs, perform data analysis and data profiling.<br/>Business analysis including business process mapping and requirement definition<br/>Manage time independently, work independently and manage multiple open work streams at the same time<br/>Understand industry standard development life cycle (SDLC) phases, including the ability to provide guidance on how to document business requirements and impacts on process flows.<br/>Coordinate and communicate in a clear and timely manner on changes, issues, and business impacts, among team members.<br/>Responsible for people management and performs other duties as assigned.",
+            "p3": "Minimum Requiremets<br/><br/>Bachelor’s degree in an accredited four-year college and equivalent 7 to 8+ years of business experience.<br/>Must be experience in data governance, data quality, data migration, data prep, and/or data architecture<br/>Must have critical thinking skills: Ask questions, Dig-in, explore & come to new conclusions based on the findings. Intellectual curiosity and aptitude to pick up new technical skills<br/>Must be skillful at verbal and written communication to both leadership teams and peer groups.<br/>Must be comfortable working with senior management, both on the business and technical sides. Must demonstrate ability to create professional relationships and effectively partner with and influence a cross-functional team.<br/>Must be proactive in building and aligning stakeholders, capabilities, and resources for getting things done quickly and achieving complex objectives.",
+            "p4": "Preferred Qualifications<br/><br/>Experience in Project Management and Business Process designs. Creating process flows and diagrams.<br/>Experience with Agile methodologies (Scrum, Kanban, Lean) and Project Management is a plus<br/>Experience PowerBI or other reporting tool is a plus<br/>Experience with Collibra Data Catalog or equivalent data governance tool. Additional Knowledge Understanding of database and custom data warehouse design, testing, development, and architecture experience Understanding of Cloud technologies (preferably AWS) is a plus. AWS Services for Data Lake such as S3, Glue, DataBricks and etc.",
+            "moredetails": "More Details",
+            "aos": "slide-right",
+            "limit": "50"
+          }
         ]
-    },
-    {
-        "currentopenings":[
-            {
-                "list":[
-                    "Bachelors/equivalent in CS, Engineering or related field and 5 years of IT experience",
-                    "White Box Testing, Black Box Testing, Load Testing, Test Planning, Test Execution",
-                    "Selenium WebDriver, Cypress.io, Postman Pro, Newman, SOAP UI, Karate DSL, BDD, Cucumber, TestNG,Agile SCRUM, Azure DevOps, Rally, Atlassian JIRA, ALM"
-                ],
-                "head":"Software QA Engineer",
-                "p1":"Test software systems for quality assurance purposes; design test plans and procedures for software systems; document software defects and report to developers; perform regression testing and negative testing; implement fixes for software defects.",
-                "p2":"Position requires Bachelors/equivalent in CS, Engineering or related field and 5 years of IT experience including White Box Testing, Black Box Testing, Load Testing, Test Planning, Test Execution, Selenium WebDriver, Cypress.io, Postman Pro, Newman, SOAP UI, Karate DSL, BDD, Cucumber, TestNG, JSON, XML, QTP, Java, Oracle SQL, Jenkins, Git, AWS, JavaScript, VBScript, Groovy, MongoDB, Waterfall Delivery, Agile SCRUM, Azure DevOps, Rally, Atlassian JIRA, ALM, IntelliJ Idea, VS Code, and Azure. Position requires travel / relocation to various unanticipated U.S. locations.",
-                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
-                "p4":"",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"22"
-            },
-            {
-                "list":[
-                    "Master’s / equivalent in Engineering",
-                    "cDAQ (TestSystems)eDAQ (SOMAT)",
-                    "Torsional Vibrational testing, Flow testing",
-                    "LMS for Data Acquisition",
-                    "DATK, n-code, understanding of MER and ET-186"
-                ],
-                "head":"Sr. Mechanical Engineer",
-                "p1":"Perform engineering duties in planning, testing the mechanically functioning equipment. Improve reliability of Gensets, through testing and analyzing the structural and dynamic vibrations. Research and recommend mechanical stiffness changes to meet requirements of structural reliability. Analyze test data and recommend structural changes to avoid early failures, with data analysis tools.",
-                "p2":"Position requires Master’s / equivalent in Engineering and 6 months of experience including cDAQ (TestSystems), eDAQ (SOMAT), LMS for Data Acquisition, DATK, n-code, understanding of MER and ET-186, strain DAQ, Modal Testing (MEscope), Torsional Vibrational testing, Flow testing, Proximity-probes, Megger testing, Coupling Test, Battery/Alternator Load Test, Gas Train Pressure test, CANape and CANalyzer for ECU calibration. Position requires travel/relocation to various unanticipated U.S. locations.",
-                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
-                "p4":"",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"22"
-            },
-            {
-                "list":[
-                    "Master’s / equivalent in CS",
-                    "CIS",
-                    "Information Systems Security",
-                    "Cryptography",
-                    "Security Architecture and Design",
-                    "Telecommunications Network Security"
-                ],
-                "head":"Sr. Systems Analyst",
-                "p1":"Test, maintain, and monitor computer program products and systems, including coordinating the installation of computer programs and systems. Troubleshoot program and software security system malfunctions to restore normal functioning. Expand and modify software system products to serve new purposes and improve work flow. Document, revise, and develop software system procedures and test procedures. Use the computer in the analysis and solution of business, software problems.",
-                "p2":"Position requires Master’s / equivalent in CS, CIS, Information Systems Security, or related field and coursework in Telecommunications Network Security, Access Control, Application Security, Cryptography, Physical Security, Operations Security, and Security Architecture and Design. Position requires travel / relocation to various unanticipated U.S. locations.",
-                "p3":"Send resume to: Infomerica, Inc., 252 Towne Village Dr., Cary, NC 27513",
-                "p4":"",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"30"
-            },
-            {
-                "list":[
-                    "Reinforcement Learning (RL)",
-                    "Python",
-                    "TensorFlow",
-                    "PyTorch",
-                    "OpenAI Gym",
-                    "5+ years experience"
-                ],
-                "head":"Data Scientist",
-                "p1": "We are seeking an experienced Data Scientist with a specialization in Reinforcement Learning (RL) and its application in quantitative trading or portfolio management. The selected candidate will work on developing a package for RL to apply to many use cases and end their contract training other data scientists in how to utilize the package.",
-                "p2": "<b>Key Responsibilities:</b><br/><br/><span class='fw-bold'>Package Development:</span> Develop a package to execute Reinforcement Learning (RL) on AWS Sagemaker. The package should allow for the use of multiple agents and allow for easy implementation of agents across different problems. Needs the ability to deploy multiple agents to solve problems mainly for portfolio management purposes.<br/>- Deploy the building blocks of a reinforcement learning problem to data packages.<br/>- Code should be modular. Strong acumen for OOP preferred.<br/>- Package should address complex multi-agent problems which are common in portfolio optimization.<br/>- Package should have functionality for the evaluation of models, hyper-parameter optimization, model/scenario explainability, and the display of results to the trading team.<br/>- Experience in Quantitative trading or deploying RL for similar optimization problems required.<br/><span class='fw-bold'>Proof of Concept Deployment:</span> Design, implement, and evaluate the RL package on a POC after package deployment.<br/><span class='fw-bold'>Documentation & Training:</span> Train other data scientists to swap agents, change the environment, rewards, etc... Detailed documentation of the RL package will be required.",
-                "p3": "<b>Qualifications:</b><br/><br/><span class='fw-bold'>Education:</span> Master's or PhD in Computer Science, Machine Learning, Financial Engineering, Operations Research or a related field.<br/><span class='fw-bold'>Experience:</span> At least 5 years of professional experience in reinforcement learning deploying models at scale on AWS required. Experience contributing to building python packages in RL or other ML fields preferred. Prior model deployments with a specific focus on applications in quantitative trading or portfolio management preferred.<br/><span class='fw-bold'>Technical Skills:</span> Proficiency in Python and familiarity with popular RL libraries such as TensorFlow, PyTorch, and OpenAI Gym. Must also have a familiarity with cloud platforms deploying and training RL models (AWS Sagemaker).<br/><span class='fw-bold'>Software Engineering Skills:</span> Solid grasp of software design principles, data structures, and algorithms pertinent to trading environments.<br/><span class='fw-bold'>Communication:</span> Excellent written and verbal communication skills; ability to relay complex trading strategies and outcomes to various stakeholders.<br/><span class='fw-bold'>Teamwork:</span> Demonstrated experience working effectively in cross-functional teams, especially within a high-pressure trading context.",
-                "p4":"<b>Nice-to-Have:</b><br/><br/>Experience with high-frequency trading environments.<br/>Publications or notable contributions in the realm of RL for quantitative finance.",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"50"
-            },
-            {
-                "list":[
-                    "ReactJS",
-                    "TypeScript",
-                    "Javascript",
-                    "Performance Tuning",
-                    "OHIF",
-                    "Cornerstone Image",
-                    "Docker/Containerization"
-                ],
-                "head":"Sr. UI developer/ React developer",
-                "p1":"<span class='fw-bold'>Mandatory skills :</span> ReactJS, TypeScript, Javascript ,Performance Tuning ,OHIF, Cornerstone Image <br/> Hands on experience on ReactJS/Redux, CSS/SCSS (Grid), Responsive design, PWA, websocket, Unit Testing Jest<br/>Good knowledge of Java Script, jQUery, HTML 5, CSS, Unit Testing - Mocha, Chai, Karma, Jest React JS,advance Java Script, ReactJS Hooks, desired React Redux,Expoure to GraphQL<br/>Desired - Exposure to GIT, Jenkins, NPM, Yarn Knowledge of AWS will be a plus Knowledge of Angular Material Design<br/>Knowledge of NodeJS will be a plus<br/>",
-                "p2":"Must have <br/><br/>ReactJS, TypeScript, Javascript<br/>Web Application Development & Deployment - UI/CSS etc",
-                "p3":"Performance Tuning – Should be able to find problem area in terms of memory optimization for web application, this required core understanding of React and JavaScript Docker/Containerization basic",
-                "p4":"",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"30"
-            },
-            {
-                "list":[
-                    "ServiceNow",
-                    "Configuration Management",
-                    "ITIL",
-                    "relational databases",
-                    "5+ years hands-on ServiceNow Process"
-                ],
-                "head":"Service Now Discovery and Configuration Management Developer/ Analyst",
-                "p1":"Understand the ServiceNow Discovery and Configuration Management processes and methodology. Expert level knowledge on Discovery Probes, Sensors and identifier rules.<br/>Setting up Configuration Management from scratch defining the CI classes and their relationships.<br/>Work with business users to capture and compile business requirements.<br/>Responsible for the technical specification, developing the technical solutions, implementing them, and performing the component integration tests on the ServiceNow platform.<br/>Understand the needs to standardize processes and build this into the design for best ITIL practices.<br/>On-call support for issues impacting the ServiceNow instance.<br/>Build custom integrations between ServiceNow and other tools and products.<br/>Leverage both proven and innovative technology approaches to solve challenging business problems.<br/>Contribute to continual service improvement by leveraging personal knowledge and best practice in solving complex business problems.<br/>Excellent Communication skills.<br/>Excellent Collaboration skills working with other team members.",
-                "p2":"<b>Qualifications and Preferred Skills/Experience:</b><br/><br/>Ideal candidate must be self-motivated with a proven track record in ITSM technologies and comfortable in the dynamic atmosphere of a technical organization with a rapidly expanding customer base. Candidate must be organized and analytical, adept at working in a team environment, able to implement on time to a project schedule, and able to handle multiple priorities in a fast-moving environment.<br/> B.S. degree in Computer Science, MIS or equivalent preferred.<br/>Minimum of 5 years hands-on ServiceNow Process and Development/ Admin experience.<br/>Advanced experience with ServiceNow implementations and maintenance and upkeep of ServiceNow CMDB.<br/>Comfortable deploying discoveries in a multi-datacenter environment with ServiceNow Discovery and Configuration Management processes.<br/>Excellent troubleshooting skills with ability to demonstrate influence in a consultative fashion to stakeholders and other team members.<br/>Experience with development and implementation of ServiceNow modules - Incident Management, Problem Management, Change Management, Release Management, Knowledge Management and Service Catalog or other ITSM applications.<br/>Experience with extending the ServiceNow schema to custom applications/tables.<br/>Experience with setup and troubleshooting with Discovery mapping, schedules, patterns, and transformation of class data and restructuring.<br/>Experience setting up multiple MID servers, check for their connectivity to various other data center components and troubleshoot issues.<br/>Experience with relational databases (e.g. MySQL, SQL Server) required to work on manipulating the data from multiple data source in SQL Server DB<br/>A fundamental understanding of Business Rules, Script Includes, UI Actions, Scheduled Jobs - all scripted aspects of the ServiceNow system.<br/>Experience with ServiceNow reporting, scheduled reports, and ServiceNow Database views.<br/>Understanding of ServiceNow scheduled import/export jobs and transform maps.",
-                "p3":"",
-                "p4":"",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"30"
-            },
-            {
-                "list":[
-                    "Aws with terraform",
-                    "Iaas",
-                    "Paas",
-                    "SDLC",
-                    "Azure",
-                    "GCP",
-                    "9+ Years"
-                ],
-                "head":"AWS cloud engineer",
-                "p1":"The Sr Cloud Engineer role is part of the Cloud COE, and is responsible for delivering Cloud solutions to the Application team (internal customer), based on customer requirements. The Sr Cloud Engineer is responsible for designing and building scalable, available, and secure architecture solutions.based on Architectural standards, availability of services, cost, network, security, storage, and Governance considerations. The Engineer should also be able to design, develop, test, and deploy secure custom workflows and scripts within the Cloud infrastructure that can be used for integration, deployment, monitoring, compliance, or other routine tasks.",
-                "p2":"<b>Essential Duties/Responsibilities:</b><br/><br/>Lead the implementation of solutions based on Architectural best practices and AWS Well Architected Framework<br/>Provides guidance on AWS, Azure and Google Cloud Platform Cloud offerings<br/>Assists business devops teams with the design and implementation of highly available, cost efficient and fault tolerant systems<br/>Leads the implementation of Cloud Architecture solutions, based on defined standards for Cloud COE - from an Application and Infrastructure perspective<br/>Leads the delivery of simple Cloud architecture patterns and implementations based on customer requirements<br/>Assists with the analysis of the application portfolios and migration feasibility<br/>Understand the integration of Cloud infrastructure/network environment with corporate infrastructure / data center environment<br/>Assist with design of reference Architecture for implementation of codified stacks that meet the needs of the applications<br/>Continuous building, testing, integration, and deployment of platforms and pipelines<br/>Provides hands-on technical support to accelerate Cloud learning among peers<br/>Assist with implementation of standardized offerings<br/>Assist maintaining Repositories & registries for build/deployment artifacts<br/>Assist with the creation of automated testing frameworks for applications and infrastructure<br/>Collaborates with internal service teams for infrastructure and application deployments<br/>Understands the tools used to perform proactive monitoring of system and server health, analyze trends to prevent incidents<br/>Assists in implementation of Security Standards, based on organization's Security policy<br/><br/>Familiarity with Security best practices and industry standards for security",
-                "p3":"<b>Minimum Requirements:</b><br/><br/>Demonstrated experience in AWS, Azure & Google Cloud Platform environments<br/>Terraform Cloud expertise",
-                "p4":"<b>Preferred Qualifications:</b><br/><br/>Demonstrated experience working with Hashicorp applications, specifically Terraform Cloud Enterprise, Vault and Packer<br/>Demonstrated experience of working in an Agile/Scrum environment<br/>Demonstrated experience of Cloud computing technologies<br/>Demonstrated experience of AWS, Azure and Google Cloud Platform design principles and architectural best practices and industry standards<br/>Demonstrated experience of the AWS Well Architected Framework and Cloud migration industry standards and best practices<br/>Prior programming background in at least ONE language: C++, Java, Python, Ruby etc.<br/>Demonstrated experience of building IaaS and PaaS solutions<br/>Knowledge of technology infrastructure, network, compute, storage, and virtualization<br/>Demonstrated experience of Cloud computing technologies and workload transition challenges<br/>Demonstrated experience with one or more IaaS platforms like Google Compute Engine, Azure, Soft Layer, OpenStack, etc.<br/>Demonstrated experience with software development life cycle (SDLC).",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"50"
-            },
-            {
-                "list":[
-                    "Java",
-                    "AWS Cloud services",
-                    "10+ year experience",
-                    "Spring Security, OAuth 2.0 or OpenID Connect",
-                    "Kubernetes or OpenShift",
-                    "Kubernetes or OpenShift"
-                ],
-                "head":"Application Architects",
-                "p1":"Lead development teams to build and deploy micro services-based applications in public cloud with Continuous Integration & Continuous Deployment tools and processes<br/>Provide technical leadership throughout the development life cycle and focus on delivery of quality solutions<br/>Lead the technical architectand design discussions to propose architecture patterns to enterprise stakeholders, peers and management<br/>Demonstrate knowledge of APIs, microservices architecture, Infrastructure as Code, Data Architecture, Security and clear expertise in one or more of these areas<br/>Encourage innovation and fail fast mindsets and continuously improve our ability to deliver quality solutions by evolving our engineering process and technical capabilities.<br/>Drive a culture of technical excellence and continuous improvement. Keep up to date on latest software development methods, language features and design philosophies to contribute to technology roadmap and manage tech debt work.<br/>Mentor engineering team members on technical decision making, code reviews and enforcing engineering practices and standards<br/>Main point of contact and subject matter expert on your product domain.",
-                "p2":"Requirements<br/><br/>Bachelor’s degree in Computer Science or foreign equivalent plus ten (10) years of experience as Architect, Technical Lead, User Interface Developer, Consultant, or Software Engineer.<br/>10+ year experience and expert knowledge of Java(7+) enterprise development and middleware system integrations.<br/>3+ years of architecture and development for building large scale enterprise applications using AWS Cloud services like Lambda, SQS, EC2, ECS and API Gateway<br/> Hands-on working experience with Spring Boot, JPA, Hibernate, Maven, and other Javadevelopment frameworks<br/>Working experience with Application security using frameworks such as Spring Security, OAuth 2.0 or OpenID Connect<br/>In-depth understanding of scalable database design for SQL (e.g. Postgres, Oracle), Stored procedures and NoSQL solutions (e.g., MongoDB, AWS Dynamodb)<br/>Hands-on experience with messaging oriented platforms such as Kafka, Kinesis Stream IBM MQ and ActiveMQ<br/>Strong knowledge of cloud-native microservices architectures, principles and patterns<br/>Strong understanding of container platforms such as Kubernetes or OpenShift<br/>Experience in Continuous Integration (CI) / Continuous Deployment (CD) using tools such as Jenkins, Maven/Gradle, Git, Sonar, Jenkins, Jira.<br/> Hands-on experience with TDD using Junit5 and Mockito<br/>Experience using Application Performance Management (APM) tools (e.g., AppDynamics, Dynatrace) and Splunk and ELK or Opensearch stack for log aggregation<br/>Working experience as a multi-skilled professional practicing Agile/SCRUM methodologies.<br/>Ability to mentor the junior engineers and advocate for engineering standard processes, control code quality<br/>Strong analytical, communication and team collaboration skills",
-                "p3":"",
-                "p4":"",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"30"
-            },
-            {
-                "list":[
-                    "Collibra Data Catalog or equivalent data governance tool",
-                    "power bi",
-                    "agile",
-                    "6+ years"
-                ],
-                "head":"Data Governance Analyst II",
-                "p1":"Data Governance & Engineering team is seeking a Data Governance Analyst. This candidate should be skilled at working with people, processes, and technology efficiently so that the Data Governance team can implement and operationalize a comprehensive Data Governance framework. The analyst will also partner with IT-Security, Data Engineering/Science, Business Intelligence, and Legal counsel teams to develop data governance policies, standards, and procedures, as well as designing and implementing Data Governance training on standards and procedures.<br/>This candidate will play a key role in establishing, building, and managing the Data Catalog, projects, and other tool capabilities so that the company is set up to manage its internal data assets.",
-                "p2":"<b>Essential Duties/Responsibilities:</b><br/><br/>Develops and deploys data governance framework/standards consisting of data policies and processes in the areas of data ingestion, data movement, data quality, master & reference data and data life cycle management<br/>Assists in developing and implementing enterprise tools to support Data Governance & Data Management, including Data Catalog, Metadata Management, Data Quality, Master & Reference Data Management<br/>Coordinates with various stakeholders across various organizations to apply established data governance framework (developing data stewardship, data custodian roles, data dictionary, metadata management, and access controls).<br/>Ensures remediation plans are implemented where data fails to meet established data governance framework/standards.<br/>Support business owners and data stewards in addressing high priority enterprise data problems, recommend solutions and use of industry standards when appropriate.<br/>Detail oriented with the ability to analyze data and perform in depth data analysis<br/>Work across multiple business and technology teams, with the ability to perform data discovery, build data glossaries and catalogs, perform data analysis and data profiling.<br/>Business analysis including business process mapping and requirement definition<br/>Manage time independently, work independently and manage multiple open work streams at the same time<br/>Understand industry standard development life cycle (SDLC) phases, including the ability to provide guidance on how to document business requirements and impacts on process flows.<br/>Coordinate and communicate in a clear and timely manner on changes, issues, and business impacts, among team members.<br/>Responsible for people management and performs other duties as assigned.",
-                "p3":"Minimum Requiremets<br/><br/>Bachelor’s degree in an accredited four-year college and equivalent 7 to 8+ years of business experience.<br/>Must be experience in data governance, data quality, data migration, data prep, and/or data architecture<br/>Must have critical thinking skills: Ask questions, Dig-in, explore & come to new conclusions based on the findings. Intellectual curiosity and aptitude to pick up new technical skills<br/>Must be skillful at verbal and written communication to both leadership teams and peer groups.<br/>Must be comfortable working with senior management, both on the business and technical sides. Must demonstrate ability to create professional relationships and effectively partner with and influence a cross-functional team.<br/>Must be proactive in building and aligning stakeholders, capabilities, and resources for getting things done quickly and achieving complex objectives.",
-                "p4":"Preferred Qualifications<br/><br/>Experience in Project Management and Business Process designs. Creating process flows and diagrams.<br/>Experience with Agile methodologies (Scrum, Kanban, Lean) and Project Management is a plus<br/>Experience PowerBI or other reporting tool is a plus<br/>Experience with Collibra Data Catalog or equivalent data governance tool. Additional Knowledge Understanding of database and custom data warehouse design, testing, development, and architecture experience Understanding of Cloud technologies (preferably AWS) is a plus. AWS Services for Data Lake such as S3, Glue, DataBricks and etc.",
-                "moredetails":"More Details",
-                "aos":"slide-right",
-                "limit":"50"
-            }
-           
-        ]
-    },
-    {
-        "hyderabadOpenings":[
-            {
-                "slno":"1",
-                "jobtype":"https://infomericainc.in/Content/images/new.gif",
-                "Location":"Hyderabad",
-                "JobName":"Graphic Designer",
-                "Skills":"C#.Net,Asp.Net, Ms Sql Server",
-                "Experience":"4-5",
-                "NoofPositions":"5",
-                "sendresume":"Send Resume"
-            },
-            {
-                "slno":"2",
-                "jobtype":"https://infomericainc.in/Content/images/new.gif",
-                "Location":"Hyderabad",
-                "JobName":"Sr. UI developer/ React developer",
-                "Skills":"ReactJS, TypeScript, Javascript, jQUery, HTML 5, CSS",
-                "Experience":"2-4",
-                "NoofPositions":"3",
-                "sendresume":"Send Resume"
-            }
-        ]
-    },
-    {
-        "bangaloreOpenings":[
-            {
-                "slno":"1",
-                "jobtype":"https://infomericainc.in/Content/images/new.gif",
-                "Location":"Bangalore",
-                "JobName":".Net Developer",
-                "Skills":".Asp.Net, C#.Net Asp.net Mvc, Sql Server",
-                "Experience":"2-3",
-                "NoofPositions":"8",
-                "sendresume":"Send Resume"
-            },
-            {
-                "slno":"2",
-                "jobtype":"https://infomericainc.in/Content/images/new.gif",
-                "Location":"Bangalore",
-                "JobName":"Sr. Systems Analyst",
-                "Skills":"Master’s / equivalent in CS, CIS, Information Systems Security,Cryptography",
-                "Experience":"2-4",
-                "NoofPositions":"3",
-                "sendresume":"Send Resume"
-            }
-        ]
+      },
+      "Careers_HyderabadOpenings": "Hyderabad Openings",
+      "Careers_BangaloreOpenings": "Bangalore Openings"
     }
+  },
+  {
+    "Hyderabad": {
+      "HyderabadMainBanner": "https://infomericainc.com/Content/images/Careers-banner.jpg",
+      "HyderabadMobileBanner": "https://infomericainc.com/Content/images/Careers-banner-mobile.jpg",
+      "Hyderabad_Head1": "Current",
+      "Hyderabad_Head2": "Openings",
+      "Hyd_CO_BgImage": "https://infomericainc.in/Content/images/tech.jpg",
+      "slno": "#",
+      "Jobtype": "Job Type",
+      "Location": "Location",
+      "JobName": "Job Name",
+      "Skills": "Skills",
+      "ExpYears": "Exp(Years)",
+      "NoOfPositions": "No Of Positions",
+      "Hyderabad_Openings": [
+        {
+          "slno": "1",
+          "jobtype": "https://infomericainc.in/Content/images/new.gif",
+          "Location": "Hyderabad",
+          "JobName": "Graphic Designer",
+          "Skills": "C#.Net,Asp.Net, Ms Sql Server",
+          "Experience": "4-5",
+          "NoofPositions": "5",
+          "sendresume": "Send Resume"
+        },
+        {
+          "slno": "2",
+          "jobtype": "https://infomericainc.in/Content/images/new.gif",
+          "Location": "Hyderabad",
+          "JobName": "Sr. UI developer/ React developer",
+          "Skills": "ReactJS, TypeScript, Javascript, jQUery, HTML 5, CSS",
+          "Experience": "2-4",
+          "NoofPositions": "3",
+          "sendresume": "Send Resume"
+        }
+      ],
+      "formoredetailsmailuson": "For more details please Mail Us on",
+      "mail": "info@infomericainc.com"
+    }
+  },
+  {
+    "Banglore": {
+      "BangloreMainBanner": "https://infomericainc.com/Content/images/Careers-banner.jpg",
+      "BangloreMobileBanner": "https://infomericainc.com/Content/images/Careers-banner-mobile.jpg",
+      "Banglore_Head1": "Current",
+      "Banglore_Head2": "Openings",
+      "Banglore_CO_BgImage": "https://infomericainc.in/Content/images/tech.jpg",
+      "slno": "#",
+      "Jobtype": "Job Type",
+      "Location": "Location",
+      "JobName": "Job Name",
+      "Skills": "Skills",
+      "ExpYears": "Exp(Years)",
+      "NoOfPositions": "No Of Positions",
+      "Banglore_Openings": [
+        {
+          "slno": "1",
+          "jobtype": "https://infomericainc.in/Content/images/new.gif",
+          "Location": "Banglore",
+          "JobName": ".Net Developer",
+          "Skills": ".Asp.Net, C#.Net Asp.net Mvc, Sql Server",
+          "Experience": "2-3",
+          "NoofPositions": "8",
+          "sendresume": "Send Resume"
+        },
+        {
+          "slno": "2",
+          "jobtype": "https://infomericainc.in/Content/images/new.gif",
+          "Location": "Banglore",
+          "JobName": "Sr. Systems Analyst",
+          "Skills": "Master’s / equivalent in CS, CIS, Information Systems Security,Cryptography",
+          "Experience": "2-4",
+          "NoofPositions": "3",
+          "sendresume": "Send Resume"
+        }
+      ],
+      "formoredetailsmailuson": "For more details please Mail Us on",
+      "mail": "info@infomericainc.com"
+    }
+  }
 ]
