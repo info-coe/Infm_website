@@ -419,6 +419,9 @@
       "microsoftPoint6": "Power Virtual Agents",
       "microsoftPoint7": "Power BI",
       "microsoftIcon": "bi bi-send",
+      "microsoft365_Technology": "Technology",
+      "microsoft365_Offerings": "Offerings",
+      "microsoft365_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
       "micro_auto_ManagementData": [
         {
           "m1": "Experience seamless migration and deployment with minimized disruptions and ensured data integrity, allowing your team to embrace Microsoft 365 effortlessly.",
@@ -742,6 +745,9 @@
       "enterprisePortalPoint7": "Dnn",
       "enterprisePortalPoint8": "WordPress",
       "enterprisePortalIcon": "bi bi-send",
+      "enterprisePortal_Technology": "Technology",
+      "enterprisePortal_Offerings": "Offerings",
+      "enterprisePortal_MainBulbImg": "https://infomericainc.com/Content/images/services-main1.png",
       "EnterprisePortal_ManagementData": [
         {
           "m1": "The valuable assessment report details the analysis, provides a project roadmap, estimates effort, includes a high-level project plan and recommends best practices where applicable."

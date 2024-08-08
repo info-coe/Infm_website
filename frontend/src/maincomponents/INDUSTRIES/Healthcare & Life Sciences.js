@@ -2,33 +2,19 @@ import React from "react";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
 import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
-import industriesContent from "./industriesContent.json";
-const HealthcareLifeSciences = ()=> {
+
+const HealthcareLifeSciences = (props)=> {
+  const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
+  const data = IndustriesContent.map((item) => item.Healthcare_and_Life_Sciences)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
   AOS.init({
     offset: 120,
     delay: 1,
     duration: 1000,
     once: true,
   });
-  console.log(industriesContent);
-
-  const {
-    health,
-    sciences,
-    solution,
-    offerings,
-    industriesmainimage,
-    industriesSubimage,
-    solution_para,
-    technology,
-    servicesmainbulb,
-  } = industriesContent[0];
-
-  const { man_auto_detail, man_auto_contact, man_auto_today, health_para } =
-    industriesContent[3];
-  const { health_management } = industriesContent[4];
-  const { man_auto_Data_Services, health_Cloud_Computing } =
-    industriesContent[5];
 
   return (
     <div>
@@ -36,13 +22,13 @@ const HealthcareLifeSciences = ()=> {
         <div>
           <div>
           <img
-        src={industriesmainimage}
+        src={data.HLS_MainBanner}
         width="100%"
         alt="Main Industries"
         className="img-fluid d-none d-md-block"
       />
       <img
-        src={industriesSubimage}
+        src={data.HLS_MobileBanner}
         alt="Sub Industries"
         className="img-fluid d-md-none w-100"
       />
@@ -54,11 +40,11 @@ const HealthcareLifeSciences = ()=> {
           >
             <div data-aos="zoom-in">
               <div className="text-center p-4 fs-1">
-                <span style={{ color: " #0f62fe " }}>{health} </span>
-                <span style={{ color: "#FF0000" }}>{sciences}</span>
+                <span style={{ color: " #0f62fe " }}>{data.HLS_Head1} </span>
+                <span style={{ color: "#FF0000" }}>{data.HLS_Head2}</span>
               </div>
               <div className="container font-weight-normal fs-md-5 pb-5">
-                <p>{health_para}</p>
+                <p>{data.HLS_Para}</p>
               </div>
             </div>
           </div>
@@ -66,14 +52,14 @@ const HealthcareLifeSciences = ()=> {
 
         <div className="w-100 overflow-none" style={{ backgroundColor: "" }}>
           <div className="container fs-1 font-weight-normal">
-            <span style={{ color: "#FF0000" }}> {solution} </span>
-            <span style={{ color: " #0f62fe" }}>{offerings}</span>
+            <span style={{ color: "#FF0000" }}> {data.HLS_Solution} </span>
+            <span style={{ color: " #0f62fe" }}>{data.HLS_Offerings}</span>
             <div className="fs-5 font-weight-normal">
-              <p>{solution_para}</p>
+              <p>{data.HLS_SO_description}</p>
             </div>
           </div>
           <div className="row justify-content-md-center">
-            {health_management.map((curr, index) => (
+            {data.HLS_Health_ManagementData.map((curr, index) => (
               <div
                 data-aos="zoom-in-up"
                 className="col-md-5 m-3 border rounded position-relative"
@@ -99,7 +85,7 @@ const HealthcareLifeSciences = ()=> {
                     <li className="list-group-item">{curr.m1}</li>
 
                     {curr.sub.map((cur, k) => (
-                      <div className="p-md-2">
+                      <div className="p-md-2" key={k}>
                         <ul className="font-weight-normal p-1" key={k}>
                           {Object.entries(cur).map(([key, value], index) => {
                             if (key === "name") {
@@ -145,15 +131,15 @@ const HealthcareLifeSciences = ()=> {
         </div>
 
         <div>
-          <div className="text-center p-4 fs-1" fade-down-right>
-            <span style={{ color: "#FF0000" }}>{technology}</span>
-            <span style={{ color: " #0f62fe" }}>{offerings}</span>
+          <div className="text-center p-4 fs-1">
+            <span style={{ color: "#FF0000" }}>{data.HLS_Technology_Offerings.TO_Technology} </span>
+            <span style={{ color: " #0f62fe" }}>{data.HLS_Technology_Offerings.TO_Offerings}</span>
           </div>
 
           <TechnologyOfferings
-            cloudComputing={health_Cloud_Computing}
-            industriesImage12={servicesmainbulb}
-            dataServices={man_auto_Data_Services}
+            cloudComputing={data.HLS_Technology_Offerings.TO_Cloud_Computing}
+            industriesImage12={data.HLS_Technology_Offerings.TO_MainBulbImg}
+            dataServices={data.HLS_Technology_Offerings.TO_Data_Services}
           />
         </div>
 
@@ -161,9 +147,9 @@ const HealthcareLifeSciences = ()=> {
           <div className="col-md-12">
             <div className="container pt-5">
               <p>
-                {man_auto_detail},
-                <span style={{ color: "#FF0000" }}>{man_auto_contact} </span>
-                {man_auto_today}
+                {data.HLS_Details},
+                <span style={{ color: "#FF0000" }}>{data.HLS_contactus} </span>
+                {data.HLS_today}
               </p>
             </div>
           </div>

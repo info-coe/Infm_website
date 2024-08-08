@@ -9,7 +9,6 @@ import { FaPaperPlane } from "react-icons/fa"; // Correct import
 
 const Microsoft365 = (props) => {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const industriesData = JSON.parse(props.product.industriesContent.Content);
   const crmModelPointsData = data
     .map((item) => item.ServiceCmsModelsData)
     .filter(Boolean)
@@ -31,7 +30,6 @@ const Microsoft365 = (props) => {
     .reduce((acc, curr) => acc.concat(curr), []);
 
   const serviceMicroPractImage = M365AllData.microsoftPractImage;
-  const { offerings, technology, servicesmainbulb } = industriesData[0];
 
   AOS.init({
     offset: 120,
@@ -168,12 +166,12 @@ const Microsoft365 = (props) => {
 
       <div>
         <div className="text-center p-4 fs-1">
-          <span style={{ color: "#FF0000" }}>{technology} </span>
-          <span style={{ color: " #0f62fe" }}>{offerings}</span>
+          <span style={{ color: "#FF0000" }}>{M365AllData.microsoft365_Technology} </span>
+          <span style={{ color: " #0f62fe" }}>{M365AllData.microsoft365_Offerings}</span>
         </div>
         <TechnologyOfferings
           cloudComputing={M365AllData.micro_Cloud_Computing}
-          industriesImage12={servicesmainbulb}
+          industriesImage12={M365AllData.microsoft365_MainBulbImg}
           dataServices={M365AllData.micro_Data_Services}
         />
       </div>

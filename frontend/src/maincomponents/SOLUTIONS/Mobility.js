@@ -33,6 +33,7 @@ const Mobility = (props) => {
           <img
             src={MobilityData.MOBILITY_Solutions_Image}
             alt="MOBILITY_Solutions_Image"
+            width="100%"
           ></img>
         </div>
         <h3 className="text-primary mt-4 mb-4">

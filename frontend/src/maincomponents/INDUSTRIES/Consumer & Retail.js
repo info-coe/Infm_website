@@ -1,9 +1,13 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
-import industriesContent from "./industriesContent.json";
-const ConsumerRetail = () => {
+
+const ConsumerRetail = (props) => {
+  const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
+  const data = IndustriesContent.map((item) => item.Consumer_and_Retail)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+  
   AOS.init({
     offset: 120,
     delay: 1,
@@ -11,55 +15,30 @@ const ConsumerRetail = () => {
     once: true,
   });
 
-  console.log(industriesContent);
-
-  const {
-    customer,
-    retail,
-
-    solution,
-    offerings,
-    industriesmainimage,
-    industriesSubimage,
-    solution_para,
-    technology,
-    servicesmainbulb,
-  } = industriesContent[0];
-  const {
-    man_auto_detail,
-    man_auto_contact,
-    man_auto_today,
-    customer_para,
-    customer_sub_para
-  } = industriesContent[3];
-  const { customer_management } = industriesContent[1];
-  const { mediacloudcomp, mediadataservices } = industriesContent[2];
-  // console.log(industriesContent[3]);
-
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <div>
         <img
-        src={industriesmainimage}
+        src={data.CR_MainBanner}
         width="100%"
         alt="Main Industries"
         className="img-fluid d-none d-md-block"
       />
       <img
-        src={industriesSubimage}
+        src={data.CR_MobileBanner}
         alt="Sub Industries"
         className="img-fluid d-md-none w-100"
       />
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
-            <span style={{ color: " #0f62fe " }}>{customer} </span>
-            <span style={{ color: "#FF0000" }}>{retail}</span>
+            <span style={{ color: " #0f62fe " }}>{data.CR_Consumer} </span>
+            <span style={{ color: "#FF0000" }}>{data.CR_Retail}</span>
           </div>
           <div className="container font-weight-normal fs-md-5 pb-5">
-            <p>{customer_para}</p>
-            <p>{customer_sub_para}</p>
+            <p>{data.CR_Para1}</p>
+            <p>{data.CR_Para2}</p>
           </div>
         </div>
       </div>
@@ -69,14 +48,14 @@ const ConsumerRetail = () => {
         style={{ backgroundColor: "#F1F7FB" }}
       >
         <div className="container fs-1 font-weight-normal">
-          <span style={{ color: "#FF0000" }}> {solution} </span>
-          <span style={{ color: " #0f62fe" }}>{offerings}</span>
+          <span style={{ color: "#FF0000" }}> {data.CR_Solution} </span>
+          <span style={{ color: " #0f62fe" }}>{data.CR_Offerings}</span>
           <div className="fs-5 font-weight-normal">
-            <p>{solution_para}</p>
+            <p>{data.CR_SO_description}</p>
           </div>
         </div>
         <div className="row justify-content-md-center">
-          {customer_management.map((curr, index) => (
+          {data.CR_SO_MediaManagementData.map((curr, index) => (
             <div
               data-aos="zoom-in"
               className="col-md-5 m-3 border rounded position-relative"
@@ -125,14 +104,14 @@ const ConsumerRetail = () => {
       </div>
 
       <div>
-        <div className="text-center p-4 fs-1" fade-down-right>
-          <span style={{ color: "#FF0000" }}>{technology}</span>
-          <span style={{ color: " #0f62fe" }}>{offerings}</span>
+        <div className="text-center p-4 fs-1">
+          <span style={{ color: "#FF0000" }}>{data.CR_Technology_Offerings.TO_Technology}</span>
+          <span style={{ color: " #0f62fe" }}>{data.CR_Technology_Offerings.TO_Offerings}</span>
         </div>
         <TechnologyOfferings
-          cloudComputing={mediacloudcomp}
-          industriesImage12={servicesmainbulb}
-          dataServices={mediadataservices}
+          cloudComputing={data.CR_Technology_Offerings.TO_Cloud_Computing}
+          industriesImage12={data.CR_Technology_Offerings.TO_MainBulbImg}
+          dataServices={data.CR_Technology_Offerings.TO_Data_Services}
         />
       </div>
 
@@ -140,9 +119,9 @@ const ConsumerRetail = () => {
         <div className="col-md-12">
           <div className="container pt-5">
             <p>
-              {man_auto_detail},
-              <span style={{ color: "#FF0000" }}>{man_auto_contact} </span>
-              {man_auto_today}
+              {data.CR_Details},
+              <span style={{ color: "#FF0000" }}>{data.CR_contactus} </span>
+              {data.CR_today}
             </p>
           </div>
         </div>

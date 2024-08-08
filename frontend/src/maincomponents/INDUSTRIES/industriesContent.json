@@ -774,6 +774,7 @@
     "Industries": {
       "Industries_MainBanner": "https://infomericainc.com/Content/images/industries-banner.jpg",
       "Industries_MobileBanner": "https://infomericainc.com/Content/images/industries-banner-mobile.jpg",
+      "industriesMediatelecomBg": "https://infomericainc.com/Content/images/banner-8.jpg",
       "Industries_Manufacturing_Automotive": {
         "industriesSolutionOfferings": [
           {

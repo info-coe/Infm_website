@@ -1,32 +1,14 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import AOS CSS for animations
-import IndustriesContent from "../INDUSTRIES/industriesContent.json";
+import "aos/dist/aos.css";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
 
-const ManufacturingAutomotive = () => {
-  const {
-    industriesmainimage,
-    industriesSubimage,
-    automotive,
-    manufacturing,
-    solution,
-    offerings,
-    technology,
-    servicesmainbulb,
-  } = IndustriesContent[0];
-  const {
-    man_auto_para,
-    man_auto_para_sub1,
-    man_auto_para_sub2,
-    man_auto_detail,
-    man_auto_contact,
-    man_auto_today,
-  } = IndustriesContent[3];
-  const { man_auto_ManagementData } = IndustriesContent[4];
-  const { man_auto_Cloud_Computing, man_auto_Data_Services } =
-    IndustriesContent[5];
+const ManufacturingAutomotive = (props) => {
+  const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
+  const data = IndustriesContent.map((item) => item.Manufacturing_And_Automotive)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
 
   React.useEffect(() => {
     AOS.init({
@@ -39,18 +21,17 @@ const ManufacturingAutomotive = () => {
     AOS.refresh();
   }, []);
 
-  // const { url} = product;
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <img
-        src={industriesmainimage}
+        src={data.MAA_MainBanner}
         width="100%"
         alt="Main Industries"
         className="img-fluid d-none d-md-block"
       />
       <img
-        src={industriesSubimage}
+        src={data.MAA_MobileBanner}
         alt="Sub Industries"
         className="img-fluid d-md-none w-100"
       />
@@ -61,10 +42,10 @@ const ManufacturingAutomotive = () => {
         <div className="col-md-12">
           <div data-aos="fade-down">
             <div className="text-center p-4 fs-1">
-              {manufacturing}{" "}
-              <span style={{ color: "#FF0000" }}>{automotive}</span>
+              <span className="text-primary">{data.MAA_Manufacturing}{" "}</span>
+              <span style={{ color: "#FF0000" }}>{data.MAA_Automotive}</span>
             </div>
-            <div className="container pb-5">{man_auto_para}</div>
+            <div className="container pb-5">{data.MAA_ManufacturingPara}</div>
           </div>
         </div>
       </div>
@@ -74,15 +55,16 @@ const ManufacturingAutomotive = () => {
         <div className="col-md-6 d-flex align-items-center justify-content-center text-center">
           <div className="p-4">
             <h2 className="fs-1">
-              {solution} <span style={{ color: "#FF0000" }}>{offerings}</span>
+              <span className="text-primary">{data.MAA_Solution}{" "}</span>
+              <span style={{ color: "#FF0000" }}>{data.MAA_Offerings}</span>
             </h2>
           </div>
         </div>
 
         <div className="col-md-6" data-aos="zoom-in-up">
           <div className="p-4">
-            <p className="fs-md-5">{man_auto_para_sub1}</p>
-            <p className="fs-md-5">{man_auto_para_sub2}</p>
+            <p className="fs-md-5">{data.MAA_SO_Para1}</p>
+            <p className="fs-md-5">{data.MAA_SO_Para2}</p>
           </div>
         </div>
       </div>
@@ -103,8 +85,8 @@ const ManufacturingAutomotive = () => {
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              {man_auto_ManagementData.map((curr) => (
-                <div className="text-white">
+              {data.MAA_Product_ManagementData.map((curr,index) => (
+                <div className="text-white" key={index}>
                   <ul className="font-weight-normal">
                     <li className="list-group-item fs-5">{curr.name}</li>
                     {Object.entries(curr).map(([key, value], index) => {
@@ -144,16 +126,16 @@ const ManufacturingAutomotive = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="text-center p-4 fs-1" data-aos="zoom-in">
-              <span style={{ color: "#FF0000" }}> {technology}</span>&nbsp;
-              <span style={{ color: " #0f62fe" }}>{offerings}</span>
+              <span style={{ color: "#FF0000" }}> {data.MAA_Technology_Offerings.TO_Technology}</span>&nbsp;
+              <span style={{ color: " #0f62fe" }}>{data.MAA_Technology_Offerings.TO_Offerings}</span>
             </div>
           </div>
         </div>
 
         <TechnologyOfferings
-          cloudComputing={man_auto_Cloud_Computing}
-          industriesImage12={servicesmainbulb}
-          dataServices={man_auto_Data_Services}
+          cloudComputing={data.MAA_Technology_Offerings.TO_Cloud_Computing}
+          industriesImage12={data.MAA_Technology_Offerings.TO_MainBulbImg}
+          dataServices={data.MAA_Technology_Offerings.TO_Data_Services}
         />
       </div>
 
@@ -162,9 +144,9 @@ const ManufacturingAutomotive = () => {
         <div className="col-md-12">
           <div className="container pt-5">
             <p>
-              {man_auto_detail},
-              <span style={{ color: "#FF0000" }}>{man_auto_contact} </span>
-              {man_auto_today}
+              {data.MAA_Details},
+              <span style={{ color: "#FF0000" }}>{data.MAA_contactus} </span>
+              {data.MAA_today}
             </p>
           </div>
         </div>

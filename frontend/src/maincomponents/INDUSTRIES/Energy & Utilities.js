@@ -3,71 +3,43 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
-import industriesContent from "./industriesContent.json";
-const EnergyUtilities = () => {
+
+const EnergyUtilities = (props) => {
   AOS.init({
     offset: 120,
     delay: 1,
     duration: 3000,
     once: true,
   });
+  const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
+  const data = IndustriesContent.map((item) => item.Energy_and_Utilities)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
 
-  console.log(industriesContent);
-
-  const {
-    energy,
-    utility,
-    solution,
-    offerings,
-    industriesmainimage,
-    industriesSubimage,
-    solution_para,
-    technology,
-    servicesmainbulb,
-  } = industriesContent[0];
-  const { energy_utility, energy_utility_sub,man_auto_detail,
-    man_auto_contact,
-    man_auto_today, } = industriesContent[3];
-  const { energy_utility_manage } = industriesContent[1];
-  const { mediacloudcomp, mediadataservices } = industriesContent[2];
-  console.log(industriesContent[2]);
-  // const {
-  //   // industriesImage12,
-  //   // technology,
-  //   // soloutionImage,
-  //   // offerings,
-  //   // cloudComputing,
-  //   // dataServices,
-  //   // industriesDetail,
-  //   // industrieContactText,
-  //   // industriTodaytext,
-  // } = product.industriesEnergyUtilities;
-
-  // const {image}= industriesImage12.url
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <div>
         <img
-        src={industriesmainimage}
+        src={data.EU_MainBanner}
         width="100%"
         alt="Main Industries"
         className="img-fluid d-none d-md-block"
       />
       <img
-        src={industriesSubimage}
+        src={data.EU_MobileBanner}
         alt="Sub Industries"
         className="img-fluid d-md-none w-100"
       />
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
-            <span style={{ color: " #0f62fe " }}>{energy} </span>
-            <span style={{ color: "#FF0000" }}>{utility}</span>
+            <span style={{ color: " #0f62fe " }}>{data.EU_Energy} </span>
+            <span style={{ color: "#FF0000" }}>{data.EU_Utilities}</span>
           </div>
           <div className="container font-weight-normal fs-md-5 pb-5">
-            <p>{energy_utility}</p>
-            <p>{energy_utility_sub}</p>
+            <p>{data.EU_Para1}</p>
+            <p>{data.EU_Para2}</p>
           </div>
         </div>
       </div>
@@ -77,24 +49,24 @@ const EnergyUtilities = () => {
         style={{ backgroundColor: "#F1F7FB" }}
       >
         <div className="container fs-1 font-weight-normal">
-          <span style={{ color: "#FF0000" }}> {solution} </span>
-          <span style={{ color: " #0f62fe" }}>{offerings}</span>
+          <span style={{ color: "#FF0000" }}> {data.EU_Solution} </span>
+          <span style={{ color: " #0f62fe" }}>{data.EU_Offerings}</span>
           <div className="fs-5 font-weight-normal">
-            <p>{solution_para}</p>
+            <p>{data.EU_SO_description}</p>
           </div>
         </div>
-        <SolutionOfferings managementData={energy_utility_manage} />
+        <SolutionOfferings managementData={data.EU_SO_ProductManagementData} />
       </div>
 
       <div>
-        <div className="text-center p-4 fs-1" fade-down-right>
-          <span style={{ color: "#FF0000" }}>{technology}</span>
-          <span style={{ color: " #0f62fe" }}>{offerings}</span>
+        <div className="text-center p-4 fs-1">
+          <span style={{ color: "#FF0000" }}>{data.EU_Technology_Offerings.TO_Technology}</span>
+          <span style={{ color: " #0f62fe" }}>{data.EU_Technology_Offerings.TO_Offerings}</span>
         </div>
         <TechnologyOfferings
-          cloudComputing={mediacloudcomp}
-          industriesImage12={servicesmainbulb}
-          dataServices={mediadataservices}
+          cloudComputing={data.EU_Technology_Offerings.TO_Cloud_Computing}
+          industriesImage12={data.EU_Technology_Offerings.TO_MainBulbImg}
+          dataServices={data.EU_Technology_Offerings.TO_Data_Services}
         />
       </div>
 
@@ -102,9 +74,9 @@ const EnergyUtilities = () => {
         <div className="col-md-12">
           <div className="container pt-5">
             <p>
-              {man_auto_detail},
-              <span style={{ color: "#FF0000" }}>{man_auto_contact} </span>
-              {man_auto_today}
+              {data.EU_Details},
+              <span style={{ color: "#FF0000" }}>{data.EU_contactus} </span>
+              {data.EU_today}
             </p>
           </div>
         </div>

@@ -83,7 +83,7 @@ const CorporateofficeaddressCard = ({data}) => {
          <style>{styles}</style>
          {
             address.map((item,index)=>(
-                <div className="card col-md-4">
+                <div className="card col-md-4" key={index}>
                     <div className="content text-center">
                         <h4 className='mb-4'>{item.name}</h4>
                         <p><i className={item.locationicon}></i>&nbsp;{item.addr}</p>

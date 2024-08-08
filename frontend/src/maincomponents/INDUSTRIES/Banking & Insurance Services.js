@@ -1,37 +1,19 @@
 import React from "react";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
-// import { SolutionOfferings } from '../../reusablecomponents/SolutionOfferings';
 import AOS from "aos";
-import industriesContent from "./industriesContent.json";
-const BankingInsuranceServices = () => {
+
+const BankingInsuranceServices = (props) => {
+  const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
+  const data = IndustriesContent.map((item) => item.Banking_and_Insurance)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
   AOS.init({
     offset: 120,
     delay: 1,
     duration: 3000,
     once: true,
   });
-
-  const {
-    banking,
-    insurance,
-    solution,
-    offerings,
-    industriesmainimage,
-    industriesSubimage,
-    solution_para,
-    technology,
-    servicesmainbulb,
-  } = industriesContent[0];
-  const { mediacloudcomp, mediadataservices } = industriesContent[2];
-  const {
-    // energy_utility,
-    // energy_utility_sub,
-    man_auto_detail,
-    man_auto_contact,
-    man_auto_today,
-    banking_para,
-  } = industriesContent[3];
-  const { banking_manage } = industriesContent[1];
   
   return (
     <div>
@@ -39,24 +21,24 @@ const BankingInsuranceServices = () => {
         <div>
           <div>
           <img
-        src={industriesmainimage}
+        src={data.BI_MainBanner}
         width="100%"
         alt="Main Industries"
         className="img-fluid d-none d-md-block"
       />
       <img
-        src={industriesSubimage}
+        src={data.BI_MobileBanner}
         alt="Sub Industries"
         className="img-fluid d-md-none w-100"
       />
           </div>
           <div data-aos="fade-down">
             <div className="text-center p-4 fs-1">
-              <span style={{ color: " #0f62fe " }}>{banking} </span>
-              <span style={{ color: "#FF0000" }}>{insurance}</span>
+              <span style={{ color: " #0f62fe " }}>{data.BI_Banking} </span>
+              <span style={{ color: "#FF0000" }}>{data.BI_Insurance}</span>
             </div>
             <div className="container font-weight-normal fs-md-5 pb-5">
-              <p>{banking_para}</p>
+              <p>{data.BI_BankingInsurancePara}</p>
             </div>
           </div>
         </div>
@@ -66,14 +48,14 @@ const BankingInsuranceServices = () => {
           style={{ backgroundColor: "#F1F7FB" }}
         >
           <div className="container fs-1 font-weight-normal">
-            <span style={{ color: "#FF0000" }}> {solution}{" "}</span>
-            <span style={{ color: " #0f62fe" }}>{offerings}</span>
+            <span style={{ color: "#FF0000" }}> {data.BI_Solution}{" "}</span>
+            <span style={{ color: " #0f62fe" }}>{data.BI_Offerings}</span>
             <div className="fs-5 font-weight-normal">
-              <p>{solution_para}</p>
+              <p>{data.BI_SO_description}</p>
             </div>
           </div>
           <div className="row justify-content-md-center">
-            {banking_manage.map((curr, index) => (
+            {data.BI_SO_Product_ManagementData.map((curr, index) => (
               <div
                 data-aos="zoom-in"
                 className="col-md-5 m-3 border rounded position-relative"
@@ -122,14 +104,14 @@ const BankingInsuranceServices = () => {
         </div>
 
         <div>
-          <div className="text-center p-4 fs-1" fade-down-right>
-            <span style={{ color: "#FF0000" }}>{technology}</span>
-            <span style={{ color: " #0f62fe" }}>{offerings}</span>
+          <div className="text-center p-4 fs-1">
+            <span style={{ color: "#FF0000" }}>{data.BI_Technology_Offerings.TO_Technology} </span>
+            <span style={{ color: " #0f62fe" }}>{data.BI_Technology_Offerings.TO_Offerings}</span>
           </div>
           <TechnologyOfferings
-            cloudComputing={mediacloudcomp}
-            industriesImage12={servicesmainbulb}
-            dataServices={mediadataservices}
+            cloudComputing={data.BI_Technology_Offerings.TO_Cloud_Computing}
+            industriesImage12={data.BI_Technology_Offerings.TO_MainBulbImg}
+            dataServices={data.BI_Technology_Offerings.TO_Data_Services}
           />
         </div>
 
@@ -137,9 +119,9 @@ const BankingInsuranceServices = () => {
           <div className="col-md-12">
             <div className="container pt-5">
               <p>
-                {man_auto_detail},
-                <span style={{ color: "#FF0000" }}>{man_auto_contact} </span>
-                {man_auto_today}
+                {data.BI_Details},
+                <span style={{ color: "#FF0000" }}>{data.BI_contactus} </span>
+                {data.BI_today}
               </p>
             </div>
           </div>

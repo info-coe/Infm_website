@@ -2,7 +2,7 @@
 import React from 'react';
 
 const IndustriesBorderMovingCard = ({solutionofferingData}) => {
-    console.log(solutionofferingData)
+
     const styles = `
     .box {
         position: relative;

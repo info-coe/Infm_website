@@ -1,82 +1,90 @@
-// import React from 'react';
+import React from 'react';
+import Typewriter from 'typewriter-effect';
 
-// const Loader = () => {
-//   return (
-//     <div className="loader-container">
-//       <div className="loader"></div>
-//       <p>Loading...</p>
-//     </div>
-//   );
-// };
+const Loader = () => {
+  const styles = {
+    loader: {
+      position: 'absolute',
+      top: '40%',
+      left: '40%',
+      textAlign: 'center',
+      fontSize: '50px',
+      backgroundColor: '#ef0000',
+      backgroundClip: 'text',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+      animation: 'textclip 2s linear infinite',
+      whiteSpace: 'nowrap', // Ensures text doesn’t wrap and animation works smoothly
+    }
+  };
 
-// export default Loader;
+  return (
+    <div style={styles.loader}>
+      <Typewriter
+        onInit={(typewriter) => {
+          typewriter
+            .typeString('INFOMERICA')
+            .pauseFor(700)
+            .deleteChars(10) // Adjusts the number of characters deleted in each step
+            .pauseFor(500)
+            .typeString('INFOMERICA')
+            .pauseFor(700)
+            .deleteAll()
+            .pauseFor(500)
+            .start();
+        }}
+      />
+      <style>
+        {`
+          @keyframes textclip {
+            0% {
+              background-position: 0% center;
+            }
+            100% {
+              background-position: 100% center;
+            }
+          }
+        `}
+      </style>
+    </div>
+  );
+};
 
+export default Loader;
 
 // Loader.js
 
 // import React, { useState, useEffect } from 'react';
 
 // const Loader = () => {
-//   const [displayText, setDisplayText] = useState('');
+//   const [animationState, setAnimationState] = useState('zoom-in');
 
 //   useEffect(() => {
-//     const text = 'INNFOMERICA';
-//     let currentIndex = 0;
-//     const interval = setInterval(() => {
-//       setDisplayText((prevText) => prevText + text[currentIndex]);
-//       currentIndex++;
-//       if (currentIndex === text.length) {
-//         clearInterval(interval);
-//       }
-//     }, 200); // Adjust the interval as needed
+//     // After zooming in, switch to zoom-out after a delay
+//     const timeout1 = setTimeout(() => {
+//       setAnimationState('zoom-out');
+//     }, 1000);
 
-//     return () => clearInterval(interval);
+//     // After zooming out, switch back to zoom-in after another delay
+//     const timeout2 = setTimeout(() => {
+//       setAnimationState('zoom-in');
+//     }, 2000);
+
+//     // Clean up timeouts
+//     return () => {
+//       clearTimeout(timeout1);
+//       clearTimeout(timeout2);
+//     };
 //   }, []);
 
 //   return (
 //     <div className="loader-container">
+//       <div className={`loading-text ${animationState}`}>
+//         <span className='text-danger'>INFOMERICA</span>
+//       </div>
 //       <div className="loader"></div>
-//       <p>{displayText}</p>
 //     </div>
 //   );
 // };
 
 // export default Loader;
-
-
-// Loader.js
-
-import React, { useState, useEffect } from 'react';
-
-const Loader = () => {
-  const [animationState, setAnimationState] = useState('zoom-in');
-
-  useEffect(() => {
-    // After zooming in, switch to zoom-out after a delay
-    const timeout1 = setTimeout(() => {
-      setAnimationState('zoom-out');
-    }, 1000);
-
-    // After zooming out, switch back to zoom-in after another delay
-    const timeout2 = setTimeout(() => {
-      setAnimationState('zoom-in');
-    }, 2000);
-
-    // Clean up timeouts
-    return () => {
-      clearTimeout(timeout1);
-      clearTimeout(timeout2);
-    };
-  }, []);
-
-  return (
-    <div className="loader-container">
-      <div className={`loading-text ${animationState}`}>
-        <span className='text-danger'>INFOMERICA</span>
-      </div>
-      <div className="loader"></div>
-    </div>
-  );
-};
-
-export default Loader;

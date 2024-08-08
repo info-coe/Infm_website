@@ -1,18 +1,14 @@
 import React from "react";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
-import IndustriesContent from "../INDUSTRIES/industriesContent.json";
-// console.log(IndustriesContent[0]);
-const MediaTelecom = () => {
-  const data = IndustriesContent[0];
-  const slideData = IndustriesContent[1].mediatelsoloff1;
-  const cloud = IndustriesContent[2].mediacloudcomp;
-  const dataservices = IndustriesContent[2].mediadataservices;
 
-  // console.log(cloud)
+const MediaTelecom = (props) => {
+  const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
+  const data = IndustriesContent.map((item) => item.Media_and_Telecom)
+    .filter(Boolean)
+    .reduce((acc, curr) => acc.concat(curr), [])[0];
 
   AOS.init({
     offset: 120,
@@ -24,16 +20,24 @@ const MediaTelecom = () => {
   return (
     <div className="" style={{ overflow: "hidden" }}>
       <div>
-      <img src={data.industriesmainimage}  alt='Main Industries' className="img-fluid d-none d-md-block"  />
-            <img src={data.industriesSubimage} alt='Sub Industries' className="img-fluid d-md-none w-100" />
+        <img
+          src={data.MT_MainBanner}
+          alt="Main Industries"
+          className="img-fluid d-none d-md-block"
+        />
+        <img
+          src={data.MT_MobileBanner}
+          alt="Sub Industries"
+          className="img-fluid d-md-none w-100"
+        />
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
-            <span style={{ color: " #0f62fe " }}>{data.mediaHead} </span>
-            <span style={{ color: "#FF0000" }}>{data.telecomHead}</span>
+            <span style={{ color: " #0f62fe " }}>{data.MT_Media} </span>
+            <span style={{ color: "#FF0000" }}>{data.MT_Telecom}</span>
           </div>
           <div className="container font-weight-normal fs-md-5 pb-5">
-            <p>{data.mediapara1}</p>
-            <p>{data.mediapara2}</p>
+            <p>{data.MT_Para1}</p>
+            <p>{data.MT_Para2}</p>
           </div>
         </div>
       </div>
@@ -43,34 +47,34 @@ const MediaTelecom = () => {
         style={{ backgroundColor: "#F1F7FB" }}
       >
         <div className="container fs-1 font-weight-normal">
-          <span style={{ color: "#FF0000" }}> {data.solution}</span>&nbsp;
-          <span style={{ color: " #0f62fe" }}>{data.offerings}</span>
+          <span style={{ color: "#FF0000" }}> {data.MT_Solution}</span>&nbsp;
+          <span style={{ color: " #0f62fe" }}>{data.MT_Offerings}</span>
           <div className="fs-5 font-weight-normal">
-            <p>{data.solutionpara}</p>
+            <p>{data.MT_SO_description}</p>
           </div>
         </div>
-        <SolutionOfferings managementData={slideData} />
+        <SolutionOfferings managementData={data.MT_SO_MediaManagementData} />
       </div>
 
       <div>
-        <div className="text-center p-4 fs-1" fade-down-right>
-          <span style={{ color: "#FF0000" }}>{data.technology}</span>&nbsp;
-          <span style={{ color: " #0f62fe" }}>{data.offerings}</span>
+        <div className="text-center p-4 fs-1">
+          <span style={{ color: "#FF0000" }}>{data.MT_Technology_Offerings.TO_Technology}</span>&nbsp;
+          <span style={{ color: " #0f62fe" }}>{data.MT_Technology_Offerings.TO_Offerings}</span>
         </div>
 
         <TechnologyOfferings
-          cloudComputing={cloud}
-          industriesImage12={data.servicesmainbulb}
-          dataServices={dataservices}
+          cloudComputing={data.MT_Technology_Offerings.TO_Cloud_Computing}
+          industriesImage12={data.MT_Technology_Offerings.TO_MainBulbImg}
+          dataServices={data.MT_Technology_Offerings.TO_Data_Services}
         />
       </div>
 
       <div className="container pt-5">
-        {/* <p>
-          {industriesDetail},
-          <span style={{ color: "#FF0000" }}>{industrieContactText}</span>
-          {industriTodaytext}
-        </p> */}
+        <p>
+          {data.MT_Details},
+          <span style={{ color: "#FF0000" }}>{data.MT_contactus} </span>
+          {data.MT_today}
+        </p>
       </div>
     </div>
   );

@@ -78,7 +78,7 @@ const IndustriesOfferingCard = ({solutionofferingData}) => {
          <style>{styles}</style>
          {
             solutionofferingData.map((item,index)=>(
-                <div className="card col-md-4">
+                <div className="card col-md-4" key={index}>
                     <div className="content">
                         <h5 className='mb-4'>{item.solutionHead}</h5>
                         <ul className='list-unstyled'>

@@ -266,7 +266,6 @@ function App() {
           <Scrolltotopbtn />
         </BrowserRouter>
       ) : (
-        // <div>Fetching data...</div>
         <Loader/>
       )}
     </>

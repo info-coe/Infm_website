@@ -9,7 +9,6 @@ import { FaPaperPlane } from "react-icons/fa";
 
 const EnterprisePortal = (props) => {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const industriesData = JSON.parse(props.product.industriesContent.Content);
   const crmModelPointsData = data
     .map((item) => item.ServiceCmsModelsData)
     .filter(Boolean)
@@ -31,7 +30,6 @@ const EnterprisePortal = (props) => {
     .reduce((acc, curr) => acc.concat(curr), []);
 
   const enterprisePortalImage = EPAllData.enterprisePortalImage;
-  const { offerings, technology, servicesmainbulb } = industriesData[0];
 
   AOS.init({
     offset: 120,
@@ -172,12 +170,12 @@ const EnterprisePortal = (props) => {
 
       <div>
         <div className="text-center p-4 fs-1">
-          <span style={{ color: "#FF0000" }}>{technology}</span>
-          <span style={{ color: " #0f62fe" }}>{offerings}</span>
+          <span style={{ color: "#FF0000" }}>{EPAllData.enterprisePortal_Technology} </span>
+          <span style={{ color: " #0f62fe" }}>{EPAllData.enterprisePortal_Offerings}</span>
         </div>
         <TechnologyOfferings
           cloudComputing={EPAllData.EnterprisePortal_Cloud_Computing}
-          industriesImage12={servicesmainbulb}
+          industriesImage12={EPAllData.enterprisePortal_MainBulbImg}
           dataServices={EPAllData.EnterprisePortal_Data_Services}
         />
       </div>

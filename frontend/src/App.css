@@ -1,7 +1,7 @@
 
 body{
   overflow-y: scroll;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 /* .zoom-in{
   font-size: 16px;
