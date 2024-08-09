@@ -9,7 +9,7 @@ const Loader = () => {
       left: '40%',
       textAlign: 'center',
       fontSize: '50px',
-      backgroundColor: '#ef0000',
+      backgroundColor: '#FE0000',
       backgroundClip: 'text',
       WebkitBackgroundClip: 'text',
       WebkitTextFillColor: 'transparent',

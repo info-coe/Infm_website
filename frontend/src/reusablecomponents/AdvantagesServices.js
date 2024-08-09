@@ -6,7 +6,7 @@ const AdvantagesServices = (props) => {
       <div className="row justify-content-center">
         <div className="col-md-12">
           <div className="my-4">
-            <h3 className="text-danger">{props.heading}</h3>
+            <h3 className="" style={{color:"#FE0000"}}>{props.heading}</h3>
             <div className="d-md-flex mt-4">
               <div className="flex-grow-1">
                 {props.advantagesData.map((item, index) => (

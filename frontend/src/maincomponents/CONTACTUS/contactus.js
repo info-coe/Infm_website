@@ -82,7 +82,7 @@ const Contactus = (props) => {
         <div className="mt-5 mb-5">
           <h2 className="pt-5">
             <span className="text-primary">{ContactusContent.Corporate_Office_Address.COA_Head1}</span>
-            &nbsp;<span className="text-danger">{ContactusContent.Corporate_Office_Address.COA_Head2}</span>
+            &nbsp;<span className="" style={{color:"#FE0000"}}>{ContactusContent.Corporate_Office_Address.COA_Head2}</span>
           </h2>
           <div className="d-lg-flex">
             <CorporateofficeaddressCard data={ContactusContent.Corporate_Office_Address.COA_Address} />

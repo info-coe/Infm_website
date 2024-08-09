@@ -39,7 +39,7 @@ const ServiceOrientedArchitecture = (props) => {
       >
         <div className="col-md-4 d-md-flex justify-content-center align-items-center flex-column">
           <h2 className="text-primary">{SOAData.SOA_Heading1}</h2>
-          <h2 style={{ color: "#ef0000" }}>{SOAData.SOA_Heading2}</h2>
+          <h2 style={{ color: "#FE0000" }}>{SOAData.SOA_Heading2}</h2>
         </div>
         <div className="col-md-8">
           {SOAData.SOA_SubPoints.map((item, index) => (
@@ -56,7 +56,7 @@ const ServiceOrientedArchitecture = (props) => {
       >
         <h2 className="ps-5">
           <span className="text-primary">{SOAData.SOA_Offering_Heading1}</span>
-          <span style={{ color: "#ef0000" }}>
+          <span style={{ color: "#FE0000" }}>
             {SOAData.SOA_Offering_Heading2}
           </span>
         </h2>

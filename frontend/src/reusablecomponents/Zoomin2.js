@@ -12,7 +12,7 @@ const Zoomin2 = (props) => {
             <h4 className='text-secondary'style={{fontFamily: "'Lobster', cursive"}}>{props.Mainheading}</h4>
             <div className={props.textdisplay}>
             <h2 className='text-primary me-1' style={{textAlign:props.aligntext}}>{props.heading}</h2>
-            <h2 className='text-danger' style={{textAlign:props.aligntext}}>{props.heading2}</h2>
+            <h2 className='' style={{textAlign:props.aligntext, color:"#FE0000"}}>{props.heading2}</h2>
             </div>
             <div>
                 {props.content.map((item,index)=>(

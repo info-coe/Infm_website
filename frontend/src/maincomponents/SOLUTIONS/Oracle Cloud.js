@@ -32,7 +32,7 @@ const OCAllData = SolutionData
         />
       </div>
       <SolutionOfferings managementData={OCAllData.Oracle_Enterprise} />
-      <h4 className="text-danger container p-5">{OCAllData.ETE_Oracle_Cloud_Services}</h4>
+      <h4 className="container p-5" style={{color:"#FE0000"}}>{OCAllData.ETE_Oracle_Cloud_Services}</h4>
       <div className='d-md-flex flex-wrap gap-4 justify-content-center m-5 mt-0'>
         <CareersSlideContent data={OCAllData.ETE_Oracle_Cloud_Slides}/>
       </div>

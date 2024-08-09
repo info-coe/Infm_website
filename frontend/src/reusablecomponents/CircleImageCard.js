@@ -1,5 +1,4 @@
 import React from 'react';
-// import gif1 from './images/g3.gif';
 
 const  CircleImageCard =({ title, icon ,background})=> {
   const styles = {

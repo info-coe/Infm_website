@@ -35,7 +35,7 @@ const SAP = (props) => {
       </div>
       <div className="container d-md-flex gap-4">
         <div className="col-md-6">
-          <h4 className="text-danger mb-4">{SAPAllData.SAP_Services_Portfolio_Heading}</h4>
+          <h4 className="mb-4" style={{color:"#FE0000"}}>{SAPAllData.SAP_Services_Portfolio_Heading}</h4>
           {SAPAllData.SAP_Services_Portfolio.map((item, index) => (
             <ToggleableCard
               key={index}
@@ -46,7 +46,7 @@ const SAP = (props) => {
           ))}
         </div>
         <div className="col-md-6">
-          <h4 className="text-danger mb-4">{SAPAllData.SAP_Focus_Offering_Heading}</h4>
+          <h4 className="mb-4" style={{color:"#FE0000"}}>{SAPAllData.SAP_Focus_Offering_Heading}</h4>
           {SAPAllData.SAP_Focus_Offering.map((item, index) => (
             <ToggleableCard
               key={index}

@@ -60,7 +60,7 @@ const EnergyUtilities = (props) => {
 
       <div>
         <div className="text-center p-4 fs-1">
-          <span style={{ color: "#FF0000" }}>{data.EU_Technology_Offerings.TO_Technology}</span>
+          <span style={{ color: "#FF0000" }}>{data.EU_Technology_Offerings.TO_Technology} </span>
           <span style={{ color: " #0f62fe" }}>{data.EU_Technology_Offerings.TO_Offerings}</span>
         </div>
         <TechnologyOfferings

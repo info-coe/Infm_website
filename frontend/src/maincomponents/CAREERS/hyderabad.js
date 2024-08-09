@@ -65,7 +65,7 @@ const Hyderabad = (props) => {
         <div className='container'>
             <h2 className='text-center p-4'>
                 <span className='text-primary'>{data.Hyderabad_Head1}</span>&nbsp;
-                <span className='text-danger'>{data.Hyderabad_Head2}</span>
+                <span className='' style={{color:"#FE0000"}}>{data.Hyderabad_Head2}</span>
             </h2>
             <div className='table-responsive'>
                

@@ -32,7 +32,7 @@ const Services = (props) => {
 
       {cardData.map((item, index) => (
         <div key={index}>
-          <h1 className="text-center text-danger mt-5">
+          <h1 className="text-center mt-5" style={{color:"#FE0000"}}>
             {item.serviceHeading}
           </h1>
           <div className="container">

@@ -80,7 +80,7 @@ const SoftwareSales = (props) => {
           {SSAllData.softwareSalesFooter1}
           <Link to={SSAllData.softwareSalesFooterLink} className="text-decoration-none">
             {" "}
-            <span className="text-danger"> {SSAllData.softwareSalesFooter2} </span>
+            <span className="" style={{color:"#FE0000"}}> {SSAllData.softwareSalesFooter2} </span>
           </Link>{" "}
           {SSAllData.softwareSalesFooter3}
         </p>

@@ -47,7 +47,7 @@ const Navigation = (props) => {
       <nav className="navbar navbar-expand-lg bg-light sticky-top scrolled">
         <div className="container-fluid">
           <div className="d-flex align-items-center gap-4 ps-lg-5 ms-lg-5 ps-2">
-            <span
+            {/* <span
               className="toggle"
               type="button"
               data-bs-toggle="offcanvas"
@@ -55,6 +55,23 @@ const Navigation = (props) => {
               aria-controls="offcanvasRight"
             >
               <i className="bi bi-text-left"></i>
+            </span> */}
+            <span
+              className="toggle"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+                <div
+                  style={{ borderBottom: "2px solid #FE0000", width: "16px", margin:"8px" }}
+                ></div>
+                <div
+                  style={{ borderBottom: "2px solid #FE0000", width: "27px", margin:"8px"  }}
+                ></div>
+                <div
+                  style={{ borderBottom: "2px solid #FE0000", width: "16px", margin:"8px"  }}
+                ></div>
             </span>
             <div className="d-none d-lg-block">
               <InfoLogo logosrc={data.logo} />

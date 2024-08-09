@@ -69,7 +69,7 @@ export default function Home(props) {
         <div className="ps-lg-5 ms-lg-5 ms-md-5 ms-3 mt-5">
           <h1 className="text-primary">
             {whychooseus.WCU_why}
-            <span className="text-danger"> {whychooseus.WCU_chooseus}</span>
+            <span className="" style={{color:"#FE0000"}}> {whychooseus.WCU_chooseus}</span>
           </h1>
           <p
             className="text-secondary"
@@ -140,13 +140,11 @@ export default function Home(props) {
       </div>
       <PartnerLogos businesspartners={businesspartners} />
 
-      {/* <h1 className="text-center text-danger mt-5">{data.serviceHeading}</h1> */}
-
       <div>
         <div>
           {cardData.map((item, index) => (
               <div key={index}>
-                <h1 className="text-center text-danger mt-5">
+                <h1 className="text-center mt-5" style={{color:"#FE0000"}}>
                   {item.serviceHeading}
                 </h1>
                 <div className="container">

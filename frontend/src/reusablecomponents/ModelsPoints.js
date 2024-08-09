@@ -30,7 +30,7 @@ const ModelsPoints = ({ contents }) => {
             </div>
             <p  style={{fontSize:'18px',color: '#030250'}}><span className='m-md-4'>{content.mcontent3}
             <Link to={content.mcontactlink} className='text-decoration-none'>
-             <span className='p-1 text-danger'>{content.mcontact}</span>
+             <span className='p-1' style={{color:"#FE0000"}}>{content.mcontact}</span>
             </Link>{content.mtoday}</span>
             </p>
               <div style={{borderBottom:"9px solid #FE0000 "}} className='mb-5'></div>

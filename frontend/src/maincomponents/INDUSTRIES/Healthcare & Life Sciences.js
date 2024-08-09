@@ -79,7 +79,7 @@ const HealthcareLifeSciences = (props)=> {
                     />
                   </div>
                   <ul className="font-weight-normal">
-                    <li className="list-group-item text-danger fs-md-5">
+                    <li className="list-group-item fs-md-5" style={{color:"#FE0000"}}>
                       {curr.name}
                     </li>
                     <li className="list-group-item">{curr.m1}</li>

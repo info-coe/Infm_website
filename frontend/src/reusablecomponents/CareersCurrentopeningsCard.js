@@ -60,7 +60,7 @@ const CareersCurrentopeningsCard = ({data}) => {
                     <span className='border p-1 m-1' key={j}>{li}</span>
                 ))}
                 </div>
-                <h6 className='text-center text-danger p-2 mt-3'>{item.head}</h6>
+                <h6 className='text-center p-2 mt-3' style={{color:"#FE0000"}}>{item.head}</h6>
                 <TruncatedParagraph text={item.p1} limit={item.limit} /> 
                </div>
                 <div className='card-footer text-center'>
@@ -87,7 +87,7 @@ const CareersCurrentopeningsCard = ({data}) => {
                     <span className='border p-1 m-1' key={j}>{li}</span>
                 ))}
                 </div>
-                <h6 className='text-center text-danger p-2 mt-4'>{modalData.head}</h6>
+                <h6 className='text-center p-2 mt-4' style={{color:"#FE0000"}}>{modalData.head}</h6>
                 <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p1 }} />
                 <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p2 }} />
                 <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p3 }} />

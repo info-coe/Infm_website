@@ -18,7 +18,7 @@ const Zoomin = (props) => {
         <h2 className="text-primary ">{props.heading}</h2>
         {props.sections.map((section, index) => (
           <div key={index}>
-            <h2 className="text-danger" style={{ fontSize: props.textsize }}>
+            <h2 className="" style={{ fontSize: props.textsize ,color:"#FE0000"}}>
               {section.heading}
             </h2>
             <p>{section.content}</p>
@@ -38,7 +38,7 @@ const Zoomin = (props) => {
      <div className={props.textdisplay}>
         <h2>
           <span className="text-primary me-2">{props.heading} </span>
-          <span className="text-danger me-2">{props.heading2} </span>
+          <span className="me-2" style={{color:"#FE0000"}}>{props.heading2} </span>
           <span className="text-primary">{props.heading3}</span>
         </h2>
         </div>

@@ -19,7 +19,7 @@ const Testimonials = ({ data }) => {
         <div className="sec-title-style5 text-center mb-4">
           <h2>
             <span className="text-primary">{content.OT_head1}</span>{" "}
-            <span className="text-danger">{content.OT_head2}</span>
+            <span className="" style={{color:"#FE0000"}}>{content.OT_head2}</span>
           </h2>
         </div>
       </div>
@@ -54,7 +54,7 @@ const Testimonials = ({ data }) => {
                       <div className="testimonial-card p-4">
                         <div className="row">
                           <div className="testimonial-text">
-                            <h5 className="client-name m-2 text-danger">
+                            <h5 className="client-name m-2" style={{color:"#FE0000"}}>
                               <b>{item.clientName}</b>
                             </h5>
                             <p

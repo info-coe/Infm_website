@@ -65,7 +65,7 @@ const BusinessProcessManagement = (props) => {
           <div className="col-lg-5 text-center">
             <h2 className="mb-3">
               <span className="text-primary">{BPMData.BPM_Technology}</span>
-              &nbsp;<span className="text-danger">{BPMData.BPM_Enablers}</span>
+              &nbsp;<span className="" style={{color:"#FE0000"}}>{BPMData.BPM_Enablers}</span>
             </h2>
           </div>
           <div className="col-lg-6">
@@ -120,7 +120,7 @@ const BusinessProcessManagement = (props) => {
         <div className="col-lg-6 col-md-5">
           <h2>
             <span className="text-primary">{BPMData.Infomerica_BPM}</span>&nbsp;
-            <span className="text-danger">{BPMData.Offerings}</span>
+            <span className="" style={{color:"#FE0000"}}>{BPMData.Offerings}</span>
           </h2>
           <p>{BPMData.content_BPM}</p>
         </div>

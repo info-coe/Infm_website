@@ -18,15 +18,15 @@ const NoZoomin = (props) => {
                 {props.heading}
               </span>
               <span
-                className="text-danger"
-                style={{ marginTop: props.texttop, fontSize: props.textsize }}
+                className=""
+                style={{ marginTop: props.texttop, fontSize: props.textsize, color:"#FE0000" }}
               >
                 {props.heading2}
               </span>
             </h1>
             <h1
-              className="text-danger"
-              style={{ marginTop: props.texttop, fontSize: props.textsize }}
+              className=""
+              style={{ marginTop: props.texttop, fontSize: props.textsize ,color:"#FE0000"}}
             >
               {props.heading3}
             </h1>
@@ -37,7 +37,7 @@ const NoZoomin = (props) => {
               {index === props.content.length - 1 && (
                 <>
                   <Link to={props.link} className="text-decoration-none">
-                    <span className="text-danger"> {props.contact}</span>
+                    <span className="" style={{color:"#FE0000"}}> {props.contact}</span>
                   </Link>
                   <span className="m-2">{props.today}</span>
                 </>

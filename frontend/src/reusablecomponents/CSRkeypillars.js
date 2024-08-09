@@ -10,7 +10,7 @@ const CSRkeypillars = ({ data }) => {
           <h5 className="text-primary text-center m-2">{item.Heading}</h5>
           {item.Points.map((itm, idx) => (
             <p style={{ lineHeight: "22px" }} key={idx}>
-              <span className="text-danger">{itm.name}: </span>
+              <span className="" style={{color:"#FE0000"}}>{itm.name}: </span>
               {itm.description}
             </p>
           ))}

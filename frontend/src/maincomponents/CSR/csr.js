@@ -33,7 +33,7 @@ const Csr = (props) => {
               {csrContent.CSR_PolicyOnCorporate}
             </span>
             &nbsp;
-            <span className="text-danger">
+            <span className="" style={{color:"#FE0000"}}>
               {csrContent.CSR_SocialResponsibility}
             </span>
           </h1>
@@ -42,7 +42,7 @@ const Csr = (props) => {
           <p className="fs-5">{csrContent.CSR_VisionDescription}</p>
           <h5 className="text-primary">{csrContent.CSR_Objective}</h5>
           <p className="fs-5">{csrContent.CSR_ObjectiveDescription}</p>
-          <h5 className="text-center text-danger mt-5">
+          <h5 className="text-center mt-5" style={{color:"#FE0000"}}>
             {csrContent.KeyPillarsHeading}
           </h5>
           <div className="d-md-flex justify-content-between mb-4">
@@ -50,7 +50,7 @@ const Csr = (props) => {
           </div>
         </div>
         <div className="">
-          <h5 className="text-center text-danger mb-5 mt-5">
+          <h5 className="text-center mb-5 mt-5" style={{color:"#FE0000"}}>
             {csrContent.Implementation_Strategy.IS_Heading}
           </h5>
 
@@ -61,7 +61,7 @@ const Csr = (props) => {
           </div>
         </div>
         <div className="pb-5">
-          <h5 className="text-center text-danger mb-4 mt-4">
+          <h5 className="text-center mb-4 mt-4" style={{color:"#FE0000"}}>
             {csrContent.Measurement_Impacty.MI_Heading}
           </h5>
           <p className="mb-5 mt-5">{csrContent.Measurement_Impacty.MI_Para1}</p>

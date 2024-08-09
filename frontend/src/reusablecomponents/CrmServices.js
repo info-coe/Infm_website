@@ -7,7 +7,7 @@ const CrmServices = ({ serviceData }) => {
         <div key={index} className="row mb-4">
           <div className="col-md-12">
             <h3 className='text-primary mb-4'>{service.mainHead}</h3>
-            <h5 className='text-danger'>{service.subHead}</h5>
+            <h5 className='' style={{color:"#FE0000"}}>{service.subHead}</h5>
             <p className='text-secondary' style={{fontSize:'17px'}}><strong>Objective: </strong>{service.objective}</p>
             {service.approach ? (
               <p className='text-secondary' style={{fontSize:'17px'}}>

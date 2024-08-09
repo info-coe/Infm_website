@@ -63,7 +63,7 @@ const FreePOCPOT = (props) => {
           <div className="col-md-8 mb-5 d-md-flex gap-3">
             {sections.map((section, index) => (
               <div key={index}>
-                <h4 className="fs-6 text-danger">{section.heading}</h4>
+                <h4 className="fs-6" style={{color:"#FE0000"}}>{section.heading}</h4>
                 <p>{section.content}</p>
               </div>
             ))}

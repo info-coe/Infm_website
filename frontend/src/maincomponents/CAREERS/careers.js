@@ -39,7 +39,7 @@ const Careers = (props) => {
         </div>
         <h2 className="mb-5">
           <span className="text-primary">{data.Current_Openings.CO_Head1}</span>&nbsp;
-          <span className="text-danger">{data.Current_Openings.CO_Head1}</span>
+          <span className="" style={{color:"#FE0000"}}>{data.Current_Openings.CO_Head1}</span>
         </h2>
         <div
           className="d-md-flex flex-wrap gap-lg-4 gap-md-2 justify-content-center mb-5"
