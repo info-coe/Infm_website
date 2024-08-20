@@ -648,6 +648,31 @@ body{
 }
 /* scroll to top button code end */
 
+#homelink,
+#aboutusDropdown,
+#industriesDropdown,
+#servicesDropdown,
+#solutionsDropdown,
+#contactlink,
+#csrlink,
+#careersDropdown {
+  color: black;
+}
+#navbarNavDropdown #aboutusDropdown:hover,
+#industriesDropdown:hover,
+#solutionsDropdown:hover,
+#careersDropdown:hover,
+#servicesDropdown:hover,
+#csrlink:hover,
+#contactlink:hover,
+#homelink:hover {
+  color: red;
+  transition: 0.4s;
+}
+.textRed {
+  color: red !important;
+}
+
   @media screen and (max-width:567px){
     .slide-img{
       width: 120px;

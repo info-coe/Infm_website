@@ -98,7 +98,7 @@ const Navigation = (props) => {
                 onMouseLeave={() => handleDropdownMouseLeave("aboutus")}
               >
                 <Link
-                  className="nav-link"
+                 className={`nav-link  ${dropdownState.aboutus ? "textRed" : ""}`}
                   to="/Aboutus"
                   id="aboutusDropdown"
                   role="button"
@@ -134,13 +134,13 @@ const Navigation = (props) => {
                 </ul>
               </li>
               <li
-                className="nav-item dropdown mt-2"
+                className="nav-item dropdown"
                 onMouseEnter={() => handleDropdownMouseEnter("industries")}
                 onMouseLeave={() => handleDropdownMouseLeave("industries")}
               >
-                <span id="industriesDropdown">{data.industries}</span>
+                <span id="industriesDropdown" className={`nav-link  ${dropdownState.industries ? "textRed" : ""}`}>{data.industries}</span>
                 <ul
-                  className={`dropdown-menu mt-2 ${
+                  className={`dropdown-menu ${
                     dropdownState.industries ? "show" : ""
                   }`}
                   aria-labelledby="industriesDropdown"
@@ -216,7 +216,7 @@ const Navigation = (props) => {
                 onMouseLeave={() => handleDropdownMouseLeave("services")}
               >
                 <Link
-                  className="nav-link"
+                  className={`nav-link  ${dropdownState.services ? "textRed" : ""}`}
                   to="/Services"
                   id="servicesDropdown"
                   role="button"
@@ -393,13 +393,13 @@ const Navigation = (props) => {
                 </ul>
               </li>
               <li
-                className="nav-item dropdown mt-2"
+                className="nav-item dropdown"
                 onMouseEnter={() => handleDropdownMouseEnter("solutions")}
                 onMouseLeave={() => handleDropdownMouseLeave("solutions")}
               >
-                <span id="solutionsDropdown">{data.solutions}</span>
+                <span id="solutionsDropdown"  className={`nav-link  ${dropdownState.solutions ? "textRed" : ""}`}>{data.solutions}</span>
                 <ul
-                  className={`dropdown-menu mt-2 ${
+                  className={`dropdown-menu ${
                     dropdownState.solutions ? "show" : ""
                   }`}
                   aria-labelledby="solutionsDropdown"
@@ -504,7 +504,7 @@ const Navigation = (props) => {
                 onMouseLeave={() => handleDropdownMouseLeave("careers")}
               >
                 <Link
-                  className="nav-link"
+                 className={`nav-link  ${dropdownState.careers ? "textRed" : ""}`}
                   to="/Careers"
                   id="careersDropdown"
                   role="button"
