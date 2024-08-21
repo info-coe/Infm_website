@@ -84,7 +84,7 @@ const Footer = (props) => {
             <i className="bi bi-geo-alt-fill"></i> : {data.getinp1}
           </p>
           <p>
-            <i className="bi bi-envelope"></i> : <Link className="text-decoration-none text-dark" to={`mailto:${data.getinp2}`}></Link>{data.getinp2}
+            <i className="bi bi-envelope"></i> : <Link className="text-decoration-none text-dark" to={`mailto:${data.getinp2}`}>{data.getinp2}</Link>
           </p>
         </div>
         <div className="followus flexgrowdiv ">

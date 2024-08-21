@@ -673,7 +673,232 @@ body{
   color: red !important;
 }
 
-  @media screen and (max-width:567px){
+/* Gen AI css start*/
+.features {
+  padding: 60px 0;
+}
+
+.section-header {
+  font-size: 36px;
+  color: #413e66;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #535074;
+  width: 50%;
+}
+.features-box {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  background: #fff;
+  box-shadow: 10px 10px 10px rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  min-height: 230px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-box:hover {
+  transform: scale(1.1);
+}
+
+.features-title {
+  color: #111;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.features-box:hover .features-title {
+  color: #c59c35;
+}
+
+.features-title:hover {
+  text-decoration: none;
+}
+
+.features-description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 330px;
+  text-align: center;
+}
+
+.ServicesContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 60px 50px 50px 50px;
+  background-color: #ece9e9;
+  border-radius: 20px;
+}
+
+.ServicesContainer .card {
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  box-shadow: 0 0.7rem 1.5rem rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  min-height: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+}
+
+.ServicesContainer .content {
+  padding: 16px;
+}
+
+.ServicesContainer .content h3 {
+  margin: 0 0 8px;
+}
+
+.ServicesContainer .content p {
+  margin: 0;
+}
+
+.AIsolutionImg {
+  margin-top: 150px;
+}
+
+.fullscreen{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.fullscreen main{
+  flex-grow: 1;
+}
+
+ .fullscreen2{
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.fullscreen2 main{
+  flex-grow: 1;
+}
+.features-container {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+}
+
+.feature-card {
+  background: white;
+  cursor: pointer;
+  position: relative;
+  padding: 40px 25px 10px 30px;
+  color: #333;
+  transition: all 0.3s ease-in;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px 10px lightgray;
+  border-top-left-radius: 42px;
+  border-bottom-right-radius: 42px;
+}
+
+/* Top-left corner notch */
+.feature-card::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 50px;
+  height: 50px;
+  background-color: #4169e1;
+  z-index: 1;
+  transition: all 0.5s ease-in;
+}
+
+/* Bottom-right corner notch */
+.feature-card::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 50px;
+  height: 50px;
+  background-color: #4169e1;
+  z-index: 1;
+  transition: all 0.5s ease-in;
+}
+
+/* Hover effect */
+.feature-card:hover {
+  background-color: #4169e1;
+  color: white;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* Hover effect for notches */
+.feature-card:hover::before {
+  background-color: #4169e1;
+  transition: all 0.5s ease-in;
+}
+
+.feature-card:hover::after {
+  background-color: #4169e1;
+  transition: all 0.5s ease-in;
+}
+
+.zoomAnimation {
+  transition: transform 0.2s;
+}
+.zoomAnimation:hover {
+  transform: scale(1.1);
+}
+/* Gen AI css ends */
+
+  @media screen and (max-width:575.98px){
+    .ServicesContainer {
+      padding: 20px;
+      height: 100%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .AIsolutionImg {
+      margin-top: 50px;
+    }
+    .features-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto;
+      padding: 10px;
+    }
     .slide-img{
       width: 120px;
       height: 120px;
@@ -739,9 +964,60 @@ body{
     height: auto;
     width: 19rem;
   }
-  
   }
-  @media screen and (min-width:768px) and (max-width:991px){
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .ourcapabilities-grid,
+  .ourserviceportfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flex-container {
+    padding: 15px;
+  }
+  .ServicesContainer {
+    padding: 20px;
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .AIsolutionImg {
+    margin-top: 50px;
+  }
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-description {
+    width: 100%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .ourcapabilities-grid,
+  .ourserviceportfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contactdiv {
+    height: 530px;
+  }
+  .ServicesContainer {
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .AIsolutionImg {
+    margin-top: 50px;
+  }
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
     .slide-img{
       width: 170px;
       height: 170px;
@@ -801,6 +1077,42 @@ body{
   }
   }
 
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .ourcapabilities-grid,
+    .ourserviceportfolio-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .contactdiv {
+      height: 530px;
+    }
+    .ServicesContainer {
+      height: 300px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .ServicesContainer .card {
+      min-height: 350px;
+    }
+    .features-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .ourcapabilities-grid,
+    .ourserviceportfolio-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .contactdiv {
+      height: 530px;
+    }
+    .ServicesContainer {
+      height: 280px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .features-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
   /* #e1f4e5 */
   /* #053f5e */
 
