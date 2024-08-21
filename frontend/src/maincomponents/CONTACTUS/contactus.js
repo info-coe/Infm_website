@@ -75,7 +75,7 @@ const Contactus = (props) => {
                 placeholder="First Name"
                 className="form-control m-md-2 mt-2 mb-2 rounded-pill p-3"
                   name="firstname"
-                value={formData.name}
+                value={formData.firstname}
                 onChange={handleChange}
                 required
               />
@@ -84,7 +84,7 @@ const Contactus = (props) => {
                 placeholder="Last Name"
                 className="form-control  m-md-2 mt-2 mb-2 rounded-pill p-3"
                 name="lastname"
-                value={formData.name}
+                value={formData.lastname}
                 onChange={handleChange}
                 required
               />
