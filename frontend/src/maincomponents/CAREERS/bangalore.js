@@ -103,7 +103,7 @@ const Bangalore = (props) => {
             </div>
             <div className='d-md-flex justify-content-center p-3'>
                 <p className='text-center p-2'>{data.formoredetailsmailuson}</p>
-                <p className='text-center p-2 mail'>{data.mail}</p>
+                <p className='text-center p-2 mail'><Link to="mailto:info@infomericainc.com" className='text-decoration-none text-white'>{data.mail}</Link></p>
             </div>
         </div>
         </div>
