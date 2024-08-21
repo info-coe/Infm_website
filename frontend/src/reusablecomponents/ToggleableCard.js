@@ -25,7 +25,15 @@ function ToggleableCard({ title, content,initiallyExpanded, icon,more ,cardlink}
           </div>
           {showAdditionalContent && (
             <div style={{ marginTop: '20px' }}>
-              {content} 
+              {Array.isArray(content) ? (
+                content.map((item, index) => (
+                  <div key={index}>
+                    <p className="">{item}</p>
+                  </div>
+                ))
+                ):(
+                content
+              )} 
               <Link to={cardlink} className="text-decoration-none">
                 <span className='text-primary'>{more}</span>
               </Link>

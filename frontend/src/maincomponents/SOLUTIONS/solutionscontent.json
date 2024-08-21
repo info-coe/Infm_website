@@ -131,18 +131,29 @@
         {
           "icon": "fa-brands fa-think-peaks",
           "title": "  User Experience Value Enhancement",
-          "content": "Improving the user experience of SAP applications goes beyond the look and feel. Maximizing efficiency, simplifying multi-screen toggling, ease of accessing business content for effective decision making lie at the core of our how we help our clients adopt Fiori 2.0."
+          "content": [
+            "Improving the user experience of SAP applications goes beyond the look and feel. Maximizing efficiency, simplifying multi-screen toggling, ease of accessing business content for effective decision making lie at the core of our how we help our clients adopt Fiori 2.0."
+          ]
         },
         {
           "icon": "fa-solid fa-users-gear",
           "title": "   Customer Engagement & Commerce Suite",
-          "content": "The SAP hybris omni-channel commerce solution helps organizations target and engage with customers better, in an individualized and consistent manner - across every channel, every time.",
-          "content2": "We can help you to Accelerate your digital transformation journey - Our CEC CoE experts blend deep business process expertise with technology expertise, specializing in integration of Hybris with SAP ECC and VE. We offer the below services to our customers in the customer engagement & commerce suite arena"
+          "content": [
+            "The SAP hybris omni-channel commerce solution helps organizations target and engage with customers better, in an individualized and consistent manner - across every channel, every time.",
+            "We can help you to Accelerate your digital transformation journey - Our CEC CoE experts blend deep business process expertise with technology expertise, specializing in integration of Hybris with SAP ECC and VE. We offer the below services to our customers in the customer engagement & commerce suite arena"
+          ]
         },
         {
           "icon": "fa-solid fa-life-ring",
           "title": "  Product Lifecycle Management",
-          "content": "Time to market is a key competitive edge in today’s connected business environment. Accelerating new product introduction, reducing compliance risks, and forming a closed-loop innovation network with customers and vendor-partners require agile applications which seamless connect the PLM and ERP. SAP Visual Enterprise offers 3D visualization in an integrated solution environment which automates the translation and unification of CAD data, Product metadata, and Enterprise business data from nonSAP PLMs. The solution helps manufacturing organizations reduce assembly rework, improve the quality of an initial assembly, eliminate mistakes in customer part order."
+          "content": [
+            "Time to market is a key competitive edge in today’s connected business environment. Accelerating new product introduction, reducing compliance risks, and forming a closed-loop innovation network with customers and vendor-partners require agile applications which seamless connect the PLM and ERP. SAP Visual Enterprise offers 3D visualization in an integrated solution environment which automates the translation and unification of CAD data, Product metadata, and Enterprise business data from nonSAP PLMs. The solution helps manufacturing organizations reduce assembly rework, improve the quality of an initial assembly, eliminate mistakes in customer part order.",
+            "Improve time to market through automation of product and plant 3D and 2D CAD integration with business data",
+            "Higher quality in product enabled through concurrent, 3D visual collaboration and decision making processes",
+            "Lower cost in global operations through visual, 3D product information instead of text localization",
+            "Faster uptime using visual, 3D maintenance and repair operational procedures",
+            "Increase customer satisfaction through 3D visual and interactive product quoting, ordering, and marketing information"
+          ]
         },
         {
           "icon": "fa-solid fa-building-columns",
@@ -152,9 +163,11 @@
         {
           "icon": "fa-solid fa-magnifying-glass-chart",
           "title": "   Enterprise Asset Management",
-          "content": "Our certified SAP EAM consultants understand that asset operations and maintenance assure that our clients technicians who service and operate assets to ensure maximum uptime, are constantly mobile and often work in hazardous situations. Their safety and productivity are essential and require companies to have the right systems and processes in place.",
-          "content2": "That’s why we developed an SAP Certified Mobile Application to perform all plant maintenance related business functions like notification / work order processing, work order confirmation, material reservations, work clearance management, permits, search bill of material and stock overview. The mobile application is device-agnostic and can be deployed on iOS, Android, Windows tablets and phones.",
-          "content3": "Another HANA Cloud Platform app we’ve developed helps with a single point of access for all details pertaining to functional location- ibase structure including open/completed notifications & service orders, measurement points & measurement documents, on a single screen. Plant Maintenance technicians, supervisors, planners, Customer Service executives & managers greatly benefit from this decision making aid."
+          "content": [
+            "Our certified SAP EAM consultants understand that asset operations and maintenance assure that our clients technicians who service and operate assets to ensure maximum uptime, are constantly mobile and often work in hazardous situations. Their safety and productivity are essential and require companies to have the right systems and processes in place.",
+            "That’s why we developed an SAP Certified Mobile Application to perform all plant maintenance related business functions like notification / work order processing, work order confirmation, material reservations, work clearance management, permits, search bill of material and stock overview. The mobile application is device-agnostic and can be deployed on iOS, Android, Windows tablets and phones.",
+            "Another HANA Cloud Platform app we’ve developed helps with a single point of access for all details pertaining to functional location- ibase structure including open/completed notifications & service orders, measurement points & measurement documents, on a single screen. Plant Maintenance technicians, supervisors, planners, Customer Service executives & managers greatly benefit from this decision making aid."
+          ]
         },
         {
           "icon": "fa-solid fa-database",
@@ -174,10 +187,12 @@
         {
           "icon": "fa-solid fa-warehouse",
           "title": "   SCM / Logistics Execution",
-          "content": "You can't make logistical decisions in a vacuum. Transportation problems can cascade like dominoes and impact your warehouse planning. Your warehouse plan changes your inventory plan. Changing inventory plans complicate your transportation selections-and everything impacts labor and billing.",
-          "content2": "Infomerica Supply Chain Execution team lets you make logistics decisions in context, so that you always know the consequences of every action and can make better choices. We leverage the connective power of the SAP Suite to seamlessly connect your logistics decisions to your financial systems, manufacturing systems, and all the other technologies that make your business more efficient.",
-          "content3": "SAP Extended Warehouse Management (EWM) offers you flexible, automated support with processing various goods movement and managing stock in your warehouse. The system supports you with planned and efficient processing of all logistics processes in your warehouse complex.",
-          "content4": "SAP Transportation Management (SAP TM) supports you in all activities connected with the physical transportation of goods from one location to another. Create forwarding orders to ordering parties, Transfer orders and deliveries from an ERP system, Create freight bookings, plan the transportation and select carriers, Tender transportation services, Dispatch and monitor the transportation, Calculate the transportation charges for both the ordering party and the supplier side, Consider foreign trade and dangerous goods regulations."
+          "content": [
+            "You can't make logistical decisions in a vacuum. Transportation problems can cascade like dominoes and impact your warehouse planning. Your warehouse plan changes your inventory plan. Changing inventory plans complicate your transportation selections-and everything impacts labor and billing.",
+            "Infomerica Supply Chain Execution team lets you make logistics decisions in context, so that you always know the consequences of every action and can make better choices. We leverage the connective power of the SAP Suite to seamlessly connect your logistics decisions to your financial systems, manufacturing systems, and all the other technologies that make your business more efficient.",
+            "SAP Extended Warehouse Management (EWM) offers you flexible, automated support with processing various goods movement and managing stock in your warehouse. The system supports you with planned and efficient processing of all logistics processes in your warehouse complex.",
+            "SAP Transportation Management (SAP TM) supports you in all activities connected with the physical transportation of goods from one location to another. Create forwarding orders to ordering parties, Transfer orders and deliveries from an ERP system, Create freight bookings, plan the transportation and select carriers, Tender transportation services, Dispatch and monitor the transportation, Calculate the transportation charges for both the ordering party and the supplier side, Consider foreign trade and dangerous goods regulations."
+          ]
         }
       ]
     }
@@ -189,8 +204,8 @@
       "DEVOPS_Content1": "In a world driven by continuous innovation and rapid development, embrace the power of DevOps with Infomerica! We provide state-of-the-art DevOps solutions designed to bridge the gap between development and operations, accelerating your delivery pipeline and enhancing overall productivity.",
       "DEVOPS_Content2": "we leverage our extensive experience and innovative approaches to deliver customized DevOps solutions designed to align with your business objectives. Our commitment is to cultivate a high-performing IT landscape, enabling you to achieve your business goals and innovate continually.",
       "DEVOPS_Services_Heading": "Our Comprehensive DevOps Services",
-      "DEVOPS_agile_devops_process_Image":"https://www.infomericainc.com/Content/images/agile_devops_process_devops_application_life_cycle_management.png",
-      "DEVOPS_stages_of_devops_flow_Image":"https://www.infomericainc.com/Content/images/stages_of_devops_flow_devops_continuous_integration_deployment_process_flow.png",
+      "DEVOPS_agile_devops_process_Image": "https://www.infomericainc.com/Content/images/agile_devops_process_devops_application_life_cycle_management.png",
+      "DEVOPS_stages_of_devops_flow_Image": "https://www.infomericainc.com/Content/images/stages_of_devops_flow_devops_continuous_integration_deployment_process_flow.png",
       "DEVOPS_Services_Data": [
         {
           "appcontent": "Dive deep into your existing processes, identifying opportunities for enhancement, and craft a holistic strategy to integrate DevOps methodologies into your business, driving agility and efficiency.",
@@ -228,96 +243,96 @@
     }
   },
   {
-    "MOBILITY":{
-      "MOBILITY_Heading1":"Mobility Solutions: ",
-      "MOBILITY_Heading2":"Empowering the Modern World on the Move!",
+    "MOBILITY": {
+      "MOBILITY_Heading1": "Mobility Solutions: ",
+      "MOBILITY_Heading2": "Empowering the Modern World on the Move!",
       "MOBILITY_Content": "In a world driven by connectivity and immediate access, our Mobility Solutions stand out as a beacon of innovation and reliability. We specialize in providing comprehensive mobility solutions designed to empower businesses, streamline operations, and enhance user engagement, catering to the evolving needs of the fast-paced, mobile-centric environment.",
       "MOBILITY_Solutions_Image": "https://www.infomericainc.com/Content/images/Mobility.png",
-      "MOBILITY_Comprehensive_Suite_Heading" : "Our Comprehensive Suite of Mobility Solutions",
-      "MOBILITY_Comprehensive_Suite_Content" : [
+      "MOBILITY_Comprehensive_Suite_Heading": "Our Comprehensive Suite of Mobility Solutions",
+      "MOBILITY_Comprehensive_Suite_Content": [
         {
-          "Heading":"Mobile Application Development",
-          "Content":"Leveraging cutting-edge technologies and frameworks, we create customized, feature-rich applications, ensuring seamless functionality, and user-friendly interfaces across various platforms and devices."
+          "Heading": "Mobile Application Development",
+          "Content": "Leveraging cutting-edge technologies and frameworks, we create customized, feature-rich applications, ensuring seamless functionality, and user-friendly interfaces across various platforms and devices."
         },
         {
-          "Heading":"Mobile Device Management (MDM)",
-          "Content":"Deploying sophisticated management solutions, we enable organizations to secure, monitor, and manage enterprise mobile devices, ensuring optimal compliance and protecting valuable information assets."
+          "Heading": "Mobile Device Management (MDM)",
+          "Content": "Deploying sophisticated management solutions, we enable organizations to secure, monitor, and manage enterprise mobile devices, ensuring optimal compliance and protecting valuable information assets."
         },
         {
-          "Heading":"Mobile Security:",
-          "Content":"Our security solutions integrate advanced protection measures, encryption techniques, and threat intelligence to defend against evolving security risks, ensuring robust protection of data and applications on mobile devices."
+          "Heading": "Mobile Security:",
+          "Content": "Our security solutions integrate advanced protection measures, encryption techniques, and threat intelligence to defend against evolving security risks, ensuring robust protection of data and applications on mobile devices."
         },
         {
-          "Heading":"Mobile Content Management",
-          "Content":"We facilitate the seamless management and delivery of diverse content types to mobile devices, providing secure and instantaneous access to essential resources and services, regardless of location."
+          "Heading": "Mobile Content Management",
+          "Content": "We facilitate the seamless management and delivery of diverse content types to mobile devices, providing secure and instantaneous access to essential resources and services, regardless of location."
         },
         {
-          "Heading":"Cross-Platform Development:",
-          "Content":"Utilizing adaptive development approaches, we ensure the accessibility and consistency of applications across multiple operating systems and devices, catering to a broad and diverse user base."
+          "Heading": "Cross-Platform Development:",
+          "Content": "Utilizing adaptive development approaches, we ensure the accessibility and consistency of applications across multiple operating systems and devices, catering to a broad and diverse user base."
         },
         {
-          "Heading":"Enterprise Mobility:",
-          "Content":"We empower enterprises to embrace mobility, enhancing operational productivity, and enabling remote work capabilities, thereby fostering an environment of flexibility and inclusiveness"
+          "Heading": "Enterprise Mobility:",
+          "Content": "We empower enterprises to embrace mobility, enhancing operational productivity, and enabling remote work capabilities, thereby fostering an environment of flexibility and inclusiveness"
         },
         {
-          "Heading":"Mobile Analytics:",
-          "Content":"Employing sophisticated analytical tools and methodologies, we extract meaningful insights from intricate mobile data, enabling the refinement of user experiences and continuous improvement of service delivery."
+          "Heading": "Mobile Analytics:",
+          "Content": "Employing sophisticated analytical tools and methodologies, we extract meaningful insights from intricate mobile data, enabling the refinement of user experiences and continuous improvement of service delivery."
         },
         {
-          "Heading":"Advanced Mobility Consultation:",
-          "Content":"Our team of experts provides strategic consultation, guiding organizations in leveraging mobility for maximal impact, identifying opportunities for innovation, and ensuring alignment with business objectives."
+          "Heading": "Advanced Mobility Consultation:",
+          "Content": "Our team of experts provides strategic consultation, guiding organizations in leveraging mobility for maximal impact, identifying opportunities for innovation, and ensuring alignment with business objectives."
         }
       ],
-      "MOBILITY_Comprehensive_Suite_Conclusion1":"Strategic Alliances with product, tool & technology vendors.",
-      "MOBILITY_Comprehensive_Suite_Conclusion2":"With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI]."
+      "MOBILITY_Comprehensive_Suite_Conclusion1": "Strategic Alliances with product, tool & technology vendors.",
+      "MOBILITY_Comprehensive_Suite_Conclusion2": "With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI]."
     }
   },
   {
-    "SERVICE_ORIENTED_ARCHITECTURE" : {
-      "SOA_Heading1" : "Service Oriented ",
-      "SOA_Heading2" : "Architecture",
-      "SOA_Content1" : "Service Oriented Architecture(SOA) is an Architectural & Framework based approach that helps Enterprises align IT in the view of Business. SOA Approach helps the Enterprise to Leverage existing IT Resources and Enable Complete Integration Between Cloud, Legacy Applications and Enterprise Applications. It helps the Enterprises to increase Efficiency, Agility and Flexibility with lesser efforts and less cost.",
-      "SOA_Content2" : "Deploying a SOA involves service enablement, orchestration, mediation, and governance. SOA Suite from various leading vendors such as IBM, Oracle, webMethods, TIBCO, SAP, PegaSystems etc helps to achieve all of these capabilities and through build, deploy, govern, optimize and manage deployments ranging from department-level to enterprise-wide systems. It works with your existing infrastructure, eliminating any costly dangers of rip-and-replace approaches.",
-      "SOA_Content3" : "Unlike traditional applications and point-to-point integration approaches, these vendors provides SOA Suite that complete standards-based, hot-pluggable infrastructure interoperates with your existing IT investments for service enabling your existing applications and orchestrating services across your enterprise with built-in lifecycle governance capabilities. You could success in deploying high-volume, mission-critical SOA systems by leveraging the industry's best services buses of your choice.",
-      "SOA_BGImage" : "https://infomericainc.com/Content/images/banner-8.jpg",
-      "SOA_SubPoints_Icon" : "fa fa-check",
-      "SOA_SubPoints" : [
+    "SERVICE_ORIENTED_ARCHITECTURE": {
+      "SOA_Heading1": "Service Oriented ",
+      "SOA_Heading2": "Architecture",
+      "SOA_Content1": "Service Oriented Architecture(SOA) is an Architectural & Framework based approach that helps Enterprises align IT in the view of Business. SOA Approach helps the Enterprise to Leverage existing IT Resources and Enable Complete Integration Between Cloud, Legacy Applications and Enterprise Applications. It helps the Enterprises to increase Efficiency, Agility and Flexibility with lesser efforts and less cost.",
+      "SOA_Content2": "Deploying a SOA involves service enablement, orchestration, mediation, and governance. SOA Suite from various leading vendors such as IBM, Oracle, webMethods, TIBCO, SAP, PegaSystems etc helps to achieve all of these capabilities and through build, deploy, govern, optimize and manage deployments ranging from department-level to enterprise-wide systems. It works with your existing infrastructure, eliminating any costly dangers of rip-and-replace approaches.",
+      "SOA_Content3": "Unlike traditional applications and point-to-point integration approaches, these vendors provides SOA Suite that complete standards-based, hot-pluggable infrastructure interoperates with your existing IT investments for service enabling your existing applications and orchestrating services across your enterprise with built-in lifecycle governance capabilities. You could success in deploying high-volume, mission-critical SOA systems by leveraging the industry's best services buses of your choice.",
+      "SOA_BGImage": "https://infomericainc.com/Content/images/banner-8.jpg",
+      "SOA_SubPoints_Icon": "fa fa-check",
+      "SOA_SubPoints": [
         {
-          "Point" : "  Offers the highest return on your investments[ROI] with improved security lower administrative costs, high scalability and the backing of an industry leader"
+          "Point": "  Offers the highest return on your investments[ROI] with improved security lower administrative costs, high scalability and the backing of an industry leader"
         },
         {
-          "Point" : "  Hot-pluggable solutions interoperate with all major systems to ensure enterprise wide security"
+          "Point": "  Hot-pluggable solutions interoperate with all major systems to ensure enterprise wide security"
         },
         {
-          "Point" : "  The complete SOA suites that provides for an integrated and easy-to-use SOA development and management environment"
+          "Point": "  The complete SOA suites that provides for an integrated and easy-to-use SOA development and management environment"
         },
         {
-          "Point" : "  Process integrity enables reliable business activity in a secure, scalable SOA environment."
+          "Point": "  Process integrity enables reliable business activity in a secure, scalable SOA environment."
         },
         {
-          "Point" : "  SOA governance can help you make better IT decisions."
+          "Point": "  SOA governance can help you make better IT decisions."
         },
         {
-          "Point" : "  Business Process Management [BPM] enabled by SOA provides greater business flexibility through accelerated and iterative process improvement."
+          "Point": "  Business Process Management [BPM] enabled by SOA provides greater business flexibility through accelerated and iterative process improvement."
         },
         {
-          "Point" : "  SOA management and security can help enable visibility to monitor and control SOA based services and applications."
+          "Point": "  SOA management and security can help enable visibility to monitor and control SOA based services and applications."
         },
         {
-          "Point" : "  Extend SOA with Web 2.0 to reach new people and markets. SOA design & development"
+          "Point": "  Extend SOA with Web 2.0 to reach new people and markets. SOA design & development"
         },
         {
-          "Point" : "  SOA User Interface for People"
+          "Point": "  SOA User Interface for People"
         },
         {
-          "Point" : "  Information as a service"
+          "Point": "  Information as a service"
         },
         {
-          "Point" : "  SOA management and security"
+          "Point": "  SOA management and security"
         }
       ],
-      "SOA_Offering_Heading1" : "Infomerica ",
-      "SOA_Offering_Heading2" : "SOA Offerings",
+      "SOA_Offering_Heading1": "Infomerica ",
+      "SOA_Offering_Heading2": "SOA Offerings",
       "SOA_Offering_Content": [
         {
           "m1": "   Business Transformation Strategy Definition",
@@ -349,34 +364,33 @@
     }
   },
   {
-    "Business_Process_Management":{
-      "BPM_Heading1":"BPM / Process",
-      "BPM_Heading2":"Integration",
-      "content":[
-
-         "Globalization, regulatory oversight, and entwined value chains have made business processes complex and inflexible at the same time, companies must continually improve their core processes to maintain a significant competitive advantage and bringing the value to the consumer. In this Emerging World – it is very important for any organizations to have Complete Analytics and Control over its Mission Critical Business Processes.",
-          "Business Process Management(BPM) is an Entity in Operational Management that focuses on improving Organization’s Efficiency by Managing and Optimizing Organization’s Business Processes and make On Demand Changes with New Evolving Business Trends."
+    "Business_Process_Management": {
+      "BPM_Heading1": "BPM / Process",
+      "BPM_Heading2": "Integration",
+      "content": [
+        "Globalization, regulatory oversight, and entwined value chains have made business processes complex and inflexible at the same time, companies must continually improve their core processes to maintain a significant competitive advantage and bringing the value to the consumer. In this Emerging World – it is very important for any organizations to have Complete Analytics and Control over its Mission Critical Business Processes.",
+        "Business Process Management(BPM) is an Entity in Operational Management that focuses on improving Organization’s Efficiency by Managing and Optimizing Organization’s Business Processes and make On Demand Changes with New Evolving Business Trends."
       ],
-      "BPM_Suitedrives_Content":"BPM Suite drives more efficiency, visibility, and agility from a broader range of processes from BPM suite of products. Whether the process is a line-of-business mandate or an IT exercise in systems integration, BPM Suite from leading vendors such as Oracle, IBM, webMethods, TIBCO, SAP, PegaSystems etc offers the flexibility & the change that the business demands, hand-in-hand with the power IT requires. The result is an agile and flexible platform based on your existing applications that allows you to react quickly to new business requirements and improves productivity. BPM contains a comprehensive set of collaborative, role-based capabilities that enable customers to model, simulate, execute, rapidly change, monitor and optimize core business processes resulting in faster time to market, increased customer satisfaction, and higher productivity improved efficiency and agility, and lower costs by BPM leverages your existing IT investments and is specially tuned for line-of-business users.",
-      "BPM_bgImg":"https://www.infomericainc.com/Content/images/banner-8.jpg",
-      "BPM_Technology":"Technology",
-      "BPM_Enablers":"Enablers",
-      "BPM_Suites":[
+      "BPM_Suitedrives_Content": "BPM Suite drives more efficiency, visibility, and agility from a broader range of processes from BPM suite of products. Whether the process is a line-of-business mandate or an IT exercise in systems integration, BPM Suite from leading vendors such as Oracle, IBM, webMethods, TIBCO, SAP, PegaSystems etc offers the flexibility & the change that the business demands, hand-in-hand with the power IT requires. The result is an agile and flexible platform based on your existing applications that allows you to react quickly to new business requirements and improves productivity. BPM contains a comprehensive set of collaborative, role-based capabilities that enable customers to model, simulate, execute, rapidly change, monitor and optimize core business processes resulting in faster time to market, increased customer satisfaction, and higher productivity improved efficiency and agility, and lower costs by BPM leverages your existing IT investments and is specially tuned for line-of-business users.",
+      "BPM_bgImg": "https://www.infomericainc.com/Content/images/banner-8.jpg",
+      "BPM_Technology": "Technology",
+      "BPM_Enablers": "Enablers",
+      "BPM_Suites": [
         {
-          "name":"BPM Suites:",
-          "desc":"Utilize Comprehensive BPM Suites Like Pega, Appian, And IBM BPM To Enable End-To-End Process Management."
+          "name": "BPM Suites:",
+          "desc": "Utilize Comprehensive BPM Suites Like Pega, Appian, And IBM BPM To Enable End-To-End Process Management."
         },
         {
-          "name":"Middleware Platforms: ",
-          "desc":" Leverage Platforms Like IBM WebSphere, MuleSoft,Apache Kafka,RabbitMQ And Dell Boomi For Integrating And Managing Services And Applications."
+          "name": "Middleware Platforms: ",
+          "desc": " Leverage Platforms Like IBM WebSphere, MuleSoft,Apache Kafka,RabbitMQ And Dell Boomi For Integrating And Managing Services And Applications."
         },
         {
-          "name":"RPA Tools:",
-          "desc":"Implement RPA Solutions Like UiPath And Automation Anywhere To Automate Routine Tasks Efficiently."
+          "name": "RPA Tools:",
+          "desc": "Implement RPA Solutions Like UiPath And Automation Anywhere To Automate Routine Tasks Efficiently."
         }
       ],
-      "BPM_Business_experts":"Business experts can now rapidly model, measure, and change processes [that are] and enables processes to dynamically adapt to changing business scenarios by enhancing business agility and provides the power to react to threats and realize new business opportunities ensuring sustainable competitive advantage",
-      "BPM_BE_list":[
+      "BPM_Business_experts": "Business experts can now rapidly model, measure, and change processes [that are] and enables processes to dynamically adapt to changing business scenarios by enhancing business agility and provides the power to react to threats and realize new business opportunities ensuring sustainable competitive advantage",
+      "BPM_BE_list": [
         "Line-of-business users can quickly model processes for optimization and automation through the use of Out-of-the-box features which accelerates development time",
         "Process owners can have visibility & transparency into variety of human- and system-centric, business-centric and document-centric processes performance through alerts, KPIs, and dashboards.",
         "Key performance indicators allow process owners to identify opportunities for optimization and in-flight process updates",
@@ -387,29 +401,27 @@
         "Ability to deliver new products to market faster and speed up processes?",
         "It lowers integration costs and gets more value to the business from core systems & processes?"
       ],
-      "BPM_SolutionOfferings":[
-            {
-                "solutionHead":"Solution Offerings",
-                "icon":"bi bi-send",
-                "bulb":"fa fa-lightbulb fa-5x fa-icon-image",
-                "list":[
-                        "BPM Assessment Workshop",
-                        "Define BPM Roadmap & Strategy",
-                        "Proof of Concept | Proof of Technology",
-                        "Software Procurement",
-                        "Framework Development & Implementation",
-                        "BPM Implementation",
-                        "Platform Upgrade & Migration",
-                        "Production Support",
-                        "BPM Testing Services"
-                ]
-            }
-          ],
-          "Infomerica_BPM":"Infomerica BPM",
-          "Offerings":"Offerings",
-          "content_BPM":"Business Process Management(BPM) is an Entity in Operational Management that focuses on improving Organization’s Efficiency by Managing and Optimizing Organization’s Business Processes and make On Demand Changes with New Evolving Business Trends."
-
+      "BPM_SolutionOfferings": [
+        {
+          "solutionHead": "Solution Offerings",
+          "icon": "bi bi-send",
+          "bulb": "fa fa-lightbulb fa-5x fa-icon-image",
+          "list": [
+            "BPM Assessment Workshop",
+            "Define BPM Roadmap & Strategy",
+            "Proof of Concept | Proof of Technology",
+            "Software Procurement",
+            "Framework Development & Implementation",
+            "BPM Implementation",
+            "Platform Upgrade & Migration",
+            "Production Support",
+            "BPM Testing Services"
+          ]
+        }
+      ],
+      "Infomerica_BPM": "Infomerica BPM",
+      "Offerings": "Offerings",
+      "content_BPM": "Business Process Management(BPM) is an Entity in Operational Management that focuses on improving Organization’s Efficiency by Managing and Optimizing Organization’s Business Processes and make On Demand Changes with New Evolving Business Trends."
     }
   }
- 
 ]
