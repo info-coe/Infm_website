@@ -1,10 +1,20 @@
 {
   "files": {
-    "main.css": "/Infm_website/static/css/main.25bb148d.css",
-    "main.js": "/Infm_website/static/js/main.0345efb3.js",
+    "main.css": "/Infm_website/static/css/main.4b4f4e2e.css",
+    "main.js": "/Infm_website/static/js/main.95f8ba5d.js",
+    "static/media/scan1.jpg": "/Infm_website/static/media/scan1.733490034e5ad0eede0c.jpg",
+    "static/media/AI1.jpg": "/Infm_website/static/media/AI1.2d884ed3ca65ef3e4e80.jpg",
+    "static/media/AI2.jpg": "/Infm_website/static/media/AI2.444fd6679b222c0c4a0d.jpg",
+    "static/media/AIBanner.jpg": "/Infm_website/static/media/AIBanner.22aa96a7c192a76263a0.jpg",
+    "static/media/scan2.jpg": "/Infm_website/static/media/scan2.3c28fc95b4355e7598ce.jpg",
+    "static/media/featuresImage5.png": "/Infm_website/static/media/featuresImage5.d0e0785565843b2ef48d.png",
+    "static/media/info-scan.jpg": "/Infm_website/static/media/info-scan.13b3bba8a26b7962b966.jpg",
+    "static/media/scan3.jpg": "/Infm_website/static/media/scan3.47c2fade24c1eb74f78e.jpg",
+    "static/media/contactus2.jpeg": "/Infm_website/static/media/contactus2.2ffdf3d6cfa4e2e2f38e.jpeg",
     "static/media/fa-solid-900.ttf": "/Infm_website/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/Infm_website/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/bootstrap-icons.woff?": "/Infm_website/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/AI3.jpg": "/Infm_website/static/media/AI3.a2d301e09c3f4fe32a6d.jpg",
     "static/media/fa-solid-900.woff2": "/Infm_website/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
     "static/media/bootstrap-icons.woff2?": "/Infm_website/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/fa-brands-400.woff2": "/Infm_website/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
@@ -17,11 +27,11 @@
     "static/media/slick.ttf": "/Infm_website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Infm_website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Infm_website/index.html",
-    "main.25bb148d.css.map": "/Infm_website/static/css/main.25bb148d.css.map",
-    "main.0345efb3.js.map": "/Infm_website/static/js/main.0345efb3.js.map"
+    "main.4b4f4e2e.css.map": "/Infm_website/static/css/main.4b4f4e2e.css.map",
+    "main.95f8ba5d.js.map": "/Infm_website/static/js/main.95f8ba5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.25bb148d.css",
-    "static/js/main.0345efb3.js"
+    "static/css/main.4b4f4e2e.css",
+    "static/js/main.95f8ba5d.js"
   ]
 }
