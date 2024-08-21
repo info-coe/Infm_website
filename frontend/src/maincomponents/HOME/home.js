@@ -46,6 +46,7 @@ export default function Home(props) {
               btn={homeData.BGT_moredetailsbtn}
               icon={homeData.BGT_anglerighticon}
               s={homeData.BGT_whoweare}
+              redirectlink={homeData.BGT_moredetailslink}
             />
           </div>
         </div>

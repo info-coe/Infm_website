@@ -58,6 +58,9 @@ import Scrolltotop from "./reusablecomponents/Scrolltotop";
 import axios from "axios";
 import Scrolltotopbtn from "./reusablecomponents/Scrolltotopbutton";
 import Loader from "./Loader";
+import GenerativeAI from "./maincomponents/SERVICES/GenerativeAI";
+import InfoScan from "./maincomponents/SERVICES/Infoscan";
+import InfoAIAccelerator from "./maincomponents/SERVICES/InfoAIAccelerator";
 
 function App() {
   const [s3objects, setS3objects] = useState({});
@@ -167,6 +170,18 @@ function App() {
             <Route
               path="Cloud-Services"
               element={<CloudServices product={s3objects} />}
+            ></Route>
+             <Route
+              path="Generative-AI"
+              element={<GenerativeAI product={s3objects} />}
+            ></Route>
+            <Route
+              path="Info-Scan"
+              element={<InfoScan product={s3objects} />}
+            ></Route>
+            <Route
+              path="Info-AI-Accelerator"
+              element={<InfoAIAccelerator product={s3objects} />}
             ></Route>
             <Route
               path="CRM"

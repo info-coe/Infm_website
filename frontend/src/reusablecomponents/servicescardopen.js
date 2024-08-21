@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function ServicesCardOpen({ title, description, icon }) {
+function ServicesCardOpen({ title, description, icon, cardlink }) {
   const styles = `
     .card-container {
       position: relative;
@@ -89,6 +90,7 @@ function ServicesCardOpen({ title, description, icon }) {
   return (
     <div className="card-container">
       <style>{styles}</style>
+      <Link className='text-decoration-none' to={cardlink}>
       <div className="card ">
         <div className="icon">
           <span className='icon-list'>
@@ -108,6 +110,7 @@ function ServicesCardOpen({ title, description, icon }) {
           </div>
         </div>
       </div>
+      </Link>
     </div>
   );
 }

@@ -29,64 +29,76 @@
       "serviceHeading": "Services",
       "ServicesData": [
         {
-          "t1": "Customer Relationship Management",
-          "Des1": "Fostering Enhanced Customer Relations.",
-          "icon1": "fa fa-users"
+          "t1": "AI/ML/Generative AI",
+          "Des1": "Elevate Your Business with Generative AI Services",
+          "icon1": "bi bi-robot",
+          "cardlink1":"/Generative-AI"
         },
         {
           "t2": "Security Architecture",
           "Des2": "Constructing Resilient Defenses in the Cloud and Beyond!.",
-          "icon2": "fa fa-lock"
+          "icon2": "fa fa-lock",
+          "cardlink2":"/Security-Architecture"
         },
         {
           "t3": "Digital Transformation",
           "Des3": "the Power of Digital ...",
-          "icon3": "fa fa-cogs"
+          "icon3": "fa fa-cogs",
+          "cardlink3":"/Digital-Transformation-Services"
         },
         {
           "t4": "Application Services",
           "Des4": "Revolutionizing The IT Landscape With Innovative Application Services!",
-          "icon4": "fa fa-line-chart"
+          "icon4": "fa fa-line-chart",
+          "cardlink4":"/Application-Services"
         },
         {
           "t5": "Cloud Services",
           "Des5": "Where the Cloud Meets Innovation!",
-          "icon5": "fa fa-cloud"
+          "icon5": "fa fa-cloud",
+          "cardlink5":"/Cloud-Services"
         },
         {
           "t6": "Data Services",
           "Des6": "Empowering Your Business through Intelligent Data Services..",
-          "icon6": "fa fa-database"
+          "icon6": "fa fa-database",
+          "cardlink6":"/Data-Services"
         },
         {
           "t7": "AWS Services",
           "Des7": "A Symphony of Innovation, Scalability, and Excellence!",
-          "icon7": "fa-brands fa-aws"
+          "icon7": "fa-brands fa-aws",
+          "cardlink7":"/AWS-Services"
         },
         {
           "t8": "Microsoft Cloud Services",
           "Des8": "Your Gateway to Microsoft Cloud Excellence!",
-          "icon8": "fa-brands fa-microsoft"
+          "icon8": "fa-brands fa-microsoft",
+          "cardlink8":"/Microsoft-Cloud-Services"
         },
         {
           "t9": "Internet Of Things",
           "Des9": "Enabling a Smart, Connected Future...",
-          "icon9": "fa fa-microchip"
+          "icon9": "fa fa-microchip",
+          "cardlink9":"/Internet-Of-Things"
         },
         {
           "t10": "Business Assurance & Testing",
           "Des10": "Elevating Business Resilience .",
-          "icon10": "fa fa-check-circle"
+          "icon10": "fa fa-check-circle",
+          "cardlink10":"/Testing-QA-Services"
         },
         {
           "t11": "Free POC & POT",
           "Des11": "Empowering clients' competitive advantage.",
-          "icon11": "fa-solid fa-lightbulb"
+          "icon11": "fa-solid fa-lightbulb",
+          "cardlink11":"/Free-POC-POT"
         },
         {
           "t12": "Software Sales",
           "Des12": "Partnering with leading software vendors.",
-          "icon12": "fa fa-box"
+          "icon12": "fa fa-box",
+          "cardlink12":"/Software-Sales"
         }
       ]
     }
@@ -249,7 +261,7 @@
   {
     "Cloud_Services": {
       "cloudWelcomeHeading": "Welcome to Infomerica,Inc - Where the Cloud Meets Innovation!",
-      "cloudWelcomeContent": "Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At [Your Company Name], we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
+      "cloudWelcomeContent": "Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At Infomerica, we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
       "cloudUnveilHeading": "Unveil the Power of Cloud with Infomerica,Inc!",
       "cloudUnveilContent": "Through our cutting-edge Cloud Services, we help you harness the full potential of the cloud, ensuring optimal flexibility, security, and performance. Our services are designed to align with your unique business objectives, enabling you to overcome challenges and seize opportunities in the evolving digital landscape.",
       "cloudPlatformMigrationImage": "https://www.infomericainc.com/Content/images/3_stage_cloud_platform_migration_process.png",
@@ -879,5 +891,194 @@
       "softwareSalesFooter3": "today!",
       "softwareSalesFooterLink": "/Contact"
     }
+  },
+  {
+    "GenerativeAI":{
+      "GAIHead":"Elevate Your Business with Infomerica's Generative AI Services",
+      "GAIDesc":"At Infomerica, we harness the transformative power of Generative AI to drive innovation and growth for your business. Our expert consulting services identify opportunities for AI integration, build custom solutions tailored to your needs, and optimize your existing systems—partner with us to unlock the potential of AI and stay ahead in an ever-evolving technological landscape.",
+      "GAIServicesHeading":"Our Services",
+      "GAIServices":[
+        {
+          "heading": "Generative AI Consulting",
+          "content":
+            "Infomerica provides end-to-end AI consulting services to help you explore AI integration opportunities. From initial consultation to seamless implementation, we guide you through every step, ensuring your AI solutions are aligned with your business objectives."
+        },
+        {
+          "heading": "Large Language Model (LLM) Configuration",
+          "content":
+            "We offer tailored solutions for developing, configuring, and training large language models. Our services include robust data validation, security audits, and model testing to ensure your AI systems are reliable and secure."
+        },
+        {
+          "heading": "Knowledge Base Creation",
+          "content":
+            "Our AI solutions convert unstructured data into useful embeddings, enhancing the knowledge base of your AI models. This service ensures your AI systems are well-informed, efficient, and capable of making better decisions."
+        }
+      ],
+      "GAI_AI_Solution_PartnerHead":"Why Choose Infomerica as Your AI Solution Partner?",
+      "GAI_AI_Solution_PartnerDesc":"Infomerica is your ideal AI solution partner, offering expert professionals with deep expertise in machine learning, natural language processing, and computer vision. We prioritize security, follow industry-leading practices, and have a proven track record of successful AI implementations across various domains. Our end-to-end development services ensure a seamless experience from consultation to integration, and we adhere to ethical AI principles to respect user privacy, promote fairness, and prevent biases.",
+      "GAI_ProductsHead":"Our Products",
+      "GAI_Products":[
+        {
+          "title":"Info Scan",
+          "content":"Info Scan is your go-to AI-powered web assessment tool designed to secure your domain and optimize your website’s performance. By combining advanced security scanning with insightful SEO analysis, Info Scan helps you protect your online presence and enhance your search engine rankings effortlessly",
+          "linkto":"/Info-Scan",
+          "learnmore":"Learn More",
+          "icon":"bi bi-arrow-right"
+        },
+        {
+          "title":"Info AI Accelerator",
+          "content":"Info AI Accelerator revolutionizes the way you train and test Large Language Models (LLMs) by simplifying complex processes and optimizing resource usage. With its user-friendly interface and advanced technology, this platform empowers you to focus on innovation while ensuring efficient model development.",
+          "linkto":"/Info-AI-Accelerator",
+          "learnmore":"Learn More",
+          "icon":"bi bi-arrow-right"
+        }
+      ],
+      "GAI_Our_ExpertiseHead":"Our Expertise",
+      "GAI_OurExpertise":[
+        {
+          "heading": "Advanced LLM Configuration",
+          "content":
+            "Leverage the power of Large Language Models with Infomerica’s tailored AI solutions. We develop, configure, and train advanced ML models to meet your requirements. Each model undergoes rigorous validation using robust data sets and comprehensive security audits to ensure industry-standard adherence."
+        },
+        {
+          "heading": "Personalized Chatbot AI Assistants",
+          "content":
+            "Enhance customer interactions with our intelligent chatbots designed for sales, marketing, and support. Whether integrated into your applications or deployed as standalone solutions, our chatbots offer personalized, intuitive user experiences that boost engagement and satisfaction."
+        },
+        {
+          "heading": "Comprehensive Knowledge Base Creation",
+          "content":
+            "Transform your unstructured organizational data into valuable assets for your AI models. Our solutions convert PDFs, internal websites, and images into embeddings, creating a long-term memory for your AI system that enhances its efficiency and performance."
+        },
+        {
+          "heading": "Expert Prompt Engineering",
+          "content":
+            "Our specialized teams create and optimize prompts to ensure your generative AI models deliver high-quality, relevant, and unbiased responses. With Infomerica, experience superior model accuracy and performance tailored to your business needs."
+        }
+      ]
+    }
+  },
+  {
+    "Info_Scan":{
+      "IS_Head":"Info Scan",
+      "IS_content1":"Info Scan is an AI-based, all-in-one web assessment solution meticulously engineered to safeguard your online presence. This advanced tool scans your domain for vulnerabilities, offering predictive insights to help you secure potential attack surfaces before they are exploited. In addition to its robust security features, Info Scan also provides valuable SEO analysis, enabling you to optimize your website’s performance and improve search engine rankings.",
+      "IS_content2":"Info Scan is designed to be the cornerstone of your digital security and performance strategy. By automating critical assessments, it frees you to focus on what matters most—growing your business and delivering value to your customers.",
+      "IS_FeaturesHead":"Features",
+      "IS_Features":[
+        {
+          "title": "AI-Driven Domain Security Assessments",
+          "content":
+            "Automatically detect and receive expert recommendations on potential vulnerabilities, ensuring your domain is protected against cyber threats."
+        },
+        {
+          "title": "AI-Based SEO Insights",
+          "content":
+            "Gain expert recommendations on improving your website’s speed and search engine visibility through advanced AI analysis."
+        },
+        {
+          "title": "Custom LLM and Plugin Integration",
+          "content":
+            "Enhance your assessments by integrating custom Large Language Models (LLMs) and plugins tailored to your needs."
+        },
+        {
+          "title": "Comprehensive PDF Reporting",
+          "content":
+            "Generate and download in-depth PDF reports that provide actionable insights into your domain's security status and SEO performance."
+        },
+        {
+          "title": "Automated Email Notifications",
+          "content":
+            "Stay informed with real-time email alerts that keep you updated on any changes in your domain’s security or SEO scores."
+        },
+        {
+          "title": "Seamless Deployment",
+          "content":
+            "Deploy Info Scan anywhere—whether on-premises or in the cloud—with ease, thanks to its Dockerized architecture."
+        }
+      ],
+      "IS_ServicesHead":"Our Services",
+      "IS_OurServices":[
+        {
+          "image": "",
+          "title": "Free Domain Security Assessment",
+          "content":
+            "Register with your business email, role, and domain details to receive a complimentary security assessment report."
+        },
+        {
+          "image": "",
+          "title": "SEO Performance Analysis",
+          "content":
+            "Improve your website’s SEO performance with our in-depth analysis, designed to help you achieve better search engine rankings."
+        },
+        {
+          "image": "",
+          "title": "Consultation and Issue Resolution",
+          "content":
+            "Once you receive your assessment report, our experts will guide you through fixing any identified issues, offering commercial solutions tailored to your specific needs."
+        }
+      ]
+    }
+  },
+  {
+    "Info_AI_Accelerator":{
+      "IAA_Head":"Info AI Accelerator",
+      "IAA_content1":"Info AI Accelerator is a revolutionary platform that simplifies the training, building, and testing of Large Language Models (LLMs). Traditional LLM development is often hampered by high resource demands and time-consuming processes. Info AI Accelerator addresses these challenges by offering a user-friendly interface that significantly reduces GPU usage and accelerates model training with advanced multithreading technology. This tool allows you to focus on innovation and fine-tuning while we take care of the technical complexities.",
+      "IAA_content2":"Info AI Accelerator is ideal for data scientists, AI researchers, and developers who need a robust, efficient solution to streamline their LLM workflows.",
+      "IAA_FeaturesHead":"Features",
+      "IAA_Features":[
+        {
+          "title": "Unified LLM Training and Testing",
+          "description":
+            "Conduct all your LLM training, building, and testing in one integrated platform, simplifying your workflow with an easy-to-use UI."
+        },
+        {
+          "title": "Optimized GPU Utilization",
+          "description":
+            "Reduce GPU memory usage by 40%, allowing for more efficient training and resource management."
+        },
+        {
+          "title": "Enhanced Processing Speed",
+          "description":
+            "Benefit from 2x faster model training and testing, thanks to our advanced multithreading capabilities."
+        },
+        {
+          "title": "Interactive Testing with Custom Prompts",
+          "description":
+            "Test your models interactively using custom prompts, refining them quickly through our intuitive user interface."
+        },
+        {
+          "title": "Flexible Model Export Options",
+          "description":
+            "Export your trained models to various platforms such as S3, Azure Data Blob, Hugging Face, or Ollama, depending on your configuration."
+        },
+        {
+          "title": "Seamless Deployment",
+          "description":
+            "Deploy Info AI Accelerator anywhere, whether in the cloud or on-premises, with our simple automation scripts that require just a single file to set up."
+        }
+      ],
+      "IAA_OurServicesHead":"Our Services",
+      "IAA_OurServices":[
+        {
+          "image": "",
+          "title": "Custom LLM Training",
+          "description":
+            "Utilize our platform to train LLMs with your specific data, optimizing them for your unique business needs."
+        },
+        {
+          "image": "",
+          "title": "Model Fine-Tuning and Testing",
+          "description":
+            "Leverage our tools to fine-tune and test your models with reduced resource usage and faster processing times."
+        },
+        {
+          "image": "",
+          "title": "Deployment and Integration Support",
+          "description":
+            "Get expert assistance in deploying your trained models, whether to cloud platforms like AWS and Azure or other specialized environments."
+        }
+      ]
+    }
   }
+  
 ]

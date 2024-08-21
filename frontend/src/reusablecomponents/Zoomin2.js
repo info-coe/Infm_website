@@ -1,6 +1,7 @@
 import React from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 
 const Zoomin2 = (props) => {
     Aos.init();
@@ -19,10 +20,12 @@ const Zoomin2 = (props) => {
                     <p key={index}><strong>{props.s} </strong>{item}</p>
                 ))}
              {props.btn ? (
+                <Link className='text-decoration-none' to={props.redirectlink}>
               <button className='btn-with-hover'>
               {props.btn}
               <i className={props.icon}></i>
             </button>
+            </Link>
              ):null} 
             </div>
         </div>

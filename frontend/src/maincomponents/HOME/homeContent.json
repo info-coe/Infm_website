@@ -14,6 +14,7 @@
       "airlineTravelLogistics": "Airline / Travel / Logistics",
       "consumerRetail": "Consumer & Retail",
       "services": "SERVICES",
+      "generativeai":"AI/ML/Generative AI",
       "crm": "Customer Relationship Management (CRM)",
       "digitalTransformationServices": "Digital Transformation Services",
       "securityArchitecture": "Security Architecture",
@@ -104,6 +105,7 @@
       "BGT_whoweare": "Who We Are:",
       "BGT_whoweareDesc": "Established in 1998, Infomerica, Inc. is a renowned Global Systems Integrator focusing on ERP/ BPM/Cloud/Mobile/SOA/API/Digital transformation Technologies. We are a Minority Certified Business, with our headquarters situated in Cary, NC – USA. For over twenty-five years, Infomerica has been instrumental in aiding a myriad of large and mid-sized businesses in transitioning their IT to a Service-Oriented Architecture, involving IT Transformation Initiatives and the deployment of SAP/Oracle ERP Systems.",
       "BGT_moredetailsbtn": "More Details",
+      "BGT_moredetailslink":"/Aboutus",
       "BGT_anglerighticon": "fa fa-angle-right"
     },
     "Thought_Leadership_Circles": [
@@ -175,10 +177,17 @@
         },
         {
           "icon": "fa fa-cloud fa-lg",
-          "title": " Oracle Cloud Services",
-          "content": "Innovate, manage, automate and propel your digital transformation journey leveraging our consulting and implementation services for Oracle-based solutions",
+          "title": "Cloud Services",
+          "content": "We deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
           "more": " ... More Details",
-          "cardlink": "/Oracle-Cloud"
+          "cardlink": "/Cloud-Services"
+        },
+        {
+          "icon": "bi bi-robot",
+          "title": "AI/ML/Generative AI",
+          "content": "Our expert consulting services identify opportunities for AI integration, build custom solutions tailored to your needs, and optimize your existing systems—partner with us to unlock the potential of AI and stay ahead in an ever-evolving technological landscape.",
+          "more": " ... More Details",
+          "cardlink": "/Generative-AI"
         },
         {
           "icon": "fa fa-robot fa-2x",
@@ -274,8 +283,11 @@
       "getinp2": "info@infomericainc.com",
       "followus": "Follow Us",
       "facebooklogo": "https://infomericainc.com/Content/images/facebook.jpg",
+      "facebooklink":"https://www.facebook.com/Infomerica1998/",
       "youtubelogo": "https://infomericainc.com/Content/images/youtube.png",
+      "youtubelink":"https://www.youtube.com/results?search_query=infomerica",
       "linkedinlogo": "https://infomericainc.com/Content/images/linkedin.png",
+      "linkedinlink":"https://www.linkedin.com/company/infomerica",
       "copyright": "Copyright © 2023 ",
       "infomerica": "Infomerica",
       "reserved": "All Rights Reserved.",

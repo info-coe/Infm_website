@@ -231,6 +231,15 @@ const Navigation = (props) => {
                   }`}
                   aria-labelledby="servicesDropdown"
                 >
+                   <li>
+                    <Link
+                      className="dropdown-item lineAnimation"
+                      to="/Generative-AI"
+                      onClick={handleLinkClick}
+                    >
+                      {data.generativeai}
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       className="dropdown-item lineAnimation"

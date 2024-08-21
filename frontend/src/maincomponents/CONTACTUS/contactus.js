@@ -1,8 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import CorporateofficeaddressCard from "../../reusablecomponents/CorporateofficeaddressCard";
 
 const Contactus = (props) => {
   const ContactusContent = JSON.parse(props.product.contactusContent.Content)[0];
+  const initialFormData = {
+    firstname: "",
+    lastname:"",
+    email: "",
+    phone: "",
+    message: "",
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+   
+      window.location.href = `mailto:info@infomericainc.com?subject=Contact&body=${encodeURIComponent(`
+            First Name: ${formData.firstname}
+            Last Name: ${formData.lastname}
+            Email: ${formData.email}
+            Phone: ${formData.phone}
+            Message: ${formData.message}
+          `)}`;
+      setFormData(initialFormData); // Clear the form fields
+    
+  };
 
   return (
     <div>
@@ -38,32 +68,46 @@ const Contactus = (props) => {
           }}
         >
           <h2>{ContactusContent.Contact_Form.CF_contactusHead}</h2>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="d-md-flex m-1">
               <input
                 type="text"
                 placeholder="First Name"
                 className="form-control m-md-2 mt-2 mb-2 rounded-pill p-3"
+                  name="firstname"
+                value={formData.name}
+                onChange={handleChange}
                 required
               />
               <input
                 type="text"
                 placeholder="Last Name"
                 className="form-control  m-md-2 mt-2 mb-2 rounded-pill p-3"
+                name="lastname"
+                value={formData.name}
+                onChange={handleChange}
                 required
               />
             </div>
             <div className="d-md-flex m-1">
               <input
-                type="number"
+                type="tel"
                 placeholder="Mobile Number"
                 className="form-control  m-md-2 mt-2 mb-2 rounded-pill p-3"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                minLength={10}
+                maxLength={10}
                 required
               />
               <input
                 type="email"
                 placeholder="Email"
                 className="form-control  m-md-2 mt-2 mb-2 rounded-pill p-3"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
                 required
               />
             </div>
@@ -72,6 +116,10 @@ const Contactus = (props) => {
                 placeholder="Message"
                 className="form-control rounded"
                 style={{ height: "150px" }}
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
               ></textarea>
             </div>
             <div>

@@ -50,6 +50,7 @@ const Services = (props) => {
                     title={data[`t${index + 1}`]} // Use template literal to access dynamic property names
                     description={data[`Des${index + 1}`]} // Similarly, for description
                     icon={data[`icon${index + 1}`]} //
+                    cardlink={data[`cardlink${index + 1}`]}
                   />
                 </div>
               ))}

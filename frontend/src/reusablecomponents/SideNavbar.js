@@ -93,6 +93,10 @@ const SideNavbar = (props) => {
                         </div>
                         <hr />
                         <div className={`aboutchilds ${showChilds.services ? 'show' : ''}`}>
+                            <Link to="/Generative-AI" className="text-decoration-none">
+                                <li className="ps-4" data-bs-dismiss="offcanvas">{data.generativeai}</li>
+                            </Link>
+                            <hr />
                             <Link to="/CRM" className="text-decoration-none">
                                 <li className="ps-4" data-bs-dismiss="offcanvas">{data.crm}</li>
                             </Link>
