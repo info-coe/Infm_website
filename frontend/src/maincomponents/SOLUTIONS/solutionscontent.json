@@ -140,8 +140,37 @@
           "title": "   Customer Engagement & Commerce Suite",
           "content": [
             "The SAP hybris omni-channel commerce solution helps organizations target and engage with customers better, in an individualized and consistent manner - across every channel, every time.",
-            "We can help you to Accelerate your digital transformation journey - Our CEC CoE experts blend deep business process expertise with technology expertise, specializing in integration of Hybris with SAP ECC and VE. We offer the below services to our customers in the customer engagement & commerce suite arena"
+            "We can help you to Accelerate your digital transformation journey - Our CEC CoE experts blend deep business process expertise with technology expertise, specializing in integration of Hybris with SAP ECC and VE. We offer the below services to our customers in the customer engagement & commerce suite arena",
+            {
+              "Points": [
+                {
+                  "heading": "Configure Price Quote",
+                  "content": "Configure, price, and quote complex products and solutions fast and efficiently"
+                },
+                {
+                  "heading":"Billing & Invoicing",
+                  "content":"Manage the complete sales order lifecycle for faster billing with less administration"
+                },
+                {
+                  "heading":"Evenue Recognition",
+                  "content":" Automate, simplify, and seamlessly comply with new regulations for evenue recognition and accounting"
+                },
+                {
+                  "heading":"Order Orchestration",
+                  "content":"Support frictionless order processing – from quote to cash"
+                },
+                {
+                  "heading":"Recurring Services",
+                  "content":"Employ holistic sales contract management for long-term sales agreements and create customer-centric subscription offers"
+                },
+                {
+                  "heading":"Entitlement Management ",
+                  "content":"Provide a real-time view of all customer entitlements including (but not limited to) licenses, subscriptions, and services"
+                }
+              ]
+            }
           ]
+         
         },
         {
           "icon": "fa-solid fa-life-ring",
@@ -158,7 +187,49 @@
         {
           "icon": "fa-solid fa-building-columns",
           "title": "  Financial Consulting",
-          "content": "In a global economy, and financial professionals must meet the challenges of both. Experienced SAP FI professionals in Infomerica Inc’s SAP Practice have been providing solutions for some myriad scenarios over the past 10 years."
+          "content": ["In a global economy, and financial professionals must meet the challenges of both. Experienced SAP FI professionals in Infomerica Inc’s SAP Practice have been providing solutions for some myriad scenarios over the past 10 years.",
+          {
+            "subHeadings":[
+              {
+                "subHeading": "Our consulting portfolio on SAP Financial Accounting solution includes",
+                 "list":[
+                  "New General Ledger Implementation & Migration",
+                  "Accounts Payable & Accounts Receivable",
+                  "Banking",
+                  "Asset Accounting",
+                  "Special Purpose Ledger",
+                  "Funds Management",
+                  "Taxes includes Country India Version (CIN)",
+                  "Financials for Contract Accounts (FICA)",
+                  "Cash Management",
+                  "Treasury & Risk Management"
+                 ]
+              },
+              {
+                "subHeading": "SAP for Oil & Gas",
+                 "list":[
+                  "Joint Venture Accounting",
+                  "Production Revenue Accounting",
+                  "Production Sharing Accounting"
+                 ]
+              },
+              {
+                "subHeading": "SAP for Public Sector",
+                 "list":[
+                  "Public Sector Collections & Disbursements (PSCD)",
+                  "Funds Management/Budget Control Systems",
+                  "Grantee Management"
+                 ]
+              },
+              {
+                "subHeading": "Business Planning & Consolidation"
+              },
+              {
+                "subHeading": "Cost Audit Advisory"
+              }
+            ]
+          }
+        ]
         },
         {
           "icon": "fa-solid fa-magnifying-glass-chart",
@@ -177,12 +248,137 @@
         {
           "icon": "fa-solid fa-chart-simple",
           "title": "   SAP Analytics & Data Service",
-          "content": "Big data unlocks hidden opportunities and insights. Infomerica turns technology into business outcomes by delivering information management, business intelligence and analytic solutions under a unified approach."
+          "content": ["Big data unlocks hidden opportunities and insights. Infomerica turns technology into business outcomes by delivering information management, business intelligence and analytic solutions under a unified approach.",
+           {
+            "SAPData":[
+              {
+                "heading":"Predictive Analytics:",
+                "content":[
+                  "The digital revolution has created consumers who expect their buying experience to be relevant and personalized. This trend requires organizations the ability to predict requirement patterns and mine insights from enterprise data.",
+                  "Infomerica’s Analytics solution connects the buyer experience directly to bottom-line results through descriptive, diagnostic, predictive and prescriptive analytics.",
+                  "Customer Segmentation: Helps you to understand the customer segment to be targeted for a product. Based on the segmentation characteristics and penetration level , promotion/offers can be targeted on a particular customer segment which increases the net margin and Revenue. Affinity Analysis: Helps to identifying the correlation between the products. Analyze the data on market level to understand and predict at the regional level. Conduct product to product group affinity analysis to unlock the value of data in real time and quickly respond to customer’s demand Predictive Asset Maintenance: The Objective is to help reduce/minimize/optimize asset lifecycle costs across all phases of maintenance. Analyze the historical data to understand the past failures and their related variables. Using the time series algorithm or train a model to predict the failures based on the changes in the variables"
+                ] 
+              },
+              {
+                "heading":"Data Services:",
+                "content":[
+                  "The Data Life Cycle is a series of steps carried out to mine information from raw data - a navigation tool for facilitating users in discovering recommendations on how to effectively work with their data across all stages of the data life cycle.",
+                  "The components of Data Lifecycle Management",
+                  {
+                    "SAPSubData":[
+                      {
+                        "heading":"Data Acquisition",
+                        "content":"Ingestion of already existing data or creating new data."
+                      },
+                      {
+                        "heading":"Data Maintenance",
+                        "content":"Data Maintenance is the focus of a broad range of data management activities like integration, cleansing, enrichment, changed data capture, as well as familiar extract-transform-load processes."
+                      },
+                      {
+                        "heading":"Data synthesis",
+                        "content":"Creation of data values using other data as input. It is the arena of analytics that uses data modeling for decision making."
+                      },
+                      {
+                        "heading":"usage",
+                        "content":"The application of data as information to tasks that the enterprise needs to run and manage itself. Data Governance plays a vital role in this part of the life cycle since the usage is based on a particular group or business unit."
+                      },
+                      {
+                        "heading":"Data Publication",
+                        "content":"Sending the processed data to end users or to other systems for further processing"
+                      },
+                      {
+                        "heading":"Data Archival",
+                        "content":"Copying of data to an environment where it is stored and retrieved when it is needed again."
+                      },
+                      {
+                        "heading":"Data purging",
+                        "content":" Removal of every copy of a data item from the enterprise to avoid same data being stored in multiple systems."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "heading":"IoT Solutions:",
+                "content":[
+                  "The Internet of Things (IoT) is an evolution of existing technologies that enables customers to improve processes, drive productivity, and maintain an edge in our increasingly competitive global economy. Infomerica helps manufacturing customer with Industrial Internet of Things(IIoT). SAP HANA Cloud Platform, Internet of Things service enables customers to develop, customize and operate IoT business applications in the cloud.",
+                  "Help businesses manage the explosion of data from the Internet of Things (IoT).",
+                  "Provide insightful analytics on your IoT data.",
+                  "Use advanced SAP HANA engines and business libraries – such as predictive, planning, geospatial, graph, text search, text analytics – to analyze Big Data.",
+                  "With SAP HANA Cloud Platform, we help our customer to implement IoT end-to- end solution and offers a comprehensive solution portfolio that enables intelligence at the edge and automating processes at the core."
+                ] 
+              },
+              {
+                "heading":"Case Study - Smart Airport Facilities Management Solution using SAP HANA Smart Data Streaming Server ( IoT)",
+                "content":[
+                  "The Smart Airport Facilities Management Solution is an SAP IoT concept which is aimed at increasing the Customer Experience and enable organizations to optimize the usage of constrained resources. This can be extended to all airport facilities and linked to a central airport facility monitoring dashboard.",
+                  "The Airport Convenience App is designed to give an overall view of the facility & resource usage which is integrated with the IoT platform for real time status update."
+                ]
+              },
+              {
+                "heading":"Value prop:",
+                "content":[
+                  "Optimize the usage of the facility & resources",
+                  "Continuous focus on enhancing customer experience",
+                  "Efficient life cycle cost management of the facilities"
+                ]
+              }
+            ]
+           }
+        ]
         },
         {
           "icon": "fa-solid fa-street-view",
           "title": "    Localization & Taxation Consulting",
-          "content": "In the age of globalization, businesses need to adapt to regional specifics, including regulatory requirements, languages, and unique business practices. SAP, as a world-leading ERP solution, offers localization and taxation capabilities, ensuring businesses are compliant with local legal requirements and can function efficiently in diverse environments."
+          "content":[ "In the age of globalization, businesses need to adapt to regional specifics, including regulatory requirements, languages, and unique business practices. SAP, as a world-leading ERP solution, offers localization and taxation capabilities, ensuring businesses are compliant with local legal requirements and can function efficiently in diverse environments.",
+          {
+            "SAPData":[
+              {
+                "heading":"Localization Consulting:",
+                "content":[
+                  "Assess current SAP configurations and offer tailored recommendations to meet specific regional requirements.",
+                  "Ensure businesses comply with local accounting, financial, and operational standards."
+                ] 
+              },
+              {
+                "heading":"Taxation Configuration:",
+                "content":[
+                  "Setup and maintain tax codes in SAP according to local regulations. .",
+                  "Implement automated tax calculations for transactions, ensuring accuracy and compliance"
+                ]
+              },
+              {
+                "heading":"Regional Reporting:",
+                "content":[
+                  "Develop region-specific financial statements and operational reports.",
+                  "Assist in fulfilling local regulatory reporting obligations."
+                ] 
+              },
+              {
+                "heading":"with Local Tax Authorities:",
+                "content":[
+                  "Integrate SAP systems with local tax authority platforms for seamless tax filings and transactions.",
+                  "Enable real-time reporting and transactional accuracy with tax authorities."
+                ]
+              },
+              {
+                "heading":"Packs and Translations:",
+                "content":[
+                  "Implement SAP language packs to cater to local linguistic needs.",
+                  "Provide translations for custom-developed modules and functionalities."
+                ]
+              },
+              {
+                "heading":"Continuous Compliance Monitoring:",
+                "content":[
+                  "Regularly monitor and update SAP configurations in line with changing local regulations.",
+                  "Provide alerts and updates about upcoming regulatory changes.",
+                  "Leverage our expertise in SAP localization and taxation to navigate the complexities of regional compliance, ensuring your SAP environment is optimized for global operations while being locally compliant."
+                ]
+              }
+            ]
+           }
+        ]
         },
         {
           "icon": "fa-solid fa-warehouse",
@@ -193,6 +389,90 @@
             "SAP Extended Warehouse Management (EWM) offers you flexible, automated support with processing various goods movement and managing stock in your warehouse. The system supports you with planned and efficient processing of all logistics processes in your warehouse complex.",
             "SAP Transportation Management (SAP TM) supports you in all activities connected with the physical transportation of goods from one location to another. Create forwarding orders to ordering parties, Transfer orders and deliveries from an ERP system, Create freight bookings, plan the transportation and select carriers, Tender transportation services, Dispatch and monitor the transportation, Calculate the transportation charges for both the ordering party and the supplier side, Consider foreign trade and dangerous goods regulations."
           ]
+        }
+      ],
+      "SAP_HANA_Data":[
+        {
+          "sapcontent1": "Analyse current business processes, IT landscape & vision",
+          "sapcontent2": "Performing S/4 HANA technical assessment and defining initial business case",
+          "sapcontent3": "Define S/4HANA business application model and transition roadmap",
+          "sapsubhead": "Project Preparation & Planning",
+          "sapsubhead2":"Discover & Prepare",
+          "sapmainhead": "SAP S/4 HANA –",
+          "sapsubheading":"Implementation Services",
+          "sapicon": "fa fa-check"
+        },
+        {
+          "sapcontent1": "Business Blueprint for mapping existing business processes.",
+          "sapcontent2": "Requirement / Gap Analysis and project planning.",
+          "sapcontent3": "Approval/Sign off.",
+          "sapsubhead": "Blueprint",
+          "sapsubhead2":"Explore"
+
+        },
+        {
+          "sapcontent1": "Development of solution in DEV system, testing, and validation",
+          "sapcontent2": "Move solution to QA system and validation along with integration testing and UAT.",
+          "sapcontent3": "Mock cutover, validation on data migration and user training",
+          "sapsubhead": "Build & Test Cycles",
+          "sapsubhead2":"Realize"
+        },
+        {
+          "sapcontent1": "Production environment preparation for smooth transition.",
+          "sapcontent2": "Verification processes for the cutover activities and ensuring business readiness.",
+          "sapcontent3": "Production support with continuous monitoring and improvement.",
+          "sapsubhead": "Production Deployment",
+          "sapsubhead2":"Deploy"
+        },
+        {
+          "sapcontent1": "Validation of seamless functioning of the cutover activities.",
+          "sapcontent2": "Provision of hyper-care support along with handover to the support team.",
+          "sapcontent3": "Define S/4HANA business application model and transition roadmap",
+          "sapsubhead": "Support",
+          "sapsubhead2":"Run"
+        }
+      ],
+      "SAP_Solution": "Professional Services",
+      "SAP_description": "We strive for your business growth through innovative approaches",
+      "SAP_ProductManagementData": [
+        {
+          "m1": "S4 HANA Conversion and Upgrade",
+          "m2": "HNA Cloud Solutions, including",
+          "m3": "Robotic Process Automation (RPA)",
+          "url": "https://infomericainc.com/Content/images/connection.gif",
+          "name": "Business Transformation Consulting"
+        },
+        {
+          "m1": " SAP Business Technology Platform (BTP)",
+          "m2": "SAP Master Data Management (MDM)",
+          "m3": "SAP Data Intelligence",
+          "m4": "Power BI",
+          "m5": "Tableau",
+          "m6": "AI and Machine Learning",
+          "url": "https://infomericainc.com/Content/images/cloud-network.gif",
+          "name": "Data Intelligence & Digital Technologies"
+        },
+        {
+          "m1": "Identity and User Access Management",
+          "m2": "Platform Security",
+          "m3": "Threat and Risk Assessment",
+          "url": "https://infomericainc.com/Content/images/computer.gif",
+          "name": "Security & Compliance"
+        },
+        {
+          "m1": "Salesforce",
+          "m2": "Workday",
+          "m3": "Concur",
+          "m4": "Ariba",
+          "m5": "Oracle Cloud",
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Integration with Cloud Platforms Cloud Platforms"
+        },
+        {
+          "m1": "AMS- Application Management Services",
+          "m2": "EMS- Exception Management Services",
+          "url": "https://infomericainc.com/Content/images/rocket.gif",
+          "name": "Managed Services"
         }
       ]
     }
