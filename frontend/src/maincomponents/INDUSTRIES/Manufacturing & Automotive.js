@@ -3,6 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
+import { Link } from "react-router-dom";
 
 const ManufacturingAutomotive = (props) => {
   const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
@@ -143,11 +144,20 @@ const ManufacturingAutomotive = (props) => {
       <div className="row">
         <div className="col-md-12">
           <div className="container pt-5">
-            <p>
+
+          <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.MAA_Details},
+            <Link to={data.MAA_contactus_Link} className='text-decoration-none'>
+              <span className='p-1' style={{ color: "#FE0000" }}>{data.MAA_contactus}</span>
+            </Link>{data.MAA_today}</span>
+          </p>
+          <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+          
+            {/* <p>
               {data.MAA_Details},
-              <span style={{ color: "#FF0000" }}>{data.MAA_contactus} </span>
+              {/* <span style={{ color: "#FF0000" }}>{data.MAA_contactus} </span> */}
+              {/* <Link to={data.MAA_contactus_Link}><span style={{ color: "#FF0000" }}>{data.MAA_contactus} </span></Link>
               {data.MAA_today}
-            </p>
+            </p> */} 
           </div>
         </div>
       </div>

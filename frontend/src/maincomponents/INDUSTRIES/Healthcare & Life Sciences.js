@@ -2,8 +2,9 @@ import React from "react";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
 import { FaCheck } from "react-icons/fa6";
 import AOS from "aos";
+import { Link } from "react-router-dom";
 
-const HealthcareLifeSciences = (props)=> {
+const HealthcareLifeSciences = (props) => {
   const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
   const data = IndustriesContent.map((item) => item.Healthcare_and_Life_Sciences)
     .filter(Boolean)
@@ -21,17 +22,17 @@ const HealthcareLifeSciences = (props)=> {
       <div className="" style={{ overflow: "hidden" }}>
         <div>
           <div>
-          <img
-        src={data.HLS_MainBanner}
-        width="100%"
-        alt="Main Industries"
-        className="img-fluid d-none d-md-block"
-      />
-      <img
-        src={data.HLS_MobileBanner}
-        alt="Sub Industries"
-        className="img-fluid d-md-none w-100"
-      />
+            <img
+              src={data.HLS_MainBanner}
+              width="100%"
+              alt="Main Industries"
+              className="img-fluid d-none d-md-block"
+            />
+            <img
+              src={data.HLS_MobileBanner}
+              alt="Sub Industries"
+              className="img-fluid d-md-none w-100"
+            />
           </div>
           <div
             style={{
@@ -79,7 +80,7 @@ const HealthcareLifeSciences = (props)=> {
                     />
                   </div>
                   <ul className="font-weight-normal">
-                    <li className="list-group-item fs-md-5" style={{color:"#FE0000"}}>
+                    <li className="list-group-item fs-md-5" style={{ color: "#FE0000" }}>
                       {curr.name}
                     </li>
                     <li className="list-group-item">{curr.m1}</li>
@@ -97,11 +98,10 @@ const HealthcareLifeSciences = (props)=> {
                             return (
                               <li
                                 key={index}
-                                className={`list-group-item p-1 ${
-                                  index >= Object.keys(curr).length - 2
-                                    ? "no-bullet"
-                                    : ""
-                                }`}
+                                className={`list-group-item p-1 ${index >= Object.keys(curr).length - 2
+                                  ? "no-bullet"
+                                  : ""
+                                  }`}
                               >
                                 {key === "f" ? null : (
                                   <span className="p-1">
@@ -146,11 +146,18 @@ const HealthcareLifeSciences = (props)=> {
         <div className="row">
           <div className="col-md-12">
             <div className="container pt-5">
-              <p>
+              <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.HLS_Details},
+                <Link to={data.HLS_contactus_Link} className='text-decoration-none'>
+                  <span className='p-1' style={{ color: "#FE0000" }}>{data.HLS_contactus}</span>
+                </Link>{data.HLS_today}</span>
+              </p>
+              <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+
+              {/* <p>
                 {data.HLS_Details},
                 <span style={{ color: "#FF0000" }}>{data.HLS_contactus} </span>
                 {data.HLS_today}
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

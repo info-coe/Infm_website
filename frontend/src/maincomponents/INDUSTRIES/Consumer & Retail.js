@@ -1,13 +1,14 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
+import { Link } from "react-router-dom";
 
 const ConsumerRetail = (props) => {
   const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
   const data = IndustriesContent.map((item) => item.Consumer_and_Retail)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
-  
+
   AOS.init({
     offset: 120,
     delay: 1,
@@ -19,17 +20,17 @@ const ConsumerRetail = (props) => {
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <div>
-        <img
-        src={data.CR_MainBanner}
-        width="100%"
-        alt="Main Industries"
-        className="img-fluid d-none d-md-block"
-      />
-      <img
-        src={data.CR_MobileBanner}
-        alt="Sub Industries"
-        className="img-fluid d-md-none w-100"
-      />
+          <img
+            src={data.CR_MainBanner}
+            width="100%"
+            alt="Main Industries"
+            className="img-fluid d-none d-md-block"
+          />
+          <img
+            src={data.CR_MobileBanner}
+            alt="Sub Industries"
+            className="img-fluid d-md-none w-100"
+          />
         </div>
         <div data-aos="fade-down">
           <div className="text-center p-4 fs-1">
@@ -54,7 +55,7 @@ const ConsumerRetail = (props) => {
             <p>{data.CR_SO_description}</p>
           </div>
         </div>
-        <div className="row justify-content-md-center">
+        <div className="row justify-content-md-center p-1">
           {data.CR_SO_MediaManagementData.map((curr, index) => (
             <div
               data-aos="zoom-in"
@@ -85,11 +86,10 @@ const ConsumerRetail = (props) => {
                     return (
                       <li
                         key={index}
-                        className={`list-group-item p-2 ${
-                          index >= Object.keys(curr).length - 2
-                            ? "no-bullet"
-                            : ""
-                        }`}
+                        className={`list-group-item p-3 ${index >= Object.keys(curr).length - 2
+                          ? "no-bullet"
+                          : ""
+                          }`}
                       >
                         {value}
                       </li>
@@ -118,11 +118,18 @@ const ConsumerRetail = (props) => {
       <div className="row">
         <div className="col-md-12">
           <div className="container pt-5">
-            <p>
+            <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.CR_Details},
+              <Link to={data.CR_contactus_Link} className='text-decoration-none'>
+                <span className='p-1' style={{ color: "#FE0000" }}>{data.CR_contactus}</span>
+              </Link>{data.CR_today}</span>
+            </p>
+            <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+
+            {/* <p>
               {data.CR_Details},
               <span style={{ color: "#FF0000" }}>{data.CR_contactus} </span>
               {data.CR_today}
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

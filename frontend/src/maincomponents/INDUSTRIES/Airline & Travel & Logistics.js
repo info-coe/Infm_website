@@ -2,12 +2,14 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
+import { Link } from "react-router-dom";
 
 const AirlineTravelLogistics = (props) => {
   const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
   const data = IndustriesContent.map((item) => item.Airline_Travel_Logistics)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+  console.log(data)
 
   AOS.init({
     offset: 120,
@@ -90,11 +92,10 @@ const AirlineTravelLogistics = (props) => {
                       return (
                         <li
                           key={index}
-                          className={`list-group-item p-2 ${
-                            index >= Object.keys(curr).length - 2
-                              ? "no-bullet"
-                              : ""
-                          }`}
+                          className={`list-group-item p-2 ${index >= Object.keys(curr).length - 2
+                            ? "no-bullet"
+                            : ""
+                            }`}
                         >
                           {value}
                         </li>
@@ -124,11 +125,18 @@ const AirlineTravelLogistics = (props) => {
       <div className="row">
         <div className="col-md-12">
           <div className="container pt-5">
-            <p>
+          <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.ATL_Details},
+          <Link to={data.ATL_contactus_Link} className='text-decoration-none'>
+            <span className='p-1' style={{ color: "#FE0000" }}>{data.ATL_contactus}</span>
+          </Link>{data.ATL_today}</span>
+        </p>
+        <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+
+            {/* <p>
               {data.ATL_Details},
               <span style={{ color: "#FF0000" }}>{data.ATL_contactus} </span>
               {data.ATL_today}
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 import TechnologyOfferings from "../../reusablecomponents/TechnologyOfferings";
+import { Link } from "react-router-dom";
 
 const MediaTelecom = (props) => {
   const IndustriesContent = JSON.parse(props.product.industriesContent.Content);
@@ -70,11 +71,18 @@ const MediaTelecom = (props) => {
       </div>
 
       <div className="container pt-5">
-        <p>
+        <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.MT_Details},
+          <Link to={data.MT_contactus_Link} className='text-decoration-none'>
+            <span className='p-1' style={{ color: "#FE0000" }}>{data.MT_contactus}</span>
+          </Link>{data.MT_today}</span>
+        </p>
+        <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+
+        {/* <p>
           {data.MT_Details},
           <span style={{ color: "#FF0000" }}>{data.MT_contactus} </span>
           {data.MT_today}
-        </p>
+        </p> */}
       </div>
     </div>
   );
