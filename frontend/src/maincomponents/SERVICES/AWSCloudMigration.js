@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import AWSCompetency from "./Images/AWS-competency.png";
 import Benefit1 from "./Images/Benefits1.png";
 import Benefit2 from "./Images/Benefits2.png";
@@ -10,13 +10,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Contactus from "./ContactUs";
 
 export default function AWSCloudMigration(props) {
-  const contactRef = useRef(null);
 
-  const scrollToContact = () => {
-    if (contactRef.current) {
-      contactRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   const data = JSON.parse(props.product.ServiceContent.Content);
 
   const AWSCloudMigrationData = data
@@ -56,9 +50,9 @@ export default function AWSCloudMigration(props) {
             {AWSCloudMigrationData.CM_Content}
               <br />
               <span className="d-flex justify-content-start me-4 fs-6 mt-3">
-                <button className="btn btn-dark" onClick={scrollToContact}>
+                <a className="btn btn-dark" href="#Scrolltocontact">
                   {AWSCloudMigrationData.CM_Contactus} <i className={AWSCloudMigrationData.CM_Icon}></i>
-                </button>
+                </a>
               </span>
             </p>
           </div>
@@ -115,7 +109,10 @@ export default function AWSCloudMigration(props) {
          
         </div>
       </div>
-     <Contactus/>
+      <div id="Scrolltocontact">
+      <Contactus />
+      </div>
+     
     </div>
   );
 }
