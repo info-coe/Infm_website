@@ -124,9 +124,9 @@ const Footer = (props) => {
             <span className="" style={{ color: "#FE0000" }}>
               {data.infomerica}
             </span>{" "}
-            {data.reserved} <span className="" style={{color:"#FE0000"}}>{data.terms}</span>{" "}
+            {data.reserved} <Link to={data.termslinkto} className="text-decoration-none"><span className="" style={{color:"#FE0000"}}>{data.terms}</span></Link>{" "}
             {data.join}{" "}
-            <span className="" style={{color:"#FE0000"}}>{data.privacypolicy}</span>
+            <Link to={data.privacypolicylinkto} className="text-decoration-none"><span className="" style={{color:"#FE0000"}}>{data.privacypolicy}</span></Link>
           </i>
         </h6>
       </div>

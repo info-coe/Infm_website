@@ -293,7 +293,9 @@
       "infomerica": "Infomerica",
       "reserved": "All Rights Reserved.",
       "terms": "Terms",
+      "termslinkto":"/Terms",
       "privacypolicy": "Privacy Policy",
+      "privacypolicylinkto":"/Privacy-policy",
       "join": "|"
     }
   }

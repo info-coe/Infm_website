@@ -62,6 +62,8 @@ import GenerativeAI from "./maincomponents/SERVICES/GenerativeAI";
 import InfoScan from "./maincomponents/SERVICES/Infoscan";
 import InfoAIAccelerator from "./maincomponents/SERVICES/InfoAIAccelerator";
 import AWSCloudMigration from "./maincomponents/SERVICES/AWSCloudMigration";
+import TermsConditions from "./maincomponents/ABOUTUS/Terms&Conditions";
+import PrivacyPolicies from "./maincomponents/ABOUTUS/Privacy&Policies";
 
 function App() {
   const [s3objects, setS3objects] = useState({});
@@ -278,6 +280,14 @@ function App() {
             <Route
               path="Careers-Bangalore"
               element={<Bangalore product={s3objects} />}
+            ></Route>
+             <Route
+              path="Terms"
+              element={<TermsConditions product={s3objects} />}
+            ></Route>
+             <Route
+              path="Privacy-policy"
+              element={<PrivacyPolicies product={s3objects} />}
             ></Route>
 
             <Route path="*" element={<Notfound />}></Route>
