@@ -4,7 +4,7 @@ import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 import ToggleableCard from "../../reusablecomponents/ToggleableCard";
 import BoxServicesDataSAP from "../../reusablecomponents/BoxServicesDataSAP";
 import { SolutionOfferingsSAP } from "../../reusablecomponents/SolutionOfferingsSAP";
-
+import SlideRight from "../../reusablecomponents/SlideRight";
 const SAP = (props) => {
   const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
@@ -56,7 +56,14 @@ const SAP = (props) => {
         </div>
         <SolutionOfferingsSAP managementData={SAPAllData.SAP_ProductManagementData} />
       </div>
-      <BoxServicesDataSAP allservices={sapServicesData} textColor="#0f62fe" textsize='25px'  icon={sapServiceData[0].sapicon} />
+              <SlideRight
+                data={
+                  <div className="mt-2 mb-2 ">
+                    <BoxServicesDataSAP allservices={sapServicesData} textColor="#0f62fe" textsize='25px'  icon={sapServiceData[0].sapicon} />
+
+                  </div>
+                }
+              />
       <div className="container d-md-flex gap-4 mt-5">
         <div className="col-md-6">
           <h4 className="mb-4" style={{color:"#FE0000"}}>{SAPAllData.SAP_Services_Portfolio_Heading}</h4>

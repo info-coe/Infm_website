@@ -3,6 +3,55 @@
     "solutionsMainBanner": "https://www.infomericainc.com/Content/images/solutions-banner.jpg"
   },
   {
+    "Solutions":{
+      "solutionoff": "Solution Offerings",
+      "Solution_Offerings_Data": [
+        {
+          "icon": "fa fa-gear fa-lg",
+          "title": "SAP",
+          "content": "Designing a solution and implementation requires a deep domain knowledge on the customer industry, in general and operations in specific, to meet both stated and implied needs. Consultants of Infomerica have performed critical functions in the every domain",
+          "more": " ... More Details",
+          "cardlink": "/SAP"
+        },
+        {
+          "icon": "fa fa-cloud fa-lg",
+          "title": "Cloud Services",
+          "content": "We deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
+          "more": " ... More Details",
+          "cardlink": "/Cloud-Services"
+        },
+        {
+          "icon": "bi bi-robot",
+          "title": "AI/ML/Generative AI",
+          "content": "Our expert consulting services identify opportunities for AI integration, build custom solutions tailored to your needs, and optimize your existing systems—partner with us to unlock the potential of AI and stay ahead in an ever-evolving technological landscape.",
+          "more": " ... More Details",
+          "cardlink": "/Generative-AI"
+        },
+        {
+          "icon": "fa fa-robot fa-2x",
+          "title": "Robotic Automation Process",
+          "content": "Robotic Process Automation (RPA) empowers organizations to streamline tedious, repetitive activities across various applications and systems. Whether it's front office transactions or intricate back office procedures, RPA stands as a versatile solution to automate any labor-intensive",
+          "more": " ... More Details",
+          "cardlink": "/Robotic-Automation-Process"
+        },
+        {
+          "icon": "fa fa-solid fa-up-right-from-square fa-lg",
+          "title": "DevOps",
+          "content": "In a world driven by continuous innovation and rapid development, embrace the power of DevOps with Infomerica! We provide state-of-the-art DevOps solutions designed to bridge the gap between development and operations, accelerating your delivery pipeline and enhancing overall productivity",
+          "more": " ... More Details",
+          "cardlink": "/DevOps"
+        },
+        {
+          "icon": "fa fa-mobile fa-lg",
+          "title": "Mobility",
+          "content": "In a world driven by connectivity and immediate access, our Mobility Solutions stand out as a beacon of innovation and reliability. We specialize in providing comprehensive mobility solutions designed to empower businesses",
+          "more": " ... More Details",
+          "cardlink": "/Mobility"
+        }
+      ]
+    }
+  },
+  {
     "Robotic_Automation_Process": {
       "RAP_heading": "Unlock Automation Excellence With Robotic Process Automation!",
       "RAP_content1": "Robotic Process Automation (RPA) empowers organizations to streamline tedious, repetitive activities across various applications and systems. Whether it's front office transactions or intricate back office procedures, RPA stands as a versatile solution to automate any labor-intensive or rule-driven process. By replacing intricate integration techniques with user-friendly configuration and minimal scripting, RPA not only reduces costs and elevates efficiency but also enhances compliance.",
@@ -437,7 +486,16 @@
       "SAP_ProductManagementData": [
         {
           "m1": "S4 HANA Conversion and Upgrade",
-          "m2": "HNA Cloud Solutions, including",
+          "m2": ["HNA Cloud Solutions, including",
+          {
+            "subpoints":[
+              "Country Specific Localizations",
+              "Multi Bank Connectors",
+              "Third Party Applications"
+            ]
+          }
+        
+        ],
           "m3": "Robotic Process Automation (RPA)",
           "url": "https://infomericainc.com/Content/images/connection.gif",
           "name": "Business Transformation Consulting"
@@ -453,13 +511,6 @@
           "name": "Data Intelligence & Digital Technologies"
         },
         {
-          "m1": "Identity and User Access Management",
-          "m2": "Platform Security",
-          "m3": "Threat and Risk Assessment",
-          "url": "https://infomericainc.com/Content/images/computer.gif",
-          "name": "Security & Compliance"
-        },
-        {
           "m1": "Salesforce",
           "m2": "Workday",
           "m3": "Concur",
@@ -473,6 +524,40 @@
           "m2": "EMS- Exception Management Services",
           "url": "https://infomericainc.com/Content/images/rocket.gif",
           "name": "Managed Services"
+        },
+        {
+          "m1": ["Identity and User Access Management",
+          {
+            "subpoints":[
+              "Authorization and GRC controlling",
+              "Role Management",
+              "Safe Go-Live environment"
+            ]
+          }
+        ],
+          "m2": ["Platform Security",
+          {
+            "subpoints":[
+              "Technical Security Consulting",
+              "System security and Interface analysis",
+              "Configuration Management",
+              "Penetration Testing",
+              "Data Loss Prevention"
+            ]
+          }
+        ],
+          "m3": ["Threat and Risk Assessment",
+          {
+            "subpoints":[
+              "Real-time Security Monitoring",
+              "Threat Detection",
+              "Risk and compliance management",
+              "Managed Dashboards"
+            ]
+          }
+        ],
+          "url": "https://infomericainc.com/Content/images/computer.gif",
+          "name": "Security & Compliance"
         }
       ]
     }

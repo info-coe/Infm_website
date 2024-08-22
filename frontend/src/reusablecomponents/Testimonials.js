@@ -1,10 +1,8 @@
 import React from "react";
 
 const Testimonials = ({ data }) => {
-  const content = data
-    .map((item) => item.Our_Testimonials)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const content = data.Our_Testimonials
   const chunkedData = content.OT_Clients_Data.reduce(
     (result, value, index, array) => {
       if (index % 2 === 0) result.push(array.slice(index, index + 2));

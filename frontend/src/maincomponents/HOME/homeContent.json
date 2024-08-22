@@ -140,7 +140,6 @@
       "WCU_chooseus": "Choose Us",
       "WCU_choosepara": "We strive for your business growth through innovative approaches",
       "WCU_fewreasons": "A few good reasons...",
-      "WCU_solutionoff": "Solution Offerings",
       "Few_Good_Reasons_Data": [
         {
           "title": "Industry-Leading Expertise",
@@ -167,6 +166,7 @@
           "description": "We provide competitive pricing and flexible engagement models to maximize your ROI and deliver unparalleled value without compromising on quality."
         }
       ],
+      "WCU_solutionoff": "Solution Offerings",
       "Solution_Offerings_Data": [
         {
           "icon": "fa fa-gear fa-lg",

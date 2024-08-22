@@ -15,7 +15,8 @@ const BoxServicesDataSAP = ({ allservices ,textColor,textsize,textcenter,icon}) 
         },
         heading: {
             textAlign: 'center',
-            color:"#FE0000"
+            color:"#FE0000",
+            height:"40px"
         },
 
         Mainhead :{

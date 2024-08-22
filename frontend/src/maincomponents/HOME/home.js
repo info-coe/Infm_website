@@ -14,21 +14,21 @@ import ServicesCardOpen from "../../reusablecomponents/servicescardopen";
 
 export default function Home(props) {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const HomeContent = JSON.parse(props.product.homeContent.Content);
+  const HomeContent = JSON.parse(props.product.homeContent.Content)[0];
   const cardData = data
     .map((item) => item.Services)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), []);
   // serviceContent[0].ServicesData
-  const homeData = HomeContent[0].Business_Growth_Through;
-  const circleData = HomeContent[0].Thought_Leadership_Circles;
-  const MainSlideData = HomeContent[0].Home_Banner;
+  const homeData = HomeContent.Business_Growth_Through;
+  const circleData = HomeContent.Thought_Leadership_Circles;
+  const MainSlideData = HomeContent.Home_Banner;
   const innovativeApproachesData =
-    HomeContent[0].Why_Choose_Us.Few_Good_Reasons_Data;
+    HomeContent.Why_Choose_Us.Few_Good_Reasons_Data;
   const solutionOfferingsData =
-    HomeContent[0].Why_Choose_Us.Solution_Offerings_Data;
-  const whychooseus = HomeContent[0].Why_Choose_Us;
-  const businesspartners = HomeContent[0].Business_Partners;
+    HomeContent.Why_Choose_Us.Solution_Offerings_Data;
+  const whychooseus = HomeContent.Why_Choose_Us;
+  const businesspartners = HomeContent.Business_Partners;
 
   return (
     <div>
