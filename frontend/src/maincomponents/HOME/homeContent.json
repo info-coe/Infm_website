@@ -22,6 +22,7 @@
       "cloud": "Cloud",
       "cloudServices": "Cloud Services",
       "awsServices": "AWS Services",
+      "awsCloudMigration": "AWS Cloud Migration",
       "microsoftCloudServices": "Microsoft Cloud Services",
       "microsoft365": "Microsoft 365",
       "dataServices": "Data Services",

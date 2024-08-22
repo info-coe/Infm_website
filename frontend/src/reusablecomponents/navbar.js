@@ -319,6 +319,15 @@ const Navigation = (props) => {
                       <li>
                         <Link
                           className="dropdown-item lineAnimation"
+                          to="/AWS-Cloud-Migration"
+                          onClick={handleLinkClick}
+                        >
+                          {data.awsCloudMigration}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item lineAnimation"
                           to="/Microsoft-Cloud-Services"
                           onClick={handleLinkClick}
                         >

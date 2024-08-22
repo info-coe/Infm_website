@@ -128,6 +128,10 @@ const SideNavbar = (props) => {
                                         <li className="ps-4" data-bs-dismiss="offcanvas">{data.awsServices}</li>
                                     </Link>
                                     <hr />
+                                    <Link to="/AWS-Cloud-Migration" className="text-decoration-none">
+                                        <li className="ps-4" data-bs-dismiss="offcanvas">{data.awsCloudMigration}</li>
+                                    </Link>
+                                    <hr />
                                     <Link to="/Microsoft-Cloud-Services" className="text-decoration-none">
                                         <li className="ps-4" data-bs-dismiss="offcanvas">{data.microsoftCloudServices}</li>
                                     </Link>
