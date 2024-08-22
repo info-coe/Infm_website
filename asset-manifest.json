@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/Infm_website/static/css/main.4b4f4e2e.css",
-    "main.js": "/Infm_website/static/js/main.545d3bf3.js",
+    "main.css": "/Infm_website/static/css/main.f2370d59.css",
+    "main.js": "/Infm_website/static/js/main.95c7dfc2.js",
     "static/media/scan1.jpg": "/Infm_website/static/media/scan1.733490034e5ad0eede0c.jpg",
     "static/media/AI1.jpg": "/Infm_website/static/media/AI1.2d884ed3ca65ef3e4e80.jpg",
     "static/media/AI2.jpg": "/Infm_website/static/media/AI2.444fd6679b222c0c4a0d.jpg",
     "static/media/AIBanner.jpg": "/Infm_website/static/media/AIBanner.22aa96a7c192a76263a0.jpg",
+    "static/media/Benefits3.png": "/Infm_website/static/media/Benefits3.a7eabdb52f75db606d26.png",
+    "static/media/Benefits4.png": "/Infm_website/static/media/Benefits4.b5e49c773da57f06ff60.png",
     "static/media/scan2.jpg": "/Infm_website/static/media/scan2.3c28fc95b4355e7598ce.jpg",
     "static/media/featuresImage5.png": "/Infm_website/static/media/featuresImage5.d0e0785565843b2ef48d.png",
+    "static/media/Benefits2.png": "/Infm_website/static/media/Benefits2.808efb259ca827a46695.png",
     "static/media/info-scan.jpg": "/Infm_website/static/media/info-scan.13b3bba8a26b7962b966.jpg",
+    "static/media/Benefits1.png": "/Infm_website/static/media/Benefits1.0ba9dbb1b45432381deb.png",
     "static/media/scan3.jpg": "/Infm_website/static/media/scan3.47c2fade24c1eb74f78e.jpg",
     "static/media/contactus2.jpeg": "/Infm_website/static/media/contactus2.2ffdf3d6cfa4e2e2f38e.jpeg",
+    "static/media/AWS-competency.png": "/Infm_website/static/media/AWS-competency.08565892b0053aae8c66.png",
     "static/media/fa-solid-900.ttf": "/Infm_website/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/Infm_website/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/bootstrap-icons.woff?": "/Infm_website/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
@@ -18,6 +23,7 @@
     "static/media/fa-solid-900.woff2": "/Infm_website/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
     "static/media/bootstrap-icons.woff2?": "/Infm_website/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/fa-brands-400.woff2": "/Infm_website/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/company-logo.png": "/Infm_website/static/media/company-logo.2e616744967ebcaf1254.png",
     "static/media/fa-regular-400.ttf": "/Infm_website/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
     "static/media/fa-regular-400.woff2": "/Infm_website/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
     "static/media/fa-v4compatibility.ttf": "/Infm_website/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
@@ -26,12 +32,10 @@
     "static/media/slick.eot": "/Infm_website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Infm_website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Infm_website/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/Infm_website/index.html",
-    "main.4b4f4e2e.css.map": "/Infm_website/static/css/main.4b4f4e2e.css.map",
-    "main.545d3bf3.js.map": "/Infm_website/static/js/main.545d3bf3.js.map"
+    "index.html": "/Infm_website/index.html"
   },
   "entrypoints": [
-    "static/css/main.4b4f4e2e.css",
-    "static/js/main.545d3bf3.js"
+    "static/css/main.f2370d59.css",
+    "static/js/main.95c7dfc2.js"
   ]
 }
