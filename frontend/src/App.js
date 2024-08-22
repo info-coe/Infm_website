@@ -61,6 +61,7 @@ import Loader from "./Loader";
 import GenerativeAI from "./maincomponents/SERVICES/GenerativeAI";
 import InfoScan from "./maincomponents/SERVICES/Infoscan";
 import InfoAIAccelerator from "./maincomponents/SERVICES/InfoAIAccelerator";
+import AWSCloudMigration from "./maincomponents/SERVICES/AWSCloudMigration";
 
 function App() {
   const [s3objects, setS3objects] = useState({});
@@ -162,6 +163,10 @@ function App() {
             <Route
               path="AWS-Services"
               element={<AWSServices product={s3objects} />}
+            ></Route>
+            <Route
+              path="AWS-Cloud-Migration"
+              element={<AWSCloudMigration product={s3objects} />}
             ></Route>
             <Route
               path="Testing-QA-Services"

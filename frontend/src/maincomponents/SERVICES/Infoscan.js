@@ -27,6 +27,9 @@ export default function InfoScan(props) {
         .filter(Boolean)
         .reduce((acc, curr) => acc.concat(curr), []);
 
+            //eslint-disable-next-line no-unused-vars
+    const [scanImages, setScanImages] = useState([scan1,scan2,scan3]);
+
   const [showModal, setShowModal] = useState(false);
 
   // Function to handle the opening of the modal
@@ -100,7 +103,7 @@ export default function InfoScan(props) {
               >
                 <Link to="#" className="text-decoration-none text-dark">
                 <div className="" style={{ height: "54%" }}>
-                  <img src={item.image} alt="Services" width="70%" />
+                  <img src={scanImages[index]} alt="Services" width="70%" />
                 </div>
                 <h4 style={{ height: "17%" }}>{item.title}</h4>
                 <p>{item.content}</p>

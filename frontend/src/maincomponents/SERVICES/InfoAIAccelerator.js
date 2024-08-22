@@ -1,9 +1,8 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState } from "react";
 import AI1 from "./Images/AI1.jpg";
 import AI2 from "./Images/AI2.jpg";
 import AI3 from "./Images/AI3.jpg";
 import AIBanner from "./Images/AIBanner.jpg";
-import contactImage from "./Images/contactus2.jpeg";
 import Contactus from "./ContactUs";
 
 export default function InfoAIAccelerator(props) {
@@ -22,8 +21,8 @@ export default function InfoAIAccelerator(props) {
         .map((item) => item.servicemobileimage)
         .filter(Boolean)
         .reduce((acc, curr) => acc.concat(curr), []);
-
-
+    //eslint-disable-next-line no-unused-vars
+    const [AIImages, setAIImages] = useState([AI1,AI2,AI3]);
 
   return (
     <>
@@ -74,7 +73,7 @@ export default function InfoAIAccelerator(props) {
                 className="grid-item shadow m-2 p-3"
               >
                 <div className="" style={{ height: "54%" }}>
-                  <img src={item.image} alt="Services" width="70%" />
+                  <img src={AIImages[index]} alt="Services" width="70%" />
                 </div>
                 <h4 style={{ height: "17%" }}>{item.title}</h4>
                 <p>{item.description}</p>

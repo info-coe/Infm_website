@@ -1079,6 +1079,54 @@
         }
       ]
     }
+  },
+  {
+    "Cloud_Migration":{
+      "CM_Head":"Streamline Your Operations with Infomerica's AWS Services",
+      "CM_Content":"Infomerica is a leading AWS Select Consulting Partner, specializing in providing comprehensive cloud migration solutions to businesses worldwide. With a strong focus on AWS expertise, Infomerica excels in guiding customers through every phase of their migration journey, from initial planning to post-migration optimization.",
+      "CM_Contactus":"CONTACT US",
+      "CM_Icon":"bi bi-arrow-right",
+      "CM_OurService_Portfolio_Head":"Our Service Portfolio",
+      "CM_OurService_Content":"Infomerica, where innovation meets execution. As an AWS Select Consulting Partner, we specialize in harnessing the sophisticated architecture of AWS services to deliver transformative solutions, meticulously crafted to meet the unique demands of the cloud landscape.",
+      "CM_OurServices":[
+        {
+          "name":"Seamless Migration Strategies",
+          "content":" At Infomerica, we craft tailored migration strategies for your unique business needs, ensuring a smooth transition of applications, data, and infrastructure to AWS. Our meticulous plans prioritize minimal disruption, guaranteeing a seamless migration experience."
+        },
+        {
+          "name":"Minimal Downtime Assurance",
+          "content":"Minimizing downtime is crucial during migration. With our proven methodologies and robust frameworks, we ensure minimal downtime throughout the process. Our expert team meticulously plans each phase to maintain uninterrupted service, safeguarding business continuity."
+        },
+        {
+          "name":"Comprehensive Risk Mitigation Strategies",
+          "content":"Infomerica employs comprehensive risk mitigation strategies to address potential challenges during migration. We conduct thorough risk assessments and implement proactive measures and contingency plans, ensuring a secure, risk-free migration experience."
+        },
+        {
+          "name":" Post-Migration Support Excellence",
+          "content":" Our commitment extends beyond migration with comprehensive post-migration support. Our dedicated team is available round-the-clock to address any issues promptly. We offer ongoing monitoring, optimization, and maintenance to maximize your cloud infrastructure’s performance and efficiency, ensuring long-term success."
+        }
+      ],
+      "CM_Benefits_Head":"Benefits of Cloud Migration",
+      "CM_Benefits":[
+        {
+          "heading":"Migration Strategy Development",
+          "content":" Leverage our cloud migration services to facilitate your digital transformation, ensuring a seamless and efficient transition to the cloud. We employ the right strategy, roadmap, workflow model, and ecosystem collaborations to determine the best cloud solution for your organization—be it public, private, or hybrid."
+        },
+        {
+          "heading":"Strategy Planning and Infrastructure Audit",
+          "content":" Our customer-centric cloud migration consulting services guarantee smooth and systematic transitions. Utilizing pre-set templates and data analytics applications, we mitigate business disruptions. Infomerica’s comprehensive 5-step plan includes strategy planning, infrastructure audit, architect design, automation, and deployment & testing."
+        },
+        {
+          "heading":"Decade of Expertise and Support",
+          "content":" We ensure a seamless transition of business applications and data to leading cloud platforms such as Microsoft Azure, AWS, GCP, VMWare, IBM, and others. Our approach begins with understanding your organization's adaptability to cloud services, followed by an infrastructure audit to assess your existing systems against industry best practices. We then design the cloud architecture, automate processes, and deploy & test the new environment."
+        },
+        {
+          "heading":"Ongoing Optimization and Maintenance",
+          "content":" With over a decade of experience, Infomerica delivers reliable and efficient cloud migration solutions. We build robust roadmaps and strategies, provide re-architecting and re-platforming support, and offer round-the-clock assistance. Our aim is to minimize errors and ensure a seamless migration process."
+        }
+      ]
+
+    }
   }
   
 ]

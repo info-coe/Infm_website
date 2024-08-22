@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import featureImage5 from "./Images/featuresImage5.png";
 import { Link } from "react-router-dom";
-// import Product2 from "./Images/AI1.jpg";
-// import Product1 from "./Images/scan3.jpg";
+import Product2 from "./Images/AI1.jpg";
+import Product1 from "./Images/scan3.jpg";
 import Contactus from "./ContactUs";
 
 export default function GenerativeAI(props) {
@@ -21,6 +21,8 @@ export default function GenerativeAI(props) {
         .map((item) => item.servicemobileimage)
         .filter(Boolean)
         .reduce((acc, curr) => acc.concat(curr), []);
+            //eslint-disable-next-line no-unused-vars
+    const [products, setProducts] = useState([Product1, Product2])
 
 
     return (
@@ -68,9 +70,9 @@ export default function GenerativeAI(props) {
                         {GenerativeAIData.GAI_Products.map((item, index) => (
                             <div className="shadow" key={index}>
                                 <h4 className="text-center pt-4">{item.title}</h4>
-                                {/* <div className="text-center">
-                                    <img src={`Product${index + 1}`} alt="infoscan" width="75%" />
-                                </div> */}
+                                <div className="text-center">
+                                    <img src={products[index]} alt="infoscan" width="300" height="300" style={{objectFit:"contain"}}/>
+                                </div>
                                 <p className="pe-3 ps-3">
                                     {item.content}
                                 </p>
