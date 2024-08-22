@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import InfoLogo from "./Infologo";
 import SideNavbar from "./SideNavbar";
+import CompanyLogo from "./company-logo.png";
 
 const Navigation = (props) => {
   const HomeContent = JSON.parse(props.product.homeContent.Content);
@@ -74,7 +75,7 @@ const Navigation = (props) => {
                 ></div>
             </span>
             <div className="d-none d-lg-block">
-              <InfoLogo logosrc={data.logo} />
+              <InfoLogo logosrc={CompanyLogo} />
             </div>
           </div>
           <div
@@ -570,7 +571,7 @@ const Navigation = (props) => {
         aria-labelledby="offcanvasRightLabel"
       >
         <div className="offcanvas-header d-flex justify-content-between">
-          <InfoLogo logosrc={data.logo} />
+          <InfoLogo logosrc={CompanyLogo} />
           <i
             className={`bi bi-x-circle-fill fs-3 btnClose ${
               isRotated ? "rotate" : ""

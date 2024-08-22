@@ -80,7 +80,7 @@ export default function GenerativeAI(props) {
                                     <Link
                                         to={item.linkto}
                                         className="text-decoration-none text-dark btn btn-dark text-white m-2"
-                                        target="blank"
+                                        // target="blank"
                                     >
                                         <b>
                                             {item.learnmore} <i className={item.icon}></i>

@@ -18,7 +18,8 @@ const Solutions = (props) => {
         width="100%"
         alt="Main Solution"
       ></img>
-      <SlideLeft
+     <div className="p-md-5 p-3">
+     <SlideLeft
         data={
           <div className="mt-3">
             <h3
@@ -45,6 +46,7 @@ const Solutions = (props) => {
           </div>
         }
       />
+      </div>
     </>
   );
 };

@@ -101,7 +101,7 @@ const DataServices = (props) => {
                         );
                       })}
                     </ul>
-                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center border-bottom border-5 border-danger rounded"></span>
+                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"5px solid #FE0000"}}></span>
                   </div>
                 </div>
               ))}
@@ -109,7 +109,7 @@ const DataServices = (props) => {
           </div>
           {/*Another Data*/}
 
-          <div className="container">
+          <div className="container mt-5 mb-5">
             <div className="row justify-content-center mb-4">
               {DSAllData.dataAnalist.map((curr, index) => (
                 <div
@@ -158,13 +158,13 @@ const DataServices = (props) => {
                       <p className="p-1">{curr.sub_p1}</p>
                       <p className="p-1">{curr.sub_p11}</p>
                     </div>
-                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center border-bottom border-5 border-danger rounded"></span>
+                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"5px solid #FE0000"}}></span>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-          <div className="container">
+          <div className="container  mb-5">
             <div className="row justify-content-center">
               {DSAllData.BigData.map((curr, index) => (
                 <div key={index} className="col-12 col-md-6">
@@ -186,7 +186,7 @@ const DataServices = (props) => {
                     <p className="p-1">{curr.sub_Name}</p>
                     <p className="p-1">{curr.sub_p}</p>
 
-                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center border-bottom border-5 border-danger rounded"></span>
+                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"5px solid #FE0000"}}></span>
                   </div>
                 </div>
               ))}
