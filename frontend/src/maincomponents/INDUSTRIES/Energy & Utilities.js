@@ -53,7 +53,7 @@ const EnergyUtilities = (props) => {
           <span style={{ color: "#FF0000" }}> {data.EU_Solution} </span>
           <span style={{ color: " #0f62fe" }}>{data.EU_Offerings}</span>
           <div className="fs-5 font-weight-normal">
-            <p>{data.EU_SO_description}</p>
+            <p style={{ color: " gray" }}>{data.EU_SO_description}</p>
           </div>
         </div>
         <SolutionOfferings managementData={data.EU_SO_ProductManagementData} />
@@ -74,12 +74,12 @@ const EnergyUtilities = (props) => {
       <div className="row">
         <div className="col-md-12">
           <div className="container pt-5">
-          <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.EU_Details},
+          <p style={{ fontSize: '15px', color: '#030250' }}><span className='m-md-4'>{data.EU_Details},
             <Link to={data.EU_contactus_Link} className='text-decoration-none'>
               <span className='p-1' style={{ color: "#FE0000" }}>{data.EU_contactus}</span>
             </Link>{data.EU_today}</span>
           </p>
-          <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+          {/* <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div> */}
           
             {/* <p>
               {data.EU_Details},

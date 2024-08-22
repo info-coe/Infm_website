@@ -51,15 +51,15 @@ const ConsumerRetail = (props) => {
         <div className="container fs-1 font-weight-normal">
           <span style={{ color: "#FF0000" }}> {data.CR_Solution} </span>
           <span style={{ color: " #0f62fe" }}>{data.CR_Offerings}</span>
-          <div className="fs-5 font-weight-normal">
-            <p>{data.CR_SO_description}</p>
+          <div className=" fs-5 font-weight-normal">
+            <p style={{ color: " gray" }}>{data.CR_SO_description}</p>
           </div>
         </div>
-        <div className="row justify-content-md-center p-1">
+        <div className="row justify-content-md-center justify-content-center p-1">
           {data.CR_SO_MediaManagementData.map((curr, index) => (
             <div
               data-aos="zoom-in"
-              className="col-md-5 m-3 border rounded position-relative"
+              className="col-md-5 m-md-3 col-11 m-2 border rounded position-relative"
               key={index}
             >
               <div className="">
@@ -86,7 +86,7 @@ const ConsumerRetail = (props) => {
                     return (
                       <li
                         key={index}
-                        className={`list-group-item p-3 ${index >= Object.keys(curr).length - 2
+                        className={`list-group-item p-2 ${index >= Object.keys(curr).length - 2
                           ? "no-bullet"
                           : ""
                           }`}
@@ -118,12 +118,12 @@ const ConsumerRetail = (props) => {
       <div className="row">
         <div className="col-md-12">
           <div className="container pt-5">
-            <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.CR_Details},
+            <p style={{ fontSize: '15px', color: '#030250' }}><span className='m-md-4'>{data.CR_Details},
               <Link to={data.CR_contactus_Link} className='text-decoration-none'>
                 <span className='p-1' style={{ color: "#FE0000" }}>{data.CR_contactus}</span>
               </Link>{data.CR_today}</span>
             </p>
-            <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+            {/* <div styl e={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div> */}
 
             {/* <p>
               {data.CR_Details},

@@ -71,12 +71,12 @@ const MediaTelecom = (props) => {
       </div>
 
       <div className="container pt-5">
-        <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.MT_Details},
+        <p style={{ fontSize: '15px', color: '#030250' }}><span className='m-md-4'>{data.MT_Details},
           <Link to={data.MT_contactus_Link} className='text-decoration-none'>
             <span className='p-1' style={{ color: "#FE0000" }}>{data.MT_contactus}</span>
           </Link>{data.MT_today}</span>
         </p>
-        <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+        {/* <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div> */}
 
         {/* <p>
           {data.MT_Details},

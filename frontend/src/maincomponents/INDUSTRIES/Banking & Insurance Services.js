@@ -52,14 +52,14 @@ const BankingInsuranceServices = (props) => {
             <span style={{ color: "#FF0000" }}> {data.BI_Solution}{" "}</span>
             <span style={{ color: " #0f62fe" }}>{data.BI_Offerings}</span>
             <div className="fs-5 font-weight-normal">
-              <p>{data.BI_SO_description}</p>
+              <p style={{ color: " gray" }}>{data.BI_SO_description}</p>
             </div>
           </div>
-          <div className="row justify-content-md-center">
+          <div className="row justify-content-md-center justify-content-center p-1">
             {data.BI_SO_Product_ManagementData.map((curr, index) => (
               <div
                 data-aos="zoom-in"
-                className="col-md-5 m-3 border rounded position-relative"
+                className="col-md-5 m-md-3 col-11 m-2 border rounded position-relative"
                 key={index}
               >
                 <div className="">
@@ -119,12 +119,12 @@ const BankingInsuranceServices = (props) => {
         <div className="row">
           <div className="col-md-12">
             <div className="container pt-5">
-            <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.BI_Details},
+            <p style={{ fontSize: '15px', color: '#030250' }}><span className='m-md-4'>{data.BI_Details},
             <Link to={data.BI_contactus_Link} className='text-decoration-none'>
               <span className='p-1' style={{ color: "#FE0000" }}>{data.BI_contactus}</span>
             </Link>{data.BI_today}</span>
           </p>
-          <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+          {/* <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div> */}
           
               {/* <p>
                 {data.BI_Details},

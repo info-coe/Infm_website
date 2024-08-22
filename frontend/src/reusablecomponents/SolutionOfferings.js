@@ -4,12 +4,12 @@ export const SolutionOfferings = ({ managementData }) => {
   // console.log(managementData)
   return (
     <div>
-      <div className="row justify-content-md-center">
+      <div className="row justify-content-md-center justify-content-center p-3">
         {managementData.map((curr, index) => (
           <div
             data-aos="zoom-in"
             data-aos-once="true"
-            className="col-md-5 m-3 border rounded position-relative"
+            className="col-md-5 m-md-3 col-11 m-2 border rounded position-relative"
             key={index}
           >
             <div className="">

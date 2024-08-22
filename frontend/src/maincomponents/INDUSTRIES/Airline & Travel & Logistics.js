@@ -54,18 +54,18 @@ const AirlineTravelLogistics = (props) => {
           <span style={{ color: "#FF0000" }}> {data.ATL_Solution} </span>
           <span style={{ color: " #0f62fe" }}>{data.ATL_Offerings}</span>
           <div className="fs-5 font-weight-normal">
-            <p>{data.ATL_SO_description}</p>
+            <p style={{ color: " gray" }}>{data.ATL_SO_description}</p>
           </div>
         </div>
         <div
           className="w-100 overflow-none"
           style={{ backgroundColor: "#F1F7FB" }}
         >
-          <div className="row justify-content-md-center">
+          <div className="row justify-content-md-center justify-content-center p-1">
             {data.ATL_SO_MediaManagementData.map((curr, index) => (
               <div
                 data-aos="zoom-in"
-                className="col-md-5 m-3 border rounded position-relative"
+                className="col-md-5 m-md-3 col-11 m-2 border rounded position-relative"
                 key={index}
               >
                 <div className="">
@@ -125,12 +125,12 @@ const AirlineTravelLogistics = (props) => {
       <div className="row">
         <div className="col-md-12">
           <div className="container pt-5">
-          <p style={{ fontSize: '18px', color: '#030250' }}><span className='m-md-4'>{data.ATL_Details},
+          <p style={{ fontSize: '15px', color: '#030250' }}><span className='m-md-4'>{data.ATL_Details},
           <Link to={data.ATL_contactus_Link} className='text-decoration-none'>
             <span className='p-1' style={{ color: "#FE0000" }}>{data.ATL_contactus}</span>
           </Link>{data.ATL_today}</span>
         </p>
-        <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+        {/* <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div> */}
 
             {/* <p>
               {data.ATL_Details},
