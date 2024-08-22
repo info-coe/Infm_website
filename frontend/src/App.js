@@ -77,7 +77,7 @@ function App() {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Headers": "*",
           // "Access-Control-Request-Headers": "*",
-          "Access-Control-Allow-Methods": "*",
+          "Access-Control-Allow-Methods": "GET",
           authorizationToken: Token,
         },
       })

@@ -48,16 +48,16 @@ const Testimonials = ({ data }) => {
               <div className="container ps-5 pe-5">
                 <div className="row">
                   {chunk.map((item, idx) => (
-                    <div key={idx} className="col-lg-6 mb-4">
-                      <div className="testimonial-card p-4">
-                        <div className="row">
+                    <div key={idx} className="col-lg-6 mb-4 ">
+                      <div className="testimonial-card ">
+                        <div className="row p-5">
                           <div className="testimonial-text">
                             <h5 className="client-name m-2" style={{color:"#FE0000"}}>
                               <b>{item.clientName}</b>
                             </h5>
                             <p
                               className="pt-lg-3 lh-2"
-                              style={{ fontSize: "18px" }}
+                              style={{ fontSize: "16px" }}
                             >
                               <img
                                 src={item.logoimage}
