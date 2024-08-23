@@ -47,7 +47,7 @@ function useDynamicTitle() {
                 document.title = 'InfomericaInc - Services';
                 break;
             case '/Generative-AI':
-                document.title = 'InfomericaInc - AI/ML/Generative AI';
+                document.title = 'InfomericaInc - AI/ML & Generative AI';
                 break;
             case '/CRM':
                 document.title = 'InfomericaInc - CRM';
