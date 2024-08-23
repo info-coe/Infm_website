@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
@@ -64,8 +64,10 @@ import InfoAIAccelerator from "./maincomponents/SERVICES/InfoAIAccelerator";
 import AWSCloudMigration from "./maincomponents/SERVICES/AWSCloudMigration";
 import TermsConditions from "./maincomponents/ABOUTUS/Terms&Conditions";
 import PrivacyPolicies from "./maincomponents/ABOUTUS/Privacy&Policies";
+import useDynamicTitle from "./reusablecomponents/useDynamicTitles";
 
 function App() {
+  useDynamicTitle();
   const [s3objects, setS3objects] = useState({});
 
   useEffect(() => {
@@ -98,7 +100,7 @@ function App() {
   return (
     <>
       {Object.keys(s3objects).length > 0 ? (
-        <BrowserRouter basename="Infm_website">
+        <>
           <Scrolltotop />
           <Navigation product={s3objects}/>
           <Routes>
@@ -294,7 +296,7 @@ function App() {
           </Routes>
           <Footer product={s3objects}/>
           <Scrolltotopbtn />
-        </BrowserRouter>
+        </>
       ) : (
         <Loader/>
       )}
