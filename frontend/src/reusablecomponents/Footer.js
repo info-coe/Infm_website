@@ -19,10 +19,10 @@ const Footer = (props) => {
           ></img>
           <p>{data.footerpara}</p>
         </div>
-        <div className="keylinks flexgrowdiv">
-          <h5>{data.keylinksh5}</h5>
+        <div className="keylinks flexgrowdiv ps-1 pe-1">
+          <h5>{data.keylinks}</h5>
           <ul
-            className="list-unstyled d-md-flex gap-5"
+            className="list-unstyled d-md-flex gap-3"
             style={{ lineHeight: "30px" }}
           >
             <div>
@@ -30,6 +30,13 @@ const Footer = (props) => {
                 <li>
                   <i className="bi bi-chevron-double-right"></i>&nbsp;
                   {data.aboutus}
+                </li>
+              </Link>
+              <Link to="/Industries" className="text-decoration-none">
+                {" "}
+                <li>
+                  <i className="bi bi-chevron-double-right"></i>&nbsp;
+                  {data.industries}
                 </li>
               </Link>
               <Link to="/Services" className="text-decoration-none">
@@ -46,13 +53,7 @@ const Footer = (props) => {
                   {data.solutions}
                 </li>
               </Link>
-              <Link to="/Industries" className="text-decoration-none">
-                {" "}
-                <li>
-                  <i className="bi bi-chevron-double-right"></i>&nbsp;
-                  {data.industries}
-                </li>
-              </Link>
+             
             </div>
             <div>
               <Link to="/CSR" className="text-decoration-none">
@@ -78,8 +79,8 @@ const Footer = (props) => {
             </div>
           </ul>
         </div>
-        <div className="getintouch flexgrowdiv">
-          <h5 className="mb-3">{data.getintouchh5}</h5>
+        <div className="getintouch flexgrowdiv ps-1 pe-1">
+          <h5 className="mb-3">{data.getintouch}</h5>
           <p>
             <i className="bi bi-geo-alt-fill"></i> : {data.getinp1}
           </p>
@@ -88,7 +89,7 @@ const Footer = (props) => {
           </p>
         </div>
         <div className="followus flexgrowdiv ">
-          <h5 className="mb-3">{data.followush5}</h5>
+          <h5 className="mb-3">{data.followus}</h5>
           <div className="d-flex gap-3">
            <Link className="text-decoration-none" to={data.facebooklink}> 
            <img
