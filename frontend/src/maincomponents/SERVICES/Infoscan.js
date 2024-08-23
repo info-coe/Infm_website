@@ -97,7 +97,7 @@ export default function InfoScan(props) {
             {InfoScanData.IS_OurServices.map((item, index) => (
               <div
                 key={index}
-                className="grid-item shadow m-2 p-3 zoomAnimation"
+                className="serviceGridItem shadow m-2 p-3 zoomAnimation"
                 style={{ cursor: "pointer" }}
                 onClick={handleOpenModal}
               >

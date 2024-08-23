@@ -70,7 +70,7 @@ export default function InfoAIAccelerator(props) {
             {InfoAcceleratorData.IAA_OurServices.map((item, index) => (
               <div
                 key={index}
-                className="grid-item shadow m-2 p-3"
+                className="serviceGridItem shadow m-2 p-3"
               >
                 <div className="" style={{ height: "54%" }}>
                   <img src={AIImages[index]} alt="Services" width="70%" />

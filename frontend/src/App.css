@@ -759,7 +759,12 @@ body{
   width: 330px;
   text-align: center;
 }
-
+.serviceGridItem{
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 330px;
+  height: 430px;
+  text-align: center;
+}
 .ServicesContainer {
   display: grid;
   grid-template-columns: 1fr;
@@ -1048,6 +1053,9 @@ body{
   .ourcapabilities-grid , .ourserviceportfolio-grid{
     grid-template-columns: repeat(1, 1fr);
   }
+  .zoomAnimation:hover {
+    transform: scale(1.0);
+  }
   }
   @media (min-width: 576px) and (max-width: 767.98px) {
     .ourcapabilities-grid,
@@ -1077,6 +1085,10 @@ body{
     display: grid;
     grid-template-columns: auto;
     padding: 10px;
+  }
+
+  .zoomAnimation:hover {
+    transform: scale(1.0);
   }
  
 }

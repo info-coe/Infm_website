@@ -27,7 +27,7 @@ export default function AWSCloudMigration(props) {
       .filter(Boolean)
       .reduce((acc, curr) => acc.concat(curr), []);
           //eslint-disable-next-line no-unused-vars
-  const [benifits, setBenefits] = useState([Benefit1, Benefit2, Benefit3, Benefit4])
+  const [benifits, setBenefits] = useState([Benefit1, Benefit4, Benefit2, Benefit3])
   return (
     <div>
       <div className="awsmain">
