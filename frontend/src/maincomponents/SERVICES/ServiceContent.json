@@ -894,7 +894,7 @@
   },
   {
     "GenerativeAI":{
-      "GAIHead":"Elevate Your Business with Infomerica's Generative AI Services",
+      "GAIHead":"Elevate Your Business with Infomerica Generative AI Services",
       "GAIDesc":"At Infomerica, we harness the transformative power of Generative AI to drive innovation and growth for your business. Our expert consulting services identify opportunities for AI integration, build custom solutions tailored to your needs, and optimize your existing systems—partner with us to unlock the potential of AI and stay ahead in an ever-evolving technological landscape.",
       "GAIServicesHeading":"Our Services",
       "GAIServices":[
@@ -915,7 +915,7 @@
         }
       ],
       "GAI_AI_Solution_PartnerHead":"Why Choose Infomerica as Your AI Solution Partner?",
-      "GAI_AI_Solution_PartnerDesc":"Infomerica is your ideal AI solution partner, offering expert professionals with deep expertise in machine learning, natural language processing, and computer vision. We prioritize security, follow industry-leading practices, and have a proven track record of successful AI implementations across various domains. Our end-to-end development services ensure a seamless experience from consultation to integration, and we adhere to ethical AI principles to respect user privacy, promote fairness, and prevent biases.",
+      "GAI_AI_Solution_PartnerDesc":"Infomerica offers expert professionals with deep expertise in machine learning, natural language processing, and computer vision. We prioritize security, follow industry-leading practices, and have a proven track record of successful AI implementations across various domains. Our end-to-end development services ensure a seamless experience from consultation to integration, and we adhere to ethical AI principles to respect user privacy, promote fairness, and prevent biases.",
       "GAI_ProductsHead":"Our Products",
       "GAI_Products":[
         {
@@ -1002,7 +1002,7 @@
           "image": "",
           "title": "Free Domain Security Assessment",
           "content":
-            "Register with your business email, role, and domain details to receive a complimentary security assessment report."
+            "Register with your business details to receive a complimentary security assessment report."
         },
         {
           "image": "",
