@@ -26,16 +26,16 @@ const ManufacturingAutomotive = (props) => {
     <div className="" style={{ overflow: "hidden" }}>
       <div>
         <img
-        src={data.MAA_MainBanner}
-        width="100%"
-        alt="Main Industries"
-        className="img-fluid d-none d-md-block"
-      />
-      <img
-        src={data.MAA_MobileBanner}
-        alt="Sub Industries"
-        className="img-fluid d-md-none w-100"
-      />
+          src={data.MAA_MainBanner}
+          width="100%"
+          alt="Main Industries"
+          className="img-fluid d-none d-md-block"
+        />
+        <img
+          src={data.MAA_MobileBanner}
+          alt="Sub Industries"
+          className="img-fluid d-md-none w-100"
+        />
       </div>
 
       {/* Heading and Text */}
@@ -86,7 +86,7 @@ const ManufacturingAutomotive = (props) => {
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              {data.MAA_Product_ManagementData.map((curr,index) => (
+              {data.MAA_Product_ManagementData.map((curr, index) => (
                 <div className="text-white" key={index}>
                   <ul className="font-weight-normal">
                     <li className="list-group-item fs-5">{curr.name}</li>
@@ -95,11 +95,10 @@ const ManufacturingAutomotive = (props) => {
                       return (
                         <li
                           key={index}
-                          className={`list-group-item p-1 ${
-                            index >= Object.keys(curr).length - 2
-                              ? "no-bullet"
-                              : ""
-                          }`}
+                          className={`list-group-item p-1 ${index >= Object.keys(curr).length - 2
+                            ? "no-bullet"
+                            : ""
+                            }`}
                         >
                           <span className="p-1">
                             <FaCheck
@@ -145,19 +144,19 @@ const ManufacturingAutomotive = (props) => {
         <div className="col-md-12">
           <div className="container pt-5">
 
-          <p style={{ fontSize: '15px', color: '#030250' }}><span className='m-md-4'>{data.MAA_Details},
-            <Link to={data.MAA_contactus_Link} className='text-decoration-none'>
-              <span className='p-1' style={{ color: "#FE0000" }}>{data.MAA_contactus}</span>
-            </Link>{data.MAA_today}</span>
-          </p>
-          {/* <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
+            <p style={{ fontSize: '15px', color: '#030250' }}><span className='m-md-4'>{data.MAA_Details},
+              <Link to={data.MAA_contactus_Link} className='text-decoration-none'>
+                <span className='p-1' style={{ color: "#FE0000" }}>{data.MAA_contactus}</span>
+              </Link>{data.MAA_today}</span>
+            </p>
+            {/* <div style={{ borderBottom: "9px solid #FE0000 " }} className='mb-5'></div>
            */}
             {/* <p>
               {data.MAA_Details},
               {/* <span style={{ color: "#FF0000" }}>{data.MAA_contactus} </span> */}
-              {/* <Link to={data.MAA_contactus_Link}><span style={{ color: "#FF0000" }}>{data.MAA_contactus} </span></Link>
+            {/* <Link to={data.MAA_contactus_Link}><span style={{ color: "#FF0000" }}>{data.MAA_contactus} </span></Link>
               {data.MAA_today}
-            </p> */} 
+            </p> */}
           </div>
         </div>
       </div>

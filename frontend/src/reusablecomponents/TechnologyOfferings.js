@@ -11,10 +11,10 @@ const TechnologyOfferings = ({dataServices,cloudComputing,industriesImage12}) =>
               </p>
             ))}
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
             <img
               src={industriesImage12}
-              className="img-fluid w-50"
+              className="img-fluid w-75"
               alt=""
             />
           </div>
