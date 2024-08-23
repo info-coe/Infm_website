@@ -780,10 +780,10 @@ body{
   border-radius: 1rem;
   box-shadow: 0 0.7rem 1.5rem rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  min-height: 18rem;
-  display: flex;
+  min-height: 17.5rem;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   backdrop-filter: blur(10px);
 }
 
@@ -792,7 +792,11 @@ body{
 }
 
 .ServicesContainer .content h3 {
-  margin: 0 0 8px;
+  /* margin: 0 0 8px; */
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ServicesContainer .content p {
@@ -1103,6 +1107,9 @@ body{
   .ServicesContainer {
     padding: 30px;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .ServicesContainer .content h3 {
+    height: 100px;
   }
   .AIsolutionImg {
     margin-top: 50px;

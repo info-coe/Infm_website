@@ -44,8 +44,8 @@ export default function GenerativeAI(props) {
                         {GenerativeAIData.GAIServices.map((item, index) => (
                             <div className="card" key={index}>
                                 <div className="content">
-                                    <h3>{item.heading}</h3>
-                                    <p>{item.content}</p>
+                                    <h3  className="text-center text-primary fs-4">{item.heading}</h3>
+                                    <p >{item.content}</p>
                                 </div>
                             </div>
                         ))}

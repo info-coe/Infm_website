@@ -102,7 +102,7 @@ export default function InfoScan(props) {
                 onClick={handleOpenModal}
               >
                 <Link to="#" className="text-decoration-none text-dark">
-                <div className="" style={{ height: "54%" }}>
+                <div className="" style={{ height: "45%" }}>
                   <img src={scanImages[index]} alt="Services" width="70%" />
                 </div>
                 <h4 style={{ height: "17%" }}>{item.title}</h4>
