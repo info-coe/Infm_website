@@ -5,17 +5,20 @@ import AdvantagesServices from "../../reusablecomponents/AdvantagesServices";
 import BoxServicesData from "../../reusablecomponents/BoxServicesData";
 import NoZoomin from "../../reusablecomponents/NoZoomin";
 
+
 const InternetOfThings = (props) => {
     const data = JSON.parse(props.product.ServiceContent.Content);
-    const crmModelPointsData = data
-      .map((item) => item.ServiceCmsModelsData)
-      .filter(Boolean)
-      .reduce((acc, curr) => acc.concat(curr), []);
+    // const crmModelPointsData = data
+    //   .map((item) => item.ServiceCmsModelsData)
+    //   .filter(Boolean)
+    //   .reduce((acc, curr) => acc.concat(curr), []);
   
     const IOTAllData = data
     .map((item) => item.Internet_Of_Things)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const IOT_ModelPointsData = IOTAllData.IOT_Services_ModelsData;
   
     const serviceMainimage = data
       .map((item) => item.servicebannerimage)
@@ -41,7 +44,7 @@ const InternetOfThings = (props) => {
   const iotServicesData = iotServiceData.map((item) => ({
     Mainhead: item.iotmainhead,
     Subhead: item.iotsubhead,
-    Content: [item.iotcontent1, item.iotcontent1, item.iotcontent1],
+    Content: [item.iotcontent1, item.iotcontent2, item.iotcontent3],
   }));
 
   return (
@@ -88,7 +91,7 @@ const InternetOfThings = (props) => {
         texttop="20px"
         content={[IOTAllData.iotEmbarkContent]}
       />
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={IOT_ModelPointsData} />
     </div>
   );
 };

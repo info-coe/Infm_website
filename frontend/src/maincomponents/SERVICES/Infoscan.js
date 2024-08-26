@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import Contactus from "./ContactUs";
 import RegisterModal from "./RegisterModal";
 
+
 export default function InfoScan(props) {
   const data = JSON.parse(props.product.ServiceContent.Content);
 
@@ -52,7 +53,7 @@ export default function InfoScan(props) {
       </div>
       <div className="">
         <div className=" p-3 mt-3 mb-3">
-          <h1 className="text-center">{InfoScanData.IS_Head}</h1>
+          <h1 className="text-center"><span className="text-primary">{InfoScanData.IS_Head}</span> <span style={{color:"#ff0000"}}>{InfoScanData.IS_Head2}</span></h1>
           <div>
             <div className="row align-items-center">
               <div className="col-md-4 text-center">
@@ -75,7 +76,7 @@ export default function InfoScan(props) {
           </div>
         </div>
         <div className="container  pt-4">
-          <h2 className="section-header">{InfoScanData.IS_FeaturesHead}</h2>
+          <h2 className="section-header" style={{color:"#ff0000"}}>{InfoScanData.IS_FeaturesHead}</h2>
 
           <div className="grid-container">
             {InfoScanData.IS_Features.map((item, index) => (
@@ -92,7 +93,7 @@ export default function InfoScan(props) {
         </div>
 
         <div className="container mt-4 mb-4">
-          <h2 className="section-header">{InfoScanData.IS_ServicesHead}</h2>
+          <h2 className="section-header"><span className="text-primary">{InfoScanData.IS_ServicesHead}</span> <span style={{color:"#ff0000"}}>{InfoScanData.IS_ServicesHead2}</span></h2>
           <div className="grid-container">
             {InfoScanData.IS_OurServices.map((item, index) => (
               <div

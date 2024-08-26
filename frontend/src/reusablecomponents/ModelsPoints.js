@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ModelsPoints = ({ contents }) => {
-  const content = contents[0];
+  const content = contents;
   // console.log(content)
-  const mimage = contents[0].image;
+  const mimage = contents.image;
 
   return (
     <>

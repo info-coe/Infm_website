@@ -33,13 +33,13 @@ export default function GenerativeAI(props) {
             </div>
             <div className="container">
                 <h2 className="text-center mt-4 mb-4">
-                    {GenerativeAIData.GAIHead}
+                    <span className="text-primary">{GenerativeAIData.GAIHead}</span> <span style={{color:"#ff0000"}}>{GenerativeAIData.GAIHead2}</span>
                 </h2>
                 <p>
                     {GenerativeAIData.GAIDesc}
                 </p>
                 <div className="mt-4">
-                    <h3> {GenerativeAIData.GAIServicesHeading}</h3>
+                    <h3> <span className="text-primary">{GenerativeAIData.GAIServicesHeading}</span> <span style={{color:"#ff0000"}}>{GenerativeAIData.GAIServicesHeading2}</span></h3>
                     <section className="ServicesContainer mt-4">
                         {GenerativeAIData.GAIServices.map((item, index) => (
                             <div className="card" key={index}>
@@ -65,7 +65,7 @@ export default function GenerativeAI(props) {
                     </div>
                 </div>
                 <div className="mt-4">
-                    <h3>{GenerativeAIData.GAI_ProductsHead}</h3>
+                    <h3><span className="text-primary">{GenerativeAIData.GAI_ProductsHead}</span> <span style={{color:"#ff0000"}}>{GenerativeAIData.GAI_ProductsHead2}</span></h3>
                     <div className="d-md-flex justify-content-evenly gap-5 mt-4">
                         {GenerativeAIData.GAI_Products.map((item, index) => (
                             <div className="shadow" key={index}>
@@ -92,7 +92,7 @@ export default function GenerativeAI(props) {
                     </div>
                 </div>
                 <div className="mt-4">
-                    <h3>{GenerativeAIData.GAI_Our_ExpertiseHead}</h3>
+                    <h3><span className="text-primary">{GenerativeAIData.GAI_Our_ExpertiseHead}</span> <span style={{color:"#ff0000"}}>{GenerativeAIData.GAI_Our_ExpertiseHead2}</span></h3>
 
                     <div className="features-container">
                         {GenerativeAIData.GAI_OurExpertise.map((item, index) => (

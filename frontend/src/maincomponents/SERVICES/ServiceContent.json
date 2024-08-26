@@ -3,27 +3,7 @@
     "servicebannerimage": "https://www.infomericainc.com/Content/images/services-banner.jpg",
     "servicemobileimage": "https://www.infomericainc.com/Content/images/services-banner-mobile.jpg"
   },
-  {
-    "ServiceCmsModelsData": [
-      {
-        "p1": " Onsite [Staff Augmentation & Fixed]",
-        "p2": " Offsite [Staff Augmentation & Fixed]",
-        "p3": "Offshore [Fixed]",
-        "p4": " Hybrid [Blended Rate]",
-        "p5": "Onsite + Offsite",
-        "p6": "Onsite + Offshore",
-        "p7": "Onsite + Offsite + Offshore",
-        "mheading": "Delivery Models",
-        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
-        "mcontent2": "With our proven onsite/offshore delivery model, CRM Services is a cost-effective approach to highest return on your investments[ROI].",
-        "mcontent3": "For more details or to discuss your specific needs,",
-        "mcontact": "Contact Us",
-        "mtoday": "today!",
-        "mcontactlink": "/Contact",
-        "image": "https://www.infomericainc.com/Content/images/point.gif"
-      }
-    ]
-  },
+ 
   {
     "Services": {
       "serviceHeading": "Services",
@@ -133,7 +113,26 @@
           "crmcontent1": "Deliver relentless support and timely upgrades, ensuring CRM solutions are contemporary, secure, and aligned with evolving business needs.",
           "crmcontent2": " Uninterrupted business operations and fortified customer relations through state-of-the-art CRM solutions."
         }
-      ]
+      ],
+      "crmModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, CRM Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
+    
     }
   },
   {
@@ -170,7 +169,25 @@
           "dtscontent": "Protect your digital assets with our robust cybersecurity solutions, ensuring your business's safety and compliance",
           "dtssubhead": "Cybersecurity Services"
         }
-      ]
+      ],
+      "DTS_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Digital Transformation Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -213,7 +230,25 @@
           "seccontent2": " Leveraging extensive knowledge and experience to deliver strategic guidance and insights tailored to the specific needs of cloud security.",
           "seccontent3": "A secure, adaptable, and resilient organizational and cloud infrastructure aligned with business objectives and industry standards."
         }
-      ]
+      ],
+      "SA_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Security Architecture  Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -255,7 +290,25 @@
           "appcontent2": "24/7 support through our trusted and proven Hybrid Global Delivery Model, backed by our multiple Offshore Development Facilities.",
           "appsubhead": "Application Support"
         }
-      ]
+      ],
+      "AS_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Application Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -283,7 +336,7 @@
       },
       "ComprehensiveCloudServicesData": [
         {
-          "cloudcontent1": "Cloud Consulting & Strategy",
+          "cloudcontent1": "Tailored Strategies",
           "cloudcontent2": "Roadmap Development",
           "cloudcontent3": "Cloud Readiness Assessments",
           "cloudsubhead": "Cloud Consulting & Strategy",
@@ -304,7 +357,7 @@
         },
         {
           "cloudcontent1": "Security Assessments",
-          "cloudcontent2": "Proactive Optimization",
+          "cloudcontent2": "Compliance Management",
           "cloudcontent3": "Threat Mitigation",
           "cloudsubhead": "Cloud Security & Compliance"
         },
@@ -364,7 +417,25 @@
           "awscontent4": "Compliance Monitoring",
           "awssubhead": "AWS Security & Compliance"
         }
-      ]
+      ],
+      "Aws_Services_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, AWS Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -541,7 +612,25 @@
         {
           "m1": "Azure AD Integration"
         }
-      ]
+      ],
+      "M365_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model,  Microsoft 365 Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -573,7 +662,7 @@
         {
           "name": "Data Analytics & Intelligence",
           "url": "https://infomericainc.com/Content/images/connection.gif",
-          "p1": "Data platform that fully integrates disparate databases, analytics, and governance.Unlock actionable insights and boost your decision-making with our cutting-edge data analytics and intelligence solutions.",
+          "p1": "Unlock actionable insights and boost your decision-making with our cutting-edge data analytics and intelligence solutions.",
           "sub_name": "Products We Support :",
           "sub_p1": "Tableau, Power BI, QlikView/Qlik Sense, Google Analytics, Domo, Cognos, MicroStrategy, Business Objects, OBIEE, Oracle Apex, kibana"
         },
@@ -608,7 +697,7 @@
       ],
       "BigData": [
         {
-          "name": "Big Data Solution",
+          "name": "Big Data Solutions",
           "url": "https://infomericainc.com/Content/images/computer.gif",
           "p": "Harness the power of Big Data with our innovative solutions, tailored to meet your unique business needs and objectives.",
           "sub_Name": "Products We Support :",
@@ -621,7 +710,25 @@
           "sub_Name": "Products We Support :",
           "sub_p": "Amazon Redshift,Oracle Exadata,IBM Db2 ,SAP BW/4HANA,Teradata,SQL Server,Sybase,Mongo DB,mysql."
         }
-      ]
+      ],
+      "DS_Services_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Data Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -673,7 +780,25 @@
           "iotcontent3": "Enhancing Experiences",
           "iotsubhead": "IoT Device & Application Management"
         }
-      ]
+      ],
+      "IOT_Services_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Internet of Things Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -738,7 +863,25 @@
           "width": 50,
           "height": 60
         }
-      ]
+      ],
+      "TQAS_Services_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Business Assurance and Testing Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -840,7 +983,25 @@
         {
           "m1": "Partner portal"
         }
-      ]
+      ],
+      "EP_Services_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Enterprise Portals and Content Management Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -894,9 +1055,11 @@
   },
   {
     "GenerativeAI":{
-      "GAIHead":"Elevate Your Business with Infomerica Generative AI Services",
+      "GAIHead":"Elevate Your Business with Infomerica",
+      "GAIHead2":" Generative AI Services",
       "GAIDesc":"At Infomerica, we harness the transformative power of Generative AI to drive innovation and growth for your business. Our expert consulting services identify opportunities for AI integration, build custom solutions tailored to your needs, and optimize your existing systems—partner with us to unlock the potential of AI and stay ahead in an ever-evolving technological landscape.",
-      "GAIServicesHeading":"Our Services",
+      "GAIServicesHeading":"Our",
+      "GAIServicesHeading2":" Services",
       "GAIServices":[
         {
           "heading": "Generative AI Consulting",
@@ -916,7 +1079,8 @@
       ],
       "GAI_AI_Solution_PartnerHead":"Why Choose Infomerica as Your AI Solution Partner?",
       "GAI_AI_Solution_PartnerDesc":"Infomerica offers expert professionals with deep expertise in machine learning, natural language processing, and computer vision. We prioritize security, follow industry-leading practices, and have a proven track record of successful AI implementations across various domains. Our end-to-end development services ensure a seamless experience from consultation to integration, and we adhere to ethical AI principles to respect user privacy, promote fairness, and prevent biases.",
-      "GAI_ProductsHead":"Our Products",
+      "GAI_ProductsHead":"Our",
+      "GAI_ProductsHead2":" Products",
       "GAI_Products":[
         {
           "title":"Info Scan",
@@ -933,7 +1097,8 @@
           "icon":"bi bi-arrow-right"
         }
       ],
-      "GAI_Our_ExpertiseHead":"Our Expertise",
+      "GAI_Our_ExpertiseHead":"Our",
+      "GAI_Our_ExpertiseHead2":" Expertise",
       "GAI_OurExpertise":[
         {
           "heading": "Advanced LLM Configuration",
@@ -960,7 +1125,8 @@
   },
   {
     "Info_Scan":{
-      "IS_Head":"Info Scan",
+      "IS_Head":"Info",
+      "IS_Head2":" Scan",
       "IS_content1":"Info Scan is an AI-based, all-in-one web assessment solution meticulously engineered to safeguard your online presence. This advanced tool scans your domain for vulnerabilities, offering predictive insights to help you secure potential attack surfaces before they are exploited. In addition to its robust security features, Info Scan also provides valuable SEO analysis, enabling you to optimize your website’s performance and improve search engine rankings.",
       "IS_content2":"Info Scan is designed to be the cornerstone of your digital security and performance strategy. By automating critical assessments, it frees you to focus on what matters most—growing your business and delivering value to your customers.",
       "IS_FeaturesHead":"Features",
@@ -996,7 +1162,8 @@
             "Deploy Info Scan seamlessly in either on-premises or cloud environments, leveraging its Dockerized architecture for optimal flexibility and ease of implementation."
         }
       ],
-      "IS_ServicesHead":"Our Services",
+      "IS_ServicesHead":"Our",
+      "IS_ServicesHead2":" Services",
       "IS_OurServices":[
         {
           "image": "",
@@ -1021,7 +1188,8 @@
   },
   {
     "Info_AI_Accelerator":{
-      "IAA_Head":"Info AI Accelerator",
+      "IAA_Head":"Info",
+      "IAA_Head2":" AI Accelerator",
       "IAA_content1":"Info AI Accelerator is a revolutionary platform that simplifies the training, building, and testing of Large Language Models (LLMs). Traditional LLM development is often hampered by high resource demands and time-consuming processes. Info AI Accelerator addresses these challenges by offering a user-friendly interface that significantly reduces GPU usage and accelerates model training with advanced multithreading technology. This tool allows you to focus on innovation and fine-tuning while we take care of the technical complexities.",
       "IAA_content2":"Info AI Accelerator is ideal for data scientists, AI researchers, and developers who need a robust, efficient solution to streamline their LLM workflows.",
       "IAA_FeaturesHead":"Features",
@@ -1057,7 +1225,8 @@
             "Deploy Info AI Accelerator anywhere, whether in the cloud or on-premises, with our simple automation scripts that require just a single file to set up."
         }
       ],
-      "IAA_OurServicesHead":"Our Services",
+      "IAA_OurServicesHead":"Our",
+      "IAA_OurServicesHead2":" Services",
       "IAA_OurServices":[
         {
           "image": "",
@@ -1082,11 +1251,13 @@
   },
   {
     "Cloud_Migration":{
-      "CM_Head":"Streamline Your Operations with Infomerica's AWS Services",
+      "CM_Head":"Streamline Your Operations with",
+      "CM_Head2":" Infomerica's AWS Services",
       "CM_Content":"Infomerica is a leading AWS Select Consulting Partner, specializing in providing comprehensive cloud migration solutions to businesses worldwide. With a strong focus on AWS expertise, Infomerica excels in guiding customers through every phase of their migration journey, from initial planning to post-migration optimization.",
       "CM_Contactus":"CONTACT US",
       "CM_Icon":"bi bi-arrow-right",
-      "CM_OurService_Portfolio_Head":"Our Service Portfolio",
+      "CM_OurService_Portfolio_Head":"Our Service",
+      "CM_OurService_Portfolio_Head2":" Portfolio",
       "CM_OurService_Content":"Infomerica, where innovation meets execution. As an AWS Select Consulting Partner, we specialize in harnessing the sophisticated architecture of AWS services to deliver transformative solutions, meticulously crafted to meet the unique demands of the cloud landscape.",
       "CM_OurServices":[
         {
@@ -1106,7 +1277,8 @@
           "content":" Our commitment extends beyond migration with comprehensive post-migration support. Our dedicated team is available round-the-clock to address any issues promptly. We offer ongoing monitoring, optimization, and maintenance to maximize your cloud infrastructure’s performance and efficiency, ensuring long-term success."
         }
       ],
-      "CM_Benefits_Head":"Benefits of Cloud Migration",
+      "CM_Benefits_Head":"Benefits of",
+      "CM_Benefits_Head2":" Cloud Migration",
       "CM_Benefits":[
         {
           "heading":"Migration Strategy Development",

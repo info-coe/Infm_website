@@ -105,7 +105,7 @@ function ServicesCardOpen({ title, description, icon, cardlink }) {
         </div>
         <div className="slide">
           <div className="content">
-            <h6>{title}</h6>
+            <h6 className='fw-bold'>{title}</h6>
             <p>{description}</p>
           </div>
         </div>

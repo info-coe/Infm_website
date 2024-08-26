@@ -2,17 +2,19 @@ import React from "react";
 // import SolutionData from "./solutionscontent.json";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 
+
 const Mobility = (props) => {
-  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  const crmModelPointsData = serviceContent
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = serviceContent
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const MobilityData = SolutionData.map((item) => item.MOBILITY)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const MOBILITY_ModalData= MobilityData.MOBILITY_ModelsData
 
   return (
     <div>
@@ -54,7 +56,7 @@ const Mobility = (props) => {
           <p>{MobilityData.MOBILITY_Comprehensive_Suite_Conclusion2}</p>
         </div>
       </div>
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={MOBILITY_ModalData} />
     </div>
   );
 };

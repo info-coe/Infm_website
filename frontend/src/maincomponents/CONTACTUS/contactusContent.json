@@ -22,9 +22,9 @@
         },
         {
           "name": "Hyderabad",
-          "addr": "Infomerica (India) Private Limited 3rd Floor, 'SARANYA' Plot No 58 & 59, Nagarjuna Hills, Hyderabad-50082",
+          "addr": "Infomerica (India) Private Limited 3rd Floor, 'SARANYA' Plot No 58 & 59, Nagarjuna Hills, Hyderabad-500082",
           "phone": "",
-          "email": "info@infomericainc.in",
+          "email": "info@infomericainc.com",
           "locationicon": "bi bi-geo-alt-fill",
           "emailicon": "bi bi-envelope",
           "phoneicon": ""
@@ -33,7 +33,7 @@
           "name": "Bengaluru",
           "addr": "2nd Floor, Sai Arcade,Outer Ring Road, Devarabeesanahalli, Bengaluru – 560103.",
           "phone": "",
-          "email": "info@infomericainc.in",
+          "email": "info@infomericainc.com",
           "locationicon": "bi bi-geo-alt-fill",
           "emailicon": "bi bi-envelope",
           "phoneicon": ""

@@ -7,17 +7,20 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaPaperPlane } from "react-icons/fa"; // Correct import
 
+
 const Microsoft365 = (props) => {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const crmModelPointsData = data
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = data
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const M365AllData = data
   .map((item) => item.Microsoft365)
   .filter(Boolean)
   .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const M365_ModalData=  M365AllData.M365_ModelsData
 
   const serviceMainimage = data
     .map((item) => item.servicebannerimage)
@@ -176,7 +179,7 @@ const Microsoft365 = (props) => {
         />
       </div>
 
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={M365_ModalData} />
     </div>
   );
 };

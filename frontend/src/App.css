@@ -6,8 +6,11 @@
 body{
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   color: #030250;
+}
+p{
+   font-family: 'Poppins', sans-serif !important;
 }
 /* .zoom-in{
   font-size: 16px;
@@ -753,6 +756,8 @@ body{
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
+  justify-content: center;
+  gap: 20px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -1077,6 +1082,53 @@ body{
   .AIsolutionImg {
     margin-top: 50px;
   }
+  .slide-img{
+    width: 120px;
+    height: 120px;
+  }
+  .slide-img {
+    top: 5%;
+    right: 6%;
+  }
+  .cap{
+    font-size: 18px;
+  }
+  .img-para {
+    font-size: 12px;
+    bottom: 0%;
+    right: 15%;
+    color:#fe0000;
+    letter-spacing: 6px;
+  }
+  .main-slider{
+   height: 60vh;
+ }
+ .main-slider .slide {
+  height: 50vh;
+}
+ .main-slider .content {
+  left: 0;
+  top: 10%;
+}
+.banner-para{
+  font-size: 0.9rem;
+  line-height: 20px;
+  width: 58%;
+}
+.main-slider .btns-box .btn-one {
+  padding: 5px 6px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.cont-zoom-in {
+  margin-left: 15px;
+}
+.btns-box{
+  margin-left:15px;
+}
+.custom-dots {
+  top:58vh;
+}
   .features-container {
     grid-template-columns: repeat(2, 1fr);
   }

@@ -5,18 +5,20 @@ import AdvantagesServices from "../../reusablecomponents/AdvantagesServices";
 import NoZoomin from "../../reusablecomponents/NoZoomin";
 import BoxServicesData from "../../reusablecomponents/BoxServicesData";
 
+
 const RoboticAutomationProcess = (props) => {
-  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  const crmModelPointsData = serviceContent
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = serviceContent
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const RPAAllData = SolutionData
     .map((item) => item.Robotic_Automation_Process)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const RAP_ModalData= RPAAllData.RAP_ModelsData
 
   const heading = RPAAllData.RAP_heading;
   const digitalServiceData = RPAAllData.DigitalServicesData;
@@ -60,7 +62,7 @@ const RoboticAutomationProcess = (props) => {
         textColor="#0f62fe"
         textcenter="center"
       />
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={RAP_ModalData} />
     </div>
   );
 };

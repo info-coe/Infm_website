@@ -65,7 +65,7 @@ export default function Contactus() {
 
   return (
       <div className="contactusdiv mt-3">
-        <h1 className="text-center">Contact Us</h1>
+        <h1 className="text-center"><span className="text-primary">Contact</span> <span style={{color:"#ff0000"}}> Us</span></h1>
         <p className="text-center mt-3">
           Please take a moment to get in touch, we will get back to you shortly.
         </p>

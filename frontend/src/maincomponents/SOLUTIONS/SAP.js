@@ -5,18 +5,21 @@ import ToggleableCard from "../../reusablecomponents/ToggleableCard";
 import BoxServicesDataSAP from "../../reusablecomponents/BoxServicesDataSAP";
 import { SolutionOfferingsSAP } from "../../reusablecomponents/SolutionOfferingsSAP";
 import SlideRight from "../../reusablecomponents/SlideRight";
+
 const SAP = (props) => {
-  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  const crmModelPointsData = serviceContent
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = serviceContent
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const SAPAllData = SolutionData
     .map((item) => item.SAP)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const SAP_ModalData= SAPAllData.SAP_ModelsData
+
     const sapServiceData= SAPAllData.SAP_HANA_Data
     const sapServicesData = sapServiceData.map(item => ({
         Mainhead: item.sapmainhead,
@@ -43,7 +46,7 @@ const SAP = (props) => {
         />
       </div>
       <div className="text-center m-5">
-        <img src={SAPAllData.SAP_Portfolio_Image} alt="SAPMAP" />
+        <img src={SAPAllData.SAP_Portfolio_Image} alt="SAPMAP" className="img-fluid"/>
       </div>
       <div
         className="w-100 overflow-none"
@@ -89,7 +92,7 @@ const SAP = (props) => {
           ))}
         </div>
       </div>
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={SAP_ModalData} />
     </div>
   );
 };

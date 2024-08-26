@@ -7,17 +7,20 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaPaperPlane } from "react-icons/fa";
 
+
 const EnterprisePortal = (props) => {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const crmModelPointsData = data
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = data
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const EPAllData = data
     .map((item) => item.Enterprise_Portal)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const EP_ModelPointsData = EPAllData.EP_Services_ModelsData;
 
   const serviceMainimage = data
     .map((item) => item.servicebannerimage)
@@ -180,7 +183,7 @@ const EnterprisePortal = (props) => {
         />
       </div>
 
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={EP_ModelPointsData} />
     </div>
   );
 };

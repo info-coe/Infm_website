@@ -9,6 +9,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Contactus from "./ContactUs";
 
+
 export default function AWSCloudMigration(props) {
 
   const data = JSON.parse(props.product.ServiceContent.Content);
@@ -36,7 +37,7 @@ export default function AWSCloudMigration(props) {
       </div>
       <div className="mt-4">
         <h1 className="m-4 text-center">
-         {AWSCloudMigrationData.CM_Head}
+         <span className="text-primary">{AWSCloudMigrationData.CM_Head}</span>  <span style={{color:"#ff0000"}}>{AWSCloudMigrationData.CM_Head2}</span>
         </h1>
         <div>
           <div className="d-md-flex justify-content-center align-items-center gap-5 m-2 mb-0">
@@ -59,7 +60,7 @@ export default function AWSCloudMigration(props) {
         </div>
       </div>
       <div className="m-5">
-        <h1 className="text-center">{AWSCloudMigrationData.CM_OurService_Portfolio_Head}</h1>
+        <h1 className="text-center"><span className="text-primary">{AWSCloudMigrationData.CM_OurService_Portfolio_Head}</span> <span style={{color:"#ff0000"}}>{AWSCloudMigrationData.CM_OurService_Portfolio_Head2}</span></h1>
         <p className="fs-5">
          {AWSCloudMigrationData.CM_OurService_Content}
         </p>
@@ -82,7 +83,7 @@ export default function AWSCloudMigration(props) {
       </div>
       <div className="m-5">
         <div className="">
-          <h1 className="text-center">{AWSCloudMigrationData.CM_Benefits_Head}</h1>
+          <h1 className="text-center"><span className="text-primary">{AWSCloudMigrationData.CM_Benefits_Head}</span> <span style={{color:"#ff0000"}}>{AWSCloudMigrationData.CM_Benefits_Head2}</span></h1>
         </div>
 
         <div className="mt-5 ourcapabilities-grid">

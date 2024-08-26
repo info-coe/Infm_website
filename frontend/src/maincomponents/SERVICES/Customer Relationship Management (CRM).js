@@ -12,10 +12,12 @@ const CustomerRelationshipManagement = (props) => {
     .reduce((acc, curr) => acc.concat(curr), [])[0];
 
   const serviceData = contentData.ServiceCrmServicesData
-  const crmModelPointsData = data
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = data
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
+    const crmModelPointsData = contentData.crmModelsData;
+   
   const crmServicesData = serviceData.map((item) => ({
     mainHead: item.crmmainhead,
     subHead: item.crmminhead,

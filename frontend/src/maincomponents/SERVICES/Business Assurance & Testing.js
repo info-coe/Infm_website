@@ -5,17 +5,20 @@ import CareersSlideContent from "../../reusablecomponents/CareersSlideContent";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+
 const BusinessAssuranceTesting = (props) => {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const crmModelPointsData = data
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = data
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const BATAllData = data
     .map((item) => item.Testing_QA_Services)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const BAQAT_ModelPointsData = BATAllData.TQAS_Services_ModelsData;
 
   const serviceMainimage = data
     .map((item) => item.servicebannerimage)
@@ -78,7 +81,7 @@ const BusinessAssuranceTesting = (props) => {
           data={BATAllData.TechnologyUtilizationSlides}
         />
       </div>
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={BAQAT_ModelPointsData} />
     </div>
   );
 };

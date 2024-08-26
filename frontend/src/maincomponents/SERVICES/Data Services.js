@@ -3,17 +3,20 @@ import AOS from "aos";
 import { FaCheck } from "react-icons/fa6";
 import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 
+
 const DataServices = (props) => {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const crmModelPointsData = data
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = data
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const DSAllData = data
   .map((item) => item.Data_Services)
   .filter(Boolean)
   .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const DS_ModelPointsData = DSAllData.DS_Services_ModelsData;
 
   const serviceMainimage = data
     .map((item) => item.servicebannerimage)
@@ -152,8 +155,8 @@ const DataServices = (props) => {
                         }
                         return null;
                       })}
-                      <p className="p-1">{curr.sub_name}</p>
-                      <p className="p-1">{curr.sub_p11}</p>{" "}
+                      {/* <p className="p-1">{curr.sub_name}</p>
+                      <p className="p-1">{curr.sub_p11}</p>{" "} */}
                       <p className="p-1">{curr.sub_name}</p>
                       <p className="p-1">{curr.sub_p1}</p>
                       <p className="p-1">{curr.sub_p11}</p>
@@ -183,7 +186,7 @@ const DataServices = (props) => {
                     </div>
                     <p className="p-2">{curr.name}</p>
                     <p className="p-2">{curr.p}</p>
-                    <p className="p-1">{curr.sub_Name}</p>
+                    <p className="p-1" style={{color:"gray"}}>{curr.sub_Name}</p>
                     <p className="p-1">{curr.sub_p}</p>
 
                     <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"5px solid #FE0000"}}></span>
@@ -194,7 +197,7 @@ const DataServices = (props) => {
           </div>
         </div>
       </div>
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={DS_ModelPointsData} />
     </div>
   );
 };

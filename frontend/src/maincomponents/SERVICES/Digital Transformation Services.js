@@ -6,15 +6,19 @@ import AdvantagesServices from "../../reusablecomponents/AdvantagesServices";
 
 const DigitalTransformationServices = (props) => {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const crmModelPointsData = data
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+
+  // const crmModelPointsData = data
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
+  
 
   const DTSAllData = data
   .map((item) => item.Digital_Transformation_Services)
   .filter(Boolean)
   .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const DTS_ModelPointsData = DTSAllData.DTS_ModelsData;
 
   const serviceMainimage = data
     .map((item) => item.servicebannerimage)
@@ -73,7 +77,7 @@ const DigitalTransformationServices = (props) => {
           textColor="#0f62fe"
           textcenter="center"
         />
-        <ModelsPoints contents={crmModelPointsData} />
+        <ModelsPoints contents={DTS_ModelPointsData} />
       </div>
     </>
   );

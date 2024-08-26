@@ -40,7 +40,6 @@ import ServiceOrientedArchitecture from "./maincomponents/SOLUTIONS/Service Orie
 
 import Solutions from "./maincomponents/SOLUTIONS/Solutions";
 import BusinessProcessManagement from "./maincomponents/SOLUTIONS/Business Process Management";
-import CRM from "./maincomponents/SOLUTIONS/CRM";
 import DevOps from "./maincomponents/SOLUTIONS/DevOps";
 import Mobility from "./maincomponents/SOLUTIONS/Mobility";
 import OracleCloud from "./maincomponents/SOLUTIONS/Oracle Cloud";
@@ -241,7 +240,7 @@ function App() {
               path="Business-Process-Management"
               element={<BusinessProcessManagement product={s3objects} />}
             ></Route>
-            <Route path="CRM" element={<CRM product={s3objects} />}></Route>
+            {/* <Route path="CRM" element={<CRM product={s3objects} />}></Route> */}
             <Route
               path="DevOps"
               element={<DevOps product={s3objects} />}

@@ -9,9 +9,10 @@ const BoxServicesDataSAP = ({ allservices ,textColor,textsize,textcenter,icon}) 
             border: "1px solid #eee",
             marginBottom: "30px",
             borderBottom: "8px solid #FE0000",
-            height: 'auto',
+           
             width:'210px',
-            minHeight:'260px'
+            minHeight:'480px',
+            height: 'auto'
         },
         heading: {
             textAlign: 'center',
@@ -31,7 +32,7 @@ const BoxServicesDataSAP = ({ allservices ,textColor,textsize,textcenter,icon}) 
         <>
             <div className="container mt-3">
                 <h1 style={styles.Mainhead}>{allservices[0].Mainhead} <span style={{color:"#FE0000"}}>{allservices[0].SubHeading}</span></h1>
-                <div className="d-flex flex-wrap gap-3">
+                <div className="d-flex justify-content-center flex-wrap gap-4">
                     {allservices.map((service, index) => (
                         <div
                             key={index}

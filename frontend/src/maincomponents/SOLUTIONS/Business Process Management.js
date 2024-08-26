@@ -3,17 +3,19 @@ import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 import CardBulb from "../../reusablecomponents/IndustriesCardBulb";
 
+
 const BusinessProcessManagement = (props) => {
-  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  const crmModelPointsData = serviceContent
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = serviceContent
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const BPMData = SolutionData.map((item) => item.Business_Process_Management)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const BPM_ModalData= BPMData.BPM_ModelsData
 
   return (
     <div>
@@ -125,7 +127,7 @@ const BusinessProcessManagement = (props) => {
           <p>{BPMData.content_BPM}</p>
         </div>
       </div>
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={BPM_ModalData} />
     </div>
   );
 };

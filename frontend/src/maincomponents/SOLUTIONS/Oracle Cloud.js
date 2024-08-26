@@ -4,18 +4,20 @@ import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 import CareersSlideContent from "../../reusablecomponents/CareersSlideContent";
 
+
 const OracleCloud = (props) => {
-  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  const crmModelPointsData = serviceContent
-  .map((item) => item.ServiceCmsModelsData)
-  .filter(Boolean)
-  .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = serviceContent
+  // .map((item) => item.ServiceCmsModelsData)
+  // .filter(Boolean)
+  // .reduce((acc, curr) => acc.concat(curr), []);
 
 const OCAllData = SolutionData
   .map((item) => item.oracle_cloud)
   .filter(Boolean)
   .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+  const OC_ModalData= OCAllData.OC_ModelsData
 
   return (
     <div>
@@ -36,7 +38,7 @@ const OCAllData = SolutionData
       <div className='d-md-flex flex-wrap gap-4 justify-content-center m-5 mt-0'>
         <CareersSlideContent data={OCAllData.ETE_Oracle_Cloud_Slides}/>
       </div>
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={OC_ModalData} />
     </div>
   );
 };

@@ -5,15 +5,17 @@ import NoZoomin from "../../reusablecomponents/NoZoomin";
 
 const SecurityArchitecture = (props) => {
   const data = JSON.parse(props.product.ServiceContent.Content);
-  const crmModelPointsData = data
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = data
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const SAAllData = data
     .map((item) => item.Security_Architecture)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const SA_ModelPointsData = SAAllData.SA_ModelsData;
 
   const serviceMainimage = data
     .map((item) => item.servicebannerimage)
@@ -64,7 +66,7 @@ const SecurityArchitecture = (props) => {
         <img src={secImage} width="85%" alt="no-display" />
       </div>
       <CrmServices serviceData={securityServicesData} />
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={SA_ModelPointsData} />
     </div>
   );
 };

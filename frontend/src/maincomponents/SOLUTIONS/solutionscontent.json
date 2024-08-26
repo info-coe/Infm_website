@@ -80,7 +80,25 @@
           "dtscontent": "Post the development and deployment of your initial bots, you'll be adept with the RPA platform. This mastery paves the way to broaden the automation spectrum across your business, instilling governance mechanisms and amplifying your ROI. The expansion phase should be supplemented by integrating more automation standards and best practices",
           "dtssubhead": "Scale"
         }
-      ]
+      ],
+      "RAP_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, RPA Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -132,7 +150,25 @@
           "m1": "Our team ensures the development of an Oracle cloud architecture tailored specifically to your organization’s unique goals and objectives and a complete road map to deploy and migrate business applications and databases, establishing integration between the on- premises environment and Oracle cloud solutions. Our Oracle consulting services include security audit, capacity planning, architecture design support, testing and performance tuning, HA configuration, and more.",
           "aos": "none"
         }
-      ]
+      ],
+      "OC_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Oracle Cloud Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -559,7 +595,25 @@
           "url": "https://infomericainc.com/Content/images/computer.gif",
           "name": "Security & Compliance"
         }
-      ]
+      ],
+      "SAP_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, SAP Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -604,7 +658,25 @@
           "appcontent": "Optimize your application development with a scalable, manageable, and resilient microservices architecture, facilitating easier modifications and enhancements.",
           "appsubhead": "Microservices Architecture Development"
         }
-      ]
+      ],
+      "DEVOPS_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, DevOps Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -649,7 +721,25 @@
         }
       ],
       "MOBILITY_Comprehensive_Suite_Conclusion1": "Strategic Alliances with product, tool & technology vendors.",
-      "MOBILITY_Comprehensive_Suite_Conclusion2": "With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI]."
+      "MOBILITY_Comprehensive_Suite_Conclusion2": "With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI].",
+      "MOBILITY_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, our Mobility Solutions is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -725,7 +815,25 @@
           "url": "https://infomericainc.com/Content/images/cloud-network.gif",
           "name": "SOA Governance Services"
         }
-      ]
+      ],
+      "SOA_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, SOA /API Services is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   },
   {
@@ -786,7 +894,25 @@
       ],
       "Infomerica_BPM": "Infomerica BPM",
       "Offerings": "Offerings",
-      "content_BPM": "Business Process Management(BPM) is an Entity in Operational Management that focuses on improving Organization’s Efficiency by Managing and Optimizing Organization’s Business Processes and make On Demand Changes with New Evolving Business Trends."
+      "content_BPM": "Business Process Management(BPM) is an Entity in Operational Management that focuses on improving Organization’s Efficiency by Managing and Optimizing Organization’s Business Processes and make On Demand Changes with New Evolving Business Trends.",
+      "BPM_ModelsData": 
+      {
+        "p1": " Onsite [Staff Augmentation & Fixed]",
+        "p2": " Offsite [Staff Augmentation & Fixed]",
+        "p3": "Offshore [Fixed]",
+        "p4": " Hybrid [Blended Rate]",
+        "p5": "Onsite + Offsite",
+        "p6": "Onsite + Offshore",
+        "p7": "Onsite + Offsite + Offshore",
+        "mheading": "Delivery Models",
+        "mcontent1": "Strategic Alliances with product, tool & technology vendors.",
+        "mcontent2": "With our proven onsite/offshore delivery model, Business Process Management is a cost-effective approach to highest return on your investments[ROI].",
+        "mcontent3": "For more details or to discuss your specific needs,",
+        "mcontact": "Contact Us",
+        "mtoday": "today!",
+        "mcontactlink": "/Contact",
+        "image": "https://www.infomericainc.com/Content/images/point.gif"
+      }
     }
   }
 ]

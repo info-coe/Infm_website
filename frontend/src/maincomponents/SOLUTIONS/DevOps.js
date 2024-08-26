@@ -3,17 +3,19 @@ import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import Zoomin2 from "../../reusablecomponents/Zoomin2";
 import BoxServicesData from "../../reusablecomponents/BoxServicesData";
 
+
 const DevOps = (props) => {
-  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  const crmModelPointsData = serviceContent
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = serviceContent
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const DevOpsData = SolutionData.map((item) => item.DEVOPS)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const Devops_ModalData= DevOpsData.DEVOPS_ModelsData
 
   const appServicesData = DevOpsData.DEVOPS_Services_Data.map((item) => ({
     Mainhead: item.appmainhead,
@@ -54,7 +56,7 @@ const DevOps = (props) => {
         </h5>
         <BoxServicesData allservices={appServicesData} textColor="#FE0000" />
       </div>
-      <ModelsPoints contents={crmModelPointsData} />
+      <ModelsPoints contents={Devops_ModalData} />
     </div>
   );
 };

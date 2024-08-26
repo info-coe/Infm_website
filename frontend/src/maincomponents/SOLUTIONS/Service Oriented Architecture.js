@@ -3,17 +3,19 @@ import ModelsPoints from "../../reusablecomponents/ModelsPoints";
 import AboutZoomin from "../../reusablecomponents/AboutZoomin";
 import { SolutionOfferings } from "../../reusablecomponents/SolutionOfferings";
 
+
 const ServiceOrientedArchitecture = (props) => {
-  const serviceContent = JSON.parse(props.product.ServiceContent.Content);
   const SolutionData = JSON.parse(props.product.solutionscontent.Content);
-  const crmModelPointsData = serviceContent
-    .map((item) => item.ServiceCmsModelsData)
-    .filter(Boolean)
-    .reduce((acc, curr) => acc.concat(curr), []);
+  // const crmModelPointsData = serviceContent
+  //   .map((item) => item.ServiceCmsModelsData)
+  //   .filter(Boolean)
+  //   .reduce((acc, curr) => acc.concat(curr), []);
 
   const SOAData = SolutionData.map((item) => item.SERVICE_ORIENTED_ARCHITECTURE)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const SOA_ModalData= SOAData.SOA_ModelsData
 
   return (
     <div>
@@ -61,7 +63,7 @@ const ServiceOrientedArchitecture = (props) => {
           </span>
         </h2>
         <SolutionOfferings managementData={SOAData.SOA_Offering_Content} />
-        <ModelsPoints contents={crmModelPointsData} />
+        <ModelsPoints contents={SOA_ModalData} />
       </div>
     </div>
   );

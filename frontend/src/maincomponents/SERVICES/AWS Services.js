@@ -4,17 +4,20 @@ import BoxServicesData from '../../reusablecomponents/BoxServicesData';
 import NoZoomin from '../../reusablecomponents/NoZoomin'
 import ModelsPoints from '../../reusablecomponents/ModelsPoints';
 
+
 const AWSServices = (props) => {
     const data = JSON.parse(props.product.ServiceContent.Content);
-    const crmModelPointsData = data
-      .map((item) => item.ServiceCmsModelsData)
-      .filter(Boolean)
-      .reduce((acc, curr) => acc.concat(curr), []);
+    // const crmModelPointsData = data
+    //   .map((item) => item.ServiceCmsModelsData)
+    //   .filter(Boolean)
+    //   .reduce((acc, curr) => acc.concat(curr), []);
   
     const AWSSAllData = data
     .map((item) => item.Aws_Services)
     .filter(Boolean)
     .reduce((acc, curr) => acc.concat(curr), [])[0];
+
+    const AWSS_ModelPointsData = AWSSAllData.Aws_Services_ModelsData;
   
     const serviceMainimage = data
       .map((item) => item.servicebannerimage)
@@ -52,7 +55,7 @@ const AWSServices = (props) => {
         </div>
         <BoxServicesData allservices={awsServicesData} textColor="#0f62fe" textsize='25px'  icon={awsServiceData[0].awsicon} />
          <NoZoomin heading={AWSSAllData.awsInnovateHeading} textsize='25px' texttop="20px" content={[AWSSAllData.awsInnovateContent]} image={AWSSAllData.awsInnovateImage}/>
-         <ModelsPoints contents={crmModelPointsData} /> 
+         <ModelsPoints contents={AWSS_ModelPointsData} /> 
          </div>
 
         </>

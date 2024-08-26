@@ -32,7 +32,7 @@ export default function InfoAIAccelerator(props) {
       </div>
       <div className="">
         <div className="mt-5 mb-3 pe-5 ps-5">
-          <h1 className="text-center">{InfoAcceleratorData.IAA_Head}</h1>
+          <h1 className="text-center"><span className="text-primary">{InfoAcceleratorData.IAA_Head}</span> <span style={{color:"#ff0000"}}>{InfoAcceleratorData.IAA_Head2}</span></h1>
           <div className="d-md-flex gap-4 align-items-center">
             <div className="text-center col-md-3" style={{}}>
               <img src={AIBanner} alt="Services" width="100%" />
@@ -49,7 +49,7 @@ export default function InfoAIAccelerator(props) {
         </div>
 
         <div className="container pt-4">
-          <h2 className="section-header"> {InfoAcceleratorData.IAA_FeaturesHead}</h2>
+          <h2 className="section-header" style={{color:"#ff0000"}}> {InfoAcceleratorData.IAA_FeaturesHead}</h2>
           <div className="grid-container">
             {InfoAcceleratorData.IAA_Features.map((item, index) => (
               <div className=" m-2 grid-item" key={index}>
@@ -65,7 +65,7 @@ export default function InfoAIAccelerator(props) {
         </div>
 
         <div className="container mb-4">
-          <h2 className="section-header">{InfoAcceleratorData.IAA_OurServicesHead}</h2>
+          <h2 className="section-header"><span className="text-primary">{InfoAcceleratorData.IAA_OurServicesHead}</span> <span style={{color:"#ff0000"}}>{InfoAcceleratorData.IAA_OurServicesHead2}</span></h2>
           <div className="grid-container">
             {InfoAcceleratorData.IAA_OurServices.map((item, index) => (
               <div
