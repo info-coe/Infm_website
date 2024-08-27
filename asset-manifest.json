@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Infm_website/static/css/main.4fe7687e.css",
-    "main.js": "/Infm_website/static/js/main.d8d084fd.js",
+    "main.css": "/Infm_website/static/css/main.552081f6.css",
+    "main.js": "/Infm_website/static/js/main.bbe31e81.js",
     "static/media/scan1.jpg": "/Infm_website/static/media/scan1.733490034e5ad0eede0c.jpg",
     "static/media/AI1.jpg": "/Infm_website/static/media/AI1.2d884ed3ca65ef3e4e80.jpg",
     "static/media/AI2.jpg": "/Infm_website/static/media/AI2.444fd6679b222c0c4a0d.jpg",
@@ -35,7 +35,7 @@
     "index.html": "/Infm_website/index.html"
   },
   "entrypoints": [
-    "static/css/main.4fe7687e.css",
-    "static/js/main.d8d084fd.js"
+    "static/css/main.552081f6.css",
+    "static/js/main.bbe31e81.js"
   ]
 }
