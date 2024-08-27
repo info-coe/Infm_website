@@ -51,7 +51,7 @@ const AWSServices = (props) => {
         <img src={serviceMainimage} width="100%" alt="Main Service" className="mainimg img-fluid d-none d-md-block" />
         <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100"  />
         <div className='mt-5'>
-        <Zoomin heading={AWSSAllData.awsUnveilFutureHeading} sections={sections} textsize="25px"/>
+        <Zoomin heading={AWSSAllData.awsUnveilFutureHeading} sections={sections} textsize="20px"/>
         </div>
         <BoxServicesData allservices={awsServicesData} textColor="#0f62fe" textsize='25px'  icon={awsServiceData[0].awsicon} />
          <NoZoomin heading={AWSSAllData.awsInnovateHeading} textsize='25px' texttop="20px" content={[AWSSAllData.awsInnovateContent]} image={AWSSAllData.awsInnovateImage}/>

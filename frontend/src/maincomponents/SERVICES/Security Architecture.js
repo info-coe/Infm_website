@@ -33,8 +33,8 @@ const SecurityArchitecture = (props) => {
       mainHead: item.secmainhead,
       subHead: item.secminhead,
       objective: item.seccontent1,
-      outcome: item.seccontent2,
-      approach: item.seccontent3,
+      approach: item.seccontent2,
+      outcome: item.seccontent3,
     })
   );
 

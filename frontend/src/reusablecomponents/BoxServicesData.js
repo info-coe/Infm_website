@@ -11,10 +11,10 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
             marginBottom: "30px",
             borderBottom: "8px solid #FE0000",
             height: 'auto',
-            minHeight:'260px'
+            minHeight:'220px'
         },
         heading: {
-            fontSize: "19px",
+            fontSize: "13px",
             textAlign: 'center',
             color:"#FE0000"
         },
@@ -22,7 +22,9 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
             textAlign: "justify"
         },
         paragraph: {
-            marginBottom: "1em" // Add spacing between paragraphs
+            marginBottom: "1em" ,
+            fontSize:"13px",
+            lineHeight:"20px"
         },
         Mainhead :{
             color:textColor,
