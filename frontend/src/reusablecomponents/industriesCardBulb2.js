@@ -6,7 +6,9 @@ const CardBulb2 = ({solutionofferingData}) => {
         padding: 20px;
         border: 5px solid #0f62fe;
         position: relative;
-        min-width: 290px;
+        max-width: 290px;
+        min-width:200px;
+        width:auto;
         width:auto;
         overflow: hidden;
         transition: color 0.5s; 
@@ -60,8 +62,8 @@ const CardBulb2 = ({solutionofferingData}) => {
                             <div className="text">
                                 {/* <i className="fa fa-lightbulb fa-5x fa-icon-image"></i> */}
                                 <i className={item.bulb}></i>
-                                <div className="item-title">
-                                    <h5>{item.para}</h5>
+                                <div className="item-title mt-3">
+                                    <p>{item.para}</p>
                                 </div>
                             </div>
                         </div>

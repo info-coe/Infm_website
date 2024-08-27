@@ -976,6 +976,10 @@ p{
 .portfoliohead{
   min-height: 80px;
 }
+.cloudmigrationImg{
+  width: 20%;
+}
+
 /* Cloud Mignarion end */
   @media screen and (max-width:575.98px){
     .ServicesContainer {
@@ -1066,6 +1070,11 @@ p{
   .zoomAnimation:hover {
     transform: scale(1.0);
   }
+  .cloudmigrationImg{
+    width: 100%;
+   padding: 20px;
+  }
+ 
   }
   @media (min-width: 576px) and (max-width: 767.98px) {
     .ourcapabilities-grid,

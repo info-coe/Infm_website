@@ -41,12 +41,12 @@ const DevOps = (props) => {
       <div className="d-md-flex justify-content-evenly p-4">
         <img
           src={DevOpsData.DEVOPS_agile_devops_process_Image}
-          className="col-md-5 border rounded p-3"
+          className="col-md-5 border rounded p-3 img-fluid"
           alt="agile_devops_process"
         ></img>
         <img
           src={DevOpsData.DEVOPS_stages_of_devops_flow_Image}
-          className="col-md-5 border rounded p-3"
+          className="col-md-5 border rounded p-3 img-fluid"
           alt="stages_of_devops_flow"
         ></img>
       </div>

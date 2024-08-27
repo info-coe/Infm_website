@@ -45,7 +45,7 @@ const SAP = (props) => {
           content={[SAPAllData.SAP_content1, SAPAllData.SAP_content2]}
         />
       </div>
-      <div className="text-center m-5">
+      <div className="d-flex justify-content-center m-3">
         <img src={SAPAllData.SAP_Portfolio_Image} alt="SAPMAP" className="img-fluid"/>
       </div>
       <div

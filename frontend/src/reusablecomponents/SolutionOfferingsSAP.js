@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa6";
 export const SolutionOfferingsSAP = ({ managementData }) => {
   return (
     <div>
-      <div className="row justify-content-md-center">
+      <div className="row justify-content-center m-3">
         {managementData.map((curr, index) => (
           <div
             data-aos="zoom-in"

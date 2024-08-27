@@ -14,17 +14,17 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
             minHeight:'220px'
         },
         heading: {
-            fontSize: "13px",
+            fontSize: "14px",
             textAlign: 'center',
             color:"#FE0000"
         },
-        content: {
-            textAlign: "justify"
-        },
+        // content: {
+        //     textAlign: "justify"
+        // },
         paragraph: {
             marginBottom: "1em" ,
-            fontSize:"13px",
-            lineHeight:"20px"
+            fontSize:"14px",
+            lineHeight:"28px"
         },
         Mainhead :{
             color:textColor,

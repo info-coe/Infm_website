@@ -54,7 +54,7 @@ const DataServices = (props) => {
         <div className="text-center p-4 fs-1">
           <span style={{ color: " #0f62fe " }}>{DSAllData.dataServicesHeading} </span>
         </div>
-        <div className="container font-weight-normal fs-5 pb-5 ">
+        <div className="container font-weight-normal fs-6 pb-5 " style={{lineHeight:"28px"}}>
           <p>{DSAllData.dataServicesContent}</p>
           <p style={{ color: "gray" }}>{DSAllData.dataServices_sub_Content}</p>
         </div>
@@ -104,7 +104,7 @@ const DataServices = (props) => {
                         );
                       })}
                     </ul>
-                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"5px solid #FE0000"}}></span>
+                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"6px solid #FE0000"}}></span>
                   </div>
                 </div>
               ))}
@@ -161,7 +161,7 @@ const DataServices = (props) => {
                       <p className="p-1">{curr.sub_p1}</p>
                       <p className="p-1">{curr.sub_p11}</p>
                     </div>
-                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"5px solid #FE0000"}}></span>
+                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"6px solid #FE0000"}}></span>
                   </div>
                 </div>
               ))}
@@ -189,7 +189,7 @@ const DataServices = (props) => {
                     <p className="p-1" style={{color:"gray"}}>{curr.sub_Name}</p>
                     <p className="p-1">{curr.sub_p}</p>
 
-                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"5px solid #FE0000"}}></span>
+                    <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded" style={{borderBottom:"6px solid #FE0000"}}></span>
                   </div>
                 </div>
               ))}

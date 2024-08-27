@@ -33,7 +33,7 @@ const SoftwareSales = (props) => {
    
     @media (min-width: 992px) {
         .paragraph-div {
-            width: 40%; 
+            width: 44%; 
         }
     }
     `;
@@ -66,7 +66,7 @@ const SoftwareSales = (props) => {
         </div>
 
         <div
-          className="container d-md-flex flex-wrap gap-5 align-items-center"
+          className="container d-md-flex flex-wrap gap-5 "
           style={{ marginTop: "100px", marginBottom: "100px" }}
         >
           <div className="col-lg-6 d-md-flex gap-4">

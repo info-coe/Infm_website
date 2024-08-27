@@ -36,18 +36,18 @@ export default function AWSCloudMigration(props) {
       <img src={serviceSubimage} alt='no-display' className="sunimg img-fluid d-md-none w-100" />
       </div>
       <div className="mt-4">
-        <h1 className="m-4 text-center">
+        <h2 className="m-4 text-center">
          <span className="text-primary">{AWSCloudMigrationData.CM_Head}</span>  <span style={{color:"#ff0000"}}>{AWSCloudMigrationData.CM_Head2}</span>
-        </h1>
+        </h2>
         <div>
           <div className="d-md-flex justify-content-center align-items-center gap-5 m-2 mb-0">
             <img
               src={AWSCompetency}
-              className=""
+              className="cloudmigrationImg"
               width="20%"
               alt="AWS Compentency"
             ></img>
-            <p className="fs-5">
+            <p className="fs-6 p-2" style={{lineHeight:"28px"}}>
             {AWSCloudMigrationData.CM_Content}
               <br />
               <span className="d-flex justify-content-start me-4 fs-6 mt-3">
@@ -59,9 +59,9 @@ export default function AWSCloudMigration(props) {
           </div>
         </div>
       </div>
-      <div className="m-5">
-        <h1 className="text-center"><span className="text-primary">{AWSCloudMigrationData.CM_OurService_Portfolio_Head}</span> <span style={{color:"#ff0000"}}>{AWSCloudMigrationData.CM_OurService_Portfolio_Head2}</span></h1>
-        <p className="fs-5">
+      <div className="m-md-5 m-3">
+        <h2 className="text-center mb-4"><span className="text-primary">{AWSCloudMigrationData.CM_OurService_Portfolio_Head}</span> <span style={{color:"#ff0000"}}>{AWSCloudMigrationData.CM_OurService_Portfolio_Head2}</span></h2>
+        <p className="fs-6" style={{lineHeight:"28px"}}>
          {AWSCloudMigrationData.CM_OurService_Content}
         </p>
         <div className="ourserviceportfolio-grid mt-4">
@@ -83,7 +83,7 @@ export default function AWSCloudMigration(props) {
       </div>
       <div className="m-5">
         <div className="">
-          <h1 className="text-center"><span className="text-primary">{AWSCloudMigrationData.CM_Benefits_Head}</span> <span style={{color:"#ff0000"}}>{AWSCloudMigrationData.CM_Benefits_Head2}</span></h1>
+          <h2 className="text-center"><span className="text-primary">{AWSCloudMigrationData.CM_Benefits_Head}</span> <span style={{color:"#ff0000"}}>{AWSCloudMigrationData.CM_Benefits_Head2}</span></h2>
         </div>
 
         <div className="mt-5 ourcapabilities-grid">
@@ -96,7 +96,7 @@ export default function AWSCloudMigration(props) {
                    alt="Migration Strategy Development"
                    width="80%"
                  ></img>
-                 <h3>{item.heading}</h3>
+                 <h5><b>{item.heading}</b></h5>
                </div>
                <div className="flip-card-back">
                  <p className="p-4">

@@ -93,7 +93,7 @@ const Hyderabad = (props) => {
                             <td>{item.Experience}</td>
                             <td>{item.NoofPositions}</td>
                             {/* <td><button className='btn btn-primary border-0 rounded sendresumeBtn'>{item.sendresume}</button></td> */}
-                            <td > <Link to="mailto:info@infomericainc.com" className='btn btn-primary border-0 rounded sendresumeBtn' >{item.sendresume}</Link></td>
+                            <td > <Link to="mailto:info@infomericainc.com" className='btn btn-primary border-0 rounded sendresumeBtn' style={{width:"130px"}} >{item.sendresume}</Link></td>
                         </tr>
                         ))}
                     

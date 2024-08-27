@@ -1,17 +1,17 @@
 const BoxServicesDataSAP = ({ allservices ,textColor,textsize,textcenter,icon}) => {
     const styles = {
         box: {
-            padding: "30px 10px",
+            padding: "20px 10px",
             boxSizing: "border-box",
             color: "#000",
             borderRadius: "10px",
             backgroundColor: "#fff",
             border: "1px solid #eee",
-            marginBottom: "30px",
+            // marginBottom: "30px",
             borderBottom: "8px solid #FE0000",
-           
-            width:'210px',
-            minHeight:'480px',
+        //    margin:"15px",
+            width: window.innerWidth <= 575.98 ? '100%' : '210px',
+            minHeight:'450px',
             height: 'auto'
         },
         heading: {

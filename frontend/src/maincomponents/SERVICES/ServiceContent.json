@@ -314,7 +314,7 @@
   {
     "Cloud_Services": {
       "cloudWelcomeHeading": "Welcome to Infomerica,Inc - Where the Cloud Meets Innovation!",
-      "cloudWelcomeContent": "Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At Infomerica, we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
+      "cloudWelcomeContent": "Embark on a journey through the limitless horizons of cloud technology with us, and redefine what’s possible for your business in today’s digital era! At Infomerica Inc, we deliver premier Cloud Services that infuse agility, innovation, and scalability into your business operations, empowering you to achieve unparalleled excellence and competitive edge in your domain.",
       "cloudUnveilHeading": "Unveil the Power of Cloud with Infomerica,Inc!",
       "cloudUnveilContent": "Through our cutting-edge Cloud Services, we help you harness the full potential of the cloud, ensuring optimal flexibility, security, and performance. Our services are designed to align with your unique business objectives, enabling you to overcome challenges and seize opportunities in the evolving digital landscape.",
       "cloudPlatformMigrationImage": "https://www.infomericainc.com/Content/images/3_stage_cloud_platform_migration_process.png",
@@ -1252,7 +1252,7 @@
   {
     "Cloud_Migration":{
       "CM_Head":"Streamline Your Operations with",
-      "CM_Head2":" Infomerica's AWS Services",
+      "CM_Head2":" Infomerica AWS Services",
       "CM_Content":"Infomerica is a leading AWS Select Consulting Partner, specializing in providing comprehensive cloud migration solutions to businesses worldwide. With a strong focus on AWS expertise, Infomerica excels in guiding customers through every phase of their migration journey, from initial planning to post-migration optimization.",
       "CM_Contactus":"CONTACT US",
       "CM_Icon":"bi bi-arrow-right",
