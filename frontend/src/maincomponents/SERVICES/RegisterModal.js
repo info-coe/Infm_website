@@ -54,15 +54,16 @@ const RegisterModal = ({ showmodal, onClose }) => {
         window.location.href = mailtoLink;
 
         // After mailto is triggered, store the hasContacted flag
-        localStorage.setItem("hasContacted", "true");
+        // localStorage.setItem("hasContacted", "true");
         // setShowModal(false);
 
         // Clear the form fields
         setFormData(initialFormData);
-      } else {
-        // The user discarded the email, so don't store the hasContacted flag
-        localStorage.removeItem("hasContacted");
       }
+      // else {
+      //   // The user discarded the email, so don't store the hasContacted flag
+      //   localStorage.removeItem("hasContacted");
+      // }
     }
   };
   const generateCaptcha = () => {
