@@ -124,7 +124,7 @@ const HealthcareLifeSciences = (props) => {
                     ))}
                   </ul>
                 </div>
-                <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center border-bottom border-5 border-danger rounded"></span>
+                <span className="position-absolute bottom-0 start-0 bg-primary w-100 text-center  rounded"  style={{ borderBottom: "6px solid #FE0000" }}></span>
               </div>
             ))}
           </div>

@@ -14,7 +14,7 @@ const TechnologyOfferings = ({dataServices,cloudComputing,industriesImage12}) =>
           <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
             <img
               src={industriesImage12}
-              className="img-fluid w-75"
+              className="img-fluid w-50"
               alt=""
             />
           </div>

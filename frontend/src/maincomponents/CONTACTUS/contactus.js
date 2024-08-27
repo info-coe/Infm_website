@@ -52,7 +52,7 @@ const Contactus = (props) => {
       <div className="container text-center pt-md-5 pb-md-5 p-3">
         <p
           className="text-center ps-md-5 pe-md-5 ms-md-5 me-md-5 mb-5"
-          style={{ fontSize: "19px" }}
+          style={{ fontSize: "16px" }}
         >
           {ContactusContent.Contact_Us_Description}
         </p>

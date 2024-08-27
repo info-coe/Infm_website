@@ -15,7 +15,7 @@ const TruncatedParagraph = ({ text, limit = 50 }) => {
   
     return (
     //   <p className='ps-3 pe-3'>{truncatedText}</p>
-      <p className='ps-3 pe-3' dangerouslySetInnerHTML={{ __html: truncatedText }} />
+      <p className='ps-3 pe-3' style={{fontSize:"16px" , lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: truncatedText }} />
     );
   };
 
@@ -57,7 +57,7 @@ const CareersCurrentopeningsCard = ({data}) => {
                <div className='card-body'>
                <div className='d-flex flex-wrap'>
                 {item.list.map((li,j)=>(
-                    <span className='border p-1 m-1' key={j}>{li}</span>
+                    <span className='border p-1 m-1' style={{fontSize:"13px" , color:"gray"}} key={j}>{li}</span>
                 ))}
                 </div>
                 <h6 className='text-center p-2 mt-3' style={{color:"#FE0000"}}>{item.head}</h6>
@@ -84,14 +84,14 @@ const CareersCurrentopeningsCard = ({data}) => {
                <div className='card-body'>
                <div className='d-flex flex-wrap'>
                 {modalData.list.map((li,j)=>(
-                    <span className='border p-1 m-1' key={j}>{li}</span>
+                    <span className='border p-1 m-1' style={{color:"gray" , fontSize:"14px"}} key={j}>{li}</span>
                 ))}
                 </div>
                 <h6 className='text-center p-2 mt-4' style={{color:"#FE0000"}}>{modalData.head}</h6>
-                <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p1 }} />
-                <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p2 }} />
-                <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p3 }} />
-                <p className='p-2 mt-4' style={{lineHeight:"28px"}} dangerouslySetInnerHTML={{ __html: modalData.p4 }} />
+                <p className='p-2 mt-4' style={{lineHeight:"28px" , fontSize:"14px"}} dangerouslySetInnerHTML={{ __html: modalData.p1 }} />
+                <p className='p-2 mt-4' style={{lineHeight:"28px" , fontSize:"14px"}} dangerouslySetInnerHTML={{ __html: modalData.p2 }} />
+                <p className='p-2 mt-4' style={{lineHeight:"28px" , fontSize:"14px"}} dangerouslySetInnerHTML={{ __html: modalData.p3 }} />
+                <p className='p-2 mt-4' style={{lineHeight:"28px" , fontSize:"14px"}} dangerouslySetInnerHTML={{ __html: modalData.p4 }} />
                </div>
         }
             </div>

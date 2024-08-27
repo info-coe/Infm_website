@@ -22,7 +22,7 @@ const CareersSlideContent = ({data}) => {
             <div key={i} className='card slidecontentcard p-4' data-aos={item.aos} data-aos-once="true" data-aos-duration="1300">
             <img src={item.url} width={item.width} height={item.height} alt="gificons" />
             <h5>{item.name}</h5>
-            <p>{item.m1}</p>
+            <p style={{fontSize:"14px" , lineHeight:"28px"}}>{item.m1}</p>
             </div>
         ))}
            

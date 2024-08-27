@@ -28,7 +28,7 @@ const Careers = (props) => {
       />
       <div className="p-lg-5 p-1 m-1">
         <h2 className="text-primary pt-5 pb-3">{data.CareersHeading}</h2>
-        <p className="pb-4" style={{ fontSize: "18px" }}>
+        <p className="pb-4" style={{ fontSize: "16px", lineHeight:"28px" }}>
           {data.CareersDescription}
         </p>
         <div

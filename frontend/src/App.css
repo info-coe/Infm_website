@@ -666,6 +666,7 @@ p{
 #csrlink,
 #careersDropdown {
   color: black;
+  font-size: 16px;  
 }
 #navbarNavDropdown #aboutusDropdown:hover,
 #industriesDropdown:hover,

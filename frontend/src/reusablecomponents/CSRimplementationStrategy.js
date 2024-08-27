@@ -6,8 +6,8 @@ const CSRimplementationStrategy = ({data}) => {
         <>
             {data1.map((item,i)=>(
                 <div className='row' key={i}>
-                <h6 className='col-md-5 text-primary '>{item.head}</h6>
-                <p className='col-md-7'>{item.description}</p>
+                <h6 className='col-md-5 text-primary ' style={{fontSize:"14px"}}>{item.head}</h6>
+                <p className='col-md-7' style={{fontSize:"14px"}}>{item.description}</p>
             </div>
             ))}
             

@@ -9,7 +9,7 @@ const CSRkeypillars = ({ data }) => {
         <div className="p-3" key={i}>
           <h5 className="text-primary text-center m-2">{item.Heading}</h5>
           {item.Points.map((itm, idx) => (
-            <p style={{ lineHeight: "22px" }} key={idx}>
+            <p style={{ lineHeight: "28px" , fontSize:"14px" }} key={idx}>
               <span className="" style={{color:"#FE0000"}}>{itm.name}: </span>
               {itm.description}
             </p>
