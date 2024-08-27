@@ -61,6 +61,7 @@ const CloudServices = (props) => {
             <Zoomin
               heading={CSAllData.cloudWelcomeHeading}
               sections={sections}
+              textsize="20px"
             />
           </div>
           <div className="text-center">

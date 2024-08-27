@@ -6,7 +6,7 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
             color: "#000",
             borderRadius: "10px",
             backgroundColor: "#fff",
-            textAlign: "center",
+            // textAlign: "center",
             border: "1px solid #eee",
             marginBottom: "30px",
             borderBottom: "8px solid #FE0000",
