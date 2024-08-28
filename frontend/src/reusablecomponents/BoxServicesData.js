@@ -14,7 +14,7 @@ const BoxServicesData = ({ allservices ,textColor,textsize,textcenter,icon}) => 
             minHeight:'220px'
         },
         heading: {
-            fontSize: "14px",
+            fontSize: "17px",
             textAlign: 'center',
             color:"#FE0000"
         },

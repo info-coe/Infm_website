@@ -692,7 +692,7 @@ p{
   font-size: 36px;
   color: #413e66;
   text-align: center;
-  font-weight: 700;
+  /* font-weight: 700; */
   margin-bottom: 20px;
 }
 
@@ -941,7 +941,7 @@ p{
   position: absolute;
   width: 100%;
   height: 100%;
-  box-shadow: gray 7px 7px 15px;
+  box-shadow: lightgray 7px 7px 15px;
 }
 
 .flip-card-front {

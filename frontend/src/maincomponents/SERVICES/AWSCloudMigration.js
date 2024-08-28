@@ -94,9 +94,11 @@ export default function AWSCloudMigration(props) {
                  <img
                    src={benifits[index]}
                    alt="Migration Strategy Development"
-                   width="80%"
+                   width="70%"
+                   height="70%"
+                   style={{objectFit:"contain"}}
                  ></img>
-                 <h5><b>{item.heading}</b></h5>
+                 <h6 className="ps-5 pe-5"><b>{item.heading}</b></h6>
                </div>
                <div className="flip-card-back">
                  <p className="p-4">
