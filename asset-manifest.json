@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/Infm_website/static/css/main.79ea9a61.css",
-    "main.js": "/Infm_website/static/js/main.cfe33f90.js",
+    "main.css": "/Infm_website/static/css/main.93ddc7b5.css",
+    "main.js": "/Infm_website/static/js/main.0569a2b6.js",
+    "static/media/iso 20000-1;2018.png 1.png": "/Infm_website/static/media/iso 20000-1;2018.png 1.568bf11b0b8865682eb6.png",
+    "static/media/iso 9001-2015.png": "/Infm_website/static/media/iso 9001-2015.fc229d447c466bbb2d5d.png",
+    "static/media/iso 27001-2013.png": "/Infm_website/static/media/iso 27001-2013.b6d9fb641a11b52cf828.png",
     "static/media/scan1.jpg": "/Infm_website/static/media/scan1.733490034e5ad0eede0c.jpg",
     "static/media/AI1.jpg": "/Infm_website/static/media/AI1.2d884ed3ca65ef3e4e80.jpg",
     "static/media/AI2.jpg": "/Infm_website/static/media/AI2.444fd6679b222c0c4a0d.jpg",
@@ -24,8 +27,10 @@
     "static/media/bootstrap-icons.woff2?": "/Infm_website/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/fa-brands-400.woff2": "/Infm_website/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
     "static/media/company-logo.png": "/Infm_website/static/media/company-logo.2e616744967ebcaf1254.png",
+    "static/media/NASSCOM.png": "/Infm_website/static/media/NASSCOM.bc63226d24329cbfdf63.png",
     "static/media/fa-regular-400.ttf": "/Infm_website/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
     "static/media/fa-regular-400.woff2": "/Infm_website/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/WBENC LOGO.png": "/Infm_website/static/media/WBENC LOGO.bc42172eee1b26836a58.png",
     "static/media/fa-v4compatibility.ttf": "/Infm_website/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/Infm_website/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "static/media/slick.svg": "/Infm_website/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -35,7 +40,7 @@
     "index.html": "/Infm_website/index.html"
   },
   "entrypoints": [
-    "static/css/main.79ea9a61.css",
-    "static/js/main.cfe33f90.js"
+    "static/css/main.93ddc7b5.css",
+    "static/js/main.0569a2b6.js"
   ]
 }
