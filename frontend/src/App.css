@@ -540,8 +540,8 @@ p{
   border-bottom: 1px solid rgb(41, 207, 210);
 }
 .nasscom img{
-  width: 290px;
-  height: 50px;
+  width: 80px;
+  pointer-events: none;
 }
 .followus img{
   height: 40px;
@@ -979,6 +979,9 @@ p{
 .cloudmigrationImg{
   width: 20%;
 }
+.navbarleftIcons{
+  margin-left: 10px;
+}
 
 /* Cloud Mignarion end */
   @media screen and (max-width:575.98px){
@@ -1046,16 +1049,16 @@ p{
   .custom-dots {
     top:58vh;
   }
-  .flexgrowdiv {
+  /* .flexgrowdiv {
     flex: 100%;
-  }
+  } */
   .flex-container {
     padding: 15px;
   }
-  .nasscom img{
+  /* .nasscom img{
     width: 260px;
     height: 50px;
-  }
+  } */
   .testimonial-card {
     height: auto;
   }
@@ -1231,9 +1234,9 @@ p{
   .custom-dots {
     top:50vh;
   }
-  .flexgrowdiv {
+  /* .flexgrowdiv {
     flex: 100%;
-  }
+  } */
   .flex-container {
     padding: 15px;
   }
@@ -1269,10 +1272,14 @@ p{
       min-height: 100px;
     }
     .flex-container {
-      grid-template-columns: 1fr 1fr 1fr 1fr; /* 4fr for desktops */
+      grid-template-columns: 1.5fr 1fr 1fr 1fr; /* 4fr for desktops */
       justify-items: center; /* Center content in each grid item */
       /* align-items: center; */
     }
+    .navbarleftIcons{
+      margin-left: 10px;
+    }
+    
   }
   
   @media (min-width: 1200px) {
@@ -1291,10 +1298,14 @@ p{
       grid-template-columns: repeat(4, 1fr);
     }
     .flex-container {
-      grid-template-columns: 1fr 1fr 1fr 1fr; /* 4fr for desktops */
+      grid-template-columns: 1.3fr 1fr 1fr 1fr; /* 4fr for desktops */
       justify-items: center; /* Center content in each grid item */
       /* align-items: center; */
     }
+    .navbarleftIcons{
+      margin-left: 120px;
+    }
+    
   }
   /* #e1f4e5 */
   /* #053f5e */

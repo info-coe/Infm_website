@@ -47,7 +47,7 @@ const Navigation = (props) => {
     <>
       <nav className="navbar navbar-expand-lg bg-light sticky-top scrolled">
         <div className="container-fluid">
-          <div className="d-flex align-items-center gap-4 ps-lg-5 ms-lg-5 ps-2">
+          <div className="d-flex align-items-center gap-4 ps-2 navbarleftIcons">
             {/* <span
               className="toggle"
               type="button"

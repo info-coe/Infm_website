@@ -1,6 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import HomeContent from "../maincomponents/HOME/homeContent.json"
+import ISO1 from "../maincomponents/HOME/images/iso 9001-2015.png"
+import ISO2 from "../maincomponents/HOME/images/iso 27001-2013.png"
+import ISO3 from "../maincomponents/HOME/images/iso 20000-1;2018.png 1.png"
+import NMSDC from "../maincomponents/HOME/images/NMSDC LOGO.png"
+import WBENC from "../maincomponents/HOME/images/WBENC LOGO.png"
+import logoMain from "./company-logo.png"
+import NASSCOM from "../maincomponents/HOME/images/NASSCOM.png"
 
 const Footer = (props) => {
   const HomeContent = JSON.parse(props.product.homeContent.Content);
@@ -12,11 +19,55 @@ const Footer = (props) => {
     <>
       <div className="flex-container">
         <div className="nasscom flexgrowdiv">
-          <img
+          {/* <img
             src={data.logofooter}
             alt="logo"
             style={{ objectFit: "contain" }}
+          ></img> */}
+           <img
+            src={logoMain}
+            alt="logo1"
+           className="m-1 bg-white"
+            style={{ objectFit: "contain" }}
           ></img>
+          
+           <img
+            src={ISO1}
+            alt="logo2"
+            className="m-1"
+            style={{ objectFit: "contain" }}
+          ></img>
+          <img
+            src={ISO2}
+            alt="logo3"
+            className="m-1"
+            style={{ objectFit: "contain" }}
+          ></img>
+          <img
+            src={ISO3}
+            alt="logo4"
+            className="m-1"
+            style={{ objectFit: "contain" }}
+          ></img>
+           <img
+            src={NASSCOM}
+            alt="logo5"
+           className="m-1"
+            style={{ objectFit: "contain" }}
+          ></img>
+          <img
+            src={WBENC}
+            alt="logo6"
+            className="m-1 ms-lg-2 me-lg-2"
+            style={{ objectFit: "contain"}}
+          ></img>
+           <img
+            src={NMSDC}
+            alt="logo7"
+            className="m-1"
+            style={{ objectFit: "contain" }}
+          ></img>
+           
           <p>{data.footerpara}</p>
         </div>
         <div className="keylinks flexgrowdiv ps-1 pe-1">
