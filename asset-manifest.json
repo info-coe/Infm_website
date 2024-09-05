@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Infm_website/static/css/main.93ddc7b5.css",
-    "main.js": "/Infm_website/static/js/main.0569a2b6.js",
-    "static/media/iso 20000-1;2018.png 1.png": "/Infm_website/static/media/iso 20000-1;2018.png 1.568bf11b0b8865682eb6.png",
-    "static/media/iso 9001-2015.png": "/Infm_website/static/media/iso 9001-2015.fc229d447c466bbb2d5d.png",
+    "main.css": "/Infm_website/static/css/main.0aaf91aa.css",
+    "main.js": "/Infm_website/static/js/main.f4199290.js",
+    "static/media/iso 9001-2015.png": "/Infm_website/static/media/iso 9001-2015.29b8b00d614dd9fae2f6.png",
+    "static/media/iso 20000-2018.png": "/Infm_website/static/media/iso 20000-2018.568bf11b0b8865682eb6.png",
     "static/media/iso 27001-2013.png": "/Infm_website/static/media/iso 27001-2013.b6d9fb641a11b52cf828.png",
     "static/media/scan1.jpg": "/Infm_website/static/media/scan1.733490034e5ad0eede0c.jpg",
     "static/media/AI1.jpg": "/Infm_website/static/media/AI1.2d884ed3ca65ef3e4e80.jpg",
@@ -40,7 +40,7 @@
     "index.html": "/Infm_website/index.html"
   },
   "entrypoints": [
-    "static/css/main.93ddc7b5.css",
-    "static/js/main.0569a2b6.js"
+    "static/css/main.0aaf91aa.css",
+    "static/js/main.f4199290.js"
   ]
 }
