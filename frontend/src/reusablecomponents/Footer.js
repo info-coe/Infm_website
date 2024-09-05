@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import HomeContent from "../maincomponents/HOME/homeContent.json"
 import ISO1 from "../maincomponents/HOME/images/iso 9001-2015.png"
 import ISO2 from "../maincomponents/HOME/images/iso 27001-2013.png"
-import ISO3 from "../maincomponents/HOME/images/iso 20000-1;2018.png 1.png"
+import ISO3 from "../maincomponents/HOME/images/iso 20000-2018.png"
 import NMSDC from "../maincomponents/HOME/images/NMSDC LOGO.png"
 import WBENC from "../maincomponents/HOME/images/WBENC LOGO.png"
 import logoMain from "./company-logo.png"
@@ -27,6 +27,8 @@ const Footer = (props) => {
            <img
             src={logoMain}
             alt="logo1"
+            width="80"
+            height="40"
            className="m-1 bg-white"
             style={{ objectFit: "contain" }}
           ></img>
@@ -34,36 +36,48 @@ const Footer = (props) => {
            <img
             src={ISO1}
             alt="logo2"
+             width="80"
+            height="40"
             className="m-1"
             style={{ objectFit: "contain" }}
           ></img>
           <img
             src={ISO2}
             alt="logo3"
+             width="80"
+            height="40"
             className="m-1"
             style={{ objectFit: "contain" }}
           ></img>
           <img
             src={ISO3}
             alt="logo4"
+             width="80"
+            height="40"
             className="m-1"
             style={{ objectFit: "contain" }}
           ></img>
            <img
             src={NASSCOM}
             alt="logo5"
+             width="80"
+            height="40"
            className="m-1"
             style={{ objectFit: "contain" }}
           ></img>
           <img
             src={WBENC}
             alt="logo6"
+             width="80"
+            height="40"
             className="m-1 ms-lg-2 me-lg-2"
             style={{ objectFit: "contain"}}
           ></img>
            <img
             src={NMSDC}
             alt="logo7"
+             width="80"
+            height="40"
             className="m-1"
             style={{ objectFit: "contain" }}
           ></img>
