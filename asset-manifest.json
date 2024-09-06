@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Infm_website/static/css/main.0aaf91aa.css",
-    "main.js": "/Infm_website/static/js/main.f4199290.js",
+    "main.js": "/Infm_website/static/js/main.05c89ec8.js",
     "static/media/iso 9001-2015.png": "/Infm_website/static/media/iso 9001-2015.29b8b00d614dd9fae2f6.png",
     "static/media/iso 20000-2018.png": "/Infm_website/static/media/iso 20000-2018.568bf11b0b8865682eb6.png",
     "static/media/iso 27001-2013.png": "/Infm_website/static/media/iso 27001-2013.b6d9fb641a11b52cf828.png",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.0aaf91aa.css",
-    "static/js/main.f4199290.js"
+    "static/js/main.05c89ec8.js"
   ]
 }
