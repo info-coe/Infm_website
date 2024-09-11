@@ -36,26 +36,26 @@ const Footer = (props) => {
            <img
             src={ISO1}
             alt="logo2"
-             width="80"
+             width="90"
             height="40"
-            className="m-1"
-            style={{ objectFit: "contain" }}
+            className=""
+            style={{ objectFit: "contain" , mixBlendMode:"multiply" }}
           ></img>
           <img
             src={ISO2}
             alt="logo3"
-             width="80"
+             width="90"
             height="40"
-            className="m-1"
-            style={{ objectFit: "contain" }}
+            // className="m-1"
+            style={{ objectFit: "contain" , mixBlendMode:"multiply"}}
           ></img>
           <img
             src={ISO3}
             alt="logo4"
-             width="80"
+             width="90"
             height="40"
-            className="m-1"
-            style={{ objectFit: "contain" }}
+            // className="m-1"
+            style={{ objectFit: "contain" , mixBlendMode:"multiply"}}
           ></img>
            <img
             src={NASSCOM}
