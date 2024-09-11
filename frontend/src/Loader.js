@@ -194,6 +194,18 @@ const Loader = () => {
               .pauseFor(500)
               .typeString('INFOMERICA')
               .pauseFor(700)
+              .deleteChars(10) // Adjusts the number of characters deleted in each step
+              .pauseFor(500)
+              .typeString('INFOMERICA')
+              .pauseFor(700)
+              .deleteChars(10) // Adjusts the number of characters deleted in each step
+              .pauseFor(500)
+              .typeString('INFOMERICA')
+              .pauseFor(700)
+              .deleteChars(10) // Adjusts the number of characters deleted in each step
+              .pauseFor(500)
+              .typeString('INFOMERICA')
+              .pauseFor(700)
               .deleteAll()
               .pauseFor(500)
               .start();
