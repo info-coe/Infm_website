@@ -235,7 +235,7 @@ p{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Adjust height as needed */
+  height: 100vh; 
 }
 
 .loading-text {
@@ -364,9 +364,10 @@ p{
   font-size: 24px;
   z-index: 9999;
   bottom: 5%;
-  right: 10%;
+  left: 5%;
   color:#fe0000;
   letter-spacing: 15px;
+  font-weight: 500;
 }
 .banner-para{
   font-size: 18px;
@@ -406,7 +407,7 @@ p{
 
 .main-slider .slide .image-layer{
   width: 100%;
-  animation: zoomInBg 8s infinite alternate;
+  animation: zoomInBg 7s infinite alternate;
 }
 
 @keyframes zoomInBg {
@@ -414,7 +415,7 @@ p{
     transform: scale(1);
   }
   to {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 }
 

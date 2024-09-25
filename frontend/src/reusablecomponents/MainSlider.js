@@ -395,12 +395,26 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
+// import imgSrc from "../maincomponents/HOME/images/sustainable.png"
+import back1 from "../maincomponents/HOME/images/innovative.png"
+import back2 from "../maincomponents/HOME/images/cutting-edge2.png"
+import back3 from "../maincomponents/HOME/images/sustainable.png"
+import back4 from "../maincomponents/HOME/images/trusted-partners.png"
+import back5 from "../maincomponents/HOME/images/Group-coordination.png"
+import back6 from "../maincomponents/HOME/images/industry-leading.png"
+import back7 from "../maincomponents/HOME/images/discover.png"
+
+
+
+
+
 
 const MainSlider = ({ MainSlideData }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [animating, setAnimating] = useState(false);
   const sliderRef = useRef(null);
   const slides = MainSlideData.HB_slides;
+  const backslides =[back1,back2 , back3,back4, back5,back6, back7]
 
   const settings = {
     dots: false,
@@ -433,92 +447,26 @@ const MainSlider = ({ MainSlideData }) => {
         pauseOnHover={false}
         ref={sliderRef}
       >
-        {/* {slides.map((slide, index) => (
-          <div className="slide" key={index}>
-            <div
-              className="image-layer"
-              style={{
-                backgroundImage: `url(${slide.Bg_image})`,
-                opacity: "0.6",
-              }}
-            ></div>
-            <img
-              src={slide.imgSrc}
-              className="slide-img"
-              alt={slide.title}
-              width="350"
-              height="350"
-            />
-            <p className="img-para">{MainSlideData.HB_rightmindset}</p>
-            <div className="auto-container">
-              <div
-                className={`content ${
-                  animating && currentSlide === index ? "cont-zoom-out" : ""
-                } ${
-                  !animating && currentSlide === index
-                    ? "cont-zoom-in"
-                    : "hidden"
-                }`}
-              >
-                <div
-                  className={`big-title ${
-                    animating && currentSlide === index ? "cont-zoom-out" : ""
-                  } ${
-                    !animating && currentSlide === index
-                      ? "cont-zoom-in"
-                      : "hidden"
-                  }`}
-                >
-                  <h2>
-                    <span
-                      className="ttl-font-family cap d-flex flex-wrap"
-                      style={{ width: "60%" }}
-                    >
-                      <i>
-                        <span className="primary-clr text-primary">
-                          {slide.title.split(",")[0]}
-                        </span>
-                        <span className="secondry-clr" style={{color:"#FE0000"}}>
-                          {" "}
-                          {slide.title.split(",")[1]}
-                        </span>
-                      </i>
-                    </span>
-                  </h2>
-                  <p
-                    className={`banner-para mt-md-4 mt-1`}
-                    style={{ color: "#01003e" }}
-                    dangerouslySetInnerHTML={{ __html: slide.description }}
-                  ></p>
-                </div>
-                <div className="btns-box">
-                  <Link className="btn-one style2" to="/Contact">
-                    <span className="txt">
-                      {MainSlideData.HB_contactusBtn} &nbsp;&nbsp;&nbsp;
-                      <i className="fa fa-angle-right"></i>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))} */}
+        
         {slides.map((slide, index) => (
   <div className="slide" key={index}>
     <div
       className="image-layer"
       style={{
-        backgroundImage: `url(${slide.Bg_image})`,
-        opacity: "0.6",
+        // backgroundImage: `url(${slide.Bg_image})`,
+        backgroundImage: `url(${backslides[index]})`,
+        // opacity: "0.6",
+        opacity: "0.8",
       }}
     ></div>
-    <img
+    {/* <img
       src={slide.imgSrc}
+      // src={imgSrc}
       className="slide-img"
       alt={slide.title}
       width="350"
       height="350"
-    />
+    /> */}
     <p className="img-para">{MainSlideData.HB_rightmindset}</p>
     <div className="auto-container">
       <div
@@ -556,8 +504,8 @@ const MainSlider = ({ MainSlideData }) => {
             </span>
           </h2>
           <p
-            className={`banner-para mt-md-4 mt-1`}
-            style={{ color: "#01003e" }}
+            className={`banner-para mt-md-4 mt-1 text-dark`}
+            // style={{ color: "#01003e" }}
             dangerouslySetInnerHTML={{ __html: slide.description }}
           ></p>
         </div>
