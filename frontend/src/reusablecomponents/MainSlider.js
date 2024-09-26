@@ -423,7 +423,7 @@ const MainSlider = ({ MainSlideData }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,  // Keep auto-playing the slides
-    autoplaySpeed: 5000, // Time between slide transitions
+    autoplaySpeed: 6000, // Time between slide transitions
     fade: true,     // Use sliding animation, not fade
     cssEase: "ease-in-out",  // Sliding animation effect
     beforeChange: (current, next) => {
